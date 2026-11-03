@@ -1,11 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
-  <title id="title">Coki Driving School</title>
-  <desc id="desc">Temporary placeholder logo for Coki Driving School K53.</desc>
-  <rect width="640" height="220" rx="24" fill="#10243A"/>
-  <circle cx="112" cy="110" r="72" fill="#F4B942"/>
-  <circle cx="112" cy="110" r="58" fill="#10243A"/>
-  <path d="M143 76a43 43 0 1 0 0 68l-18-18a18 18 0 1 1 0-32z" fill="#F4B942"/>
-  <text x="218" y="103" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="800" letter-spacing="3" fill="#FFFFFF">COKI</text>
-  <text x="222" y="151" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="4" fill="#F4B942">DRIVING SCHOOL</text>
-  <text x="222" y="181" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2" fill="#D7E0E9">K53 LEARNER PREPARATION</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 722 474" role="img" aria-labelledby="title">
+<title id="title">Coki's Driving School</title>
+<rect width="722" height="474" fill="#fff"/>
+<g transform="translate(205 12)">
+<path d="M0 0H184V210H0Z" fill="#00a651"/>
+<path d="M0 210L184 0V210Z" fill="#ed1c24"/>
+<path d="M-5 204L184 0 139 225H-5Z" fill="#050505"/>
+<path d="M25 171L57 139 65 155 42 180Z M83 113L111 84 120 101 99 125Z M141 53L164 29 171 44 155 62Z" fill="#fff"/>
+<path d="M-5 220L184 0" stroke="#fff" stroke-width="7"/>
+</g>
+<text x="35" y="305" font-family="Georgia,serif" font-size="146" font-weight="bold" fill="#000">Coki's</text>
+<text x="35" y="382" font-family="Georgia,serif" font-size="66" fill="#000">Driving School</text>
+<path d="M35 395H682" stroke="#00a651" stroke-width="8"/>
+<g fill="#000">
+<rect x="35" y="408" width="13.5" height="15"/><rect x="62" y="408" width="13.5" height="15"/><rect x="89" y="408" width="13.5" height="15"/><rect x="116" y="408" width="13.5" height="15"/><rect x="143" y="408" width="13.5" height="15"/><rect x="170" y="408" width="13.5" height="15"/><rect x="197" y="408" width="13.5" height="15"/><rect x="224" y="408" width="13.5" height="15"/><rect x="251" y="408" width="13.5" height="15"/><rect x="278" y="408" width="13.5" height="15"/><rect x="305" y="408" width="13.5" height="15"/><rect x="332" y="408" width="13.5" height="15"/><rect x="359" y="408" width="13.5" height="15"/><rect x="386" y="408" width="13.5" height="15"/><rect x="413" y="408" width="13.5" height="15"/><rect x="440" y="408" width="13.5" height="15"/><rect x="467" y="408" width="13.5" height="15"/><rect x="494" y="408" width="13.5" height="15"/><rect x="521" y="408" width="13.5" height="15"/><rect x="548" y="408" width="13.5" height="15"/><rect x="575" y="408" width="13.5" height="15"/><rect x="602" y="408" width="13.5" height="15"/><rect x="629" y="408" width="13.5" height="15"/><rect x="656" y="408" width="13.5" height="15"/>
+<rect x="48.5" y="423" width="13.5" height="15"/><rect x="75.5" y="423" width="13.5" height="15"/><rect x="102.5" y="423" width="13.5" height="15"/><rect x="129.5" y="423" width="13.5" height="15"/><rect x="156.5" y="423" width="13.5" height="15"/><rect x="183.5" y="423" width="13.5" height="15"/><rect x="210.5" y="423" width="13.5" height="15"/><rect x="237.5" y="423" width="13.5" height="15"/><rect x="264.5" y="423" width="13.5" height="15"/><rect x="291.5" y="423" width="13.5" height="15"/><rect x="318.5" y="423" width="13.5" height="15"/><rect x="345.5" y="423" width="13.5" height="15"/><rect x="372.5" y="423" width="13.5" height="15"/><rect x="399.5" y="423" width="13.5" height="15"/><rect x="426.5" y="423" width="13.5" height="15"/><rect x="453.5" y="423" width="13.5" height="15"/><rect x="480.5" y="423" width="13.5" height="15"/><rect x="507.5" y="423" width="13.5" height="15"/><rect x="534.5" y="423" width="13.5" height="15"/><rect x="561.5" y="423" width="13.5" height="15"/><rect x="588.5" y="423" width="13.5" height="15"/><rect x="615.5" y="423" width="13.5" height="15"/><rect x="642.5" y="423" width="13.5" height="15"/><rect x="669.5" y="423" width="13.5" height="15"/>
+</g>
 </svg>
