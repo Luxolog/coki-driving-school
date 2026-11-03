@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coki Digital K53 — Admin Prototype</title>
+<style>
+:root{--green:#16834a;--red:#d9272e;--ink:#17231d;--muted:#6b756f;--line:#e4e9e5;--bg:#f4f7f5}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}
+header{background:#fff;border-bottom:1px solid var(--line);padding:20px clamp(18px,4vw,48px);display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:12px}.mark{background:var(--green);color:#fff;font-weight:900;padding:10px 12px;border-radius:12px}.brand strong{display:block;font-size:18px}.brand small{color:var(--muted)}.tag{font-size:12px;border:1px solid #f1c4c6;background:#fff4f4;color:#a11c22;border-radius:999px;padding:6px 10px}
+main{max-width:1180px;margin:30px auto;padding:0 18px}.intro{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:22px}.intro h1{font-size:clamp(25px,4vw,34px);margin:0 0 5px}.intro p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:22px}.card,.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}.metric small{color:var(--muted)}.metric b{display:block;font-size:29px;margin-top:6px}.metric .green{color:var(--green)}.panel h2{font-size:18px;margin:0 0 14px}.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}.tools input,.tools select{border:1px solid var(--line);border-radius:9px;padding:10px 12px;font:inherit;background:#fff}.tools input{min-width:220px;flex:1}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:13px 10px;border-bottom:1px solid var(--line);font-size:14px}th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}.status{display:inline-block;padding:5px 9px;border-radius:999px;font-size:12px;background:#eaf6ee;color:#16753e}.status.wait{background:#fff3e3;color:#99600a}.bar{height:7px;width:100px;background:#e9eeea;border-radius:20px;overflow:hidden}.bar span{display:block;height:100%;background:var(--green)}button{border:0;background:var(--green);color:white;font:inherit;font-weight:650;padding:9px 12px;border-radius:9px;cursor:pointer}button.secondary{background:#edf3ef;color:#1c633b}button:hover{filter:brightness(.96)}.actions{display:flex;gap:6px;flex-wrap:wrap}.note{font-size:12px;color:var(--muted);margin-top:14px}.below{display:grid;grid-template-columns:1.1fr .9fr;gap:16px;margin-top:18px}.formrow{display:grid;grid-template-columns:1fr 130px;gap:10px;margin:10px 0}.formrow label{font-size:14px;color:var(--muted);align-self:center}.formrow input,.formrow select{width:100%;padding:10px;border:1px solid var(--line);border-radius:9px;font:inherit}.message{min-height:20px;color:var(--green);font-size:13px;margin-top:10px}
+@media(max-width:850px){.cards{grid-template-columns:repeat(2,1fr)}.below{grid-template-columns:1fr}.tablewrap{overflow-x:auto}table{min-width:760px}}@media(max-width:480px){header{align-items:flex-start}.tag{max-width:110px}.cards{gap:8px}.card{padding:13px}.metric b{font-size:24px}}
+</style>
+</head>
+<body>
+<header><div class="brand"><div class="mark">C</div><div><strong>Coki Digital K53</strong><small>Administrator workspace</small></div></div><span class="tag">PROTOTYPE · SAMPLE DATA</span></header>
+<main>
+<div class="intro"><div><h1>Admin dashboard</h1><p>Monitor learner activity and manage test time.</p></div><button onclick="document.getElementById('learner').focus()">+ Allocate learner time</button></div>
+<section class="cards">
+<div class="card metric"><small>Active learners</small><b class="green" id="activeCount">2</b></div>
+<div class="card metric"><small>Completed tests</small><b id="completedCount">18</b></div>
+<div class="card metric"><small>Awaiting allocation</small><b id="waitingCount">1</b></div>
+<div class="card metric"><small>Average score</small><b>76%</b></div>
+</section>
+<section class="panel">
+<h2>Learner sessions</h2>
+<div class="tools"><input id="search" placeholder="Search learner ID or email…" aria-label="Search learners"><select id="filter" aria-label="Filter sessions"><option value="all">All sessions</option><option value="active">Active</option><option value="waiting">Awaiting allocation</option><option value="completed">Completed</option></select></div>
+<div class="tablewrap"><table><thead><tr><th>Learner</th><th>Status</th><th>Progress</th><th>Time remaining</th><th>Score</th><th>Actions</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p class="note">Illustrative records only. This prototype stores changes in this browser tab; it is not connected to learner accounts or a secure backend.</p>
+</section>
+<div class="below">
+<section class="panel"><h2>Allocate / adjust time</h2><div class="formrow"><label for="learner">Learner ID or email</label><input id="learner" placeholder="e.g. coki-demo-01"></div><div class="formrow"><label for="minutes">Minutes to allocate</label><input id="minutes" type="number" min="1" max="300" value="60"></div><div class="formrow"><label for="reason">Reason / note</label><input id="reason" placeholder="Initial allocation or approved extension"></div><button id="allocate">Apply allocation</button><div class="message" id="message" role="status"></div></section>
+<section class="panel"><h2>Admin activity</h2><div id="activity"><p class="note">No changes made in this demo yet.</p></div><p class="note">Production audit records must be stored server-side with administrator identity and timestamp.</p></section>
+</div>
+</main>
+<script>
+const learners=[
+{id:'COKI-DEMO-001',email:'learner001@example.test',status:'active',done:32,total:50,seconds:18*60+42,score:'—'},
+{id:'COKI-DEMO-002',email:'learner002@example.test',status:'active',done:17,total:50,seconds:7*60+5,score:'—'},
+{id:'COKI-DEMO-003',email:'learner003@example.test',status:'waiting',done:0,total:50,seconds:0,score:'—'},
+{id:'COKI-DEMO-004',email:'learner004@example.test',status:'completed',done:50,total:50,seconds:0,score:'82%'}
+];
+const fmt=s=>s<=0?'—':String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');
+function render(){let q=document.getElementById('search').value.toLowerCase(),f=document.getElementById('filter').value;let shown=learners.filter(x=>(x.id.toLowerCase().includes(q)||x.email.toLowerCase().includes(q))&&(f==='all'||x.status===f));document.getElementById('rows').innerHTML=shown.map(x=>'<tr><td><strong>'+x.id+'</strong><br><small>'+x.email+'</small></td><td><span class="status '+(x.status==='waiting'?'wait':'')+'">'+x.status+'</span></td><td><div style="display:flex;align-items:center;gap:9px"><div class="bar"><span style="width:'+Math.round(x.done/x.total*100)+'%"></span></div><small>'+x.done+'/'+x.total+'</small></div></td><td>'+fmt(x.seconds)+'</td><td>'+x.score+'</td><td><div class="actions">'+(x.status==='active'?'<button class="secondary" onclick="extendTime(\''+x.id+'\')">+10 min</button>':'')+(x.status==='waiting'?'<button class="secondary" onclick="startTime(\''+x.id+'\')">Allocate</button>':'')+'</div></td></tr>').join('')||'<tr><td colspan="6">No matching learners.</td></tr>';document.getElementById('activeCount').textContent=learners.filter(x=>x.status==='active').length;document.getElementById('waitingCount').textContent=learners.filter(x=>x.status==='waiting').length;}
+function log(msg){document.getElementById('activity').innerHTML='<p>'+new Date().toLocaleTimeString()+' — '+msg+'</p>'+document.getElementById('activity').innerHTML;document.getElementById('message').textContent=msg}
+function extendTime(id){let x=learners.find(x=>x.id===id);x.seconds+=600;log('Added 10 minutes to '+id+' (demo only).');render()}
+function startTime(id){let x=learners.find(x=>x.id===id);x.status='active';x.seconds=Number(document.getElementById('minutes').value||60)*60;log('Allocated '+Math.round(x.seconds/60)+' minutes to '+id+' (demo only).');render()}
+document.getElementById('allocate').onclick=()=>{let key=document.getElementById('learner').value.trim();let mins=Number(document.getElementById('minutes').value);if(!key||!Number.isFinite(mins)||mins<1||mins>300){document.getElementById('message').textContent='Enter a learner ID/email and 1–300 minutes.';return}let x=learners.find(x=>x.id.toLowerCase()===key.toLowerCase()||x.email.toLowerCase()===key.toLowerCase());if(!x){x={id:key.includes('@')?key:'COKI-'+key.toUpperCase(),email:key.includes('@')?key:'demo-'+key.toLowerCase()+'@example.test',status:'waiting',done:0,total:50,seconds:0,score:'—'};learners.push(x)}x.status='active';x.seconds=mins*60;log('Allocated '+mins+' minutes to '+x.id+' (demo only). '+(document.getElementById('reason').value||''));render()};
+document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);render();
+</script>
+</body></html>
