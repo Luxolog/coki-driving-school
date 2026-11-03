@@ -23,7 +23,7 @@ main{max-width:1160px;margin:auto;padding:28px 20px 64px}.hero{background:linear
 <body>
 <header>
  <div class="brand"><img src="./assets/coki-placeholder-logo.svg" alt="Coki Driving School logo"><div><b>COKI</b><small>DIGITAL K53 · LEARNER PREPARATION</small></div></div>
- <nav aria-label="Main navigation"><a href="#learn">Learning</a><a href="#signs">Road signs</a><a href="#practice">Practice test</a><a href="#admin">School dashboard</a></nav>
+ <nav aria-label="Main navigation"><a href="#learn">Learning</a><a href="#signs">Road signs</a><a href="#practice">Practice test</a><a href="#sample-signs">Road signs sample</a><a href="#sample-rules">Road rules sample</a><a href="#admin">School dashboard</a></nav>
 </header>
 <main>
 <section class="hero">
@@ -39,13 +39,49 @@ main{max-width:1160px;margin:auto;padding:28px 20px 64px}.hero{background:linear
  </div>
 </section>
 <section id="practice">
- <div class="sectionhead"><div><h2>Try a sample practice question</h2><p>This is an interactive preview of the question-and-feedback flow.</p></div><span class="tag">Sample · Not an official test</span></div>
- <div class="panel"><div class="practicegrid"><div><span class="tag">Question 1 of 1</span><div class="question">What should a driver do when approaching a STOP sign?</div><div class="answers" id="answers">
- <button class="answer" data-correct="false"><span class="letter">A</span><span>Slow down and continue if the road looks clear.</span></button>
- <button class="answer" data-correct="true"><span class="letter">B</span><span>Come to a complete stop, observe, and proceed only when safe.</span></button>
- <button class="answer" data-correct="false"><span class="letter">C</span><span>Stop only when another vehicle is approaching.</span></button>
- </div><div class="feedback" id="feedback" role="status" aria-live="polite"></div><div class="btnrow"><button class="btn primary" id="reset">Try again</button></div></div>
- <aside class="sidebox"><div class="signsample">STOP</div><strong id="score">—</strong><span>Sample answer result</span><div class="bar"><span id="progress"></span></div><p style="font-size:.88rem;color:#607168;margin:0">Choose an answer to see feedback. This demo does not save learner records.</p></aside></div></div>
+ <div class="sectionhead"><div><h2>Sample K53 practice questions</h2><p>Five example questions to demonstrate the learner test experience.</p></div><span class="tag">Sample · Not an official test</span></div>
+ <div class="panel">
+  <div class="practicegrid"><div>
+   <div class="question">1. What should a driver do when approaching a STOP sign?</div><div class="answers">
+    <button class="answer" data-correct="false"><span class="letter">A</span><span>Slow down and continue if the road looks clear.</span></button>
+    <button class="answer" data-correct="true"><span class="letter">B</span><span>Come to a complete stop, observe, and proceed only when safe.</span></button>
+    <button class="answer" data-correct="false"><span class="letter">C</span><span>Stop only when another vehicle is approaching.</span></button>
+   </div><div class="feedback" role="status" aria-live="polite"></div>
+   <div class="question">2. Where should you generally drive on a two-way road in South Africa?</div><div class="answers">
+    <button class="answer" data-correct="true"><span class="letter">A</span><span>On the left-hand side.</span></button><button class="answer" data-correct="false"><span class="letter">B</span><span>On the right-hand side.</span></button><button class="answer" data-correct="false"><span class="letter">C</span><span>In the middle of the road.</span></button>
+   </div><div class="feedback" role="status" aria-live="polite" class="feedback"></div>
+   <div class="question">3. What does a YIELD sign instruct you to do?</div><div class="answers">
+    <button class="answer" data-correct="false"><span class="letter">A</span><span>Always stop for 10 seconds.</span></button><button class="answer" data-correct="true"><span class="letter">B</span><span>Give priority to traffic and proceed when safe.</span></button><button class="answer" data-correct="false"><span class="letter">C</span><span>Increase speed to join traffic.</span></button>
+   </div><div class="feedback" role="status" aria-live="polite" class="feedback"></div>
+   <div class="question">4. When should you keep a greater following distance?</div><div class="answers">
+    <button class="answer" data-correct="false"><span class="letter">A</span><span>Only when driving below 20 km/h.</span></button><button class="answer" data-correct="true"><span class="letter">B</span><span>In rain, poor visibility, or when the road is slippery.</span></button><button class="answer" data-correct="false"><span class="letter">C</span><span>Never; the distance should always be the same.</span></button>
+   </div><div class="feedback" role="status" aria-live="polite" class="feedback"></div>
+   <div class="question">5. What should you do when an emergency vehicle approaches with its siren sounding?</div><div class="answers">
+    <button class="answer" data-correct="false"><span class="letter">A</span><span>Maintain your speed and ignore it.</span></button><button class="answer" data-correct="true"><span class="letter">B</span><span>Give way safely and make room for it to pass.</span></button><button class="answer" data-correct="false"><span class="letter">C</span><span>Stop immediately in the middle of your lane.</span></button>
+   </div><div class="feedback" role="status" aria-live="polite" class="feedback"></div>
+   <div class="btnrow"><button class="btn primary" id="reset">Try questions again</button></div>
+  </div><aside class="sidebox"><strong id="score">0 / 5 answered</strong><span>Sample question progress</span><div class="bar"><span id="progress"></span></div><p style="font-size:.88rem;color:#607168;margin:0">Select an answer to receive immediate feedback. This preview does not save learner records.</p></aside></div>
+ </div>
+</section>
+<section id="sample-signs">
+ <div class="sectionhead"><div><h2>Five road signs to recognise</h2><p>A small sample of the road-sign learning content.</p></div><span class="tag">Road signs</span></div>
+ <div class="cards">
+  <article class="card"><div class="ico">STOP</div><h3>Stop</h3><p>Come to a complete stop and proceed only when safe.</p></article>
+  <article class="card"><div class="ico">▽</div><h3>Yield</h3><p>Give priority to traffic on the road you are joining or crossing.</p></article>
+  <article class="card"><div class="ico">60</div><h3>Speed limit</h3><p>Do not exceed the maximum speed shown on the sign.</p></article>
+  <article class="card"><div class="ico">⛔</div><h3>No entry</h3><p>Do not enter the roadway from this direction.</p></article>
+  <article class="card"><div class="ico">⚠</div><h3>Pedestrian crossing warning</h3><p>Be alert for pedestrians crossing or about to cross.</p></article>
+ </div>
+</section>
+<section id="sample-rules">
+ <div class="sectionhead"><div><h2>Five rules of the road</h2><p>Core safety principles featured in learner preparation.</p></div><span class="tag">Essential knowledge</span></div>
+ <div class="cards">
+  <article class="card"><h3>1. Keep left</h3><p>Drive on the left-hand side of the road, except where the rules allow otherwise.</p></article>
+  <article class="card"><h3>2. Wear seat belts</h3><p>Use your seat belt and ensure passengers are properly restrained.</p></article>
+  <article class="card"><h3>3. Keep a safe distance</h3><p>Allow enough space to stop safely, increasing the gap in poor conditions.</p></article>
+  <article class="card"><h3>4. Overtake safely</h3><p>Overtake only when legal, visible, and safe to do so.</p></article>
+  <article class="card"><h3>5. Never drive impaired</h3><p>Do not drive under the influence of alcohol or any substance that impairs driving.</p></article>
+ </div>
 </section>
 <section id="admin">
  <div class="sectionhead"><div><h2>For the driving school</h2><p>A preview of the proposed Coki administrator experience.</p></div><span class="tag">Dashboard concept</span></div>
@@ -55,8 +91,15 @@ main{max-width:1160px;margin:auto;padding:28px 20px 64px}.hero{background:linear
 </main>
 <footer class="foot">© Coki Driving School · Digital K53 Preview<br>Built with Ekhaya Technologies</footer>
 <script>
-const answers=[...document.querySelectorAll('.answer')], feedback=document.getElementById('feedback'),score=document.getElementById('score'),progress=document.getElementById('progress');
-answers.forEach(btn=>btn.addEventListener('click',()=>{answers.forEach(b=>{b.disabled=true;b.classList.toggle('selected',b===btn)});const good=btn.dataset.correct==='true';feedback.className='feedback show '+(good?'good':'bad');feedback.textContent=good?'Correct. A STOP sign requires a complete stop. Check that it is safe before proceeding.':'Not quite. The safe response is to come to a complete stop, observe, and proceed only when safe.';score.textContent=good?'1 / 1 correct':'0 / 1 correct';progress.style.width=good?'100%':'0%'}));
-document.getElementById('reset').addEventListener('click',()=>{answers.forEach(b=>{b.disabled=false;b.classList.remove('selected')});feedback.className='feedback';feedback.textContent='';score.textContent='—';progress.style.width='0%'});
+const questionGroups=[...document.querySelectorAll('#practice .answers')],feedbacks=[...document.querySelectorAll('#practice .feedback')],score=document.getElementById('score'),progress=document.getElementById('progress');
+let completed=0;
+questionGroups.forEach((group,i)=>group.querySelectorAll('.answer').forEach(btn=>btn.addEventListener('click',()=>{
+ if([...group.querySelectorAll('.answer')].some(b=>b.disabled))return;
+ group.querySelectorAll('.answer').forEach(b=>{b.disabled=true;b.classList.toggle('selected',b===btn)});
+ const correct=btn.dataset.correct==='true'; completed++;
+ const f=feedbacks[i];f.className='feedback show '+(correct?'good':'bad');f.textContent=correct?'Correct. Well done!':'Not quite. Review the correct road-safety principle and try again.';
+ score.textContent=completed+' / 5 answered';progress.style.width=(completed*20)+'%';
+})));
+document.getElementById('reset').addEventListener('click',()=>{completed=0;questionGroups.forEach((g,i)=>g.querySelectorAll('.answer').forEach(b=>{b.disabled=false;b.classList.remove('selected')}));feedbacks.forEach(f=>{f.className='feedback';f.textContent=''});score.textContent='0 / 5 answered';progress.style.width='0%'});
 </script>
 </body></html>
