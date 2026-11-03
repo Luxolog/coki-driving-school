@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
+  <title id="title">Coki Driving School</title>
+  <desc id="desc">Temporary placeholder logo for Coki Driving School K53.</desc>
+  <rect width="640" height="220" rx="24" fill="#10243A"/>
+  <circle cx="112" cy="110" r="72" fill="#F4B942"/>
+  <circle cx="112" cy="110" r="58" fill="#10243A"/>
+  <path d="M143 76a43 43 0 1 0 0 68l-18-18a18 18 0 1 1 0-32z" fill="#F4B942"/>
+  <text x="218" y="103" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="800" letter-spacing="3" fill="#FFFFFF">COKI</text>
+  <text x="222" y="151" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="4" fill="#F4B942">DRIVING SCHOOL</text>
+  <text x="222" y="181" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2" fill="#D7E0E9">K53 LEARNER PREPARATION</text>
+</svg>
