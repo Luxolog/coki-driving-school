@@ -1,6 +1,2 @@
-# Coki Driving School â€” K53 Learner Preparation
 
-Independent South African K53 learner's licence learning platform for Coki Driving School.
-
-This repository is independent from Inganathi Driving Academy. The Coki implementation will have its own branding, assets, content configuration and GitHub Pages deployment.
-
+‰"¸¯Šxr(”®w-æ«êÏ­êZ­«b¢r'uê^×§µ*.¶®'œ®w•æ«êì–'Ç©­êZ­«b¢zej×è®gè¬*$ˆ:â¾)àIÈh¢TáŠÊk¢7œ¶¬ŠÛ(ÂzŞ¦‹"¶Šòn¶§v)àjË¶Æ§u×©–Œ¦z{H¶È§ŠØš–Wš®x§ú.Ö­Š‰ğjÇ(¦'~º&¶ˆ§jØb+é®ˆŞr×î¶êŞuëŞ–Šfz{b²)İz—§uéí
