@@ -2,25 +2,61 @@
 <html lang="en-ZA">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Coki Driving School | K53 Learner Preparation</title>
-<meta name="description" content="Coki Driving School K53 learner preparation. Study road rules and prepare for your learner's licence test.">
+<title>Coki Digital K53 | Customer Preview</title>
+<meta name="description" content="Explore the Coki Digital K53 learner preparation experience: Essential Knowledge, road signs, practice questions and learner progress.">
+<meta name="theme-color" content="#087a42">
 <style>
-:root{--navy:#000000;--gold:#00a651;--paper:#ffffff;--ink:#172536}*{box-sizing:border-box}
-body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--paper)}
-header{background:var(--navy);color:white;padding:18px max(5vw,22px);display:flex;align-items:center;gap:14px}
-.logo{width:52px;height:52px}header strong{display:block;letter-spacing:.1em;font-size:1.25rem}header small{color:#dce4ee}
-main{max-width:1000px;margin:0 auto;padding:48px 22px}.hero{background:white;border-radius:22px;padding:clamp(26px,6vw,58px);box-shadow:0 12px 38px #00000012}
-.eyebrow{color:#946400;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem}h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.1;color:var(--navy);margin:.5rem 0 1rem}
-p{max-width:66ch}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-block;padding:13px 20px;border-radius:10px;text-decoration:none;font-weight:700;background:var(--gold);color:var(--navy)}.btn.secondary{background:#e8edf3}
-.note{margin-top:26px;padding:15px 18px;border-left:4px solid var(--gold);background:#fff8e8;border-radius:8px}
-footer{text-align:center;padding:25px;color:#667587;font-size:.9rem}
-</style></head>
+:root{--green:#087a42;--green2:#0d9b55;--red:#d92c32;--ink:#14231b;--muted:#607168;--paper:#f5f8f5;--line:#e1e9e2;--white:#fff;--dark:#101b15}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{background:var(--dark);color:#fff;padding:14px clamp(18px,5vw,64px);display:flex;align-items:center;justify-content:space-between;gap:16px;position:sticky;top:0;z-index:10;border-bottom:4px solid var(--green)}
+.brand{display:flex;align-items:center;gap:12px}.brand img{width:48px;height:48px;object-fit:contain}.brand b{display:block;letter-spacing:.13em;font-size:1.12rem}.brand small{color:#d7e6dc;font-size:.72rem;letter-spacing:.06em}
+nav{display:flex;gap:8px;flex-wrap:wrap}nav a{color:#f4fff6;text-decoration:none;font-size:.88rem;padding:8px 11px;border-radius:9px}nav a:hover{background:#26392d}
+main{max-width:1160px;margin:auto;padding:28px 20px 64px}.hero{background:linear-gradient(120deg,#083f26,#087a42 65%,#d92c32 145%);color:white;border-radius:24px;padding:clamp(28px,6vw,64px);display:grid;grid-template-columns:1.35fr .65fr;gap:26px;align-items:center;overflow:hidden}
+.kicker{font-size:.76rem;text-transform:uppercase;letter-spacing:.15em;font-weight:800;color:#d8f6e4}.hero h1{font-size:clamp(2.1rem,5.6vw,4.2rem);line-height:1.04;margin:14px 0}.hero p{max-width:62ch;color:#edf8f0}.hero-art{display:grid;place-items:center;min-height:220px}.roadmark{width:min(100%,260px);aspect-ratio:1;border:10px solid #fff;border-radius:30px;transform:rotate(45deg);background:#d92c32;display:grid;place-items:center;box-shadow:0 18px 50px #001b0d55}.roadmark span{transform:rotate(-45deg);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:900;color:#fff;letter-spacing:.06em}
+.btn{border:0;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;background:#fff;color:#07542e;font-weight:800;border-radius:11px;padding:12px 17px;cursor:pointer;font:inherit}.btn.primary{background:var(--red);color:white}.btn.dark{background:var(--dark);color:white}.btn:focus-visible,a:focus-visible{outline:3px solid #f5c84c;outline-offset:3px}.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:18px;margin:42px 0 18px}.sectionhead h2{margin:0;font-size:clamp(1.5rem,3vw,2.15rem)}.sectionhead p{margin:5px 0 0;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 5px 18px #0a30110a}.card .ico{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;background:#e6f5eb;color:var(--green);font-size:1.4rem;font-weight:900}.card h3{margin:14px 0 6px}.card p{color:var(--muted);margin:0 0 15px}.tag{display:inline-block;font-size:.73rem;font-weight:800;letter-spacing:.04em;background:#edf2ee;color:#466052;padding:5px 9px;border-radius:20px}
+.panel{background:white;border:1px solid var(--line);border-radius:20px;padding:clamp(20px,4vw,32px);margin-top:18px}.practicegrid{display:grid;grid-template-columns:1fr 260px;gap:22px}.question{font-size:1.15rem;font-weight:750;margin:10px 0 18px}.answers{display:grid;gap:10px}.answer{display:flex;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fff;cursor:pointer;text-align:left;font:inherit;color:var(--ink)}.answer:hover{border-color:var(--green)}.answer.selected{border-color:var(--green);background:#eaf7ee}.answer:disabled{cursor:default}.letter{width:29px;height:29px;display:grid;place-items:center;border-radius:9px;background:#eff3ef;font-weight:800;flex-shrink:0}.feedback{margin-top:14px;padding:12px 14px;border-radius:11px;display:none}.feedback.show{display:block}.feedback.good{background:#e6f6eb;color:#145b31}.feedback.bad{background:#fff0ef;color:#9c2026}.sidebox{background:#f3f7f3;border-radius:14px;padding:18px}.sidebox strong{display:block;font-size:1.5rem}.bar{height:8px;background:#dce7de;border-radius:10px;overflow:hidden;margin:12px 0}.bar span{display:block;width:0;height:100%;background:var(--green);transition:width .2s}.signsample{width:110px;height:110px;border:7px solid #fff;outline:3px solid #d52b32;border-radius:50%;background:#d52b32;color:white;display:grid;place-items:center;font-size:1.6rem;font-weight:900;margin:12px auto}.admin{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.stat{border-radius:14px;background:#f3f7f3;padding:17px}.stat span{color:var(--muted);font-size:.82rem}.stat strong{display:block;font-size:1.6rem;margin-top:4px}.notice{border-left:4px solid var(--red);background:#fff4f2;padding:14px 16px;border-radius:9px;color:#572b2b;margin-top:18px}.foot{padding:25px;text-align:center;color:var(--muted);font-size:.85rem}
+@media(max-width:760px){header{align-items:flex-start;flex-direction:column}nav{width:100%;overflow:auto;flex-wrap:nowrap}nav a{white-space:nowrap}.hero{grid-template-columns:1fr}.hero-art{min-height:150px}.roadmark{width:150px}.cards{grid-template-columns:1fr}.practicegrid{grid-template-columns:1fr}.admin{grid-template-columns:1fr 1fr}.sectionhead{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
 <body>
-<header><img class="logo" src="./assets/coki-placeholder-logo.svg" alt="Coki Driving School logo"><div><strong>COKI</strong><small>DRIVING SCHOOL · K53 LEARNER PREPARATION</small></div></header>
-<main><section class="hero"><div class="eyebrow">Your journey starts here</div><h1>Learn confidently.<br>Drive responsibly.</h1>
-<p>Welcome to Coki Driving School's K53 learner preparation portal. This is the independent Coki learner site—built separately from Inganathi Driving Academy.</p>
-<p>We're preparing study material and learner practice tests for you. The learner study and test modules are being brought online in stages.</p>
-<div class="actions"><a class="btn" href="https://github.com/Luxolog/coki-driving-school" target="_blank" rel="noopener">Project updates</a><a class="btn secondary" href="#status">Portal status</a></div>
-<div class="note" id="status"><strong>Portal status:</strong> Coki's public site is online when this page loads. Study lessons and practice tests are not yet fully published.</div>
-</section></main><footer>© Coki Driving School · K53 Learner Preparation</footer>
+<header>
+ <div class="brand"><img src="./assets/coki-placeholder-logo.svg" alt="Coki Driving School logo"><div><b>COKI</b><small>DIGITAL K53 · LEARNER PREPARATION</small></div></div>
+ <nav aria-label="Main navigation"><a href="#learn">Learning</a><a href="#signs">Road signs</a><a href="#practice">Practice test</a><a href="#admin">School dashboard</a></nav>
+</header>
+<main>
+<section class="hero">
+ <div><div class="kicker">Customer experience preview</div><h1>Learn confidently.<br>Drive responsibly.</h1><p>Welcome to Coki Digital K53—an online learner preparation experience designed to help learners study essential knowledge, understand road signs and practise for their learner’s licence test.</p><div class="btnrow"><a class="btn primary" href="#practice">Try a sample question</a><a class="btn" href="#learn">Explore learning areas</a></div></div>
+ <div class="hero-art" aria-hidden="true"><div class="roadmark"><span>COKI</span></div></div>
+</section>
+<section id="learn">
+ <div class="sectionhead"><div><h2>Your learning journey</h2><p>Study at your pace, then check what you know.</p></div><span class="tag">Learner portal preview</span></div>
+ <div class="cards">
+  <article class="card"><div class="ico">K</div><h3>Essential Knowledge</h3><p>Build a foundation in the knowledge learners need before taking to the road.</p><a class="btn dark" href="./pertinent-knowledge.html">Open learning section</a></article>
+  <article class="card" id="signs"><div class="ico">↗</div><h3>Road Signs</h3><p>Explore the meaning of road signs and practise recognising their shapes and symbols.</p><a class="btn dark" href="./manual.html">Explore study manual</a></article>
+  <article class="card"><div class="ico">✓</div><h3>Rules of the Road</h3><p>Review safe driving principles and road rules through guided study material.</p><a class="btn dark" href="./manual.html">Open study manual</a></article>
+ </div>
+</section>
+<section id="practice">
+ <div class="sectionhead"><div><h2>Try a sample practice question</h2><p>This is an interactive preview of the question-and-feedback flow.</p></div><span class="tag">Sample · Not an official test</span></div>
+ <div class="panel"><div class="practicegrid"><div><span class="tag">Question 1 of 1</span><div class="question">What should a driver do when approaching a STOP sign?</div><div class="answers" id="answers">
+ <button class="answer" data-correct="false"><span class="letter">A</span><span>Slow down and continue if the road looks clear.</span></button>
+ <button class="answer" data-correct="true"><span class="letter">B</span><span>Come to a complete stop, observe, and proceed only when safe.</span></button>
+ <button class="answer" data-correct="false"><span class="letter">C</span><span>Stop only when another vehicle is approaching.</span></button>
+ </div><div class="feedback" id="feedback" role="status" aria-live="polite"></div><div class="btnrow"><button class="btn primary" id="reset">Try again</button></div></div>
+ <aside class="sidebox"><div class="signsample">STOP</div><strong id="score">—</strong><span>Sample answer result</span><div class="bar"><span id="progress"></span></div><p style="font-size:.88rem;color:#607168;margin:0">Choose an answer to see feedback. This demo does not save learner records.</p></aside></div></div>
+</section>
+<section id="admin">
+ <div class="sectionhead"><div><h2>For the driving school</h2><p>A preview of the proposed Coki administrator experience.</p></div><span class="tag">Dashboard concept</span></div>
+ <div class="panel"><div class="admin"><div class="stat"><span>Learner accounts</span><strong>Manage</strong></div><div class="stat"><span>Access allocation</span><strong>Control</strong></div><div class="stat"><span>Test progress</span><strong>Monitor</strong></div></div><p style="color:#607168;margin-bottom:0">The planned school dashboard is intended to help Coki manage learner accounts, allocate access, confirm offline payments and review learner progress. These administration features are not activated in this public preview.</p></div>
+</section>
+<div class="notice"><strong>Preview notice:</strong> This page demonstrates the proposed learner experience. Account registration, offline payment confirmation, timed access, learner records and the full test system will be delivered and verified as part of the project build.</div>
+</main>
+<footer class="foot">© Coki Driving School · Digital K53 Preview<br>Built with Ekhaya Technologies</footer>
+<script>
+const answers=[...document.querySelectorAll('.answer')], feedback=document.getElementById('feedback'),score=document.getElementById('score'),progress=document.getElementById('progress');
+answers.forEach(btn=>btn.addEventListener('click',()=>{answers.forEach(b=>{b.disabled=true;b.classList.toggle('selected',b===btn)});const good=btn.dataset.correct==='true';feedback.className='feedback show '+(good?'good':'bad');feedback.textContent=good?'Correct. A STOP sign requires a complete stop. Check that it is safe before proceeding.':'Not quite. The safe response is to come to a complete stop, observe, and proceed only when safe.';score.textContent=good?'1 / 1 correct':'0 / 1 correct';progress.style.width=good?'100%':'0%'}));
+document.getElementById('reset').addEventListener('click',()=>{answers.forEach(b=>{b.disabled=false;b.classList.remove('selected')});feedback.className='feedback';feedback.textContent='';score.textContent='—';progress.style.width='0%'});
+</script>
 </body></html>
