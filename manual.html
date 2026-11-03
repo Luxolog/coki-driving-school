@@ -6,28 +6,28 @@
 <meta name="description" content="Coki Driving School K53 study manual with focused road signs, rules, vehicle controls and section practice.">
 <title>Coki K53 Study Manual</title>
 <style>
-:root{--ink:#02050e;--red:#ed1c24;--muted:#667085;--bg:#f5f6f8;--card:#fff;--line:#e3e7ed;--soft:#f8fafc;--green:#15803d}
+:root{--ink:#000000;--red:#ed1c24;--muted:#555555;--bg:#fffffffff;--card:#ffffff;--line:#e5e5e5;--soft:#f7f7f7;--green:#00a651}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#172033;line-height:1.55}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#111111;line-height:1.55}
 button,input{font:inherit}
 a{text-decoration:none;color:inherit}
-header{position:sticky;top:0;z-index:50;background:var(--ink);color:#fff;border-bottom:3px solid var(--red)}
+header{position:sticky;top:0;z-index:50;background:var(--ink);color:#ffffff;border-bottom:3px solid var(--red)}
 .nav{max-width:1100px;margin:auto;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:18px}
 .brand{display:flex;align-items:center;gap:9px;font-weight:900;font-size:13px;letter-spacing:.7px}
-.brand img{width:66px;height:40px;object-fit:contain;background:#fff;border-radius:7px;padding:3px}
+.brand img{width:66px;height:40px;object-fit:contain;background:#ffffff;border-radius:7px;padding:3px}
 nav{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
-nav button,nav a{border:0;background:transparent;color:#fff;padding:9px 11px;border-radius:7px;font-size:12px;font-weight:800;cursor:pointer}
-nav button:hover,nav a:hover{background:#fff;color:var(--ink)}
+nav button,nav a{border:0;background:transparent;color:#ffffff;padding:9px 11px;border-radius:7px;font-size:12px;font-weight:800;cursor:pointer}
+nav button:hover,nav a:hover{background:#ffffff;color:var(--ink)}
 main{max-width:1050px;margin:auto;padding:28px 18px 70px}
-.hero{background:var(--ink);color:#fff;border-radius:16px;padding:30px;margin-bottom:18px}
+.hero{background:var(--ink);color:#ffffff;border-radius:16px;padding:30px;margin-bottom:18px}
 .hero .eyebrow{color:#ed1c24;font-size:10px;font-weight:900;letter-spacing:2px;margin-bottom:7px}
 .hero h1{font-size:clamp(30px,5vw,48px);line-height:1.05;margin-bottom:10px}
 .hero h1 span{color:var(--red)}
-.hero p{color:#cbd5e1;max-width:680px;font-size:14px}
+.hero p{color:#d9d9d9;max-width:680px;font-size:14px}
 .section-switch{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 20px}
-.switch{border:1px solid var(--line);background:#fff;color:var(--ink);padding:10px 14px;border-radius:8px;font-size:12px;font-weight:900;cursor:pointer}
-.switch.active,.switch:hover{background:var(--red);color:#fff;border-color:var(--red)}
+.switch{border:1px solid var(--line);background:#ffffff;color:var(--ink);padding:10px 14px;border-radius:8px;font-size:12px;font-weight:900;cursor:pointer}
+.switch.active,.switch:hover{background:var(--red);color:#ffffff;border-color:var(--red)}
 .panel{display:none}
 .panel.active{display:block}
 .panel-head{margin-bottom:18px}
@@ -36,46 +36,46 @@ main{max-width:1050px;margin:auto;padding:28px 18px 70px}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
 .card h3{font-size:16px;color:var(--ink);margin-bottom:7px}
-.card p,.card li{font-size:12px;color:#566174}
+.card p,.card li{font-size:12px;color:#555555}
 .card ul{padding-left:17px}.card li{margin:4px 0}
-.notice{background:#fff8e8;border:1px solid #f0cf8a;border-radius:10px;padding:13px 15px;color:#6b4b00;font-size:12px;margin:16px 0}
+.notice{background:#ffffff8e8;border:1px solid #ed1c24;border-radius:10px;padding:13px 15px;color:#ed1c24;font-size:12px;margin:16px 0}
 .notice strong{display:block;color:var(--ink);margin-bottom:3px}
 .study-bar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
 .study-count{font-size:11px;font-weight:900;color:var(--muted)}
-.sign-viewer{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;max-width:760px;margin:auto}
+.sign-viewer{background:#ffffff;border:1px solid var(--line);border-radius:14px;padding:18px;max-width:760px;margin:auto}
 .sign-image{min-height:240px;height:auto;background:var(--soft);border:1px solid var(--line);border-radius:10px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;padding:12px;margin-bottom:15px;overflow:visible}
 .sign-image img{display:block;width:auto;height:auto;max-height:260px;max-width:100%;object-fit:contain;flex:0 1 auto}
 .sign-image img[src*="q173-1.png"]{width:100%;height:260px;max-width:100%;object-fit:cover;object-position:center;flex:1 1 100%}
-.image-load-error{font-size:12px;color:#b42318;font-weight:800;padding:12px;text-align:center}
+.image-load-error{font-size:12px;color:#ed1c24;font-weight:800;padding:12px;text-align:center}
 .sign-info{text-align:center}
-.sign-info .badge{display:inline-block;background:var(--ink);color:#fff;border-radius:999px;padding:5px 9px;font-size:10px;font-weight:900;margin-bottom:8px}
+.sign-info .badge{display:inline-block;background:var(--ink);color:#ffffff;border-radius:999px;padding:5px 9px;font-size:10px;font-weight:900;margin-bottom:8px}
 .sign-info h3{font-size:21px;color:var(--ink);margin-bottom:7px}
 .sign-info p{font-size:13px;color:var(--muted);max-width:650px;margin:auto}
 .viewer-actions{display:flex;justify-content:center;gap:9px;margin-top:16px}
 .btn{border:0;border-radius:8px;padding:11px 15px;font-size:12px;font-weight:900;cursor:pointer}
-.btn-dark{background:var(--ink);color:#fff}.btn-red{background:var(--red);color:#fff}.btn-light{background:#eef1f5;color:var(--ink)}
+.btn-dark{background:var(--ink);color:#ffffff}.btn-red{background:var(--red);color:#ffffff}.btn-light{background:#f7f7f7;color:var(--ink)}
 .btn:disabled{opacity:.4;cursor:not-allowed}
-.practice{margin-top:20px;background:var(--ink);color:#fff;border-radius:14px;padding:20px;display:none}
+.practice{margin-top:20px;background:var(--ink);color:#ffffff;border-radius:14px;padding:20px;display:none}
 .practice.active{display:block}
 .practice-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}
-.practice-head h3{font-size:20px}.practice-head span{font-size:11px;color:#cbd5e1}
-.practice-card{background:#fff;color:#172033;border-radius:11px;padding:18px}
-.practice-meta{font-size:10px;font-weight:900;color:#a00000;margin-bottom:7px}
+.practice-head h3{font-size:20px}.practice-head span{font-size:11px;color:#d9d9d9}
+.practice-card{background:#ffffff;color:#111111;border-radius:11px;padding:18px}
+.practice-meta{font-size:10px;font-weight:900;color:#ed1c24;margin-bottom:7px}
 .practice-question{font-size:18px;font-weight:900;color:var(--ink);margin-bottom:13px;line-height:1.35}
 .practice-image{background:var(--soft);border:1px solid var(--line);border-radius:9px;min-height:160px;display:flex;align-items:center;justify-content:center;gap:8px;padding:9px;margin-bottom:13px}
 .practice-image img{height:145px;max-width:100%;object-fit:contain}
 .options{display:grid;gap:8px}
-.option{width:100%;text-align:left;border:1px solid #d7dde6;background:#f8fafc;border-radius:8px;padding:11px 12px;cursor:pointer;font-size:12px;font-weight:700;color:#263244}
+.option{width:100%;text-align:left;border:1px solid #e5e5e5;background:#f7f7f7;border-radius:8px;padding:11px 12px;cursor:pointer;font-size:12px;font-weight:700;color:#111111}
 .option:hover{border-color:var(--red)}
-.option.selected{border-color:var(--red);background:#fff1f1}
-.option.correct{border-color:#22a45a;background:#effaf3;color:#126334}
-.option.wrong{border-color:var(--red);background:#fff0f0;color:#9a0000}
+.option.selected{border-color:var(--red);background:#ffffff1f1}
+.option.correct{border-color:#00a651;background:#f0fff5;color:#00843d}
+.option.wrong{border-color:var(--red);background:#ffffff0f0;color:#ed1c24}
 .option:disabled{cursor:default}
-.feedback{display:none;margin-top:12px;border-radius:8px;padding:10px;background:#eef3f7;color:#4b5565;font-size:12px}
+.feedback{display:none;margin-top:12px;border-radius:8px;padding:10px;background:#f7f7f7;color:#555555;font-size:12px}
 .feedback.show{display:block}
 .practice-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:14px}
-.practice-score{font-size:11px;color:#cbd5e1;font-weight:900}
-.practice-result{display:none;text-align:center;padding:28px;background:#fff;color:var(--ink);border-radius:11px}
+.practice-score{font-size:11px;color:#d9d9d9;font-weight:900}
+.practice-result{display:none;text-align:center;padding:28px;background:#ffffff;color:var(--ink);border-radius:11px}
 .practice-result.show{display:block}
 .practice-result .big{font-size:48px;font-weight:900;color:var(--red);margin:7px 0}
 .practice-result p{font-size:13px;color:var(--muted);margin-bottom:14px}
@@ -84,34 +84,34 @@ main{max-width:1050px;margin:auto;padding:28px 18px 70px}
 .study-home-within-learning .panel-head{margin-top:0}
 .study-home-within-learning .cards{margin-top:14px}
 .knowledge-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;align-items:start}
-.knowledge-card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;align-self:start;height:max-content}
-.knowledge-card button{width:100%;border:0;background:#fff;text-align:left;padding:16px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;color:var(--ink);font-weight:900;font-size:14px}
+.knowledge-card{background:#ffffff;border:1px solid var(--line);border-radius:12px;overflow:hidden;align-self:start;height:max-content}
+.knowledge-card button{width:100%;border:0;background:#ffffff;text-align:left;padding:16px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;color:var(--ink);font-weight:900;font-size:14px}
 .knowledge-card button:hover{background:var(--soft)}
 .knowledge-card button .plus{font-size:20px;color:var(--red);line-height:1}
 .knowledge-content{display:none;padding:0 18px 18px;border-top:1px solid var(--line)}
 .knowledge-card.open .knowledge-content{display:block}
 .knowledge-content h4{font-size:13px;color:var(--ink);margin:16px 0 6px}
-.knowledge-content p,.knowledge-content li{font-size:12px;color:#566174;line-height:1.65}
+.knowledge-content p,.knowledge-content li{font-size:12px;color:#555555;line-height:1.65}
 .knowledge-content ul,.knowledge-content ol{padding-left:19px;margin:7px 0}
 .knowledge-content li{margin:5px 0}
-.knowledge-content strong{color:#273244}
+.knowledge-content strong{color:#111111}
 .qa-topic{border-top:1px solid var(--line);padding:14px 0 2px}
 .qa-topic:first-of-type{border-top:0;padding-top:4px}
 .qa-topic h4{margin-top:0}
 .qa-actions{margin-top:8px}
 .code-table{width:100%;border-collapse:collapse;margin-top:10px;font-size:11px}
 .code-table th,.code-table td{border:1px solid var(--line);padding:9px;text-align:left;vertical-align:top}
-.code-table th{background:var(--ink);color:#fff;font-size:10px}
+.code-table th{background:var(--ink);color:#ffffff;font-size:10px}
 .code-table td:first-child{font-weight:900;color:var(--red);white-space:nowrap}
-.source-note{background:#eef6ff;border:1px solid #c9def5;border-radius:9px;padding:11px 13px;margin-top:12px;font-size:11px;color:#40566d}
-.source-note a{color:#174f8a;text-decoration:underline;font-weight:800}
+.source-note{background:#f7f7f7;border:1px solid #d9d9d9;border-radius:9px;padding:11px 13px;margin-top:12px;font-size:11px;color:#555555}
+.source-note a{color:#00a651;text-decoration:underline;font-weight:800}
 .learning-path{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:15px 0 20px}
-.learning-step{background:var(--ink);color:#fff;border-radius:9px;padding:12px;font-size:11px;font-weight:800}
-.learning-step span{display:block;color:#ff6b6b;font-size:9px;letter-spacing:1px;margin-bottom:4px}
+.learning-step{background:var(--ink);color:#ffffff;border-radius:9px;padding:12px;font-size:11px;font-weight:800}
+.learning-step span{display:block;color:#ed1c24;font-size:9px;letter-spacing:1px;margin-bottom:4px}
 @media(max-width:760px){.knowledge-grid{grid-template-columns:1fr}.learning-path{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.learning-path{grid-template-columns:1fr}}
 .controls-note{margin-top:16px}
-footer{background:var(--ink);color:#cbd5e1;text-align:center;padding:24px 18px;font-size:11px}
+footer{background:var(--ink);color:#d9d9d9;text-align:center;padding:24px 18px;font-size:11px}
 @media(max-width:760px){.cards{grid-template-columns:1fr 1fr}.nav{align-items:flex-start}.sign-image{min-height:200px;height:auto;padding:10px;gap:8px}.sign-image img{max-height:190px;max-width:100%} .sign-image img[src*="q173-1.png"]{height:190px;width:100%;max-width:100%;object-fit:cover;object-position:center}}
 @media(max-width:520px){.cards{grid-template-columns:1fr}.hero{padding:24px}.nav{flex-direction:column}.nav nav{justify-content:flex-start}.sign-image{min-height:0;height:auto;padding:10px;gap:8px;flex-direction:column}.sign-image img{height:auto;width:auto;max-width:100%;max-height:190px}.practice-question{font-size:16px}}
 </style>
@@ -408,7 +408,7 @@ Do not rely on memorising answers alone. Learn the meaning behind the rule, sign
 
 <div class="panel-head"><h2>Vehicle Components & Controls</h2><p>Study the Department of Transport’s South African Learner Driver Manual, Section 3. Learn each control, its function and how controls work together, then practise Q179–236.</p></div>
 <style>
-.control-study{display:grid;gap:16px;margin-top:14px}.control-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.control-card,.control-section{background:#fff;border:1px solid #d8dee8;border-radius:13px;padding:16px;min-width:0}.control-card h3,.control-section h3{font-size:20px;color:#02050e;margin-bottom:8px}.control-card p,.control-section p{font-size:14px;color:#344054;line-height:1.6}.control-diagram{display:block;width:100%;height:340px;max-width:100%;object-fit:contain;background:#fff;border:1px solid #c7ced8;border-radius:8px;margin-top:12px;cursor:zoom-in;image-rendering:auto}.control-card a:focus-visible{outline:3px solid #ed1c24;outline-offset:3px}.control-card a:hover .control-diagram{border-color:#ed1c24}.control-card a{display:block}.control-table-wrap{overflow-x:auto;margin-top:10px}.control-table{width:100%;border-collapse:collapse;font-size:14px}.control-table th{background:#172033;color:#fff;text-align:left;padding:11px}.control-table td{border-bottom:1px solid #e4e7ec;padding:10px;vertical-align:top;color:#344054}.control-table td:first-child{width:58px;font-weight:900;color:#b00000}.control-table tr:nth-child(even) td{background:#f8fafc}.control-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.control-steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.control-step{border:1px solid #e4e7ec;border-radius:9px;padding:12px;background:#f8fafc}.control-step strong{display:block;color:#02050e;margin-bottom:4px}.control-step p{font-size:13px}.control-tip{background:#fff4d6;border-left:4px solid #ed1c24;border-radius:7px;padding:12px;color:#344054;font-size:13px;margin-top:12px}.control-quiz{display:grid;gap:10px;margin-top:12px}.control-quiz details{border:1px solid #d8dee8;border-radius:9px;padding:12px 14px;background:#fff}.control-quiz summary{cursor:pointer;font-weight:800;color:#172033;font-size:14px}.control-quiz details p{margin-top:9px}.control-intro{background:#fff;border:1px solid #d8dee8;border-left:5px solid #ed1c24;border-radius:12px;padding:16px}.control-intro p{font-size:14px;color:#344054;line-height:1.6}@media(max-width:850px){.control-grid{grid-template-columns:1fr}.control-columns,.control-steps{grid-template-columns:1fr}.control-diagram{height:290px}}
+.control-study{display:grid;gap:16px;margin-top:14px}.control-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.control-card,.control-section{background:#ffffff;border:1px solid #e5e5e5;border-radius:13px;padding:16px;min-width:0}.control-card h3,.control-section h3{font-size:20px;color:#000000;margin-bottom:8px}.control-card p,.control-section p{font-size:14px;color:#333333;line-height:1.6}.control-diagram{display:block;width:100%;height:340px;max-width:100%;object-fit:contain;background:#ffffff;border:1px solid #d9d9d9;border-radius:8px;margin-top:12px;cursor:zoom-in;image-rendering:auto}.control-card a:focus-visible{outline:3px solid #ed1c24;outline-offset:3px}.control-card a:hover .control-diagram{border-color:#ed1c24}.control-card a{display:block}.control-table-wrap{overflow-x:auto;margin-top:10px}.control-table{width:100%;border-collapse:collapse;font-size:14px}.control-table th{background:#111111;color:#ffffff;text-align:left;padding:11px}.control-table td{border-bottom:1px solid #e5e5e5;padding:10px;vertical-align:top;color:#333333}.control-table td:first-child{width:58px;font-weight:900;color:#ed1c24}.control-table tr:nth-child(even) td{background:#f7f7f7}.control-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.control-steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.control-step{border:1px solid #e5e5e5;border-radius:9px;padding:12px;background:#f7f7f7}.control-step strong{display:block;color:#000000;margin-bottom:4px}.control-step p{font-size:13px}.control-tip{background:#ffffff4d6;border-left:4px solid #ed1c24;border-radius:7px;padding:12px;color:#333333;font-size:13px;margin-top:12px}.control-quiz{display:grid;gap:10px;margin-top:12px}.control-quiz details{border:1px solid #e5e5e5;border-radius:9px;padding:12px 14px;background:#ffffff}.control-quiz summary{cursor:pointer;font-weight:800;color:#111111;font-size:14px}.control-quiz details p{margin-top:9px}.control-intro{background:#ffffff;border:1px solid #e5e5e5;border-left:5px solid #ed1c24;border-radius:12px;padding:16px}.control-intro p{font-size:14px;color:#333333;line-height:1.6}@media(max-width:850px){.control-grid{grid-template-columns:1fr}.control-columns,.control-steps{grid-template-columns:1fr}.control-diagram{height:290px}}
 </style>
 <div class="control-study">
 <div class="control-intro"><h3>Learn inside the manual</h3><p>Choose the correct vehicle diagram. Match the number on the image to the control list, read what it does, then test yourself below. Tap any diagram to open the full-size image. This study section follows Section 3 of the South African Learner Driver Manual (Department of Transport, June 2012).</p></div>
