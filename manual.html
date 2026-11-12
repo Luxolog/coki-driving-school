@@ -128,7 +128,7 @@ footer{background:var(--ink);color:#d9d9d9;text-align:center;padding:24px 18px;f
 <button onclick="showSection('controls')">Controls</button>
 <a href="pertinent-knowledge.html">Essential Knowledge</a>
 <a href="questions-and-answers.html">Questions & Answers</a>
-<a href="index.html#test">Full Test</a>
+<a href="tests/index.html">Full Test</a>
 </nav>
 </div>
 </header>
@@ -413,9 +413,9 @@ Do not rely on memorising answers alone. Learn the meaning behind the rule, sign
 <div class="control-study">
 <div class="control-intro"><h3>Learn inside the manual</h3><p>Choose the correct vehicle diagram. Match the number on the image to the control list, read what it does, then test yourself below. Tap any diagram to open the full-size image. This study section follows Section 3 of the South African Learner Driver Manual (Department of Transport, June 2012).</p></div>
 <div class="control-grid">
-<div class="control-card"><h3>1. Motorcycle controls</h3><p>Original numbered diagram. Use it with the control list below to learn controls 1–8.</p><a href="assets/control-diagrams/motorcycle-controls.jpg" target="_blank" rel="noopener"><img class="control-diagram" src="assets/control-diagrams/motorcycle-controls.jpg" alt="Original numbered motorcycle controls diagram" loading="lazy"></a></div>
-<div class="control-card"><h3>2. Heavy motor vehicle</h3><p>Numbered heavy motor vehicle cab controls and pedals. Control layouts can vary, so confirm them in the training vehicle.</p><a href="assets/control-diagrams/light-motor-controls-230.jpg" target="_blank" rel="noopener"><img class="control-diagram" src="assets/control-diagrams/light-motor-controls-230.jpg" alt="Numbered heavy motor vehicle cab controls diagram" loading="lazy"></a></div>
-<div class="control-card"><h3>3. Light motor vehicle</h3><p>Numbered light motor vehicle dashboard controls. A manual gearbox uses a clutch; an automatic vehicle does not.</p><a href="assets/control-diagrams/light-motor-controls-212.jpg" target="_blank" rel="noopener"><img class="control-diagram" src="assets/control-diagrams/light-motor-controls-212.jpg" alt="Numbered light motor vehicle dashboard controls diagram" loading="lazy"></a></div>
+<div class="control-card"><h3>1. Motorcycle controls</h3><p>Original numbered diagram. Use it with the control list below to learn controls 1–8.</p><a href="https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg" target="_blank" rel="noopener"><img class="control-diagram" src="https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg" alt="Original numbered motorcycle controls diagram" loading="lazy"></a></div>
+<div class="control-card"><h3>2. Heavy motor vehicle</h3><p>Numbered heavy motor vehicle cab controls and pedals. Control layouts can vary, so confirm them in the training vehicle.</p><a href="https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg" target="_blank" rel="noopener"><img class="control-diagram" src="https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg" alt="Numbered heavy motor vehicle cab controls diagram" loading="lazy"></a></div>
+<div class="control-card"><h3>3. Light motor vehicle</h3><p>Numbered light motor vehicle dashboard controls. A manual gearbox uses a clutch; an automatic vehicle does not.</p><a href="https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg" target="_blank" rel="noopener"><img class="control-diagram" src="https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg" alt="Numbered light motor vehicle dashboard controls diagram" loading="lazy"></a></div>
 </div>
 <div class="control-section"><h3>Motorcycle controls — numbers 1–8</h3><p>Based on Section 3, pages 6–7 of the source manual.</p><div class="control-table-wrap"><table class="control-table"><thead><tr><th>No.</th><th>Control</th><th>Function</th></tr></thead><tbody>
 <tr><td>1</td><td>Gear lever</td><td>Selects gears. Used with the clutch to change gears.</td></tr>
@@ -504,7 +504,7 @@ function renderSign(){
  document.getElementById("signBadge").textContent=(s.category||"ROAD SIGN").toUpperCase();
  document.getElementById("signName").textContent=s.name||"Road sign";
  document.getElementById("signMeaning").textContent=s.studyPoint||s.meaning||"Study the sign and its required action.";
- document.getElementById("signImage").innerHTML=imgs.map(src=>{const imagePath=String(src||"");const imageUrl="./"+imagePath;return '<img loading="eager" src="'+escapeHtml(imageUrl)+'" alt="Road sign Q'+escapeHtml(s.questionId)+'" onerror="this.style.display=&quot;none&quot;">';}).join("");
+ document.getElementById("signImage").innerHTML=imgs.map(src=>{const imagePath=String(src||"");const imageUrl=(imagePath.indexOf("http://")===0||imagePath.indexOf("https://")===0)?imagePath:"./"+imagePath;return '<img loading="eager" src="'+escapeHtml(imageUrl)+'" alt="Road sign Q'+escapeHtml(s.questionId)+'" onerror="this.style.display=&quot;none&quot;">';}).join("");
  document.getElementById("prevSign").disabled=signIndex===0;
  document.getElementById("nextSign").disabled=signIndex===signs.length-1;
 }
@@ -617,8 +617,8 @@ function nextPractice(section){
 }
 
 Promise.all([
- fetch("road_signs.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.json()),
- fetch("clean_questions.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.json())
+ fetch("study-library/inganathi-reference/road_signs.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.json()),
+ fetch("study-library/inganathi-reference/clean_questions.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.json())
 ]).then(([signData,questionData])=>{
  signs=Array.isArray(signData.signs)?signData.signs:[];
  questionBank=Array.isArray(questionData.questions)?questionData.questions:[];
