@@ -528,6 +528,9 @@ function showSection(section){
  if(panel) panel.classList.add("active");
  window.scrollTo({top:0,behavior:"smooth"});
 }
+const requestedSection=new URLSearchParams(window.location.search).get("section");
+if(["knowledge","rules","signs","controls"].includes(requestedSection)) showSection(requestedSection);
+
 
 function renderSign(){
  if(!signs.length)return;
