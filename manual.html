@@ -695,9 +695,9 @@ Promise.all([
  document.getElementById("signMeaning").textContent="Please refresh the page and try again.";
 });
 
-const requestedSection=(window.location.hash||"").replace("#","");
-if(["home","rules","signs","controls"].includes(requestedSection)){
- setTimeout(()=>showSection(requestedSection),0);
+const requestedHashSection=(window.location.hash||"").replace("#","");
+if(["rules","signs","controls"].includes(requestedHashSection)){
+ setTimeout(()=>showSection(requestedHashSection),0);
 }
 </script>
 
@@ -705,6 +705,11 @@ if(["home","rules","signs","controls"].includes(requestedSection)){
 
 <script>
 function closeNavMenus(){document.querySelectorAll('.nav-group.open').forEach(g=>g.classList.remove('open'))}
+window.showSection=showSection;
+window.closeNavMenus=closeNavMenus;
+window.toggleKnowledge=toggleKnowledge;
+window.startPractice=startPractice;
+window.changeSign=changeSign;
 document.querySelectorAll('.nav-trigger').forEach(trigger=>trigger.addEventListener('click',e=>{
  const group=trigger.closest('.nav-group'),wasOpen=group.classList.contains('open');
  closeNavMenus();if(!wasOpen)group.classList.add('open');e.stopPropagation();
