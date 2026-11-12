@@ -13,7 +13,7 @@
       "diagramImages": [
         "../assets/road-signs/q160-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 189,
@@ -41,7 +41,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 51,
@@ -69,7 +69,7 @@
       "diagramImages": [
         "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 111,
@@ -84,7 +84,7 @@
       "diagramImages": [
         "../assets/road-signs/q111-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 99,
@@ -100,7 +100,7 @@
         "../assets/road-signs/q099-1.png",
         "../assets/road-signs/q099-2.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 102,
@@ -115,7 +115,7 @@
       "diagramImages": [
         "../assets/road-signs/q102-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 55,
@@ -143,7 +143,7 @@
       "diagramImages": [
         "../assets/road-signs/q101-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 209,
@@ -158,7 +158,7 @@
       "diagramImages": [
         "../assets/road-signs/q209-car-only.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 27,
@@ -186,7 +186,7 @@
       "diagramImages": [
         "../assets/road-signs/q084-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 42,
@@ -258,7 +258,7 @@
       "diagramImages": [
         "../assets/road-signs/q116-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 89,
@@ -273,7 +273,7 @@
       "diagramImages": [
         "../assets/road-signs/q089-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 100,
@@ -288,7 +288,7 @@
       "diagramImages": [
         "../assets/road-signs/q100-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 1,
@@ -329,7 +329,7 @@
       "diagramImages": [
         "../assets/road-signs/q156-axle-mass-limit.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 226,
@@ -344,7 +344,7 @@
       "diagramImages": [
         "../assets/road-signs/arrestor-bed-ahead.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 75,
@@ -359,7 +359,7 @@
       "diagramImages": [
         "../assets/road-signs/q075-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 64,
@@ -400,7 +400,7 @@
       "diagramImages": [
         "../assets/road-signs/q140-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 126,
@@ -415,7 +415,7 @@
       "diagramImages": [
         "../assets/road-signs/q126-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 62,
@@ -443,7 +443,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 206,
@@ -458,7 +458,7 @@
       "diagramImages": [
         "../assets/road-signs/q206-no-taxis.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 135,
@@ -473,7 +473,7 @@
       "diagramImages": [
         "../assets/road-signs/q135-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 133,
@@ -488,7 +488,7 @@
       "diagramImages": [
         "../assets/road-signs/q133-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 91,
@@ -503,7 +503,7 @@
       "diagramImages": [
         "../assets/road-signs/q091-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 10,
@@ -531,7 +531,7 @@
       "diagramImages": [
         "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 38,
@@ -564,7 +564,7 @@
       "diagramImages": [
         "../assets/road-signs/q148-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 8,
@@ -592,7 +592,7 @@
       "diagramImages": [
         "../assets/road-signs/q182-motorcycles-keep-left.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 21,
@@ -620,7 +620,7 @@
       "diagramImages": [
         "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 132,
@@ -635,7 +635,7 @@
       "diagramImages": [
         "../assets/road-signs/q132-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 77,
@@ -650,7 +650,7 @@
       "diagramImages": [
         "../assets/road-signs/q077-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 40,
@@ -717,7 +717,7 @@
       "diagramImages": [
         "../assets/road-signs/q171-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 52,
@@ -745,7 +745,7 @@
       "diagramImages": [
         "../assets/road-signs/q138-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 218,
@@ -760,7 +760,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 236,
@@ -775,7 +775,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 57,
@@ -803,7 +803,7 @@
       "diagramImages": [
         "../assets/road-signs/q109-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 104,
@@ -818,7 +818,7 @@
       "diagramImages": [
         "../assets/road-signs/q104-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 68,
@@ -846,7 +846,7 @@
       "diagramImages": [
         "../assets/road-signs/q112-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 50,
@@ -874,7 +874,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 86,
@@ -889,7 +889,7 @@
       "diagramImages": [
         "../assets/road-signs/q086-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 28,
@@ -937,7 +937,7 @@
       "diagramImages": [
         "../assets/road-signs/q204-time-restriction.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 97,
@@ -952,7 +952,7 @@
       "diagramImages": [
         "../assets/road-signs/q097-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 195,
@@ -967,7 +967,7 @@
       "diagramImages": [
         "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 53,
@@ -1008,7 +1008,7 @@
       "diagramImages": [
         "../assets/road-signs/q160-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 153,
@@ -1023,7 +1023,7 @@
       "diagramImages": [
         "../assets/road-signs/q153-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 190,
@@ -1051,7 +1051,7 @@
       "diagramImages": [
         "../assets/road-signs/q121-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 218,
@@ -1066,7 +1066,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 82,
@@ -1081,7 +1081,7 @@
       "diagramImages": [
         "../assets/road-signs/q082-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 62,
@@ -1153,7 +1153,7 @@
       "diagramImages": [
         "../assets/road-signs/q106-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 1,
@@ -1181,7 +1181,7 @@
       "diagramImages": [
         "../assets/road-signs/q117-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 6,
@@ -1222,7 +1222,7 @@
       "diagramImages": [
         "../assets/road-signs/q166-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 127,
@@ -1237,7 +1237,7 @@
       "diagramImages": [
         "../assets/road-signs/q127-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 109,
@@ -1252,7 +1252,7 @@
       "diagramImages": [
         "../assets/road-signs/q109-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 227,
@@ -1293,7 +1293,7 @@
       "diagramImages": [
         "../assets/road-signs/q094-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 182,
@@ -1308,7 +1308,7 @@
       "diagramImages": [
         "../assets/road-signs/q182-motorcycles-keep-left.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 8,
@@ -1336,7 +1336,7 @@
       "diagramImages": [
         "../assets/road-signs/q155-no-left-turn.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 45,
@@ -1364,7 +1364,7 @@
       "diagramImages": [
         "../assets/road-signs/q164-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 41,
@@ -1397,7 +1397,7 @@
       "diagramImages": [
         "../assets/road-signs/q131-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 30,
@@ -1425,7 +1425,7 @@
       "diagramImages": [
         "../assets/road-signs/q170-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 81,
@@ -1440,7 +1440,7 @@
       "diagramImages": [
         "../assets/road-signs/q081-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 181,
@@ -1468,7 +1468,7 @@
       "diagramImages": [
         "../assets/road-signs/q110-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 54,
@@ -1496,7 +1496,7 @@
       "diagramImages": [
         "../assets/road-signs/q167-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 36,
@@ -1524,7 +1524,7 @@
       "diagramImages": [
         "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 10,
@@ -1570,7 +1570,7 @@
       "diagramImages": [
         "../assets/road-signs/q122-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 163,
@@ -1585,7 +1585,7 @@
       "diagramImages": [
         "../assets/road-signs/q163-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 120,
@@ -1600,7 +1600,7 @@
       "diagramImages": [
         "../assets/road-signs/q120-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 217,
@@ -1615,7 +1615,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 135,
@@ -1630,7 +1630,7 @@
       "diagramImages": [
         "../assets/road-signs/q135-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 96,
@@ -1645,7 +1645,7 @@
       "diagramImages": [
         "../assets/road-signs/q096-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 175,
@@ -1660,7 +1660,7 @@
       "diagramImages": [
         "../assets/road-signs/q175-bus-lane-marking.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 17,
@@ -1711,7 +1711,7 @@
       "diagramImages": [
         "../assets/road-signs/q089-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 216,
@@ -1726,7 +1726,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 148,
@@ -1741,7 +1741,7 @@
       "diagramImages": [
         "../assets/road-signs/q148-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 108,
@@ -1756,7 +1756,7 @@
       "diagramImages": [
         "../assets/road-signs/q108-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 119,
@@ -1771,7 +1771,7 @@
       "diagramImages": [
         "../assets/road-signs/q119-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 44,
@@ -1812,7 +1812,7 @@
       "diagramImages": [
         "../assets/road-signs/r225-no-minibuses.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 58,
@@ -1858,7 +1858,7 @@
       "diagramImages": [
         "../assets/road-signs/q136-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     }
   ],
   "test3": [
@@ -1875,7 +1875,7 @@
       "diagramImages": [
         "../assets/road-signs/q119-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 77,
@@ -1890,7 +1890,7 @@
       "diagramImages": [
         "../assets/road-signs/q077-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 16,
@@ -1918,7 +1918,7 @@
       "diagramImages": [
         "../assets/road-signs/r204-height-limit-4-42.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 83,
@@ -1933,7 +1933,7 @@
       "diagramImages": [
         "../assets/road-signs/q083-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 74,
@@ -1948,7 +1948,7 @@
       "diagramImages": [
         "../assets/road-signs/q074-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 108,
@@ -1963,7 +1963,7 @@
       "diagramImages": [
         "../assets/road-signs/q108-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 206,
@@ -1978,7 +1978,7 @@
       "diagramImages": [
         "../assets/road-signs/q206-no-taxis.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 3,
@@ -2024,7 +2024,7 @@
       "diagramImages": [
         "../assets/road-signs/q155-no-left-turn.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 217,
@@ -2039,7 +2039,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 175,
@@ -2054,7 +2054,7 @@
       "diagramImages": [
         "../assets/road-signs/q175-bus-lane-marking.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 45,
@@ -2095,7 +2095,7 @@
       "diagramImages": [
         "../assets/road-signs/q138-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 117,
@@ -2110,7 +2110,7 @@
       "diagramImages": [
         "../assets/road-signs/q117-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 66,
@@ -2138,7 +2138,7 @@
       "diagramImages": [
         "../assets/road-signs/q084-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 25,
@@ -2166,7 +2166,7 @@
       "diagramImages": [
         "../assets/road-signs/q092-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 30,
@@ -2194,7 +2194,7 @@
       "diagramImages": [
         "../assets/road-signs/q158-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 10,
@@ -2222,7 +2222,7 @@
       "diagramImages": [
         "../assets/road-signs/q086-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 29,
@@ -2268,7 +2268,7 @@
       "diagramImages": [
         "../assets/road-signs/q095-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 41,
@@ -2301,7 +2301,7 @@
       "diagramImages": [
         "../assets/road-signs/q129-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 24,
@@ -2329,7 +2329,7 @@
       "diagramImages": [
         "../assets/road-signs/q131-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 88,
@@ -2344,7 +2344,7 @@
       "diagramImages": [
         "../assets/road-signs/q088-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 235,
@@ -2359,7 +2359,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 140,
@@ -2374,7 +2374,7 @@
       "diagramImages": [
         "../assets/road-signs/q140-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 68,
@@ -2415,7 +2415,7 @@
       "diagramImages": [
         "../assets/road-signs/q184-motorcycle-only.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 1,
@@ -2443,7 +2443,7 @@
       "diagramImages": [
         "../assets/road-signs/q134-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 176,
@@ -2458,7 +2458,7 @@
       "diagramImages": [
         "../assets/road-signs/q176-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 174,
@@ -2473,7 +2473,7 @@
       "diagramImages": [
         "../assets/road-signs/q174-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 124,
@@ -2489,7 +2489,7 @@
         "../assets/road-signs/q124-1.png",
         "../assets/road-signs/q124-2.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 109,
@@ -2504,7 +2504,7 @@
       "diagramImages": [
         "../assets/road-signs/q109-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 137,
@@ -2519,7 +2519,7 @@
       "diagramImages": [
         "../assets/road-signs/q137-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 226,
@@ -2534,7 +2534,7 @@
       "diagramImages": [
         "../assets/road-signs/arrestor-bed-ahead.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 6,
@@ -2562,7 +2562,7 @@
       "diagramImages": [
         "../assets/road-signs/q121-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 99,
@@ -2578,7 +2578,7 @@
         "../assets/road-signs/q099-1.png",
         "../assets/road-signs/q099-2.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 144,
@@ -2593,7 +2593,7 @@
       "diagramImages": [
         "../assets/road-signs/q144-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 227,
@@ -2621,7 +2621,7 @@
       "diagramImages": [
         "../assets/road-signs/q153-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 229,
@@ -2654,7 +2654,7 @@
       "diagramImages": [
         "../assets/road-signs/q204-time-restriction.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 120,
@@ -2669,7 +2669,7 @@
       "diagramImages": [
         "../assets/road-signs/q120-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 202,
@@ -2710,7 +2710,7 @@
       "diagramImages": [
         "../assets/road-signs/q101-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 20,
@@ -2738,7 +2738,7 @@
       "diagramImages": [
         "../assets/road-signs/q164-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 130,
@@ -2753,7 +2753,7 @@
       "diagramImages": [
         "../assets/road-signs/q130-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 143,
@@ -2768,7 +2768,7 @@
       "diagramImages": [
         "../assets/road-signs/q143-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 170,
@@ -2783,7 +2783,7 @@
       "diagramImages": [
         "../assets/road-signs/q170-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 37,
@@ -2813,7 +2813,7 @@
       "diagramImages": [
         "../assets/road-signs/q118-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 86,
@@ -2828,7 +2828,7 @@
       "diagramImages": [
         "../assets/road-signs/q086-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 102,
@@ -2843,7 +2843,7 @@
       "diagramImages": [
         "../assets/road-signs/q102-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 223,
@@ -2871,7 +2871,7 @@
       "diagramImages": [
         "../assets/road-signs/q143-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 75,
@@ -2886,7 +2886,7 @@
       "diagramImages": [
         "../assets/road-signs/q075-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 173,
@@ -2901,7 +2901,7 @@
       "diagramImages": [
         "../assets/road-signs/q173-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 209,
@@ -2916,7 +2916,7 @@
       "diagramImages": [
         "../assets/road-signs/q209-car-only.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 170,
@@ -2931,7 +2931,7 @@
       "diagramImages": [
         "../assets/road-signs/q170-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 135,
@@ -2946,7 +2946,7 @@
       "diagramImages": [
         "../assets/road-signs/q135-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 1,
@@ -3000,7 +3000,7 @@
       "diagramImages": [
         "../assets/road-signs/q141-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 180,
@@ -3015,7 +3015,7 @@
       "diagramImages": [
         "../assets/road-signs/q180-motorcycles-up-to-125cc-prohibited.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 99,
@@ -3031,7 +3031,7 @@
         "../assets/road-signs/q099-1.png",
         "../assets/road-signs/q099-2.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 2,
@@ -3064,7 +3064,7 @@
       "diagramImages": [
         "../assets/road-signs/q093-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 14,
@@ -3123,7 +3123,7 @@
       "diagramImages": [
         "../assets/road-signs/q176-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 71,
@@ -3151,7 +3151,7 @@
       "diagramImages": [
         "../assets/road-signs/q078-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 231,
@@ -3166,7 +3166,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 64,
@@ -3194,7 +3194,7 @@
       "diagramImages": [
         "../assets/road-signs/q087-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 179,
@@ -3222,7 +3222,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 224,
@@ -3237,7 +3237,7 @@
       "diagramImages": [
         "../assets/road-signs/q224-length-limit-15m.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 207,
@@ -3271,7 +3271,7 @@
       "diagramImages": [
         "../assets/road-signs/q145-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 108,
@@ -3286,7 +3286,7 @@
       "diagramImages": [
         "../assets/road-signs/q108-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 111,
@@ -3301,7 +3301,7 @@
       "diagramImages": [
         "../assets/road-signs/q111-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 232,
@@ -3316,7 +3316,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 5,
@@ -3349,7 +3349,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 199,
@@ -3382,7 +3382,7 @@
       "diagramImages": [
         "../assets/road-signs/q076-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 18,
@@ -3416,7 +3416,7 @@
         "../assets/road-signs/q124-1.png",
         "../assets/road-signs/q124-2.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 194,
@@ -3431,7 +3431,7 @@
       "diagramImages": [
         "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 74,
@@ -3446,7 +3446,7 @@
       "diagramImages": [
         "../assets/road-signs/q074-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 187,
@@ -3487,7 +3487,7 @@
       "diagramImages": [
         "../assets/road-signs/q096-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 132,
@@ -3502,7 +3502,7 @@
       "diagramImages": [
         "../assets/road-signs/q132-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 171,
@@ -3517,7 +3517,7 @@
       "diagramImages": [
         "../assets/road-signs/q171-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 122,
@@ -3532,7 +3532,7 @@
       "diagramImages": [
         "../assets/road-signs/q122-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 202,
@@ -3560,7 +3560,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 127,
@@ -3575,7 +3575,7 @@
       "diagramImages": [
         "../assets/road-signs/q127-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 41,
@@ -3647,7 +3647,7 @@
       "diagramImages": [
         "../assets/road-signs/q160-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 51,
@@ -3701,7 +3701,7 @@
       "diagramImages": [
         "../assets/road-signs/q091-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 182,
@@ -3716,7 +3716,7 @@
       "diagramImages": [
         "../assets/road-signs/q182-motorcycles-keep-left.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 68,
@@ -3744,7 +3744,7 @@
       "diagramImages": [
         "../assets/road-signs/q204-time-restriction.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     }
   ],
   "test5": [
@@ -3761,7 +3761,7 @@
       "diagramImages": [
         "../assets/road-signs/q172-regulatory-sign.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 192,
@@ -3776,7 +3776,7 @@
       "diagramImages": [
         "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 169,
@@ -3791,7 +3791,7 @@
       "diagramImages": [
         "../assets/road-signs/q169-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 177,
@@ -3806,7 +3806,7 @@
       "diagramImages": [
         "../assets/road-signs/q177-dividing-line.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 116,
@@ -3821,7 +3821,7 @@
       "diagramImages": [
         "../assets/road-signs/q116-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 126,
@@ -3836,7 +3836,7 @@
       "diagramImages": [
         "../assets/road-signs/q126-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 182,
@@ -3851,7 +3851,7 @@
       "diagramImages": [
         "../assets/road-signs/q182-motorcycles-keep-left.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 158,
@@ -3866,7 +3866,7 @@
       "diagramImages": [
         "../assets/road-signs/q157-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 33,
@@ -3899,7 +3899,7 @@
       "diagramImages": [
         "../assets/road-signs/q103-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 153,
@@ -3914,7 +3914,7 @@
       "diagramImages": [
         "../assets/road-signs/q153-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 146,
@@ -3929,7 +3929,7 @@
       "diagramImages": [
         "../assets/road-signs/q146-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 127,
@@ -3944,7 +3944,7 @@
       "diagramImages": [
         "../assets/road-signs/q127-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 49,
@@ -3973,7 +3973,7 @@
         "../assets/road-signs/q114-1.png",
         "../assets/road-signs/q114-2.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 232,
@@ -3988,7 +3988,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 36,
@@ -4016,7 +4016,7 @@
       "diagramImages": [
         "../assets/road-signs/q109-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 212,
@@ -4031,7 +4031,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 48,
@@ -4059,7 +4059,7 @@
       "diagramImages": [
         "../assets/road-signs/q150-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 50,
@@ -4126,7 +4126,7 @@
       "diagramImages": [
         "../assets/road-signs/q112-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 43,
@@ -4154,7 +4154,7 @@
       "diagramImages": [
         "../assets/road-signs/q097-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 71,
@@ -4195,7 +4195,7 @@
       "diagramImages": [
         "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls"
     },
     {
       "id": 104,
@@ -4210,7 +4210,7 @@
       "diagramImages": [
         "../assets/road-signs/q104-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 25,
@@ -4251,7 +4251,7 @@
       "diagramImages": [
         "../assets/road-signs/q105-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 3,
@@ -4284,7 +4284,7 @@
       "diagramImages": [
         "../assets/road-signs/q091-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 11,
@@ -4335,7 +4335,7 @@
       "diagramImages": [
         "../assets/road-signs/q081-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 27,
@@ -4389,7 +4389,7 @@
       "diagramImages": [
         "../assets/road-signs/q144-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 95,
@@ -4404,7 +4404,7 @@
       "diagramImages": [
         "../assets/road-signs/q095-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 110,
@@ -4419,7 +4419,7 @@
       "diagramImages": [
         "../assets/road-signs/q110-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 174,
@@ -4434,7 +4434,7 @@
       "diagramImages": [
         "../assets/road-signs/q174-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 131,
@@ -4449,7 +4449,7 @@
       "diagramImages": [
         "../assets/road-signs/q131-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 124,
@@ -4465,7 +4465,7 @@
         "../assets/road-signs/q124-1.png",
         "../assets/road-signs/q124-2.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 47,
@@ -4493,7 +4493,7 @@
       "diagramImages": [
         "../assets/road-signs/q140-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 224,
@@ -4508,7 +4508,7 @@
       "diagramImages": [
         "../assets/road-signs/q224-length-limit-15m.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 8,
@@ -4572,7 +4572,7 @@
       "diagramImages": [
         "../assets/road-signs/q204-time-restriction.svg"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 63,
@@ -4675,7 +4675,7 @@
       "diagramImages": [
         "../assets/road-signs/q117-1.png"
       ],
-      "diagramMode": null
+      "diagramMode": "road_signs"
     },
     {
       "id": 55,
