@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coki Digital K53 | Test Centre</title>
+<style>
+:root{--green:#087a42;--red:#d92c32;--ink:#14231b;--muted:#607168;--paper:#f5f8f5;--line:#e1e9e2}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,sans-serif}
+header{background:#101b15;color:white;padding:18px clamp(18px,5vw,64px);border-bottom:4px solid var(--green)}
+header a{color:white;text-decoration:none;font-weight:800;letter-spacing:.1em}
+main{max-width:1050px;margin:36px auto;padding:0 20px 60px}.eyebrow{color:var(--green);font-size:.75rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}
+h1{font-size:clamp(2rem,5vw,3.3rem);line-height:1.08;margin:10px 0}.intro{max-width:700px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:28px}
+.card{background:white;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 5px 18px #0a30110a}
+.number{width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:#e6f5eb;color:var(--green);font-weight:900}
+.card h2{font-size:1.2rem;margin:14px 0 5px}.card p{color:var(--muted);min-height:48px;margin:0 0 16px}
+button,a.btn{display:inline-flex;justify-content:center;border:0;border-radius:10px;padding:11px 15px;background:var(--green);color:white;text-decoration:none;font:inherit;font-weight:750}
+button:disabled{background:#aab7ae;cursor:not-allowed}.status{font-size:.75rem;color:#875c13;background:#fff5df;padding:5px 9px;border-radius:99px}
+.note{margin-top:26px;padding:16px;border-left:4px solid var(--red);background:#fff4f2;border-radius:9px;color:#572b2b}
+</style>
+</head>
+<body><header><a href="../index.html">COKI · DIGITAL K53</a></header>
+<main><div class="eyebrow">Learner assessment</div><h1>Five-test practice centre</h1>
+<p class="intro">Choose a test to begin. The five test spaces are prepared; the original question sets, answer keys and road-sign images still need to be imported and checked against the source material.</p>
+<section class="grid" id="tests"></section>
+<div class="note"><strong>Content accuracy:</strong> These are not yet the original SSS Driving School 360 tests. We have deliberately left question sets unpublished rather than inventing questions or marking guessed answers as official.</div>
+</main>
+<script>
+const tests=Array.from({length:5},(_,i)=>({id:i+1,title:'Test '+(i+1),description:'Original questions, answer options and explanations will appear here after source import.'}));
+document.getElementById('tests').innerHTML=tests.map(t=>'<article class="card"><div class="number">'+String(t.id).padStart(2,'0')+'</div><h2>'+t.title+'</h2><p>'+t.description+'</p><span class="status">Content import pending</span><p style="margin-top:16px"><a class="btn" href="player.html?test='+t.id+'">Open test workspace</a></p></article>').join('');
+</script></body></html>
