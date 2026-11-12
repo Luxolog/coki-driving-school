@@ -1,0 +1,1188 @@
+{
+  "version": 2,
+  "title": "South African Road Signs and Road Markings",
+  "note": "Study the sign or road marking, understand its meaning, and learn the safe action required. Illustrations should be checked against the applicable South African Road Traffic Signs Manual before use in formal assessments.",
+  "categories": [
+    "All",
+    "Road Signs",
+    "Road Markings",
+    "Traffic Signals",
+    "Temporary"
+  ],
+  "signs": [
+    {
+      "category": "Road Signs",
+      "name": "Stop control",
+      "meaning": "Stop, but if you want to turn left, you can use it as a yield sign.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q073-1.png"
+      ],
+      "questionId": 73,
+      "studyPoint": "Stop, but if you want to turn left, you can use it as a yield sign.",
+      "signNumber": 1
+    },
+    {
+      "category": "Road Signs",
+      "name": "Stop control",
+      "meaning": "Stop and drive on when it is safe to do so in the sequence that the vehicles stopped at the stop lines",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q074-1.png"
+      ],
+      "questionId": 74,
+      "studyPoint": "Stop and drive on when it is safe to do so in the sequence that the vehicles stopped at the stop lines",
+      "signNumber": 2
+    },
+    {
+      "category": "Road Signs",
+      "name": "Pedestrian-only / pedestrian priority sign",
+      "meaning": "You must give right of way to pedestrians who would like to enter or cross the road.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q075-1.png"
+      ],
+      "questionId": 75,
+      "studyPoint": "You must give right of way to pedestrians who would like to enter or cross the road.",
+      "signNumber": 3
+    },
+    {
+      "category": "Road Signs",
+      "name": "No-entry sign",
+      "meaning": "You are not allowed to enter there",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q076-1.png"
+      ],
+      "questionId": 76,
+      "studyPoint": "You are not allowed to enter there",
+      "signNumber": 4
+    },
+    {
+      "category": "Road Signs",
+      "name": "Minimum / speed control sign",
+      "meaning": "Slowest speed that you may drive",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q077-1.png"
+      ],
+      "questionId": 77,
+      "studyPoint": "Slowest speed that you may drive",
+      "signNumber": 5
+    },
+    {
+      "category": "Road Signs",
+      "name": "Mass-restriction lane",
+      "meaning": "Vehicles exceeding the mass indicated must use this lane only.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q078-1.png"
+      ],
+      "questionId": 78,
+      "studyPoint": "Vehicles exceeding the mass indicated must use this lane only.",
+      "signNumber": 6
+    },
+    {
+      "category": "Road Signs",
+      "name": "Proceed straight only",
+      "meaning": "You must continue straight ahead. Turning left or right is not permitted at this point.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q079-1.png"
+      ],
+      "questionId": 79,
+      "studyPoint": "This blue circular command sign means you must proceed straight ahead. Do not turn left or right at the intersection where the sign applies.",
+      "signNumber": 7
+    },
+    {
+      "category": "Road Signs",
+      "name": "Turn right only",
+      "meaning": "Turn right only.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q080-1.png"
+      ],
+      "questionId": 80,
+      "studyPoint": "Turn right only.",
+      "signNumber": 8
+    },
+    {
+      "category": "Road Signs",
+      "name": "No hooting / hooter prohibition",
+      "meaning": "Prohibits you from using your hooter",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q081-1.png"
+      ],
+      "questionId": 81,
+      "studyPoint": "Prohibits you from using your hooter",
+      "signNumber": 9
+    },
+    {
+      "category": "Road Signs",
+      "name": "Unauthorised vehicle prohibited",
+      "meaning": "Unauthorised vehicles are prohibited.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q082-1.png"
+      ],
+      "questionId": 82,
+      "studyPoint": "Unauthorised vehicles are prohibited.",
+      "signNumber": 10
+    },
+    {
+      "category": "Road Signs",
+      "name": "No left turn",
+      "meaning": "Turning left is prohibited at the intersection where the sign is displayed.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q083-1.png"
+      ],
+      "questionId": 83,
+      "studyPoint": "Do not turn left where this sign applies.",
+      "signNumber": 11
+    },
+    {
+      "category": "Road Signs",
+      "name": "Priority / passing restriction",
+      "meaning": "No motor vehicles may pass each other",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q084-1.png"
+      ],
+      "questionId": 84,
+      "studyPoint": "No motor vehicles may pass each other",
+      "signNumber": 12
+    },
+    {
+      "category": "Road Signs",
+      "name": "100 km/h maximum speed at night",
+      "meaning": "The maximum speed is 100 km/h during night-time conditions, as indicated by the supplementary plate.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q085-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q085-2.png"
+      ],
+      "questionId": 85,
+      "studyPoint": "A red-bordered 100 sign sets a maximum speed; the moon-and-stars plate limits the restriction to night-time.",
+      "signNumber": 13
+    },
+    {
+      "category": "Road Signs",
+      "name": "Crossroad ahead",
+      "meaning": "A crossroad is ahead. Be alert for traffic entering from either side.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q086-1.png"
+      ],
+      "questionId": 86,
+      "studyPoint": "The sign warns of a crossroad; it does not by itself say that cross traffic must stop or yield.",
+      "signNumber": 14
+    },
+    {
+      "category": "Road Signs",
+      "name": "Two-way traffic ahead",
+      "meaning": "Traffic will travel in both directions ahead. Keep left and watch for oncoming traffic.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q087-1.png"
+      ],
+      "questionId": 87,
+      "studyPoint": "Prepare for oncoming traffic; do not assume the road remains one-way.",
+      "signNumber": 15
+    },
+    {
+      "category": "Road Signs",
+      "name": "Concealed entrances on both sides",
+      "meaning": "A concealed entrance to the left is followed by one to the right.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q088-1.png"
+      ],
+      "questionId": 88,
+      "studyPoint": "A concealed entrance to the left is followed by one to the right.",
+      "signNumber": 16
+    },
+    {
+      "category": "Road Signs",
+      "name": "Pedestrian crossing",
+      "meaning": "Pedestrian crossing.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q089-1.png"
+      ],
+      "questionId": 89,
+      "studyPoint": "Pedestrian crossing.",
+      "signNumber": 17
+    },
+    {
+      "category": "Road Signs",
+      "name": "Cyclist warning",
+      "meaning": "It is a special lane for cyclists",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q090-1.png"
+      ],
+      "questionId": 90,
+      "studyPoint": "It is a special lane for cyclists",
+      "signNumber": 18
+    },
+    {
+      "category": "Road Signs",
+      "name": "Motor gate (to the left)",
+      "meaning": "Motor gate to the left.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q091-1.png"
+      ],
+      "questionId": 91,
+      "studyPoint": "Motor gate to the left.",
+      "signNumber": 19
+    },
+    {
+      "category": "Road Signs",
+      "name": "One-vehicle-width structure ahead",
+      "meaning": "A narrow structure ahead may only allow one vehicle to pass through at a time.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q092-1.png"
+      ],
+      "questionId": 92,
+      "studyPoint": "Slow down and be prepared to give way to oncoming traffic if the structure cannot accommodate two vehicles.",
+      "signNumber": 20
+    },
+    {
+      "category": "Temporary",
+      "name": "Construction vehicle warning",
+      "meaning": "Construction vehicles may enter or cross the road ahead.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q093-1.png"
+      ],
+      "questionId": 93,
+      "studyPoint": "Construction vehicles may enter or cross the road ahead.",
+      "signNumber": 21
+    },
+    {
+      "category": "Road Signs",
+      "name": "Jetty edge / river bank",
+      "meaning": "There is a jetty edge or river bank ahead.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q094-1.png"
+      ],
+      "questionId": 94,
+      "studyPoint": "There is a jetty edge or river bank ahead.",
+      "signNumber": 22
+    },
+    {
+      "category": "Road Signs",
+      "name": "Low-water bridge ahead",
+      "meaning": "A low-water bridge or crossing is ahead. Water may flow over the crossing.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q095-1.png"
+      ],
+      "questionId": 95,
+      "studyPoint": "Approach carefully. Never enter a flooded crossing if the depth or current makes it unsafe.",
+      "signNumber": 23
+    },
+    {
+      "category": "Road Signs",
+      "name": "Agricultural vehicles warning",
+      "meaning": "Be on the lookout for agricultural vehicles that may be on the road",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q096-1.png"
+      ],
+      "questionId": 96,
+      "studyPoint": "Be on the lookout for agricultural vehicles that may be on the road",
+      "signNumber": 24
+    },
+    {
+      "category": "Temporary",
+      "name": "Temporary obstruction marker — keep right",
+      "meaning": "The yellow background identifies this as a temporary road sign. It warns of an obstruction on the left; pass to the right of the sign, following any temporary traffic directions.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q097-1.png"
+      ],
+      "questionId": 97,
+      "studyPoint": "Yellow backgrounds are used for temporary road signs. This marker indicates an obstruction on the left, so pass to the right of the sign and remain alert for roadworks or a changed traffic layout.",
+      "signNumber": 25
+    },
+    {
+      "category": "Road Signs",
+      "name": "Stop control",
+      "meaning": "Be ready to stop and turn left or right",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q098-1.png"
+      ],
+      "questionId": 98,
+      "studyPoint": "Be ready to stop and turn left or right",
+      "signNumber": 26
+    },
+    {
+      "category": "Road Signs",
+      "name": "Winding road ahead — 80 km/h advisory speed for 12 km",
+      "meaning": "A winding section lies ahead for 12 km. The 80 km/h plate gives an advisory speed, not by itself a regulatory speed limit.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-2.png"
+      ],
+      "questionId": 99,
+      "studyPoint": "Reduce speed to suit the curves and conditions. The advisory speed is guidance; obey any separate posted speed limit.",
+      "signNumber": 27
+    },
+    {
+      "category": "Road Signs",
+      "name": "No throughway",
+      "meaning": "Through traffic is not permitted beyond this point. Follow any posted diversion or turn-around instructions.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q100-1.png"
+      ],
+      "questionId": 100,
+      "studyPoint": "Do not continue straight through. Follow the road signs and any diversion instructions to choose a permitted route.",
+      "signNumber": 28
+    },
+    {
+      "category": "Traffic Signals",
+      "name": "Overhead lane-direction control signal — red cross",
+      "meaning": "Do not drive in the lane beneath the red cross. The lane may be open to traffic travelling in the opposite direction.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q101-1.png"
+      ],
+      "questionId": 101,
+      "studyPoint": "Follow the signal above your lane. A green downward arrow permits use of that lane; a red cross prohibits use.",
+      "signNumber": 29
+    },
+    {
+      "category": "Road Markings",
+      "name": "Painted island / chevron marking",
+      "meaning": "Painted island where you are not allowed to drive on or stop",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q102-1.png"
+      ],
+      "questionId": 102,
+      "studyPoint": "Painted island where you are not allowed to drive on or stop",
+      "signNumber": 30
+    },
+    {
+      "category": "Road Markings",
+      "name": "Yield line / yield marking",
+      "meaning": "Yield for vehicles that have crossed the yield line before you.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q103-1.png"
+      ],
+      "questionId": 103,
+      "studyPoint": "Yield for vehicles that have crossed the yield line before you.",
+      "signNumber": 31
+    },
+    {
+      "category": "Road Markings",
+      "name": "Railway crossing warning / signal",
+      "meaning": "There is a level crossing with one railway line ahead",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q104-1.png"
+      ],
+      "questionId": 104,
+      "studyPoint": "There is a level crossing with one railway line ahead",
+      "signNumber": 32
+    },
+    {
+      "category": "Road Markings",
+      "name": "Lane direction / lane transition marking",
+      "meaning": "The lane splits into more lanes in the direction of the arrow",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q105-1.png"
+      ],
+      "questionId": 105,
+      "studyPoint": "The lane splits into more lanes in the direction of the arrow",
+      "signNumber": 33
+    },
+    {
+      "category": "Road Markings",
+      "name": "Mini-buses",
+      "meaning": "Mini-buses.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q106-1.png"
+      ],
+      "questionId": 106,
+      "studyPoint": "Mini-buses.",
+      "signNumber": 34
+    },
+    {
+      "category": "Road Signs",
+      "name": "Cul-de-sac to the left",
+      "meaning": "The road to the left is a dead end; there is no through road in that direction.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q107-1.png"
+      ],
+      "questionId": 107,
+      "studyPoint": "This green information sign indicates that the road to the left ends. Enter that road only if your destination is there, as you will need to return the same way.",
+      "signNumber": 35
+    },
+    {
+      "category": "Road Markings",
+      "name": "Lane line marking (GM1)",
+      "meaning": "Shows the lanes for road users",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q108-1.png"
+      ],
+      "questionId": 108,
+      "studyPoint": "Shows the lanes for road users",
+      "signNumber": 36
+    },
+    {
+      "category": "Road Markings",
+      "name": "Mandatory direction arrow — right or straight ahead",
+      "meaning": "From this lane, you may turn right or continue straight ahead. You must follow one of the directions shown by the arrow.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q109-1.png"
+      ],
+      "questionId": 109,
+      "studyPoint": "The yellow arrow is a mandatory direction marking. From this lane, you may turn right or continue straight ahead; you may not use the lane to make a different movement.",
+      "signNumber": 37
+    },
+    {
+      "category": "Road Markings",
+      "name": "No-stopping / parking restriction marking",
+      "meaning": "May not park there at all because it’s a no stopping road marking.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q110-1.png"
+      ],
+      "questionId": 110,
+      "studyPoint": "May not park there at all because it’s a no stopping road marking.",
+      "signNumber": 38
+    },
+    {
+      "category": "Road Markings",
+      "name": "Stop control",
+      "meaning": "If you are driving in car A, must stop before this line",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q111-1.png"
+      ],
+      "questionId": 111,
+      "studyPoint": "If you are driving in car A, must stop before this line",
+      "signNumber": 39
+    },
+    {
+      "category": "Road Markings",
+      "name": "Stop-line / pedestrian-line marking",
+      "meaning": "Show you that you may not stop further than the front one of the two",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q112-1.png"
+      ],
+      "questionId": 112,
+      "studyPoint": "Show you that you may not stop further than the front one of the two",
+      "signNumber": 40
+    },
+    {
+      "category": "Road Signs",
+      "name": "Direction at junction",
+      "meaning": "At the junction ahead, you must turn in the direction of the arrow.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q113-1.png"
+      ],
+      "questionId": 113,
+      "studyPoint": "At the junction ahead, you must turn in the direction of the arrow.",
+      "signNumber": 41
+    },
+    {
+      "category": "Road Signs",
+      "name": "Time-restricted parking prohibition",
+      "meaning": "Parking there at certain hours",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q114-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q114-2.png"
+      ],
+      "questionId": 114,
+      "studyPoint": "Parking there at certain hours",
+      "signNumber": 42
+    },
+    {
+      "category": "Road Signs",
+      "name": "Secondary crossroad",
+      "meaning": "Secondary crossroad.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q115-1.png"
+      ],
+      "questionId": 115,
+      "studyPoint": "Secondary crossroad.",
+      "signNumber": 43
+    },
+    {
+      "category": "Road Signs",
+      "name": "Curve / bend warning",
+      "meaning": "Sharp curve to the left ahead",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q116-1.png"
+      ],
+      "questionId": 116,
+      "studyPoint": "Sharp curve to the left ahead",
+      "signNumber": 44
+    },
+    {
+      "category": "Traffic Signals",
+      "name": "Traffic signal / robot warning",
+      "meaning": "There is a robot ahead",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q117-1.png"
+      ],
+      "questionId": 117,
+      "studyPoint": "There is a robot ahead",
+      "signNumber": 45
+    },
+    {
+      "category": "Road Signs",
+      "name": "Gravel road begins",
+      "meaning": "The surface of the road ahead changes to gravel.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q118-1.png"
+      ],
+      "questionId": 118,
+      "studyPoint": "The surface of the road ahead changes to gravel.",
+      "signNumber": 46
+    },
+    {
+      "category": "Road Signs",
+      "name": "Road narrows from both sides",
+      "meaning": "The road becomes narrower on both the left and right sides ahead.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q119-1.png"
+      ],
+      "questionId": 119,
+      "studyPoint": "Reduce speed and be prepared for a narrower roadway. Keep a safe position and watch for oncoming traffic.",
+      "signNumber": 47
+    },
+    {
+      "category": "Road Signs",
+      "name": "Speed hump warning",
+      "meaning": "There are speed humps in the road",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q120-1.png"
+      ],
+      "questionId": 120,
+      "studyPoint": "There are speed humps in the road",
+      "signNumber": 48
+    },
+    {
+      "category": "Road Signs",
+      "name": "Slippery road",
+      "meaning": "The road ahead may be unusually slippery, especially when wet. Slow down and avoid sudden braking or sharp steering.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q121-1.png"
+      ],
+      "questionId": 121,
+      "studyPoint": "This sign warns of unusually slippery road conditions ahead. Reduce speed and avoid sudden braking or sharp steering, as these actions may cause the vehicle to skid.",
+      "signNumber": 49
+    },
+    {
+      "category": "Traffic Signals",
+      "name": "Hazard / flashing warning signal",
+      "meaning": "There is danger in the road ahead",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q122-1.png"
+      ],
+      "questionId": 122,
+      "studyPoint": "There is danger in the road ahead",
+      "signNumber": 50
+    },
+    {
+      "category": "Road Signs",
+      "name": "Obstruction / hazard on the right — keep left",
+      "meaning": "There is an obstruction or hazard on the right; keep left.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q123-1.png"
+      ],
+      "questionId": 123,
+      "studyPoint": "There is an obstruction or hazard on the right; keep left.",
+      "signNumber": 51
+    },
+    {
+      "category": "Road Signs",
+      "name": "Pothole warning",
+      "meaning": "Potholes are to be found on the road ahead",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-2.png"
+      ],
+      "questionId": 124,
+      "studyPoint": "Potholes are to be found on the road ahead",
+      "signNumber": 52
+    },
+    {
+      "category": "Road Markings",
+      "name": "Give-way (yield) road marking",
+      "meaning": "Give way to traffic and other road users crossing your path. Slow down and stop if necessary; do not proceed until it is safe.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q125-1.png"
+      ],
+      "questionId": 125,
+      "studyPoint": "Give way to traffic and other road users crossing your path. Slow down and stop if necessary; do not proceed until it is safe.",
+      "signNumber": 53
+    },
+    {
+      "category": "Road Markings",
+      "name": "Barrier / no-crossing marking",
+      "meaning": "Traffic may not overtake or cross it on either side",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q126-1.png"
+      ],
+      "questionId": 126,
+      "studyPoint": "Traffic may not overtake or cross it on either side",
+      "signNumber": 54
+    },
+    {
+      "category": "Road Markings",
+      "name": "Exclusive bus parking bay",
+      "meaning": "The B marking reserves the parking bay for buses. Other vehicles may not park or stop in the bay; the reservation applies to buses operating on a fixed route.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q127-1.png"
+      ],
+      "questionId": 127,
+      "studyPoint": "B means bus. Use the marked bay only if your vehicle qualifies for this bus reservation.",
+      "signNumber": 55
+    },
+    {
+      "category": "Road Markings",
+      "name": "Reserved parking / loading marking",
+      "meaning": "Goods vehicles that loads or unloads",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q128-1.png"
+      ],
+      "questionId": 128,
+      "studyPoint": "Goods vehicles that loads or unloads",
+      "signNumber": 56
+    },
+    {
+      "category": "Road Markings",
+      "name": "Broken yellow no-parking line",
+      "meaning": "Parking is prohibited alongside this broken yellow line during the times indicated on the relevant road sign. This is not the same as a red no-stopping line.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q129-1.png"
+      ],
+      "questionId": 129,
+      "studyPoint": "A broken yellow line indicates a no-parking restriction during the times shown on the applicable sign. Check the sign for the restricted hours.",
+      "signNumber": 57
+    },
+    {
+      "category": "Road Signs",
+      "name": "Skew T-junction",
+      "meaning": "Skew T-junction.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q130-1.png"
+      ],
+      "questionId": 130,
+      "studyPoint": "Skew T-junction.",
+      "signNumber": 58
+    },
+    {
+      "category": "Traffic Signals",
+      "name": "Traffic lights",
+      "meaning": "Traffic lights.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q131-1.png"
+      ],
+      "questionId": 131,
+      "studyPoint": "Traffic lights.",
+      "hideStudyPoint": true,
+      "signNumber": 59
+    },
+    {
+      "category": "Road Signs",
+      "name": "Keep right",
+      "meaning": "You must pass to the right of this sign.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q132-1.png"
+      ],
+      "questionId": 132,
+      "studyPoint": "You must pass to the right of this sign.",
+      "signNumber": 60
+    },
+    {
+      "category": "Road Markings",
+      "name": "Pedestrian line marking / pedestrians crossing",
+      "meaning": "Shows that you may have to stop and yield for pedestrians.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q133-1.png"
+      ],
+      "questionId": 133,
+      "studyPoint": "Shows that you may have to stop and yield for pedestrians.",
+      "signNumber": 61
+    },
+    {
+      "category": "Road Markings",
+      "name": "Junction warning",
+      "meaning": "The roadway to the left ends ahead",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q134-1.png"
+      ],
+      "questionId": 134,
+      "studyPoint": "The roadway to the left ends ahead",
+      "signNumber": 62
+    },
+    {
+      "category": "Road Markings",
+      "name": "Freeway entry sign",
+      "meaning": "You are entering a freeway",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q135-1.png"
+      ],
+      "questionId": 135,
+      "studyPoint": "You are entering a freeway",
+      "signNumber": 63
+    },
+    {
+      "category": "Road Markings",
+      "name": "Lane direction / lane transition marking",
+      "meaning": "The two lanes are merging",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q136-1.png"
+      ],
+      "questionId": 136,
+      "studyPoint": "The two lanes are merging",
+      "signNumber": 64
+    },
+    {
+      "category": "Road Markings",
+      "name": "Lane line marking (GM1)",
+      "meaning": "It is a dividing line that shows the lanes for road users",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q137-1.png"
+      ],
+      "questionId": 137,
+      "studyPoint": "It is a dividing line that shows the lanes for road users",
+      "signNumber": 65
+    },
+    {
+      "category": "Road Markings",
+      "name": "Lane direction / lane transition marking",
+      "meaning": "The right lane may have approaching traffic at certain times, be on the lookout",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q138-1.png"
+      ],
+      "questionId": 138,
+      "studyPoint": "The right lane may have approaching traffic at certain times, be on the lookout",
+      "signNumber": 66
+    },
+    {
+      "category": "Road Signs",
+      "name": "Traffic-light camera sign",
+      "meaning": "There is a camera monitoring the traffic light",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q139-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q139-2.png"
+      ],
+      "questionId": 139,
+      "studyPoint": "There is a camera monitoring the traffic light",
+      "signNumber": 67
+    },
+    {
+      "category": "Road Signs",
+      "name": "No U-turn sign",
+      "meaning": "A U-turn prohibited",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q140-1.png"
+      ],
+      "questionId": 140,
+      "studyPoint": "A U-turn prohibited",
+      "signNumber": 68
+    },
+    {
+      "category": "Road Markings",
+      "name": "Traffic circle",
+      "meaning": "Traffic circle.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q141-1.png"
+      ],
+      "questionId": 141,
+      "studyPoint": "Traffic circle.",
+      "signNumber": 69
+    },
+    {
+      "category": "Road Signs",
+      "name": "Minimum / speed control sign",
+      "meaning": "Do not travel at a speed slower than the minimum speed indicated.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q142-1.png"
+      ],
+      "questionId": 142,
+      "studyPoint": "Do not travel at a speed slower than the minimum speed indicated.",
+      "signNumber": 70
+    },
+    {
+      "category": "Road Signs",
+      "name": "Four-way stop",
+      "meaning": "Stop and proceed only when it is safe to do so.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q143-1.png"
+      ],
+      "questionId": 143,
+      "studyPoint": "Stop and proceed only when it is safe to do so.",
+      "signNumber": 71
+    },
+    {
+      "category": "Road Signs",
+      "name": "No through road to the right",
+      "meaning": "There is no through road to the right.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q144-1.png"
+      ],
+      "questionId": 144,
+      "studyPoint": "There is no through road to the right.",
+      "hideStudyPoint": true,
+      "signNumber": 72
+    },
+    {
+      "category": "Road Signs",
+      "name": "Dual freeway sign",
+      "meaning": "A dual freeway.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q145-1.png"
+      ],
+      "questionId": 145,
+      "studyPoint": "A dual freeway.",
+      "signNumber": 73
+    },
+    {
+      "category": "Road Signs",
+      "name": "Right-of-way / priority sign",
+      "meaning": "They have right of way at the next intersection.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q146-1.png"
+      ],
+      "questionId": 146,
+      "studyPoint": "They have right of way at the next intersection.",
+      "signNumber": 74
+    },
+    {
+      "category": "Road Signs",
+      "name": "Emergency telephone sign",
+      "meaning": "There is an emergency phone 500m ahead in the road.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q147-1.png"
+      ],
+      "questionId": 147,
+      "studyPoint": "There is an emergency phone 500m ahead in the road.",
+      "signNumber": 75
+    },
+    {
+      "category": "Road Signs",
+      "name": "Junction warning",
+      "meaning": "A side road junction from the right ahead.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q148-1.png"
+      ],
+      "questionId": 148,
+      "studyPoint": "A side road junction from the right ahead.",
+      "signNumber": 76
+    },
+    {
+      "category": "Temporary",
+      "name": "Temporary height limit",
+      "meaning": "Temporary height limit.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q149-1.png"
+      ],
+      "questionId": 149,
+      "studyPoint": "Temporary height limit.",
+      "signNumber": 77
+    },
+    {
+      "category": "Temporary",
+      "name": "Temporary lane layout",
+      "meaning": "Temporary lane layout.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q150-1.png"
+      ],
+      "questionId": 150,
+      "studyPoint": "Temporary lane layout.",
+      "signNumber": 78
+    },
+    {
+      "category": "Road Signs",
+      "name": "Advance trailblazer — N17 toll route",
+      "meaning": "This sign directs you to join the N17 toll route by following the arrow to the right. It is route guidance, not an instruction for all traffic to turn right.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q151-1.png"
+      ],
+      "questionId": 151,
+      "studyPoint": "Follow the arrow to reach the N17 toll route. Trailblazer signs guide you towards a route you have not yet joined.",
+      "signNumber": 79
+    },
+    {
+      "category": "Road Markings",
+      "name": "Barrier / no-crossing marking",
+      "meaning": "Traffic may not pass or cross it from either side.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q152-1.png"
+      ],
+      "questionId": 152,
+      "studyPoint": "Traffic may not pass or cross it from either side.",
+      "signNumber": 80
+    },
+    {
+      "category": "Road Signs",
+      "name": "Arrestor bed ahead",
+      "meaning": "An arrestor bed is a gravel escape ramp for a vehicle whose brakes fail, usually on a descent.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q153-arrestor-bed-illustration.svg"
+      ],
+      "questionId": 153,
+      "studyPoint": "If your brakes fail, steer straight into the arrestor bed. Do not use it unless it is an emergency.",
+      "signNumber": 81
+    },
+    {
+      "category": "Road Signs",
+      "name": "Temporary sign background",
+      "meaning": "Temporary road signs generally use a yellow background to distinguish them from permanent signs.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q154-temporary-yellow.svg"
+      ],
+      "questionId": 154,
+      "studyPoint": "Yellow is the usual background colour for temporary road signs.",
+      "signNumber": 82
+    },
+    {
+      "category": "Road Signs",
+      "name": "No left turn",
+      "meaning": "Left turns are prohibited at the indicated junction.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q155-no-left-turn.svg"
+      ],
+      "questionId": 155,
+      "studyPoint": "Left turns are prohibited at the indicated junction.",
+      "signNumber": 83
+    },
+    {
+      "category": "Road Signs",
+      "name": "Axle mass-load limit",
+      "meaning": "The sign sets the maximum permitted mass on any axle shown by the value in tonnes. Vehicles exceeding that axle limit must use another route.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q156-axle-mass-limit.svg"
+      ],
+      "questionId": 156,
+      "studyPoint": "The sign sets the maximum permitted mass on any axle shown by the value in tonnes. Vehicles exceeding that axle limit must use another route.",
+      "signNumber": 84
+    },
+    {
+      "category": "Temporary",
+      "name": "Temporary road closure",
+      "meaning": "The road is temporarily closed at this point. Slow down and use any detour indicated.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q158-1.png"
+      ],
+      "questionId": 157,
+      "studyPoint": "The road is temporarily closed at this point. Slow down and use any detour indicated.",
+      "signNumber": 85
+    },
+    {
+      "category": "Road Signs",
+      "name": "Pedal cycles only",
+      "meaning": "Only cyclists may use that part of the road.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q157-1.png"
+      ],
+      "questionId": 158,
+      "studyPoint": "Only cyclists may use that part of the road.",
+      "signNumber": 86
+    },
+    {
+      "category": "Road Signs",
+      "name": "Exit countdown marker — 200 m",
+      "meaning": "Two white diagonal bars on a permanent blue countdown sign indicate a high-speed exit is approximately 200 metres ahead.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q160-1.png"
+      ],
+      "questionId": 159,
+      "studyPoint": "Each white bar represents about 100 metres. Two bars mean the exit is approximately 200 metres ahead; prepare for the exit safely if you intend to use it.",
+      "signNumber": 87
+    },
+    {
+      "category": "Road Signs",
+      "name": "Exit countdown marker — 200 m",
+      "meaning": "A high-speed exit is 200 metres ahead.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q159-1.png"
+      ],
+      "questionId": 160,
+      "studyPoint": "The exit is 200 metres ahead; prepare to leave the freeway safely if you intend to take it.",
+      "signNumber": 88
+    },
+    {
+      "category": "Temporary",
+      "name": "Temporary lane-use sign — minimum speed of 80 km/h in the right-hand lane",
+      "meaning": "This temporary lane-use control sign shows three lanes carrying traffic in the same direction. The 80 km/h minimum-speed requirement applies to the right-hand lane only.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q161-1.png"
+      ],
+      "questionId": 161,
+      "studyPoint": "Keep to a lane appropriate for your vehicle and traffic conditions. The 80 km/h figure is a minimum speed for the indicated lane, not a maximum speed applying to all three lanes.",
+      "signNumber": 89
+    },
+    {
+      "category": "Road Signs",
+      "name": "Temporary minimum speed on the third lane",
+      "meaning": "Only vehicles that can exceed the speed indicated can travel on that lane.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q162-1.png"
+      ],
+      "questionId": 162,
+      "studyPoint": "Only vehicles that can exceed the speed indicated can travel on that lane.",
+      "signNumber": 90
+    },
+    {
+      "category": "Traffic Signals",
+      "name": "Traffic signal turning indication",
+      "meaning": "You may travel in the direction of the arrow only if it is safe to do so.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q163-1.png"
+      ],
+      "questionId": 163,
+      "studyPoint": "You may travel in the direction of the arrow only if it is safe to do so.",
+      "signNumber": 91
+    },
+    {
+      "category": "Traffic Signals",
+      "name": "No crossing at all",
+      "meaning": "No crossing is permitted.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q164-1.png"
+      ],
+      "questionId": 164,
+      "studyPoint": "No crossing is permitted.",
+      "hideStudyPoint": true,
+      "signNumber": 92
+    },
+    {
+      "category": "Road Signs",
+      "name": "Exit countdown marker — 300 m",
+      "meaning": "Three white diagonal bars on a blue exit countdown marker indicate that the high-speed exit is approximately 300 metres ahead.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q165-1.png"
+      ],
+      "questionId": 165,
+      "studyPoint": "Each bar represents approximately 100 metres. Three bars mean the exit is about 300 metres ahead. Prepare to exit safely if you intend to use it.",
+      "signNumber": 93
+    },
+    {
+      "category": "Road Signs",
+      "name": "Alternative route sign",
+      "meaning": "There is an alternative route at the next road to the right.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q166-1.png"
+      ],
+      "questionId": 166,
+      "studyPoint": "There is an alternative route at the next road to the right.",
+      "signNumber": 94
+    },
+    {
+      "category": "Road Signs",
+      "name": "Road to the right is not a through road",
+      "meaning": "Do not use this road if you need a through road to your right.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q167-1.png"
+      ],
+      "questionId": 167,
+      "studyPoint": "Do not use this road if you need a through road to your right.",
+      "signNumber": 95
+    },
+    {
+      "category": "Road Signs",
+      "name": "One-way roadway",
+      "meaning": "Travel only in the direction of the arrow.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q168-1.png"
+      ],
+      "questionId": 168,
+      "studyPoint": "Travel only in the direction of the arrow.",
+      "signNumber": 96
+    },
+    {
+      "category": "Road Signs",
+      "name": "Toll route / alternative route sign",
+      "meaning": "There is a toll road and an alternative to the toll road.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q169-1.png"
+      ],
+      "questionId": 169,
+      "studyPoint": "There is a toll road and an alternative to the toll road.",
+      "signNumber": 97
+    },
+    {
+      "category": "Road Signs",
+      "name": "Disabled parking marking",
+      "meaning": "The area is set aside for disabled persons.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q170-1.png"
+      ],
+      "questionId": 170,
+      "studyPoint": "The area is set aside for disabled persons.",
+      "signNumber": 98
+    },
+    {
+      "category": "Road Markings",
+      "name": "Information sign",
+      "meaning": "There is a dead end on the road ahead.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q171-1.png"
+      ],
+      "questionId": 171,
+      "studyPoint": "There is a dead end on the road ahead.",
+      "signNumber": 99
+    },
+    {
+      "category": "Road Signs",
+      "name": "No-entry sign (regulatory sign)",
+      "meaning": "Do not enter this road from this direction.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q172-regulatory-sign.svg"
+      ],
+      "questionId": 172,
+      "studyPoint": "A red-and-white no-entry sign prohibits entry from this direction.",
+      "signNumber": 100
+    },
+    {
+      "category": "Road Markings",
+      "name": "Lane directions",
+      "meaning": "The left lane is reducing.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q173-1.png"
+      ],
+      "questionId": 173,
+      "studyPoint": "The left lane is reducing.",
+      "signNumber": 101
+    },
+    {
+      "category": "Road Markings",
+      "name": "Bus lane only",
+      "meaning": "It is for the exclusive use of buses only.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q174-1.png"
+      ],
+      "questionId": 174,
+      "studyPoint": "It is for the exclusive use of buses only.",
+      "signNumber": 102
+    },
+    {
+      "category": "Road Markings",
+      "name": "Bus-only lane marking",
+      "meaning": "The lane is reserved for buses, subject to the applicable road signs and markings.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q175-bus-lane-marking.svg"
+      ],
+      "questionId": 175,
+      "studyPoint": "Do not use a bus-only lane unless you are permitted to do so.",
+      "signNumber": 103
+    },
+    {
+      "category": "Road Signs",
+      "name": "Additional traffic lane",
+      "meaning": "Lane increase ahead.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q176-1.png"
+      ],
+      "questionId": 176,
+      "studyPoint": "Lane increase ahead.",
+      "signNumber": 104
+    },
+    {
+      "category": "Road Markings",
+      "name": "Dividing line",
+      "meaning": "A dividing line separates traffic lanes or opposing traffic streams, according to the road layout and line type.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q177-dividing-line.svg"
+      ],
+      "questionId": 177,
+      "studyPoint": "Observe the line type: a broken line and a solid line have different crossing rules.",
+      "signNumber": 105
+    },
+    {
+      "category": "Road Signs",
+      "name": "Motorcycle engine capacity limit",
+      "meaning": "Motorcycles with an engine capacity of more than 125 cc are prohibited.",
+      "images": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q178-2.png"
+      ],
+      "questionId": 178,
+      "studyPoint": "Motorcycles with an engine capacity of more than 125 cc are prohibited.",
+      "signNumber": 106
+    }
+  ]
+}
