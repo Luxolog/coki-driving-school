@@ -21,9 +21,42 @@ main{max-width:1200px;margin:auto;padding:28px 22px 70px}.hero{background:linear
 footer{background:var(--dark);color:#d7e6dc;text-align:center;padding:27px 18px;font-size:.86rem}
 @media(max-width:850px){header{align-items:flex-start;flex-direction:column}nav{width:100%;overflow-x:auto;flex-wrap:nowrap}nav a{white-space:nowrap}.hero{grid-template-columns:1fr;min-height:0}.hero-art{min-height:180px}.roadmark{width:170px}.intro-panel{grid-template-columns:1fr}.assessment{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){main{padding:18px 14px 48px}.hero{padding:28px 23px;border-radius:18px}.hero h1{font-size:2.45rem}.hero-art{min-height:150px}.roadmark{width:135px;border-width:8px;border-radius:22px}.btnrow{display:grid}.btnrow .btn{width:100%}.cards,.steps{grid-template-columns:1fr}.section{margin-top:42px}.school{grid-template-columns:1fr}.school .btn{width:100%}}
+
+.nav-group{position:relative}
+.nav-trigger{border:0;background:transparent;color:#f4fff6;text-decoration:none;font:inherit;font-size:.86rem;padding:9px 11px;border-radius:9px;cursor:pointer;white-space:nowrap}
+.nav-trigger:hover,.nav-group.open .nav-trigger,.nav-group:focus-within .nav-trigger{background:#26392d;color:#fff}
+.nav-caret{font-size:10px;margin-left:4px}
+.nav-menu{display:none;position:absolute;top:100%;left:0;min-width:220px;padding:8px;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 28px #0002;z-index:100}
+.nav-group:hover .nav-menu,.nav-group:focus-within .nav-menu,.nav-group.open .nav-menu{display:grid}
+.nav-menu a{display:block;color:var(--ink);padding:10px 12px;border-radius:8px;font-weight:750;font-size:.88rem;white-space:nowrap}
+.nav-menu a:hover{background:#e8f5ec;color:#075b32}
+.nav-menu .menu-caption{padding:7px 12px 5px;color:var(--muted);font-size:.68rem;font-weight:900;letter-spacing:1px;text-transform:uppercase}
+@media(max-width:850px){nav{overflow:visible;flex-wrap:wrap} .nav-group{position:relative}.nav-menu{left:0}}
 </style></head><body>
 <header><a class="brand" href="#home"><img src="./assets/coki-placeholder-logo.svg" alt="Coki Driving School logo"><span><b>COKI</b><small>DIGITAL K53 · LEARNER PREPARATION</small></span></a>
-<nav aria-label="Main navigation"><a href="#home">Home</a><a href="./manual.html">Study manual</a><a href="#study-areas">Study areas</a><a href="./tests/index.html">Practice tests</a><a href="#school">For the school</a></nav></header>
+<nav aria-label="Main navigation">
+<a href="#home">Home</a>
+<div class="nav-group">
+<button class="nav-trigger" type="button" aria-haspopup="true" aria-expanded="false">Study Manual <span class="nav-caret">▾</span></button>
+<div class="nav-menu">
+<div class="menu-caption">Choose a study section</div>
+<a href="./manual.html?section=knowledge">Learn Before You Test</a>
+<a href="./manual.html?section=rules">Rules of the Road</a>
+<a href="./manual.html?section=signs">Road Signs</a>
+<a href="./manual.html?section=controls">Vehicle Controls</a>
+</div>
+</div>
+<a href="./pertinent-knowledge.html">Essential Knowledge</a>
+<a href="./questions-and-answers.html">Questions &amp; Answers</a>
+<div class="nav-group">
+<button class="nav-trigger" type="button" aria-haspopup="true" aria-expanded="false">Practice tests <span class="nav-caret">▾</span></button>
+<div class="nav-menu">
+<div class="menu-caption">Choose your test</div>
+<a href="./tests/player.html?test=1">Test 1</a><a href="./tests/player.html?test=2">Test 2</a><a href="./tests/player.html?test=3">Test 3</a><a href="./tests/player.html?test=4">Test 4</a><a href="./tests/player.html?test=5">Test 5</a>
+</div>
+</div>
+<a href="#school">For the school</a>
+</nav></header>
 <main>
 <section class="hero" id="home"><div><div class="kicker">Coki Driving School · Your learner journey starts here</div><h1>Learn confidently.<br>Drive responsibly.</h1><p>Prepare for your South African K53 learner’s licence with a clear learning path. Build your knowledge, understand road signs and rules, then put what you have learned into practice.</p><div class="btnrow"><a class="btn primary" href="./manual.html?section=knowledge">Start learning</a><a class="btn" href="./tests/index.html">Go to practice tests</a></div></div><div class="hero-art" aria-hidden="true"><div class="roadmark"><span>COKI</span></div></div></section>
 <section class="section" id="start-learning"><div class="sectionhead"><div><div class="eyebrow">Your learning path</div><h2>Start with the basics. Build your confidence.</h2><p>Follow the learning journey in order before attempting a full assessment.</p></div></div>
@@ -41,4 +74,21 @@ footer{background:var(--dark);color:#d7e6dc;text-align:center;padding:27px 18px;
 <section class="section" id="assessments"><div class="assessment"><div><div class="kicker">Check what you have learned</div><h2>Ready to put your knowledge to the test?</h2><p>Choose one of five 64-question practice assessments. Each attempt gets a fresh question order and shuffled answer choices. Your result includes a review of incorrect answers and the correct answers.</p><div class="points"><span>5 practice tests</span><span>64 questions each</span><span>Student ID entry</span><span>Review after completion</span></div></div><a class="btn primary" href="./tests/index.html">Enter five-test centre</a></div></section>
 <section class="section" id="school"><div class="sectionhead"><div><div class="eyebrow">Driving school</div><h2>School administration</h2><p>Dedicated tools for managing learner access and monitoring progress.</p></div></div>
 <div class="school"><div><span class="tag">Administrator area</span><h3>Coki School Dashboard</h3><p>Open the administrator workspace. Learner accounts, payment confirmation and secure record storage still require the connected production backend.</p></div><a class="btn dark" href="./admin-preview.html">Open school dashboard</a></div></section>
-</main><footer>© Coki Driving School · Digital K53 Learner Preparation<br>Built with Ekhaya Technologies</footer></body></html>
+</main><footer>© Coki Driving School · Digital K53 Learner Preparation<br>Built with Ekhaya Technologies</footer>
+<script>
+(function(){
+ const groups=document.querySelectorAll('.nav-group');
+ function closeMenus(){groups.forEach(g=>{g.classList.remove('open');const b=g.querySelector('.nav-trigger');if(b)b.setAttribute('aria-expanded','false')})}
+ groups.forEach(g=>{
+  const b=g.querySelector('.nav-trigger');
+  if(!b)return;
+  b.addEventListener('click',e=>{
+   e.preventDefault();e.stopPropagation();
+   const opening=!g.classList.contains('open');closeMenus();
+   if(opening){g.classList.add('open');b.setAttribute('aria-expanded','true')}
+  });
+ });
+ document.addEventListener('click',e=>{if(!e.target.closest('.nav-group'))closeMenus()});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenus()});
+})();
+</script></body></html>
