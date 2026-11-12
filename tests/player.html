@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en-ZA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Coki K53 | Test Workspace</title>
+<style>
+:root{--green:#087a42;--red:#d92c32;--ink:#14231b;--muted:#607168;--paper:#f5f8f5;--line:#e1e9e2}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,sans-serif}header{background:#101b15;color:white;padding:17px 22px;border-bottom:4px solid var(--green)}header a{color:white;text-decoration:none}
+main{max-width:850px;margin:34px auto;padding:0 18px 60px}.panel{background:white;border:1px solid var(--line);border-radius:18px;padding:clamp(20px,4vw,34px)}.muted{color:var(--muted)}.eyebrow{color:var(--green);font-size:.75rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.question{font-size:1.2rem;font-weight:750;margin:24px 0}.options{display:grid;gap:10px}.option{display:flex;gap:12px;text-align:left;align-items:center;padding:13px;border:1px solid var(--line);border-radius:12px;background:white;color:var(--ink);font:inherit;cursor:pointer}.option:hover,.option.chosen{border-color:var(--green);background:#eaf7ee}.option:disabled{cursor:default}.letter{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;background:#eff3ef;font-weight:800;flex:none}.feedback{padding:13px;border-radius:10px;margin-top:15px}.good{background:#e6f6eb;color:#145b31}.bad{background:#fff0ef;color:#9c2026}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{border:0;border-radius:10px;padding:11px 16px;background:var(--green);color:white;font:inherit;font-weight:750;cursor:pointer;text-decoration:none}.btn.secondary{background:#edf3ef;color:#1c633b}.progress{height:8px;background:#e5ece6;border-radius:10px;overflow:hidden;margin:14px 0}.progress span{display:block;height:100%;width:0;background:var(--green)}.empty{padding:20px;background:#fff5df;border-radius:12px;color:#684b12}
+</style></head><body><header><a href="index.html">← Back to Coki Test Centre</a></header>
+<main><div class="eyebrow">Coki learner portal</div><h1 id="heading">Test workspace</h1><p class="muted">Practice assessment · Results shown on this device only</p>
+<section class="panel" id="app"><div class="empty">Loading test questions…</div></section></main>
+<script>
+const params=new URLSearchParams(location.search);const testId=Math.max(1,Math.min(5,Number(params.get('test'))||1));
+const app=document.getElementById('app');document.getElementById('heading').textContent='Test '+testId;
+fetch('questions.json').then(r=>{if(!r.ok)throw Error('Question bank unavailable');return r.json()}).then(bank=>{
+ const questions=bank['test'+testId]||[];
+ if(!questions.length){app.innerHTML='<div class="empty"><strong>Question set not loaded yet.</strong><p>The test player is ready, but the original questions and verified answer key have not yet been imported. We will publish this test when its source content has been captured and checked.</p></div>';return}
+ let index=0,answers={},submitted=false;
+ function render(){const q=questions[index];const done=Object.keys(answers).length;app.innerHTML='<div><strong>Question '+(index+1)+' of '+questions.length+'</strong><div class="progress"><span style="width:'+done/questions.length*100+'%"></span></div></div><div class="question"></div><div class="options"></div><div id="feedback"></div><div class="actions"><button class="btn secondary" id="prev" '+(index===0?'disabled':'')+'>Previous</button><button class="btn" id="next">'+(index===questions.length-1?'Finish test':'Next question')+'</button></div>';
+ app.querySelector('.question').textContent=q.question;const opts=app.querySelector('.options');q.options.forEach((label,i)=>{const b=document.createElement('button');b.className='option'+(answers[index]===i?' chosen':'');b.innerHTML='<span class="letter">'+String.fromCharCode(65+i)+'</span>';const span=document.createElement('span');span.textContent=label;b.append(span);b.onclick=()=>{if(!submitted){answers[index]=i;render()}};opts.append(b)});
+ app.querySelector('#prev').onclick=()=>{index--;render()};app.querySelector('#next').onclick=()=>{if(index<questions.length-1){index++;render()}else finish()};
+ }
+ function finish(){submitted=true;const correct=questions.reduce((n,q,i)=>n+(answers[i]===q.correctIndex?1:0),0);app.innerHTML='<h2>Test completed</h2><p>You answered '+Object.keys(answers).length+' of '+questions.length+' questions.</p><h3>'+correct+' / '+questions.length+' correct</h3><p class="muted">This is a practice result only. Learner records are not saved to a school account in this static preview.</p><button class="btn" onclick="location.reload()">Review test</button>'}
+ render();
+}).catch(()=>{app.innerHTML='<div class="empty">Unable to load the question bank. Please try again later.</div>'});
+</script></body></html>
