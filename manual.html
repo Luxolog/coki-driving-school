@@ -126,25 +126,58 @@ footer{background:var(--ink);color:#d9d9d9;text-align:center;padding:24px 18px;f
 .nav-menu .menu-caption{padding:7px 11px 4px;color:var(--muted);font-size:10px;font-weight:900;letter-spacing:1px;text-transform:uppercase}
 .nav-caret{font-size:10px;margin-left:4px}
 @media(max-width:760px){.nav nav{justify-content:flex-start;width:100%;gap:5px}.nav-group{position:static}.nav-menu{left:18px;right:18px;min-width:0}.nav-trigger{padding:9px 8px}}
+/* Shared Coki homepage design system */
+:root{--ink:#14231b;--red:#d92c32;--muted:#607168;--bg:#f4f7f4;--card:#fff;--line:#dfe8e1;--soft:#f5f8f5;--green:#087a42}
+body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+header{background:#101b15;color:#fff;border-bottom:4px solid #087a42;padding:12px clamp(18px,5vw,64px);display:flex;align-items:center;justify-content:space-between;gap:18px;position:sticky;top:0}
+.nav{max-width:none;margin:0;padding:0;display:contents}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;flex:none;font-size:1rem;letter-spacing:0}
+.brand img{width:50px;height:50px;object-fit:contain;background:#fff;border-radius:5px;padding:0}
+.brand b{display:block;letter-spacing:.14em;font-size:1.1rem}.brand small{display:block;color:#d7e6dc;font-size:.7rem;letter-spacing:.07em;font-weight:500}
+nav{display:flex;gap:5px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+nav button,nav a{border:0;background:transparent;color:#f4fff6;padding:9px 11px;border-radius:9px;font-size:.86rem;font-weight:600;text-decoration:none;cursor:pointer}
+nav button:hover,nav a:hover{background:#26392d;color:#fff}
+main{max-width:1200px;margin:auto;padding:28px 22px 70px}
+.hero{background:linear-gradient(115deg,#073e26,#087a42 68%,#315d3b);color:#fff;border-radius:25px;padding:clamp(30px,6vw,56px);margin-bottom:22px}
+.hero .eyebrow{color:#d8f6e4;font-size:.76rem;letter-spacing:.16em;margin-bottom:8px}
+.hero h1{font-size:clamp(2.1rem,4.4vw,3.6rem);line-height:1.05;margin:0 0 12px;letter-spacing:-.035em}.hero h1 span{color:#fff}.hero p{color:#eff8f1;max-width:760px;font-size:1rem}
+.section-switch{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}
+.switch{border:1px solid var(--line);background:#fff;color:var(--ink);padding:11px 15px;border-radius:11px;font-size:.88rem;font-weight:800;cursor:pointer}
+.switch.active,.switch:hover{background:#087a42;color:#fff;border-color:#087a42}
+.panel-head h2{font-size:clamp(1.5rem,3vw,2.1rem);color:var(--ink);margin-bottom:5px}.panel-head p{color:var(--muted);font-size:.96rem}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:23px;box-shadow:0 5px 18px #0a301108}
+.card h3{font-size:1.12rem;color:var(--ink);margin-bottom:7px}.card p,.card li{font-size:.9rem;color:var(--muted)}
+.notice{background:#fff;border:1px solid var(--line);border-left:4px solid #087a42;border-radius:13px;padding:16px 18px;color:var(--muted);font-size:.9rem;margin:18px 0}
+.btn{border:0;border-radius:11px;padding:12px 17px;font-size:.88rem;font-weight:800;cursor:pointer}
+.btn-dark{background:#101b15;color:#fff}.btn-red{background:#d92c32;color:#fff}.btn-light{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.sign-viewer,.knowledge-card,.practice-card{border-radius:16px;border-color:var(--line)}.sign-info .badge{background:#101b15}.practice{background:#101b15;border-radius:18px}
+.practice-question{color:var(--ink)}.knowledge-card button{font-family:inherit}
+.learning-step{background:#101b15;border-radius:12px}.learning-step span{color:#d8f6e4}
+footer{background:#101b15;color:#d7e6dc;text-align:center;padding:27px 18px;font-size:.86rem}
+.nav-group{position:relative}.nav-trigger{border:0;background:transparent;color:#f4fff6;padding:9px 11px;border-radius:9px;font-size:.86rem;font-weight:600;cursor:pointer;white-space:nowrap}
+.nav-trigger:hover,.nav-group:focus-within .nav-trigger{background:#26392d;color:#fff}
+.nav-menu{display:none;position:absolute;top:100%;left:0;min-width:210px;padding:7px;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 28px #0002;z-index:100}
+.nav-group:hover .nav-menu,.nav-group:focus-within .nav-menu,.nav-group.open .nav-menu{display:grid}
+.nav-menu a,.nav-menu button{display:block;width:100%;text-align:left;border:0;background:#fff;color:var(--ink);padding:10px 11px;border-radius:8px;font-size:.86rem;font-weight:750;cursor:pointer;white-space:nowrap}
+.nav-menu a:hover,.nav-menu button:hover{background:#eaf7ef;color:#075b32}
+.nav-menu .menu-caption{padding:7px 11px 4px;color:var(--muted);font-size:.65rem;font-weight:900;letter-spacing:1px;text-transform:uppercase}
+.nav-caret{font-size:10px;margin-left:4px}
+@media(max-width:850px){header{align-items:flex-start;flex-direction:column}nav{width:100%;overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start}nav a,nav button{white-space:nowrap}}
+@media(max-width:760px){.cards{grid-template-columns:1fr 1fr}.nav-group{position:static}.nav-menu{left:18px;right:18px;min-width:0}}
+@media(max-width:560px){main{padding:18px 14px 48px}.cards{grid-template-columns:1fr}.hero{padding:28px 23px;border-radius:18px}.section-switch{display:grid;grid-template-columns:1fr 1fr}.learning-path{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
 <header>
-<div class="nav">
-<a class="brand" href="index.html"><img src="assets/coki-placeholder-logo.svg" alt="Coki Driving School logo"><span>COKI K53</span></a>
+<a class="brand" href="index.html"><img src="assets/coki-placeholder-logo.svg" alt="Coki Driving School logo"><span><b>COKI</b><small>DIGITAL K53 · LEARNER PREPARATION</small></span></a>
 <nav aria-label="Main navigation">
-<div class="nav-group">
-<button class="nav-trigger" type="button" aria-haspopup="true">Home &amp; Learn First <span class="nav-caret">▾</span></button>
-<div class="nav-menu">
-<div class="menu-caption">Start here</div>
 <a href="index.html">Home</a>
-<button type="button" onclick="showSection('knowledge');closeNavMenus()">Learn First</button>
-</div>
-</div>
 <div class="nav-group">
-<button class="nav-trigger" type="button" aria-haspopup="true">Study Manual <span class="nav-caret">▾</span></button>
+<button class="nav-trigger" type="button" aria-haspopup="true">Study manual <span class="nav-caret">▾</span></button>
 <div class="nav-menu">
 <div class="menu-caption">Choose a study topic</div>
+<button type="button" onclick="showSection('knowledge');closeNavMenus()">Learn the basics</button>
 <button type="button" onclick="showSection('rules');closeNavMenus()">Rules of the Road</button>
 <button type="button" onclick="showSection('signs');closeNavMenus()">Road Signs</button>
 <button type="button" onclick="showSection('controls');closeNavMenus()">Vehicle Controls</button>
@@ -153,18 +186,14 @@ footer{background:var(--ink);color:#d9d9d9;text-align:center;padding:24px 18px;f
 <a href="pertinent-knowledge.html">Essential Knowledge</a>
 <a href="questions-and-answers.html">Questions &amp; Answers</a>
 <div class="nav-group">
-<button class="nav-trigger" type="button" aria-haspopup="true">Tests <span class="nav-caret">▾</span></button>
+<button class="nav-trigger" type="button" aria-haspopup="true">Practice tests <span class="nav-caret">▾</span></button>
 <div class="nav-menu">
 <div class="menu-caption">Choose your test</div>
-<a href="tests/player.html?test=1">Test 1</a>
-<a href="tests/player.html?test=2">Test 2</a>
-<a href="tests/player.html?test=3">Test 3</a>
-<a href="tests/player.html?test=4">Test 4</a>
-<a href="tests/player.html?test=5">Test 5</a>
+<a href="tests/player.html?test=1">Test 1</a><a href="tests/player.html?test=2">Test 2</a><a href="tests/player.html?test=3">Test 3</a><a href="tests/player.html?test=4">Test 4</a><a href="tests/player.html?test=5">Test 5</a>
 </div>
 </div>
+<a href="index.html#school">For the school</a>
 </nav>
-</div>
 </header>
 
 <main>
