@@ -7,7 +7,7 @@ Coki uses Appwrite Cloud as its managed backend. The existing static Coki site r
 - Appwrite Auth: learner and administrator identities/sessions.
 - Appwrite TablesDB: learner profiles, access grants, daily usage, latest test results, and admin audit events.
 - Appwrite Functions: ID-based login, provisioning, time accounting, test-result upserts, admin operations, and scheduled cleanup.
-- Existing GitHub Pages frontend initially; Appwrite Sites can be considered later if the frontend needs server-side rendering or a single hosting platform.
+- Appwrite Sites: managed hosting for the existing static Coki frontend, connected to the Coki GitHub repository. Keep the current GitHub Pages deployment available as a rollback until the Appwrite-hosted site is verified.
 
 ## Identity and access
 - Learner login form asks for South African ID number and password.
