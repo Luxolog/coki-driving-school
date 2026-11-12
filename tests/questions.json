@@ -11,7 +11,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q160-1.png"
+        "../assets/road-signs/q160-1.png"
       ],
       "diagramMode": null
     },
@@ -39,7 +39,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
       "diagramMode": null
     },
@@ -67,7 +67,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
       "diagramMode": null
     },
@@ -82,7 +82,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q111-1.png"
+        "../assets/road-signs/q111-1.png"
       ],
       "diagramMode": null
     },
@@ -97,8 +97,8 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-2.png"
+        "../assets/road-signs/q099-1.png",
+        "../assets/road-signs/q099-2.png"
       ],
       "diagramMode": null
     },
@@ -113,7 +113,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q102-1.png"
+        "../assets/road-signs/q102-1.png"
       ],
       "diagramMode": null
     },
@@ -141,7 +141,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q101-1.png"
+        "../assets/road-signs/q101-1.png"
       ],
       "diagramMode": null
     },
@@ -156,7 +156,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q209-car-only.svg"
+        "../assets/road-signs/q209-car-only.svg"
       ],
       "diagramMode": null
     },
@@ -184,7 +184,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q084-1.png"
+        "../assets/road-signs/q084-1.png"
       ],
       "diagramMode": null
     },
@@ -256,7 +256,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q116-1.png"
+        "../assets/road-signs/q116-1.png"
       ],
       "diagramMode": null
     },
@@ -271,7 +271,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q089-1.png"
+        "../assets/road-signs/q089-1.png"
       ],
       "diagramMode": null
     },
@@ -286,7 +286,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q100-1.png"
+        "../assets/road-signs/q100-1.png"
       ],
       "diagramMode": null
     },
@@ -327,7 +327,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q156-axle-mass-limit.svg"
+        "../assets/road-signs/q156-axle-mass-limit.svg"
       ],
       "diagramMode": null
     },
@@ -342,7 +342,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/arrestor-bed-ahead.svg"
+        "../assets/road-signs/arrestor-bed-ahead.svg"
       ],
       "diagramMode": null
     },
@@ -357,7 +357,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q075-1.png"
+        "../assets/road-signs/q075-1.png"
       ],
       "diagramMode": null
     },
@@ -398,7 +398,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q140-1.png"
+        "../assets/road-signs/q140-1.png"
       ],
       "diagramMode": null
     },
@@ -413,7 +413,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q126-1.png"
+        "../assets/road-signs/q126-1.png"
       ],
       "diagramMode": null
     },
@@ -441,7 +441,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
       "diagramMode": null
     },
@@ -456,7 +456,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q206-no-taxis.svg"
+        "../assets/road-signs/q206-no-taxis.svg"
       ],
       "diagramMode": null
     },
@@ -471,7 +471,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q135-1.png"
+        "../assets/road-signs/q135-1.png"
       ],
       "diagramMode": null
     },
@@ -486,7 +486,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q133-1.png"
+        "../assets/road-signs/q133-1.png"
       ],
       "diagramMode": null
     },
@@ -501,7 +501,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q091-1.png"
+        "../assets/road-signs/q091-1.png"
       ],
       "diagramMode": null
     },
@@ -529,7 +529,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
       "diagramMode": null
     },
@@ -562,7 +562,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q148-1.png"
+        "../assets/road-signs/q148-1.png"
       ],
       "diagramMode": null
     },
@@ -590,7 +590,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q182-motorcycles-keep-left.svg"
+        "../assets/road-signs/q182-motorcycles-keep-left.svg"
       ],
       "diagramMode": null
     },
@@ -618,7 +618,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
       "diagramMode": null
     },
@@ -633,7 +633,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q132-1.png"
+        "../assets/road-signs/q132-1.png"
       ],
       "diagramMode": null
     },
@@ -648,7 +648,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q077-1.png"
+        "../assets/road-signs/q077-1.png"
       ],
       "diagramMode": null
     },
@@ -715,7 +715,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q171-1.png"
+        "../assets/road-signs/q171-1.png"
       ],
       "diagramMode": null
     },
@@ -743,7 +743,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q138-1.png"
+        "../assets/road-signs/q138-1.png"
       ],
       "diagramMode": null
     },
@@ -758,7 +758,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
       "diagramMode": null
     },
@@ -773,7 +773,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
       "diagramMode": null
     },
@@ -801,7 +801,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q109-1.png"
+        "../assets/road-signs/q109-1.png"
       ],
       "diagramMode": null
     },
@@ -816,7 +816,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q104-1.png"
+        "../assets/road-signs/q104-1.png"
       ],
       "diagramMode": null
     },
@@ -844,7 +844,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q112-1.png"
+        "../assets/road-signs/q112-1.png"
       ],
       "diagramMode": null
     },
@@ -872,7 +872,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
       "diagramMode": null
     },
@@ -887,7 +887,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q086-1.png"
+        "../assets/road-signs/q086-1.png"
       ],
       "diagramMode": null
     },
@@ -935,7 +935,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q204-time-restriction.svg"
+        "../assets/road-signs/q204-time-restriction.svg"
       ],
       "diagramMode": null
     },
@@ -950,7 +950,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q097-1.png"
+        "../assets/road-signs/q097-1.png"
       ],
       "diagramMode": null
     },
@@ -965,7 +965,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
       "diagramMode": null
     },
@@ -1006,7 +1006,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q160-1.png"
+        "../assets/road-signs/q160-1.png"
       ],
       "diagramMode": null
     },
@@ -1021,7 +1021,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q153-1.png"
+        "../assets/road-signs/q153-1.png"
       ],
       "diagramMode": null
     },
@@ -1049,7 +1049,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q121-1.png"
+        "../assets/road-signs/q121-1.png"
       ],
       "diagramMode": null
     },
@@ -1064,7 +1064,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
       "diagramMode": null
     },
@@ -1079,7 +1079,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q082-1.png"
+        "../assets/road-signs/q082-1.png"
       ],
       "diagramMode": null
     },
@@ -1151,7 +1151,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q106-1.png"
+        "../assets/road-signs/q106-1.png"
       ],
       "diagramMode": null
     },
@@ -1179,7 +1179,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q117-1.png"
+        "../assets/road-signs/q117-1.png"
       ],
       "diagramMode": null
     },
@@ -1220,7 +1220,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q166-1.png"
+        "../assets/road-signs/q166-1.png"
       ],
       "diagramMode": null
     },
@@ -1235,7 +1235,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q127-1.png"
+        "../assets/road-signs/q127-1.png"
       ],
       "diagramMode": null
     },
@@ -1250,7 +1250,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q109-1.png"
+        "../assets/road-signs/q109-1.png"
       ],
       "diagramMode": null
     },
@@ -1291,7 +1291,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q094-1.png"
+        "../assets/road-signs/q094-1.png"
       ],
       "diagramMode": null
     },
@@ -1306,7 +1306,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q182-motorcycles-keep-left.svg"
+        "../assets/road-signs/q182-motorcycles-keep-left.svg"
       ],
       "diagramMode": null
     },
@@ -1334,7 +1334,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q155-no-left-turn.svg"
+        "../assets/road-signs/q155-no-left-turn.svg"
       ],
       "diagramMode": null
     },
@@ -1362,7 +1362,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q164-1.png"
+        "../assets/road-signs/q164-1.png"
       ],
       "diagramMode": null
     },
@@ -1395,7 +1395,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q131-1.png"
+        "../assets/road-signs/q131-1.png"
       ],
       "diagramMode": null
     },
@@ -1423,7 +1423,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q170-1.png"
+        "../assets/road-signs/q170-1.png"
       ],
       "diagramMode": null
     },
@@ -1438,7 +1438,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q081-1.png"
+        "../assets/road-signs/q081-1.png"
       ],
       "diagramMode": null
     },
@@ -1466,7 +1466,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q110-1.png"
+        "../assets/road-signs/q110-1.png"
       ],
       "diagramMode": null
     },
@@ -1494,7 +1494,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q167-1.png"
+        "../assets/road-signs/q167-1.png"
       ],
       "diagramMode": null
     },
@@ -1522,7 +1522,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
       "diagramMode": null
     },
@@ -1568,7 +1568,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q122-1.png"
+        "../assets/road-signs/q122-1.png"
       ],
       "diagramMode": null
     },
@@ -1583,7 +1583,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q163-1.png"
+        "../assets/road-signs/q163-1.png"
       ],
       "diagramMode": null
     },
@@ -1598,7 +1598,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q120-1.png"
+        "../assets/road-signs/q120-1.png"
       ],
       "diagramMode": null
     },
@@ -1613,7 +1613,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
       "diagramMode": null
     },
@@ -1628,7 +1628,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q135-1.png"
+        "../assets/road-signs/q135-1.png"
       ],
       "diagramMode": null
     },
@@ -1643,7 +1643,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q096-1.png"
+        "../assets/road-signs/q096-1.png"
       ],
       "diagramMode": null
     },
@@ -1658,7 +1658,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q175-bus-lane-marking.svg"
+        "../assets/road-signs/q175-bus-lane-marking.svg"
       ],
       "diagramMode": null
     },
@@ -1709,7 +1709,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q089-1.png"
+        "../assets/road-signs/q089-1.png"
       ],
       "diagramMode": null
     },
@@ -1724,7 +1724,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
       "diagramMode": null
     },
@@ -1739,7 +1739,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q148-1.png"
+        "../assets/road-signs/q148-1.png"
       ],
       "diagramMode": null
     },
@@ -1754,7 +1754,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q108-1.png"
+        "../assets/road-signs/q108-1.png"
       ],
       "diagramMode": null
     },
@@ -1769,7 +1769,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q119-1.png"
+        "../assets/road-signs/q119-1.png"
       ],
       "diagramMode": null
     },
@@ -1810,7 +1810,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/r225-no-minibuses.svg"
+        "../assets/road-signs/r225-no-minibuses.svg"
       ],
       "diagramMode": null
     },
@@ -1856,7 +1856,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q136-1.png"
+        "../assets/road-signs/q136-1.png"
       ],
       "diagramMode": null
     }
@@ -1873,7 +1873,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q119-1.png"
+        "../assets/road-signs/q119-1.png"
       ],
       "diagramMode": null
     },
@@ -1888,7 +1888,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q077-1.png"
+        "../assets/road-signs/q077-1.png"
       ],
       "diagramMode": null
     },
@@ -1916,7 +1916,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/r204-height-limit-4-42.svg"
+        "../assets/road-signs/r204-height-limit-4-42.svg"
       ],
       "diagramMode": null
     },
@@ -1931,7 +1931,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q083-1.png"
+        "../assets/road-signs/q083-1.png"
       ],
       "diagramMode": null
     },
@@ -1946,7 +1946,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q074-1.png"
+        "../assets/road-signs/q074-1.png"
       ],
       "diagramMode": null
     },
@@ -1961,7 +1961,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q108-1.png"
+        "../assets/road-signs/q108-1.png"
       ],
       "diagramMode": null
     },
@@ -1976,7 +1976,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q206-no-taxis.svg"
+        "../assets/road-signs/q206-no-taxis.svg"
       ],
       "diagramMode": null
     },
@@ -2022,7 +2022,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q155-no-left-turn.svg"
+        "../assets/road-signs/q155-no-left-turn.svg"
       ],
       "diagramMode": null
     },
@@ -2037,7 +2037,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
       "diagramMode": null
     },
@@ -2052,7 +2052,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q175-bus-lane-marking.svg"
+        "../assets/road-signs/q175-bus-lane-marking.svg"
       ],
       "diagramMode": null
     },
@@ -2093,7 +2093,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q138-1.png"
+        "../assets/road-signs/q138-1.png"
       ],
       "diagramMode": null
     },
@@ -2108,7 +2108,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q117-1.png"
+        "../assets/road-signs/q117-1.png"
       ],
       "diagramMode": null
     },
@@ -2136,7 +2136,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q084-1.png"
+        "../assets/road-signs/q084-1.png"
       ],
       "diagramMode": null
     },
@@ -2164,7 +2164,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q092-1.png"
+        "../assets/road-signs/q092-1.png"
       ],
       "diagramMode": null
     },
@@ -2192,7 +2192,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q158-1.png"
+        "../assets/road-signs/q158-1.png"
       ],
       "diagramMode": null
     },
@@ -2220,7 +2220,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q086-1.png"
+        "../assets/road-signs/q086-1.png"
       ],
       "diagramMode": null
     },
@@ -2266,7 +2266,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q095-1.png"
+        "../assets/road-signs/q095-1.png"
       ],
       "diagramMode": null
     },
@@ -2299,7 +2299,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q129-1.png"
+        "../assets/road-signs/q129-1.png"
       ],
       "diagramMode": null
     },
@@ -2327,7 +2327,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q131-1.png"
+        "../assets/road-signs/q131-1.png"
       ],
       "diagramMode": null
     },
@@ -2342,7 +2342,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q088-1.png"
+        "../assets/road-signs/q088-1.png"
       ],
       "diagramMode": null
     },
@@ -2357,7 +2357,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
       "diagramMode": null
     },
@@ -2372,7 +2372,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q140-1.png"
+        "../assets/road-signs/q140-1.png"
       ],
       "diagramMode": null
     },
@@ -2413,7 +2413,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q184-motorcycle-only.svg"
+        "../assets/road-signs/q184-motorcycle-only.svg"
       ],
       "diagramMode": null
     },
@@ -2441,7 +2441,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q134-1.png"
+        "../assets/road-signs/q134-1.png"
       ],
       "diagramMode": null
     },
@@ -2456,7 +2456,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q176-1.png"
+        "../assets/road-signs/q176-1.png"
       ],
       "diagramMode": null
     },
@@ -2471,7 +2471,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q174-1.png"
+        "../assets/road-signs/q174-1.png"
       ],
       "diagramMode": null
     },
@@ -2486,8 +2486,8 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-2.png"
+        "../assets/road-signs/q124-1.png",
+        "../assets/road-signs/q124-2.png"
       ],
       "diagramMode": null
     },
@@ -2502,7 +2502,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q109-1.png"
+        "../assets/road-signs/q109-1.png"
       ],
       "diagramMode": null
     },
@@ -2517,7 +2517,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q137-1.png"
+        "../assets/road-signs/q137-1.png"
       ],
       "diagramMode": null
     },
@@ -2532,7 +2532,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/arrestor-bed-ahead.svg"
+        "../assets/road-signs/arrestor-bed-ahead.svg"
       ],
       "diagramMode": null
     },
@@ -2560,7 +2560,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q121-1.png"
+        "../assets/road-signs/q121-1.png"
       ],
       "diagramMode": null
     },
@@ -2575,8 +2575,8 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-2.png"
+        "../assets/road-signs/q099-1.png",
+        "../assets/road-signs/q099-2.png"
       ],
       "diagramMode": null
     },
@@ -2591,7 +2591,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q144-1.png"
+        "../assets/road-signs/q144-1.png"
       ],
       "diagramMode": null
     },
@@ -2619,7 +2619,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q153-1.png"
+        "../assets/road-signs/q153-1.png"
       ],
       "diagramMode": null
     },
@@ -2652,7 +2652,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q204-time-restriction.svg"
+        "../assets/road-signs/q204-time-restriction.svg"
       ],
       "diagramMode": null
     },
@@ -2667,7 +2667,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q120-1.png"
+        "../assets/road-signs/q120-1.png"
       ],
       "diagramMode": null
     },
@@ -2708,7 +2708,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q101-1.png"
+        "../assets/road-signs/q101-1.png"
       ],
       "diagramMode": null
     },
@@ -2736,7 +2736,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q164-1.png"
+        "../assets/road-signs/q164-1.png"
       ],
       "diagramMode": null
     },
@@ -2751,7 +2751,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q130-1.png"
+        "../assets/road-signs/q130-1.png"
       ],
       "diagramMode": null
     },
@@ -2766,7 +2766,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q143-1.png"
+        "../assets/road-signs/q143-1.png"
       ],
       "diagramMode": null
     },
@@ -2781,7 +2781,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q170-1.png"
+        "../assets/road-signs/q170-1.png"
       ],
       "diagramMode": null
     },
@@ -2811,7 +2811,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q118-1.png"
+        "../assets/road-signs/q118-1.png"
       ],
       "diagramMode": null
     },
@@ -2826,7 +2826,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q086-1.png"
+        "../assets/road-signs/q086-1.png"
       ],
       "diagramMode": null
     },
@@ -2841,7 +2841,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q102-1.png"
+        "../assets/road-signs/q102-1.png"
       ],
       "diagramMode": null
     },
@@ -2869,7 +2869,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q143-1.png"
+        "../assets/road-signs/q143-1.png"
       ],
       "diagramMode": null
     },
@@ -2884,7 +2884,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q075-1.png"
+        "../assets/road-signs/q075-1.png"
       ],
       "diagramMode": null
     },
@@ -2899,7 +2899,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q173-1.png"
+        "../assets/road-signs/q173-1.png"
       ],
       "diagramMode": null
     },
@@ -2914,7 +2914,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q209-car-only.svg"
+        "../assets/road-signs/q209-car-only.svg"
       ],
       "diagramMode": null
     },
@@ -2929,7 +2929,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q170-1.png"
+        "../assets/road-signs/q170-1.png"
       ],
       "diagramMode": null
     },
@@ -2944,7 +2944,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q135-1.png"
+        "../assets/road-signs/q135-1.png"
       ],
       "diagramMode": null
     },
@@ -2998,7 +2998,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q141-1.png"
+        "../assets/road-signs/q141-1.png"
       ],
       "diagramMode": null
     },
@@ -3013,7 +3013,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q180-motorcycles-up-to-125cc-prohibited.svg"
+        "../assets/road-signs/q180-motorcycles-up-to-125cc-prohibited.svg"
       ],
       "diagramMode": null
     },
@@ -3028,8 +3028,8 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-2.png"
+        "../assets/road-signs/q099-1.png",
+        "../assets/road-signs/q099-2.png"
       ],
       "diagramMode": null
     },
@@ -3062,7 +3062,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q093-1.png"
+        "../assets/road-signs/q093-1.png"
       ],
       "diagramMode": null
     },
@@ -3121,7 +3121,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q176-1.png"
+        "../assets/road-signs/q176-1.png"
       ],
       "diagramMode": null
     },
@@ -3149,7 +3149,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q078-1.png"
+        "../assets/road-signs/q078-1.png"
       ],
       "diagramMode": null
     },
@@ -3164,7 +3164,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
       "diagramMode": null
     },
@@ -3192,7 +3192,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q087-1.png"
+        "../assets/road-signs/q087-1.png"
       ],
       "diagramMode": null
     },
@@ -3220,7 +3220,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
       "diagramMode": null
     },
@@ -3235,7 +3235,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q224-length-limit-15m.svg"
+        "../assets/road-signs/q224-length-limit-15m.svg"
       ],
       "diagramMode": null
     },
@@ -3269,7 +3269,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q145-1.png"
+        "../assets/road-signs/q145-1.png"
       ],
       "diagramMode": null
     },
@@ -3284,7 +3284,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q108-1.png"
+        "../assets/road-signs/q108-1.png"
       ],
       "diagramMode": null
     },
@@ -3299,7 +3299,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q111-1.png"
+        "../assets/road-signs/q111-1.png"
       ],
       "diagramMode": null
     },
@@ -3314,7 +3314,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
       "diagramMode": null
     },
@@ -3347,7 +3347,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
       "diagramMode": null
     },
@@ -3380,7 +3380,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q076-1.png"
+        "../assets/road-signs/q076-1.png"
       ],
       "diagramMode": null
     },
@@ -3413,8 +3413,8 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-2.png"
+        "../assets/road-signs/q124-1.png",
+        "../assets/road-signs/q124-2.png"
       ],
       "diagramMode": null
     },
@@ -3429,7 +3429,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
       "diagramMode": null
     },
@@ -3444,7 +3444,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q074-1.png"
+        "../assets/road-signs/q074-1.png"
       ],
       "diagramMode": null
     },
@@ -3485,7 +3485,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q096-1.png"
+        "../assets/road-signs/q096-1.png"
       ],
       "diagramMode": null
     },
@@ -3500,7 +3500,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q132-1.png"
+        "../assets/road-signs/q132-1.png"
       ],
       "diagramMode": null
     },
@@ -3515,7 +3515,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q171-1.png"
+        "../assets/road-signs/q171-1.png"
       ],
       "diagramMode": null
     },
@@ -3530,7 +3530,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q122-1.png"
+        "../assets/road-signs/q122-1.png"
       ],
       "diagramMode": null
     },
@@ -3558,7 +3558,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
       "diagramMode": null
     },
@@ -3573,7 +3573,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q127-1.png"
+        "../assets/road-signs/q127-1.png"
       ],
       "diagramMode": null
     },
@@ -3645,7 +3645,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q160-1.png"
+        "../assets/road-signs/q160-1.png"
       ],
       "diagramMode": null
     },
@@ -3699,7 +3699,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q091-1.png"
+        "../assets/road-signs/q091-1.png"
       ],
       "diagramMode": null
     },
@@ -3714,7 +3714,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q182-motorcycles-keep-left.svg"
+        "../assets/road-signs/q182-motorcycles-keep-left.svg"
       ],
       "diagramMode": null
     },
@@ -3742,7 +3742,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q204-time-restriction.svg"
+        "../assets/road-signs/q204-time-restriction.svg"
       ],
       "diagramMode": null
     }
@@ -3759,7 +3759,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q172-regulatory-sign.svg"
+        "../assets/road-signs/q172-regulatory-sign.svg"
       ],
       "diagramMode": null
     },
@@ -3774,7 +3774,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "../assets/control-diagrams/motorcycle-controls.jpg"
       ],
       "diagramMode": null
     },
@@ -3789,7 +3789,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q169-1.png"
+        "../assets/road-signs/q169-1.png"
       ],
       "diagramMode": null
     },
@@ -3804,7 +3804,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q177-dividing-line.svg"
+        "../assets/road-signs/q177-dividing-line.svg"
       ],
       "diagramMode": null
     },
@@ -3819,7 +3819,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q116-1.png"
+        "../assets/road-signs/q116-1.png"
       ],
       "diagramMode": null
     },
@@ -3834,7 +3834,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q126-1.png"
+        "../assets/road-signs/q126-1.png"
       ],
       "diagramMode": null
     },
@@ -3849,7 +3849,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q182-motorcycles-keep-left.svg"
+        "../assets/road-signs/q182-motorcycles-keep-left.svg"
       ],
       "diagramMode": null
     },
@@ -3864,7 +3864,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q157-1.png"
+        "../assets/road-signs/q157-1.png"
       ],
       "diagramMode": null
     },
@@ -3897,7 +3897,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q103-1.png"
+        "../assets/road-signs/q103-1.png"
       ],
       "diagramMode": null
     },
@@ -3912,7 +3912,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q153-1.png"
+        "../assets/road-signs/q153-1.png"
       ],
       "diagramMode": null
     },
@@ -3927,7 +3927,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q146-1.png"
+        "../assets/road-signs/q146-1.png"
       ],
       "diagramMode": null
     },
@@ -3942,7 +3942,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q127-1.png"
+        "../assets/road-signs/q127-1.png"
       ],
       "diagramMode": null
     },
@@ -3970,8 +3970,8 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q114-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q114-2.png"
+        "../assets/road-signs/q114-1.png",
+        "../assets/road-signs/q114-2.png"
       ],
       "diagramMode": null
     },
@@ -3986,7 +3986,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
       "diagramMode": null
     },
@@ -4014,7 +4014,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q109-1.png"
+        "../assets/road-signs/q109-1.png"
       ],
       "diagramMode": null
     },
@@ -4029,7 +4029,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "../assets/control-diagrams/light-motor-controls-212.jpg"
       ],
       "diagramMode": null
     },
@@ -4057,7 +4057,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q150-1.png"
+        "../assets/road-signs/q150-1.png"
       ],
       "diagramMode": null
     },
@@ -4124,7 +4124,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q112-1.png"
+        "../assets/road-signs/q112-1.png"
       ],
       "diagramMode": null
     },
@@ -4152,7 +4152,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q097-1.png"
+        "../assets/road-signs/q097-1.png"
       ],
       "diagramMode": null
     },
@@ -4193,7 +4193,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "../assets/control-diagrams/light-motor-controls-230.jpg"
       ],
       "diagramMode": null
     },
@@ -4208,7 +4208,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q104-1.png"
+        "../assets/road-signs/q104-1.png"
       ],
       "diagramMode": null
     },
@@ -4249,7 +4249,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q105-1.png"
+        "../assets/road-signs/q105-1.png"
       ],
       "diagramMode": null
     },
@@ -4282,7 +4282,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q091-1.png"
+        "../assets/road-signs/q091-1.png"
       ],
       "diagramMode": null
     },
@@ -4333,7 +4333,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q081-1.png"
+        "../assets/road-signs/q081-1.png"
       ],
       "diagramMode": null
     },
@@ -4387,7 +4387,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q144-1.png"
+        "../assets/road-signs/q144-1.png"
       ],
       "diagramMode": null
     },
@@ -4402,7 +4402,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q095-1.png"
+        "../assets/road-signs/q095-1.png"
       ],
       "diagramMode": null
     },
@@ -4417,7 +4417,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q110-1.png"
+        "../assets/road-signs/q110-1.png"
       ],
       "diagramMode": null
     },
@@ -4432,7 +4432,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q174-1.png"
+        "../assets/road-signs/q174-1.png"
       ],
       "diagramMode": null
     },
@@ -4447,7 +4447,7 @@
       ],
       "correctIndex": 2,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q131-1.png"
+        "../assets/road-signs/q131-1.png"
       ],
       "diagramMode": null
     },
@@ -4462,8 +4462,8 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-2.png"
+        "../assets/road-signs/q124-1.png",
+        "../assets/road-signs/q124-2.png"
       ],
       "diagramMode": null
     },
@@ -4491,7 +4491,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q140-1.png"
+        "../assets/road-signs/q140-1.png"
       ],
       "diagramMode": null
     },
@@ -4506,7 +4506,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q224-length-limit-15m.svg"
+        "../assets/road-signs/q224-length-limit-15m.svg"
       ],
       "diagramMode": null
     },
@@ -4570,7 +4570,7 @@
       ],
       "correctIndex": 0,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q204-time-restriction.svg"
+        "../assets/road-signs/q204-time-restriction.svg"
       ],
       "diagramMode": null
     },
@@ -4673,7 +4673,7 @@
       ],
       "correctIndex": 1,
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q117-1.png"
+        "../assets/road-signs/q117-1.png"
       ],
       "diagramMode": null
     },
