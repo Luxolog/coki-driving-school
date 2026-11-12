@@ -59,5 +59,6 @@ jobs:
             echo "No asset changes to commit."
           else
             git commit -m "Copy road sign and vehicle control diagrams into Coki [skip ci]"
+            git pull --rebase origin main
             git push
           fi
