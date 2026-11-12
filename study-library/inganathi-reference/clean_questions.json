@@ -1,0 +1,3542 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "rules",
+      "question": "Which of the following actions is permitted?",
+      "options": [
+        "Drive your vehicle on the sidewalk at night.",
+        "Reverse your vehicle only if it is safe to do so.",
+        "Leave the engine of your vehicle idling when you put petrol in it."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 2,
+      "category": "rules",
+      "question": "When you want to change lanes and drive from one lane to the other you must... Only do it when it is safe to do so Switch on your flickers in time to show what you are going to do Use the mirrors of your vehicle to ensure that you know of other traffic around you CHOOSE THE CORRECT COMBINATION",
+      "options": [
+        "Only (i) and (ii) are correct",
+        "All of the above are correct",
+        "Only (ii) and (iii) are correct"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 3,
+      "category": "rules",
+      "question": "When may you not overtake another vehicle? When you ... Are nearing the top of hill Are nearing a curve Can only see 100m in front of you because of dust over the road SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(i) only is correct",
+        "All of the above is correct",
+        "(i) and (ii) only are correct"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 4,
+      "category": "rules",
+      "question": "When are you allowed to drive on the shoulder of a road? Any time if you want to let another vehicle to pass you In daytime when you want to allow another vehicle pass you and its safe When on a freeway with 4 lanes in both directions, you want to drive slower than 120 km/h When you have a flat tyre and you want to park there to change it SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(i), (iii) and (iv) only are correct",
+        "(ii) and (iv) only are correct",
+        "All of the above are correct"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 5,
+      "category": "rules",
+      "question": "You may not obtain a learner's licence if... You already have a licence that authorises the driving of the same vehicle class. You are declared unfit to obtain a driving licence for a certain period and that period still prevails. Your licence was suspended temporarily and the suspension has not yet expired. SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(i), (ii) and (iii) are correct.",
+        "(i) only is correct",
+        "(i) and (iii)"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 6,
+      "category": "rules",
+      "question": "At an intersection...",
+      "options": [
+        "Vehicles have the right of way over pedestrians.",
+        "You must yield to oncoming traffic if you want to turn right.",
+        "You can use a stop sign as a yield sign if there is no other traffic."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 7,
+      "category": "rules",
+      "question": "The licence for your vehicle (clearance certificate) is valid for --",
+      "options": [
+        "12 months",
+        "90 days.",
+        "21 days."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 8,
+      "category": "rules",
+      "question": "Unless otherwise shown by a sign, the general speed limit in an urban area is ...km/h.",
+      "options": [
+        "60",
+        "80",
+        "100"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 9,
+      "category": "rules",
+      "question": "The legal speed limit which you may drive...",
+      "options": [
+        "Is always 120km/h outside an urban area",
+        "Can be determined by yourself if you look at the number of lanes the road has",
+        "Is shown to you by signs next to the road"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 10,
+      "category": "rules",
+      "question": "You may...",
+      "options": [
+        "Leave your vehicles engine running without supervision",
+        "Allow someone to ride on the bumper of your vehicle",
+        "Put your arm out of the window only to give legal hand signals"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 11,
+      "category": "rules",
+      "question": "If you see that someone wants to overtake you, you must... Not drive faster Keep to the left as far as is safe Give hand signals to allow the person to pass safely SELECT THE CORRECT COMBINATION",
+      "options": [
+        "only (i) and (ii) are correct",
+        "All of the above are correct",
+        "(ii) is only correct"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 12,
+      "category": "rules",
+      "question": "The furthest that your vehicle's dim light may shine in front of you, is...m",
+      "options": [
+        "45",
+        "100",
+        "150"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 13,
+      "category": "rules",
+      "question": "What is the longest period that a vehicle may be parked on one place on a road outside urban areas?",
+      "options": [
+        "7 days",
+        "48 hours",
+        "24 hours"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 14,
+      "category": "rules",
+      "question": "At an intersection...",
+      "options": [
+        "You can pass another vehicle waiting to turn right on his left side by going off the road",
+        "You can stop in it to off load passengers",
+        "Pedestrians who are already crossing the road when the red man signal starts showing, have right of way"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 15,
+      "category": "rules",
+      "question": "You are not allowed to stop...",
+      "options": [
+        "On the pavement",
+        "With the front of your vehicle facing oncoming traffic",
+        "Next to any obstruction in the road"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 16,
+      "category": "rules",
+      "question": "You are not allowed to stop...",
+      "options": [
+        "Where you are also prohibited to park",
+        "5m from a bridge",
+        "Opposite a vehicle, where the roadway is 10m wide"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 17,
+      "category": "rules",
+      "question": "You may pass another vehicle on the left-hand side if it... Indicates that it is going to turn right Drives on the right-hand side of a road with a shoulder were you can pass Drives in a town in the right hand lane with 2 lanes in the same direction SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(i) and (iii) only are correct",
+        "All of the above are correct",
+        "(i) only is correct"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 18,
+      "category": "rules",
+      "question": "You may overtake another vehicle on the left hand side... When that vehicle is going to turn right and the road is wide enough that it is not necessary to drive on the shoulder Where the road has 2 lanes for traffic in the same direction If a police officer instructs you to do so SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(iii) only is correct",
+        "(ii) and (iii) only is correct",
+        "All of the above are correct"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 19,
+      "category": "rules",
+      "question": "You may on a public road...",
+      "options": [
+        "Pass another vehicle turning right, on its left -hand side without driving on the shoulder of the road",
+        "Pass another vehicle at any place on the left-hand side if it is turning right",
+        "Not pass any vehicle on the left-hand side."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 20,
+      "category": "rules",
+      "question": "The last action that you must take before moving to another lane is to...",
+      "options": [
+        "Switch on your flicker",
+        "Check the blind spot",
+        "Look in rear view mirror"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 21,
+      "category": "rules",
+      "question": "When are you allowed to drive your vehicle on the right -hand side of a road with traffic in both directions?",
+      "options": [
+        "When you switch the emergency lights of your vehicle on",
+        "When a traffic officer shows you to do so",
+        "Under no circumstances"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 22,
+      "category": "rules",
+      "question": "If you come to a robot and the red light flashes, you must...",
+      "options": [
+        "Stop and wait for the light to change to green before you go",
+        "Stop and go only if it safe to do so",
+        "Look out for a road block as the light shows you a police stop"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 23,
+      "category": "rules",
+      "question": "A vehicle of which the brakes are not good, must be towed",
+      "options": [
+        "With a rope",
+        "With a tow-bar",
+        "On a trailer"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 24,
+      "category": "rules",
+      "question": "A safe following distance is, when the vehicle in front of you suddenly stops, you could....",
+      "options": [
+        "Stop without swerving",
+        "Swerve and stop next to it",
+        "Swerve and pass"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 25,
+      "category": "rules",
+      "question": "You may not",
+      "options": [
+        "Have passengers in the vehicle if you only have a learner's licence",
+        "Leave your vehicle unattended while the engine is running",
+        "Drive in reverse for more than a 100m"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 26,
+      "category": "rules",
+      "question": "If you want to change lanes you must",
+      "options": [
+        "Switch on your indicator and change lanes",
+        "Give the necessary signal and after looking for other traffic, change lanes",
+        "Apply the brakes lightly and then change lanes"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 27,
+      "category": "rules",
+      "question": "The fastest speed at which you may tow a vehicle with a rope is ___ km/h",
+      "options": [
+        "60",
+        "45",
+        "30"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 28,
+      "category": "rules",
+      "question": "You may cross or enter a public road...",
+      "options": [
+        "If the road is clear of traffic for a short distance",
+        "If the road is clear of traffic for a long distance and it can be done without obstructing traffic.",
+        "In any manner as long as you use your flickers in time"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 29,
+      "category": "rules",
+      "question": "Your vehicle's headlights must be switched on ... At any time of the day when you cannot see persons and vehicle's 150m in front of you From sunset to sunrise When it rains and you cannot see vehicles 100m in front of you SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(ii) only is correct",
+        "(i) and (ii) only are correct",
+        "All of the above are correct"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 30,
+      "category": "rules",
+      "question": "You may not drive into an intersection when...",
+      "options": [
+        "The robot (traffic signal) is yellow and you are already in the intersection.",
+        "The vehicle in front of you wants to turn right and the road is wide enough to pass on the left side",
+        "There is not enough space in the intersection to turn right without blocking other traffic"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 31,
+      "category": "rules",
+      "question": "When you were involved in an accident you... Must immediately stop your vehicle Must determine the damage to the vehicles May refuse to give your name and address to anyone except the police SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(i) and (ii) only are correct",
+        "(ii) only is correct",
+        "All of the above are correct"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 32,
+      "category": "rules",
+      "question": "If you are involved in a road accident, you must stop immediately, check whether anyone is injured, and must not drink alcohol to calm yourself after the shock. Select the correct combination.",
+      "options": [
+        "Only (i) and (ii) are correct.",
+        "Only (ii) is correct.",
+        "All of the above are correct."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 33,
+      "category": "rules",
+      "question": "When do you have the right of way? When you are within a traffic circle When you have stopped first at a four – way stop When you want to turn right at an intersection in a two-way road SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(i) and (ii) only are correct",
+        "All of the above are correct",
+        "(i) only is correct"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 34,
+      "category": "rules",
+      "question": "If you come across an emergency vehicle on the road sounding a siren you must...",
+      "options": [
+        "Flash your headlight to warn other traffic",
+        "Give right of way to the emergency vehicle",
+        "Switch on your vehicles emergency light and blow your hooter"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 35,
+      "category": "rules",
+      "question": "If you want to turn left with your vehicle, you must...",
+      "options": [
+        "Slow down completely, stop and then turn",
+        "First move to the right to enable you to turn left easily",
+        "Give the necessary signal in good time"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 36,
+      "category": "rules",
+      "question": "When you drive...",
+      "options": [
+        "You must have both hands on the steering wheel",
+        "Your vision of the road and the traffic must be unobstructed",
+        "You must wear shoes with rubber soles"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 37,
+      "category": "rules",
+      "question": "Where may you legally stop with your vehicle?",
+      "options": [
+        "4m from a tunnel",
+        "5m from a pedestrian crossing",
+        "6m from a railway crossing"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 38,
+      "category": "rules",
+      "question": "You may not... Run the engine unattended Use your vehicle without a cap on the fuel tank Spin the wheels of your vehicle when pulling off SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(i)",
+        "(ii) only is correct",
+        "All of the above are correct"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 39,
+      "category": "rules",
+      "question": "What is important with regard to the hooter of your vehicle?",
+      "options": [
+        "The tone and pitch of the sound may not change",
+        "Someone must hear it from a distance of at least 50m",
+        "You may use it to get the attention of someone that you would like to offer a lift"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 40,
+      "category": "rules",
+      "question": "When the robot is red and the green arrow flashes to the right, it shows you that...",
+      "options": [
+        "Only pedestrians may walk",
+        "If you want to turn right, you may go",
+        "All traffic must turn right there"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 41,
+      "category": "rules",
+      "question": "You must stop your vehicle ... On a public road at the signal of a person driving sheep On a freeway when directed to do so by a traffic officer On any road to avoid an accident SELECT THE CORRECT COMBINATION",
+      "options": [
+        "Only (ii) and (iii) are correct",
+        "Only (iii) is correct",
+        "All the above are correct"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 42,
+      "category": "rules",
+      "question": "An accident in which no one has or has not been injured must be reported within ... hours",
+      "options": [
+        "24",
+        "36",
+        "48"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 43,
+      "category": "rules",
+      "question": "In which case is it permitted to travel with only the parking lights of your vehicle switched on?",
+      "options": [
+        "When driving in heavy rain",
+        "When dusk is falling",
+        "In none of the above cases"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 44,
+      "category": "rules",
+      "question": "The only instance where you may stop on a freeway is...",
+      "options": [
+        "To obey the road traffic sign",
+        "For a rest during a tiring journey",
+        "To pick up hitchhikers"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 45,
+      "category": "rules",
+      "question": "When may a driver disobey a rule of the road…?",
+      "options": [
+        "Only when directed to do so by a traffic officer.",
+        "Under no circumstances",
+        "If you are driving in an emergency situation."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 46,
+      "category": "rules",
+      "question": "What is the duty of a diver when driving on a public road that has been divided into two or more roadways?",
+      "options": [
+        "You may drive on any part of the roadway",
+        "You are allowed to drive on any part of the roadway after sunset, or when there is no other traffic on the road.",
+        "Drive on the left hand roadway unless directed or shown to do so by a traffic officer or traffic sign."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 47,
+      "category": "rules",
+      "question": "When a motor vehicle is standing still, what must the driver do to make sure the motor vehicle does not move…?",
+      "options": [
+        "The gear lever must be put in the neutral position.",
+        "The parking brake must be applied",
+        "The driver must hold the service brake"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 48,
+      "category": "rules",
+      "question": "What colour and size must flags be, to indicate projections on a vehicle on a public road?",
+      "options": [
+        "They can be any size as long as they are red.",
+        "They must be red and at least 300 X 300mm",
+        "They may be any colour as long as they are visible."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 49,
+      "category": "rules",
+      "question": "A Temporary sign…?",
+      "options": [
+        "Need not be taken seriously at all times",
+        "Is of less importance to road users than a permanent sign.",
+        "Has the same legal significance as a permanent sign."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 50,
+      "category": "rules",
+      "question": "What is a driver's duty towards pedestrians at a pedestrian crossing?",
+      "options": [
+        "A driver must stop only for a pedestrian waiting to enter the road at a pedestrian signal.",
+        "A driver must give way to pedestrians who are crossing at a pedestrian crossing.",
+        "A driver must give way to every pedestrian who wishes to cross the roadway."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 51,
+      "category": "rules",
+      "question": "When is it permissible to allow a portion of the body to project beyond the vehicle…?",
+      "options": [
+        "Only for the driver to give hand signals",
+        "Only passengers may allow a portion of their bodies to project, they don’t need 2 hands on the steering wheel.",
+        "When it is hot and the driver’s window is open"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 52,
+      "category": "rules",
+      "question": "What are the requirements for a vehicle being used with excessive noise…?",
+      "options": [
+        "There are no requirements with regards to excessive noise on a vehicle.",
+        "No person shall operate a vehicle on a public road that causes any excessive noise.",
+        "Excessive noise is acceptable during festive periods, Christmas new year"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 53,
+      "category": "rules",
+      "question": "How far behind a vehicle must the warning triangle be placed if your car breaks down?",
+      "options": [
+        "At least 45 m",
+        "At least 10m",
+        "At least 100m"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 54,
+      "category": "rules",
+      "question": "When driving a motor vehicle, the minimum safe following distance is…?",
+      "options": [
+        "12 meters at 120kph, (1meter for every 10 kph.)",
+        "A distance determined by the 2 second rule.",
+        "A driver may follow as close as they want so that overtaking is easier when the gap is there."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 55,
+      "category": "rules",
+      "question": "How far may you park from the left edge of a road way outside an urban area…?",
+      "options": [
+        "A vehicle may not park on a public road unless in a parking bay.",
+        "Not more than 450mm from the edge of the road way.",
+        "Not more than 1m from the edge of the road way."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 56,
+      "category": "rules",
+      "question": "Show the correct statement……A driver may stop their vehicle on the road way of a public road…?",
+      "options": [
+        "When indicated by a traffic officer",
+        "In an intersection",
+        "In contravention with any road traffic sign."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 57,
+      "category": "rules",
+      "question": "What is the duty of a driver when refilling the fuel tank of a motor vehicle…?",
+      "options": [
+        "The driver may not allow the engine to run whilst flammable fuel is being transferred to the fuel tank.",
+        "To check if they are filling the tank with diesel not petrol.",
+        "Is allowed to start the vehicle while fuel is being pumped to check if the tank is full."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 58,
+      "category": "rules",
+      "question": "Which one of the following statements are wrong…?",
+      "options": [
+        "The driver of a motor vehicle shall ensure that a child seated in a car wears a seatbelt, and where available use an appropriate child restraint.",
+        "It is not the driver’s responsibility to ensure a child is in a child restraint.",
+        "If a seat not equipped with a seatbelt is available the driver shall ensure that a child 14yrs and younger is seated on the rear seat."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 59,
+      "category": "rules",
+      "question": "When entering or crossing a public road from a private road or driveway, a driver must not proceed unless…",
+      "options": [
+        "They switch on the indicator and then enter the road.",
+        "They check the rear-view mirror, engage a gear and move off.",
+        "The road is clear for a safe distance and they can enter without obstructing or endangering other traffic."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 60,
+      "category": "rules",
+      "question": "The following vehicle may not be used on a freeway…?",
+      "options": [
+        "An animal drawn vehicle",
+        "An articulated motor vehicle",
+        "An abnormal loaded motor vehicle."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 61,
+      "category": "rules",
+      "question": "A person under the influence of intoxicating liquor or a drug…?",
+      "options": [
+        "May sit in the driver seat of a vehicle of which the engine is running.",
+        "May not sit in the driver’s seat while the engine is running.",
+        "May sleep in the driver’s seat while the engine is running."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 62,
+      "category": "rules",
+      "question": "Which of the following statements are correct… a silencer?",
+      "options": [
+        "With a small hole in it is acceptable.",
+        "Need not be fitted only on heavy vehicles",
+        "Must be fitted to a vehicle to restrict the engine noise to a suitable noise level."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 63,
+      "category": "rules",
+      "question": "What is the minimum distance stop lamps must be visible to a person with normal eyesight in sunlight..?",
+      "options": [
+        "20m",
+        "30m",
+        "10m"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 64,
+      "category": "rules",
+      "question": "When driving a vehicle alone, what documents must you carry with you…?",
+      "options": [
+        "Any persons valid driver’s licence if you only have a learners licence.",
+        "Your original valid driver’s licence.",
+        "A certified copy of your driver’s licence and id document."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 65,
+      "category": "rules",
+      "question": "When are you allowed to drive on the right hand side of a freeway…?",
+      "options": [
+        "When you are driving 120kph.",
+        "At any time as long as I don’t stop in the right hand lane.",
+        "Only when overtaking another vehicle."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 66,
+      "category": "rules",
+      "question": "How long a flicker must be displayed?",
+      "options": [
+        "for long enough to show vehicles or persons approaching you of your intentions",
+        "For about 3 minutes",
+        "For about 2 minutes"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 67,
+      "category": "rules",
+      "question": "When may you pass another vehicle that has stopped at a pedestrian crossing?",
+      "options": [
+        "You can pass if it’s safe to do so",
+        "It is prohibited to pass any vehicle that has stopped at a pedestrian crossing.",
+        "You may pass only once the pedestrian has crossed"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 68,
+      "category": "rules",
+      "question": "A light motor vehicle fitted with a spot lamp may be used on a public road...",
+      "options": [
+        "If it’s a breakdown vehicle at a collision scene",
+        "With a light that’s beam can shine in any direction",
+        "If the lights are not connected"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 69,
+      "category": "rules",
+      "question": "Which statement is False? A vehicle may be used on a public road if.......",
+      "options": [
+        "The battery and electrical wiring are properly installed",
+        "The fuel cap is effective and closed",
+        "The fuel tank is defective"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 70,
+      "category": "rules",
+      "question": "You are in heavy traffic in the right hand lane, the car in front wants to turn into his driveway and has stopped, waiting for heavy oncoming traffic, what do you do?",
+      "options": [
+        "Wait behind the car until you get the opportunity to pass, and when it is safe ...proceed",
+        "Switch on your left flicker and move to the left lane",
+        "Hoot, wave and pass"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 71,
+      "category": "rules",
+      "question": "The use of a temporary sign implies that for some reason…?",
+      "options": [
+        "The rules of the road do not apply.",
+        "The situation on the road is not normal.",
+        "Traffic must move slowly"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 72,
+      "category": "rules",
+      "question": "How far must you be parked from either side of a fire hydrant 1.5 meter",
+      "options": [
+        "750mm",
+        "1 meter",
+        "THE END OF THE RULES QUESTIONS"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source"
+    },
+    {
+      "id": 73,
+      "category": "road_signs",
+      "question": "This road sign shows you that you must ...",
+      "options": [
+        "Turn left at stop sign",
+        "Stop and then turn left or drive straight",
+        "Stop but if you want to turn left, you can use it as a yield sign"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q073-1.png"
+      ]
+    },
+    {
+      "id": 74,
+      "category": "road_signs",
+      "question": "This road sign shows you...",
+      "options": [
+        "It is the same as a yield sign and you can proceed without stopping",
+        "Make sure that it is safe, wait until all traffic is departed and then drive on",
+        "Stop and drive on when it is safe to do so in the sequence that the vehicles stopped at the stop lines"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q074-1.png"
+      ]
+    },
+    {
+      "id": 75,
+      "category": "road_signs",
+      "question": "When you see this road sign you...",
+      "options": [
+        "Know that, that section of the road is for the use of pedestrians only",
+        "Give right of way to pedestrians who would like to cross the street",
+        "Stop because school kids might cross the road"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q075-1.png"
+      ]
+    },
+    {
+      "id": 76,
+      "category": "road_signs",
+      "question": "This road sign shows you that...",
+      "options": [
+        "The road ends",
+        "You are not allowed to enter there",
+        "The entry is for ambulances only"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q076-1.png"
+      ]
+    },
+    {
+      "id": 77,
+      "category": "road_signs",
+      "question": "This road sign shows you the...",
+      "options": [
+        "Fastest speed that you may drive",
+        "Distance to the next off ramp",
+        "Slowest speed that you may drive"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q077-1.png"
+      ]
+    },
+    {
+      "id": 78,
+      "category": "road_signs",
+      "question": "If you see this road sign you know that ...",
+      "options": [
+        "Vehicles with a mass of 10 tonne and less may not drive there",
+        "Vehicles with a mass of more than 10 tonne may not drive there",
+        "That section of the road can only carry vehicles that weigh up to 10 tonne"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q078-1.png"
+      ]
+    },
+    {
+      "id": 79,
+      "category": "road_signs",
+      "question": "What instruction does this road sign give?",
+      "options": [
+        "You must proceed straight ahead only.",
+        "A freeway begins ahead.",
+        "A one-way road begins ahead."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "verified_against_South_African_Road_Traffic_Signs_Manual_R107",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q079-1.png"
+      ]
+    },
+    {
+      "id": 80,
+      "category": "road_signs",
+      "question": "This road sign shows you that you...",
+      "options": [
+        "Can expect a sharp bend to the right",
+        "Will get a one-way road to the right",
+        "Must turn right at the next road"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q080-1.png"
+      ]
+    },
+    {
+      "id": 81,
+      "category": "road_signs",
+      "question": "This road sign…",
+      "options": [
+        "Shows you there is a hospital ahead where you must not make a noise",
+        "Shows that you may not pick up people",
+        "Prohibits you from using your hooter"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q081-1.png"
+      ]
+    },
+    {
+      "id": 82,
+      "category": "road_signs",
+      "question": "If you see this road sign...",
+      "options": [
+        "You may only drive there if you have special permission",
+        "No vehicles may drive there because only pedestrians may walk there",
+        "It shows two-way traffic ahead"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q082-1.png"
+      ]
+    },
+    {
+      "id": 83,
+      "category": "road_signs",
+      "question": "What does this sign mean?",
+      "options": [
+        "Turning left is prohibited at the intersection where the sign is displayed.",
+        "Turning left is prohibited only at the next intersection.",
+        "The road ahead is one-way to the right."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "verified_against_sign_face",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q083-1.png"
+      ]
+    },
+    {
+      "id": 84,
+      "category": "road_signs",
+      "question": "This road sign shows you that...",
+      "options": [
+        "Only motor cars may not pass each other",
+        "No motor vehicles may pass each other",
+        "There is a bridge ahead where only one vehicle at a time can cross"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q084-1.png"
+      ]
+    },
+    {
+      "id": 85,
+      "category": "road_signs",
+      "question": "The 100 km/h sign with the night-time supplementary plate means…",
+      "options": [
+        "Maximum speed allowed at night",
+        "Recommended speed when your lights are on",
+        "Distance to the next town"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "verified_against_sign_face",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q085-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q085-2.png"
+      ]
+    },
+    {
+      "id": 86,
+      "category": "road_signs",
+      "question": "What does this warning sign indicate?",
+      "options": [
+        "A crossroad is ahead.",
+        "A railway crossing is ahead.",
+        "A four-way stop is ahead."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "verified_against_sign_face",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q086-1.png"
+      ]
+    },
+    {
+      "id": 87,
+      "category": "road_signs",
+      "question": "What does this warning sign indicate?",
+      "options": [
+        "Two-way traffic crosses the road ahead.",
+        "Two separate lanes begin ahead.",
+        "Two-way traffic begins ahead on the road you are travelling on."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "verified_against_sign_face",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q087-1.png"
+      ]
+    },
+    {
+      "id": 88,
+      "category": "road_signs",
+      "question": "What does This road sign show you",
+      "options": [
+        "The road winds ahead",
+        "A number of sharp curves ahead",
+        "A concealed entrance to the left is followed by one to the right"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q088-1.png"
+      ]
+    },
+    {
+      "id": 89,
+      "category": "road_signs",
+      "question": "This road sign warns you that there is...",
+      "options": [
+        "Possibly pedestrians ahead",
+        "A marked pedestrian crossing ahead",
+        "Possibly school kids close to or in the road"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q089-1.png"
+      ]
+    },
+    {
+      "id": 90,
+      "category": "road_signs",
+      "question": "This road sign shows you that...",
+      "options": [
+        "It is a special lane for cyclists",
+        "No cyclists are allowed there",
+        "You must be on the lookout for cyclists"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q090-1.png"
+      ]
+    },
+    {
+      "id": 91,
+      "category": "road_signs",
+      "question": "When you see this road sign you must slow down because...",
+      "options": [
+        "The surface of the road is uneven on the left-hand side",
+        "There is a dual track railway line in front",
+        "There is a motor gate on the left-hand side of the road"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q091-1.png"
+      ]
+    },
+    {
+      "id": 92,
+      "category": "road_signs",
+      "question": "What does this warning sign indicate?",
+      "options": [
+        "The road narrows from both sides.",
+        "A narrow bridge is ahead.",
+        "A one-vehicle-width structure is ahead; only one vehicle can pass through at a time."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q092-1.png"
+      ]
+    },
+    {
+      "id": 93,
+      "category": "road_signs",
+      "question": "All road signs with a yellow background are...signs",
+      "options": [
+        "Warning",
+        "Temporary",
+        "Tourism"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q093-1.png"
+      ]
+    },
+    {
+      "id": 94,
+      "category": "road_signs",
+      "question": "This road sign shows you that...",
+      "options": [
+        "There is a possibility of a flood ahead",
+        "The road ends because of water ahead",
+        "There is a low water bridge ahead"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q094-1.png"
+      ]
+    },
+    {
+      "id": 95,
+      "category": "road_signs",
+      "question": "What does this warning sign indicate?",
+      "options": [
+        "There is a possibility of a flood ahead",
+        "The road ends because of water ahead",
+        "There is a low water bridge ahead"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q095-1.png"
+      ]
+    },
+    {
+      "id": 96,
+      "category": "road_signs",
+      "question": "When you see this road sign you must...",
+      "options": [
+        "Look out for road works where tractors operate",
+        "Know that only agricultural vehicles may drive there",
+        "Be on the lookout for agricultural vehicles that may be on the road"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q096-1.png"
+      ]
+    },
+    {
+      "id": 97,
+      "category": "road_signs",
+      "question": "What does this temporary road sign indicate?",
+      "options": [
+        "A permanent bend to the left.",
+        "A temporary obstruction on the left; pass to the right of the sign.",
+        "A temporary detour to the left."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "verified_against_South_African_Road_Traffic_Signs_Manual",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q097-1.png"
+      ]
+    },
+    {
+      "id": 98,
+      "category": "road_signs",
+      "question": "When you get to this road sign you must ...",
+      "options": [
+        "Choose to turn left or right or drive on straight after you have stopped",
+        "Be ready to stop and turn left or right",
+        "When you want to drive on straight, ignore it because traffic from the sides must stop"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q098-1.png"
+      ]
+    },
+    {
+      "id": 99,
+      "category": "road_signs",
+      "question": "The winding-road warning sign with an 80 km/h advisory-speed plate and a 'For 12 km' plate indicates that…",
+      "options": [
+        "A winding section lies ahead for 12 km, with an advisory speed of 80 km/h.",
+        "The legal speed limit is 80 km/h for the next 12 km in all conditions.",
+        "The road is slippery for the next 12 km."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-2.png"
+      ]
+    },
+    {
+      "id": 100,
+      "category": "road_signs",
+      "question": "What does this road sign indicate?",
+      "options": [
+        "There is no throughway ahead.",
+        "There is an unguarded railway crossing ahead",
+        "This lane is for traffic approaching from the opposite direction."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "corrected_from_user_sign_review",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q100-1.png"
+      ]
+    },
+    {
+      "id": 101,
+      "category": "traffic_signals",
+      "question": "What does a steady red cross displayed above a traffic lane mean?",
+      "options": [
+        "You must not drive in the lane below the red cross; it may be open to traffic travelling in the opposite direction.",
+        "You may use the lane if you drive slowly.",
+        "The lane is open to traffic travelling in your direction."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "verified_against_department_of_transport_lane_control_signal_definition",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q101-1.png"
+      ]
+    },
+    {
+      "id": 102,
+      "category": "road_signs",
+      "question": "This Road marking is a...",
+      "options": [
+        "Pedestrian crossing where you must stop for pedestrians",
+        "Painted island where you are not allowed to drive on or stop",
+        "Chevron that indicates a curve to the left"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q102-1.png"
+      ]
+    },
+    {
+      "id": 103,
+      "category": "road_signs",
+      "question": "If you are driving towards a mini - circle and there are also vehicles from the other three sides you…",
+      "options": [
+        "Must always wait for the vehicle from your right before you drive on",
+        "May drive on if you were the first vehicle over the line",
+        "Must stop with all the vehicles and only drive on when it is safe"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q103-1.png"
+      ]
+    },
+    {
+      "id": 104,
+      "category": "road_signs",
+      "question": "This Road marking warns you that?",
+      "options": [
+        "There is a level crossing with one railway line ahead",
+        "Roads cross ahead",
+        "The freeway ends ahead"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q104-1.png"
+      ]
+    },
+    {
+      "id": 105,
+      "category": "road_signs",
+      "question": "This Road markings shows you that...",
+      "options": [
+        "You are not allowed to pass another vehicle there",
+        "A line is going to begin which prohibits you, from passing",
+        "The lane splits into more lanes in the direction of the arrow"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q105-1.png"
+      ]
+    },
+    {
+      "id": 106,
+      "category": "road_signs",
+      "question": "This Road marking shows you that only...may park there",
+      "options": [
+        "Minibuses",
+        "Municipal buses",
+        "Motor cycles"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q106-1.png"
+      ]
+    },
+    {
+      "id": 107,
+      "category": "road_signs",
+      "question": "What does this road sign mean?",
+      "options": [
+        "The road to the left is a dead end (cul-de-sac).",
+        "Turning left is prohibited.",
+        "There is a T-junction to the left."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "verified_against_South_African_Road_Traffic_Signs_Manual_IN6",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q107-1.png"
+      ]
+    },
+    {
+      "id": 108,
+      "category": "road_signs",
+      "question": "Road marking GM1 in this sketch …..",
+      "options": [
+        "Shows the lanes for road users",
+        "Divides the road in two sections",
+        "Is only found in a parking area"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q108-1.png"
+      ]
+    },
+    {
+      "id": 109,
+      "category": "road_signs",
+      "question": "What movements are permitted from this lane, according to the arrow marking?",
+      "options": [
+        "You must turn right.",
+        "You may turn right or continue straight ahead.",
+        "You may change lanes and continue straight ahead."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "verified_against_South_African_Road_Traffic_Signs_Manual_RM8",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q109-1.png"
+      ]
+    },
+    {
+      "id": 110,
+      "category": "road_signs",
+      "question": "When you see road-marking you...",
+      "options": [
+        "May not park there because it is parking for ambulances only",
+        "May not park there at all because it’s a no stopping road marking.",
+        "Know it is a lane reserved for emergency vehicle"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q110-1.png"
+      ]
+    },
+    {
+      "id": 111,
+      "category": "road_signs",
+      "question": "Road marking RTM 1 shows you that ...",
+      "options": [
+        "If you are driving in car A, must stop before this line",
+        "If you are driving in car A, must reduce speed and ride on if it is safe",
+        "If you are driving in car B, can pass car A if there are no other vehicles in the Intersection"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q111-1.png"
+      ]
+    },
+    {
+      "id": 112,
+      "category": "road_signs",
+      "question": "Road markings RTM3 in the sketch…",
+      "options": [
+        "Show you that you may not stop further than the front one of the two",
+        "Are the lines where pedestrians walk",
+        "Are lines that indicate another traffic line"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q112-1.png"
+      ]
+    },
+    {
+      "id": 113,
+      "category": "road_signs",
+      "question": "This road sign shows you that you...",
+      "options": [
+        "Can expect a sharp bend to the left",
+        "Must turn left at the next road",
+        "Will get a one-way road to the left"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q113-1.png"
+      ]
+    },
+    {
+      "id": 114,
+      "category": "road_signs",
+      "question": "This sign prohibits you from...",
+      "options": [
+        "Using that section of the road during certain hours",
+        "Stopping there between 06:30 and 09:00",
+        "Parking there at certain hours"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q114-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q114-2.png"
+      ]
+    },
+    {
+      "id": 115,
+      "category": "road_signs",
+      "question": "What does this warning sign show?",
+      "options": [
+        "Roads cross ahead and you may have to stop or yield at the intersection",
+        "A railway line intersects with the road that you are travelling on",
+        "A 4-way stop will be found ahead where the roads cross"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q115-1.png"
+      ]
+    },
+    {
+      "id": 116,
+      "category": "road_signs",
+      "question": "This sign warns you that there is a...",
+      "options": [
+        "Sharp curve to the left ahead",
+        "Obstruction left on the road",
+        "Detour to the left"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q116-1.png"
+      ]
+    },
+    {
+      "id": 117,
+      "category": "road_signs",
+      "question": "This sign warns you that...",
+      "options": [
+        "There is a compulsory police stop ahead",
+        "There is a robot ahead",
+        "You are now entering an urban area"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q117-1.png"
+      ]
+    },
+    {
+      "id": 118,
+      "category": "road_signs",
+      "question": "This sign shows you that",
+      "options": [
+        "The road which you are driving is going to change to a gravel road",
+        "Potholes are to be found on the road ahead",
+        "The road is ending ahead"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q118-1.png"
+      ]
+    },
+    {
+      "id": 119,
+      "category": "road_signs",
+      "question": "What does this warning sign indicate?",
+      "options": [
+        "The road narrows from both sides.",
+        "The freeway ends",
+        "There is a narrow bridge ahead."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "corrected_from_user_sign_review",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q119-1.png"
+      ]
+    },
+    {
+      "id": 120,
+      "category": "road_signs",
+      "question": "This sign warns you...",
+      "options": [
+        "The road is uneven",
+        "There are speed humps in the road",
+        "There are potholes in the road"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q120-1.png"
+      ]
+    },
+    {
+      "id": 121,
+      "category": "road_signs",
+      "question": "What does this road sign warn you about?",
+      "options": [
+        "A winding road ahead",
+        "An untarred road ahead",
+        "A slippery road ahead"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "verified_against_South_African_Road_Traffic_Signs_Manual_W333",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q121-1.png"
+      ]
+    },
+    {
+      "id": 122,
+      "category": "road_signs",
+      "question": "What does this road sign show you when it flashes?",
+      "options": [
+        "The police have a blockade ahead",
+        "There is danger in the road ahead",
+        "There is a robot ahead"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q122-1.png"
+      ]
+    },
+    {
+      "id": 123,
+      "category": "road_signs",
+      "question": "This road sign shows that there is a/an...",
+      "options": [
+        "Curve to the right ahead",
+        "Obstruction to the right of the road / that you must pass on the left",
+        "Detour to the right"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q123-1.png"
+      ]
+    },
+    {
+      "id": 124,
+      "category": "road_signs",
+      "question": "What does this road sign show you?",
+      "options": [
+        "The road on which you are driving is going to change to a gravel road",
+        "Potholes are to be found on the road ahead",
+        "The road is ending ahead"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-2.png"
+      ]
+    },
+    {
+      "id": 125,
+      "category": "road_signs",
+      "question": "This Road marking shows that you must...",
+      "options": [
+        "Stop",
+        "Look out for school kids",
+        "Give right of way to all users of the road and possibly also trains"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q125-1.png"
+      ]
+    },
+    {
+      "id": 126,
+      "category": "road_signs",
+      "question": "This Road marking shows you that...",
+      "options": [
+        "The road surface is uneven",
+        "Traffic may not overtake or cross it on either side",
+        "It is a lane reserved for buses only"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q126-1.png"
+      ]
+    },
+    {
+      "id": 127,
+      "category": "road_signs",
+      "question": "This Road marking shows you that only... may park there",
+      "options": [
+        "Buses",
+        "Business vehicles",
+        "Minibuses"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q127-1.png"
+      ]
+    },
+    {
+      "id": 128,
+      "category": "road_signs",
+      "question": "This Road marking shows you that only... may park there",
+      "options": [
+        "Goods vehicles that loads or unloads",
+        "Motor cars that load or unloads",
+        "Construction vehicles"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q128-1.png"
+      ]
+    },
+    {
+      "id": 129,
+      "category": "road_signs",
+      "question": "What does this road marking indicate?",
+      "options": [
+        "The road is under construction.",
+        "You may not stop adjacent to the marked lines.",
+        "You may not park alongside the broken yellow line during the times indicated on the relevant sign."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q129-1.png"
+      ]
+    },
+    {
+      "id": 130,
+      "category": "road_signs",
+      "question": "This sign is shown at …",
+      "options": [
+        "A skew junction ahead",
+        "A T junction coming up",
+        "A Side road junction from your right"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q130-1.png"
+      ]
+    },
+    {
+      "id": 131,
+      "category": "road_signs",
+      "question": "This traffic signal can be found on",
+      "options": [
+        "Any public road",
+        "Any public road where accidents happen",
+        "Where a railway line is across a road."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q131-1.png"
+      ]
+    },
+    {
+      "id": 132,
+      "category": "road_signs",
+      "question": "When you see this sign…",
+      "options": [
+        "Drive in the right hand lane",
+        "Pass to the right of the obstruction in the road",
+        "Proceed to the right of this sign"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q132-1.png"
+      ]
+    },
+    {
+      "id": 133,
+      "category": "road_signs",
+      "question": "These road markings",
+      "options": [
+        "Are the lines that indicate another lane",
+        "Are the lines where pedestrians walk at an intersection",
+        "Shows you that you may not stop in front of the two lines"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q133-1.png"
+      ]
+    },
+    {
+      "id": 134,
+      "category": "road_signs",
+      "question": "This sign indicates…",
+      "options": [
+        "There is a T junction to the left",
+        "Only residents may drive there",
+        "The roadway to the left ends ahead"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q134-1.png"
+      ]
+    },
+    {
+      "id": 135,
+      "category": "road_signs",
+      "question": "This sign indicates….",
+      "options": [
+        "You are entering a freeway",
+        "There are 2 additional lanes ahead with a reduction of lanes",
+        "There are heavy vehicles entering on your left"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q135-1.png"
+      ]
+    },
+    {
+      "id": 136,
+      "category": "road_signs",
+      "question": "This sign shows a road user….",
+      "options": [
+        "There is an exit to the left ahead",
+        "The two lanes are merging",
+        "The road is splitting into each other"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q136-1.png"
+      ]
+    },
+    {
+      "id": 137,
+      "category": "road_signs",
+      "question": "What is the function of this road marking…",
+      "options": [
+        "It tells the driver that he may not cross it",
+        "It is a dividing line that shows the lanes for road users",
+        "It warns the driver to slow down."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q137-1.png"
+      ]
+    },
+    {
+      "id": 138,
+      "category": "road_signs",
+      "question": "This road marking shows…",
+      "options": [
+        "No overtaking is allowed on the right lane",
+        "The road will split ahead to the left",
+        "The right lane may have approaching traffic at certain times, be on the lookout"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q138-1.png"
+      ]
+    },
+    {
+      "id": 139,
+      "category": "road_signs",
+      "question": "This sign shows you that…",
+      "options": [
+        "Taking photographs is prohibited while driving",
+        "There is a camera monitoring the traffic light",
+        "There is a photographer at the intersection smile and wave."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q139-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q139-2.png"
+      ]
+    },
+    {
+      "id": 140,
+      "category": "road_signs",
+      "question": "This sign indicates to a driver….",
+      "options": [
+        "A right turn is prohibited",
+        "A U-turn prohibited",
+        "The end of a hairpin bend"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q140-1.png"
+      ]
+    },
+    {
+      "id": 141,
+      "category": "road_signs",
+      "question": "When you come across this road marking…",
+      "options": [
+        "Yield right of way to any vehicles at any yield marking before you",
+        "Stop over the line and then move off when safe to doso",
+        "Yield to traffic on the right only"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q141-1.png"
+      ]
+    },
+    {
+      "id": 142,
+      "category": "road_signs",
+      "question": "The vehicles travelling towards this sign….",
+      "options": [
+        "Try to drive slower than 60km/h",
+        "Drive 50km/h or faster",
+        "May not drive faster than 60km/h"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q142-1.png"
+      ]
+    },
+    {
+      "id": 143,
+      "category": "road_signs",
+      "question": "This road sign shows you that...",
+      "options": [
+        "The road turning to the right, ends ahead",
+        "You are not allowed to turn right ahead",
+        "There is a T junction to the right of you."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q143-1.png"
+      ]
+    },
+    {
+      "id": 144,
+      "category": "road_signs",
+      "question": "Vehicle B...",
+      "options": [
+        "Can drive past vehicle A if there are no other vehicles",
+        "Can drive over the stop line following vehicle A if there are no oncoming vehicles",
+        "Must stop behind vehicle A, drive closer if that vehicle has driven off, stop immediately behind the stop line and drive off when it is safe to do so"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q144-1.png"
+      ]
+    },
+    {
+      "id": 145,
+      "category": "road_signs",
+      "question": "This sign can be found at…?",
+      "options": [
+        "A single freeway.",
+        "A bridge.",
+        "A dual freeway."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q145-1.png"
+      ]
+    },
+    {
+      "id": 146,
+      "category": "road_signs",
+      "question": "When driving on a road with this sign displayed, It tells a driver that…?",
+      "options": [
+        "Traffic from the other directions have right of way.",
+        "They have right of way at the next intersection.",
+        "They should give right of way to traffic from the right hand side."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q146-1.png"
+      ]
+    },
+    {
+      "id": 147,
+      "category": "road_signs",
+      "question": "When seeing this sign…?",
+      "options": [
+        "There is a public phone ahead.",
+        "There is an emergency phone 500m ahead in the road.",
+        "There is no cell phone reception for the next 500 m"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q147-1.png"
+      ]
+    },
+    {
+      "id": 148,
+      "category": "road_signs",
+      "question": "This road sign warns a driver that there is…?",
+      "options": [
+        "A T junction on the right",
+        "A side road junction from the right ahead.",
+        "A skew T junction ahead"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q148-1.png"
+      ]
+    },
+    {
+      "id": 149,
+      "category": "road_signs",
+      "question": "A temporary sign…",
+      "options": [
+        "Need not be taken seriously all the time.",
+        "Is of less importance to road users than a permanent sign.",
+        "Has the same legal meaning as a permanent sign."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramMode": "none"
+    },
+    {
+      "id": 150,
+      "category": "road_signs",
+      "question": "This sign indicates to a driver that there is…",
+      "options": [
+        "An obstruction in the road for 1km.",
+        "Road works within 1km",
+        "An obstruction in the road 1 km ahead which will affect the traffic flow."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q150-1.png"
+      ]
+    },
+    {
+      "id": 151,
+      "category": "road_signs",
+      "question": "What does this advance trailblazer sign indicate?",
+      "options": [
+        "All traffic must turn right at the next junction.",
+        "A bridge ahead where drivers may turn right.",
+        "The direction to join the N17 toll route."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q151-1.png"
+      ]
+    },
+    {
+      "id": 152,
+      "category": "road_signs",
+      "question": "This road marking shows you that.",
+      "options": [
+        "Traffic may not pass or cross it from either side.",
+        "It is permitted to pass slow moving vehicles.",
+        "It is a lane reserved for busses only."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q152-1.png"
+      ]
+    },
+    {
+      "id": 153,
+      "category": "road_signs",
+      "question": "This sign shows you that…",
+      "options": [
+        "You may use this part of the road for stopping if your breaks fail",
+        "Heavy vehicles must turn left at the next intersection.",
+        "There is a picnic spot at the next intersection."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q153-1.png"
+      ]
+    },
+    {
+      "id": 154,
+      "category": "road_signs",
+      "question": "To draw attention, what colour is the background of a temporary road sign usually?",
+      "options": [
+        "Yellow",
+        "White",
+        "Red"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramMode": "none"
+    },
+    {
+      "id": 155,
+      "category": "road_signs",
+      "question": "What does this regulatory sign mean?",
+      "options": [
+        "You may not turn left at the indicated junction.",
+        "You must turn left at the next junction.",
+        "A sharp curve to the left is ahead."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q155-no-left-turn.svg"
+      ]
+    },
+    {
+      "id": 156,
+      "category": "road_signs",
+      "question": "This sign shows the driver of a vehicle",
+      "options": [
+        "The maximum total mass of the vehicle and its load.",
+        "The minimum mass load of all axles.",
+        "The axle mass-load limit shown on the sign."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q156-axle-mass-limit.svg"
+      ]
+    },
+    {
+      "id": 157,
+      "category": "road_signs",
+      "question": "This sign tells road users that….?",
+      "options": [
+        "A portion of the road is temporary closed to traffic.",
+        "The road is closed to traffic permanently",
+        "They are approaching a temporary dead end"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q158-1.png"
+      ]
+    },
+    {
+      "id": 158,
+      "category": "road_signs",
+      "question": "This sign indicates to the driver of a vehicle…",
+      "options": [
+        "That only cyclists may use that part of the road.",
+        "Motor cycles may use that part of the road if they wish",
+        "Pedal cycles and Motor cycles may ride there after hours"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q157-1.png"
+      ]
+    },
+    {
+      "id": 159,
+      "category": "road_signs",
+      "question": "What does this blue countdown sign with two white diagonal bars indicate?",
+      "options": [
+        "A high-speed exit is approximately 200 metres ahead.",
+        "A high-speed exit is approximately 100 metres ahead.",
+        "A high-speed exit is approximately 300 metres ahead."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_directly_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q160-1.png"
+      ]
+    },
+    {
+      "id": 160,
+      "category": "road_signs",
+      "question": "The sign indicates to a driver that there is a high speed exit in …?",
+      "options": [
+        "200m",
+        "2km",
+        "20m"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q160-1.png"
+      ]
+    },
+    {
+      "id": 161,
+      "category": "road_signs",
+      "question": "What does this temporary lane-use sign indicate?",
+      "options": [
+        "The minimum permitted speed in the right-hand lane is 80 km/h.",
+        "The maximum speed in all three lanes is 80 km/h.",
+        "A pedestrian crossing is ahead."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "verified_against_sartsm_lane_use_control",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q161-1.png"
+      ]
+    },
+    {
+      "id": 162,
+      "category": "road_signs",
+      "question": "This sign commands the driver of a vehicle….?",
+      "options": [
+        "The minimum speed in the right hand lane is permanently 80kph.",
+        "The fastest speed in the right hand lane is 80kph",
+        "The minimum speed in the right hand lane is temporary 80kph"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q162-1.png"
+      ]
+    },
+    {
+      "id": 163,
+      "category": "road_signs",
+      "question": "This overhead signal shows you…?",
+      "options": [
+        "A railway crossing ahead",
+        "Cross roads ahead",
+        "Not to drive in this lane it’s for vehicles from the front"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q163-1.png"
+      ]
+    },
+    {
+      "id": 164,
+      "category": "road_signs",
+      "question": "This signal indicates…?",
+      "options": [
+        "A driver must stop before turning right",
+        "The driver must turn right at this robot",
+        "The vehicles that want to turn right may do so but other vehicles must stop."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q164-1.png"
+      ]
+    },
+    {
+      "id": 165,
+      "category": "road_signs",
+      "question": "What distance to the high-speed exit is indicated by this blue countdown marker with three white bars?",
+      "options": [
+        "Approximately 100 metres.",
+        "Approximately 200 metres.",
+        "Approximately 300 metres."
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_directly_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q165-1.png"
+      ]
+    },
+    {
+      "id": 166,
+      "category": "road_signs",
+      "question": "This sign indicates a high speed exit in…?",
+      "options": [
+        "300m",
+        "30m",
+        "3km"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q166-1.png"
+      ]
+    },
+    {
+      "id": 167,
+      "category": "road_signs",
+      "question": "This sign shows the driver of a vehicle that…?",
+      "options": [
+        "They must turn right at the next road",
+        "There is an alternative route at the next road to the right",
+        "The road turns to the right only"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q167-1.png"
+      ]
+    },
+    {
+      "id": 168,
+      "category": "road_signs",
+      "question": "This sign shows you that…?",
+      "options": [
+        "A road turning to the right ends ahead",
+        "You are not allowed to turn right there",
+        "There is a T Junction to the right"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q168-1.png"
+      ]
+    },
+    {
+      "id": 169,
+      "category": "road_signs",
+      "question": "What information does this direction sign give about routes to Harrismith?",
+      "options": [
+        "The N3 is the toll route to Harrismith (105 km), while the R103 is the alternative route (121 km).",
+        "The R103 is the toll route to Harrismith (105 km), while the N3 is the alternative route (121 km).",
+        "Both the N3 and R103 are toll routes with the same distance to Harrismith."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q169-1.png"
+      ]
+    },
+    {
+      "id": 170,
+      "category": "road_signs",
+      "question": "This sign shows…?",
+      "options": [
+        "How much toll you have to pay if you drive on the toll road",
+        "A toll road and an alternative to the toll road",
+        "Which speed all vehicles must travel"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q170-1.png"
+      ]
+    },
+    {
+      "id": 171,
+      "category": "road_signs",
+      "question": "This road marking indicates…?",
+      "options": [
+        "Look out for persons in wheelchairs",
+        "An area is set aside for disabled persons",
+        "No disabled persons allowed there"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q171-1.png"
+      ]
+    },
+    {
+      "id": 172,
+      "category": "road_signs",
+      "question": "This type of sign is known as…?",
+      "options": [
+        "A warning sign",
+        "A regulatory sign",
+        "An information sign"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q172-regulatory-sign.svg"
+      ]
+    },
+    {
+      "id": 173,
+      "category": "road_signs",
+      "question": "The road marking warns road users that…?",
+      "options": [
+        "The right lane is a reversible lane",
+        "No overtaking is allowed",
+        "The right hand lane is a one way"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q173-1.png"
+      ]
+    },
+    {
+      "id": 174,
+      "category": "road_signs",
+      "question": "What does this road marking indicate?",
+      "options": [
+        "Only Two lanes may be used",
+        "The left lane is reducing",
+        "Vehicles on the Left can overtake"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q174-1.png"
+      ]
+    },
+    {
+      "id": 175,
+      "category": "road_signs",
+      "question": "This road marking indicates a lane reserved for…",
+      "options": [
+        "Buses only.",
+        "Vehicles picking up passengers.",
+        "All vehicles picking up or dropping off passengers."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q175-bus-lane-marking.svg"
+      ]
+    },
+    {
+      "id": 176,
+      "category": "road_signs",
+      "question": "This Sign shows you that....",
+      "options": [
+        "A route to the city hall",
+        "A road block ahead",
+        "A sequence of turnoffs to various centers"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q176-1.png"
+      ]
+    },
+    {
+      "id": 177,
+      "category": "road_signs",
+      "question": "What does this road marking indicate?",
+      "options": [
+        "A dividing line separating traffic lanes.",
+        "A lane split ahead.",
+        "A warning to reduce speed."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q177-dividing-line.svg"
+      ]
+    },
+    {
+      "id": 178,
+      "category": "road_signs",
+      "question": "This sign shows you",
+      "options": [
+        "Proceed left at the next intersection",
+        "Keep left",
+        "The road you may use to exit a freeway"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "diagram_dependent_provisional_inference",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q178-1.png",
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q178-2.png"
+      ]
+    },
+    {
+      "id": 179,
+      "category": "motorcycle",
+      "question": "What is legal with regard to the towing of another vehicle?",
+      "options": [
+        "You may tow it with a 750 cc motorcycle",
+        "You may tow it with a tricycle",
+        "You may not tow it with any motorcycle"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 180,
+      "category": "motorcycle",
+      "question": "This road sign prohibits…",
+      "options": [
+        "All motorcycles from using the road.",
+        "Motorcycles with an engine capacity of 125 cc or less from using the road.",
+        "Motorcycles with an engine capacity greater than 125 cc from using the road."
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q180-motorcycles-up-to-125cc-prohibited.svg"
+      ]
+    },
+    {
+      "id": 181,
+      "category": "motorcycle",
+      "question": "You violate the traffic law if you ride your motor cycle or motor tricycle",
+      "options": [
+        "conveying 2 adult persons in the sidecar",
+        "with a CODE 1 learners licence without supervision on a motor cycle with a sidecar, while seating is available in the sidecar",
+        "next to another motor cycle in a one-way street while both of you are travelling in a separate lane"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 182,
+      "category": "motorcycle",
+      "question": "This road sign shows to motor cycle riders that...",
+      "options": [
+        "They must ride to the left of this sign",
+        "They can ride to the left of this sign if they wish",
+        "The freeway ends ahead to the left"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q182-motorcycles-keep-left.svg"
+      ]
+    },
+    {
+      "id": 183,
+      "category": "motorcycle",
+      "question": "Your motor cycle must have..",
+      "options": [
+        "1 number plate in the front only",
+        "1 number plate in the front and 1 at the rear",
+        "1 number plate at the rear only"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 184,
+      "category": "motorcycle",
+      "question": "This road sign shows to motor cycle riders that",
+      "options": [
+        "They must use that part of the road",
+        "They can use that part of the road if they wish",
+        "There is parking for motor cycles there"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q184-motorcycle-only.svg"
+      ]
+    },
+    {
+      "id": 185,
+      "category": "motorcycle",
+      "question": "When is it an offence for a holder of a motorcycle learner's licence to do the following? Select the correct combination.",
+      "options": [
+        "None of the above are correct",
+        "(i) is correct",
+        "(i) and (ii) only are correct"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 186,
+      "category": "motorcycle",
+      "question": "This road sign shows you that...",
+      "options": [
+        "you are riding in a city area",
+        "it is recommended that you do not ride faster than 60 km/h",
+        "the speed limit for you 60 km/h"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q186-speed-motorcycle.svg"
+      ]
+    },
+    {
+      "id": 187,
+      "category": "motorcycle",
+      "question": "When you ride your motor cycle, you are not allowed to",
+      "options": [
+        "have only one hand on the handle bars",
+        "have one wheel of the motor cycle off the ground",
+        "carry a passenger on a 125 cc motor cycle"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 188,
+      "category": "motorcycle",
+      "question": "What is the maximum height the handle bars of a motorcycle be?",
+      "options": [
+        "850mm above the seat",
+        "500mm above the seat",
+        "not higher than 600mm above the seat"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 189,
+      "category": "motorcycle",
+      "question": "How far may anything project to the rear of a motorcycle?",
+      "options": [
+        "850mm from the rear axel",
+        "1.8meters to the rear",
+        "Nothing is allowed to project behind a motorcycle"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 190,
+      "category": "motorcycle",
+      "question": "The furthest a projection to the front of motorcycles axel is…",
+      "options": [
+        "600mm",
+        "900mm",
+        "200mm"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 191,
+      "category": "motorcycle",
+      "question": "The distance it takes you to stop your motor cycle is... longer on a wet road than on a dry road longer if you ride at a higher speed longer if it is loaded SELECT THE CORRECT COMBINATION",
+      "options": [
+        "None of the above are correct",
+        "All of the above are correct",
+        "(i) is correct"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 192,
+      "category": "motorcycle",
+      "question": "To ride faster, you must use number...",
+      "options": [
+        "7",
+        "5",
+        "4"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+      ]
+    },
+    {
+      "id": 193,
+      "category": "motorcycle",
+      "question": "To turn you must use number",
+      "options": [
+        "8",
+        "1",
+        "7"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+      ]
+    },
+    {
+      "id": 194,
+      "category": "motorcycle",
+      "question": "To stop you must use number...",
+      "options": [
+        "4 and 7",
+        "2 and 7",
+        "1 and 2"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+      ]
+    },
+    {
+      "id": 195,
+      "category": "motorcycle",
+      "question": "To change gears, you must use numbers...",
+      "options": [
+        "1 and 5",
+        "2 and 7",
+        "1 and 2"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+      ]
+    },
+    {
+      "id": 196,
+      "category": "motorcycle",
+      "question": "To indicate that you are going to turn you must use number...",
+      "options": [
+        "6",
+        "4",
+        "8"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+      ]
+    },
+    {
+      "id": 197,
+      "category": "motorcycle",
+      "question": "What controls must you use when you are going to make a sharp turn?",
+      "options": [
+        "1,3,5,6 and 8 only",
+        "1,2,4 and 8 only",
+        "1,2,3,4,6 and 8 only"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+      ]
+    },
+    {
+      "id": 198,
+      "category": "motorcycle",
+      "question": "What controls must you never use in combination?",
+      "options": [
+        "2 and 4",
+        "4 and 8",
+        "4 and 7"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+      ]
+    },
+    {
+      "id": 199,
+      "category": "light_motor_vehicle",
+      "question": "Which is ALLOWED when towing another vehicle? a motor car tows another motor car with a rope and drives 40 km/h you tow another vehicle with a tow-bar a tractor tows a trailer with 10 passengers on it at a speed of 30 km/h SELECT THE CORRECT COMBINATION",
+      "options": [
+        "All of the above are correct",
+        "(ii) and (iii) are only correct",
+        "(i) only is correct"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 200,
+      "category": "light_motor_vehicle",
+      "question": "The maximum distance between two vehicles which are been towed is...m",
+      "options": [
+        "1, 8",
+        "2, 5",
+        "3, 5"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 201,
+      "category": "rules",
+      "question": "Under South African road traffic regulations, when may a motor vehicle parked between sunset and sunrise be left without its head, rear and number-plate lamps lit?",
+      "options": [
+        "Only when it is parked off the roadway, in a parking place marked by appropriate traffic signs, or within 12 metres of a lighted street lamp illuminating the road.",
+        "Whenever it is parked on a public road, provided the driver leaves the hazard lights on.",
+        "Only when it is parked in a private driveway."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "verified_against_National_Road_Traffic_Regulations_157_1_b"
+    },
+    {
+      "id": 202,
+      "category": "light_motor_vehicle",
+      "question": "It is illegal when you drive and a passenger ...",
+      "options": [
+        "sits directly behind you when you only have a learners licence",
+        "fiddles with the motor radios volume knob",
+        "rides on the bumper of your vehicle"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 203,
+      "category": "light_motor_vehicle",
+      "question": "The tread pattern of your vehicles tyres may not be less than...mm",
+      "options": [
+        "0,75mm",
+        "1mm",
+        "1,5mm"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 204,
+      "category": "light_motor_vehicle",
+      "question": "This road sign shows that...",
+      "options": [
+        "You may not drive there between 06:00 and 09:00.",
+        "You may not park there for more than three hours.",
+        "You are only allowed to drive there between 06:00 and 09:00."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q204-time-restriction.svg"
+      ]
+    },
+    {
+      "id": 205,
+      "category": "light_motor_vehicle",
+      "question": "This road sign prohibits...",
+      "options": [
+        "Minibuses from proceeding past this sign.",
+        "All motor vehicles from proceeding past this sign.",
+        "Minibuses from picking up passengers."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/r225-no-minibuses.svg"
+      ]
+    },
+    {
+      "id": 206,
+      "category": "light_motor_vehicle",
+      "question": "This road sign shows that...",
+      "options": [
+        "Taxis may not proceed past this sign.",
+        "Motor cars may not proceed past this sign.",
+        "You may not park your motor car there."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q206-no-taxis.svg"
+      ]
+    },
+    {
+      "id": 207,
+      "category": "light_motor_vehicle",
+      "question": "What is true with regard to seatbelts? if your vehicle has seatbelts in the rear it must be worn you need not wear a seatbelt when reversing children younger than 14 years need not wear seatbelts if the front seat has a seatbelt your only passenger may not sit at the back where there is no seatbelt SELECT THE CORRECT COMBINATION",
+      "options": [
+        "All of the above are correct",
+        "(i),(ii) and (iv) are correct",
+        "Only (i) is correct"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 208,
+      "category": "light_motor_vehicle",
+      "question": "If you only have a learners licence for a light motor vehicle... there must be someone with you in the vehicle with the same driving licence you are not allowed to drive on a freeway no passengers are allowed with you in the vehicle SELECT THE CORRECT COMBINATION",
+      "options": [
+        "All of the above are correct",
+        "Only (i) and (iii) are correct",
+        "Only (i) is correct"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 209,
+      "category": "light_motor_vehicle",
+      "question": "This road sign shows you that...",
+      "options": [
+        "the area is for motor car taxis only",
+        "you can drive there if you wish",
+        "you must drive there"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q209-car-only.svg"
+      ]
+    },
+    {
+      "id": 210,
+      "category": "light_motor_vehicle",
+      "question": "This road sign shows you that...",
+      "options": [
+        "you must use that part of the road",
+        "you can use that part if the road if you wish",
+        "there is a parking for motor cars there"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q210-car-parking.svg"
+      ]
+    },
+    {
+      "id": 211,
+      "category": "light_motor_vehicle",
+      "question": "The distance it takes the driver of a motor vehicle to stop it is... Longer on a wet road than on a dry road Longer if the vehicle is travelling at a higher speed Longer if the vehicle is loaded SELECT THE CORRECT COMBINATION",
+      "options": [
+        "None of the above are correct",
+        "All of the above are correct",
+        "(i) is only correct"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 212,
+      "category": "light_motor_vehicle",
+      "question": "To select a gear you must use numbers...",
+      "options": [
+        "7 & 9",
+        "5 & 8",
+        "6 & 8"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+      ]
+    },
+    {
+      "id": 213,
+      "category": "light_motor_vehicle",
+      "question": "To stop your vehicle, you must use number...",
+      "options": [
+        "9",
+        "8",
+        "7"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+      ]
+    },
+    {
+      "id": 214,
+      "category": "light_motor_vehicle",
+      "question": "Number...is not found in an automatic vehicle",
+      "options": [
+        "2",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+      ]
+    },
+    {
+      "id": 215,
+      "category": "light_motor_vehicle",
+      "question": "To turn, number...is used",
+      "options": [
+        "4",
+        "5",
+        "10"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+      ]
+    },
+    {
+      "id": 216,
+      "category": "light_motor_vehicle",
+      "question": "To ensure that your parked vehicle does not move, you must use number...",
+      "options": [
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+      ]
+    },
+    {
+      "id": 217,
+      "category": "light_motor_vehicle",
+      "question": "To accelerate your vehicle you must use number",
+      "options": [
+        "6",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+      ]
+    },
+    {
+      "id": 218,
+      "category": "light_motor_vehicle",
+      "question": "Which controls must you use when making a sharp turn?",
+      "options": [
+        "1,3,5,6 and 8 only",
+        "3,4,5,9 and 10 only",
+        "1,3,4,5,6,8,9 and 10 only"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+      ]
+    },
+    {
+      "id": 219,
+      "category": "heavy_motor_vehicle",
+      "question": "You may transport goods on your vehicle that they...",
+      "options": [
+        "Protrude 2,0m at the rear",
+        "Protrude 450mm in front",
+        "Are with the vehicle 2,4m wide"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 220,
+      "category": "heavy_motor_vehicle",
+      "question": "This road sign shows you that if your vehicle has a GVM of...",
+      "options": [
+        "8t you must drive there at all times",
+        "12t you must drive there at all times",
+        "10t you can drive there whenever you want to"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q220-gvm-10t.svg"
+      ]
+    },
+    {
+      "id": 221,
+      "category": "heavy_motor_vehicle",
+      "question": "You may carry passengers in a vehicle that is being towed…… If you only travel at 35 km/h If the vehicle that is being towed is a semi-trailer Only if the vehicle that tows something is a tractor SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(i) and (ii) only are correct",
+        "All of the above are correct",
+        "(ii) only is correct"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 222,
+      "category": "heavy_motor_vehicle",
+      "question": "This road sign shows that...",
+      "options": [
+        "All heavy vehicles may drive here during the times showed on the sign",
+        "Tankers must use this road during the times showed on the sign",
+        "vehicle carrying hazardous products may only use the road during the times showed on the sign"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q222-dangerous-goods-time.svg"
+      ]
+    },
+    {
+      "id": 223,
+      "category": "heavy_motor_vehicle",
+      "question": "You may not reverse your vehicle for further than...",
+      "options": [
+        "500m",
+        "100m",
+        "As it is safe to do so"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 224,
+      "category": "heavy_motor_vehicle",
+      "question": "This road sign shows that...",
+      "options": [
+        "Vehicles longer than 15 m may not proceed past this sign.",
+        "The road is only 15 m wide beyond this sign.",
+        "No vehicle towing a trailer may proceed past this sign."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q224-length-limit-15m.svg"
+      ]
+    },
+    {
+      "id": 225,
+      "category": "heavy_motor_vehicle",
+      "question": "If you only have a learners licence for a heavy motor vehicle... There must be someone with you in the vehicle with the same driving licence You are not allowed to drive on a freeway No passengers are allowed with you in the vehicle SELECT THE CORRECT COMBINATION",
+      "options": [
+        "All of the above are correct",
+        "Only (i) is correct",
+        "Only (i) and (iii) are correct"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 226,
+      "category": "heavy_motor_vehicle",
+      "question": "This road sign warns that...",
+      "options": [
+        "the road forks ahead on a steep decline and you should slow down",
+        "your brakes will be checked at a stop ahead where you must stop",
+        "there is an arrestor bed ahead to be used when your brakes fail"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/arrestor-bed-ahead.svg"
+      ]
+    },
+    {
+      "id": 227,
+      "category": "heavy_motor_vehicle",
+      "question": "Which of the following vehicles are prohibited by the road sign shown?",
+      "options": [
+        "All of statements (i), (ii), (iii) and (iv) are correct.",
+        "Only statement (i) is correct.",
+        "Only statements (iii) and (iv) are correct."
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 228,
+      "category": "heavy_motor_vehicle",
+      "question": "This road sign warns that you may not drive there if your vehicle is...",
+      "options": [
+        "longer than 4,42m",
+        "higher than 4,42m",
+        "wider than 4,42m"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/road-signs/r204-height-limit-4-42.svg"
+      ]
+    },
+    {
+      "id": 229,
+      "category": "heavy_motor_vehicle",
+      "question": "The distance it takes the driver of a motor vehicle to stop it is... longer on a wet road than on a dry road longer if the vehicle is travelling at a higher speed longer if the vehicle is loaded SELECT THE CORRECT COMBINATION",
+      "options": [
+        "None of the above are correct",
+        "All of the above are correct",
+        "(i) is correct"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source"
+    },
+    {
+      "id": 230,
+      "category": "heavy_motor_vehicle",
+      "question": "To select a gear, you must use numbers...",
+      "options": [
+        "7 & 9",
+        "5 & 8",
+        "6 & 8"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+      ]
+    },
+    {
+      "id": 231,
+      "category": "heavy_motor_vehicle",
+      "question": "To stop your vehicle you must use number...",
+      "options": [
+        "9",
+        "8",
+        "7"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+      ]
+    },
+    {
+      "id": 232,
+      "category": "heavy_motor_vehicle",
+      "question": "To turn your vehicle, number... is used",
+      "options": [
+        "5",
+        "4",
+        "6"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+      ]
+    },
+    {
+      "id": 233,
+      "category": "heavy_motor_vehicle",
+      "question": "To ensure that your parked vehicle does not move, use number...",
+      "options": [
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 0,
+      "correctLetter": "A",
+      "answerStatus": "checked_against_numbered_control_diagram",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+      ]
+    },
+    {
+      "id": 234,
+      "category": "heavy_motor_vehicle",
+      "question": "To accelerate your vehicle you must use number...",
+      "options": [
+        "6",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+      ]
+    },
+    {
+      "id": 235,
+      "category": "heavy_motor_vehicle",
+      "question": "What controls must you use when you are going to turn sharp?",
+      "options": [
+        "1, 3, 5, 6 and 8 only",
+        "3, 4, 5, 9 and 10 only",
+        "1, 3, 4, 5, 6, 8 and 9 only"
+      ],
+      "correct": 2,
+      "correctLetter": "C",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+      ]
+    },
+    {
+      "id": 236,
+      "category": "heavy_motor_vehicle",
+      "question": "To indicate that you are going to turn, you must use number...",
+      "options": [
+        "3",
+        "5",
+        "11"
+      ],
+      "correct": 1,
+      "correctLetter": "B",
+      "answerStatus": "source_supported_or_inferred_from_source",
+      "diagramImages": [
+        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+      ]
+    }
+  ],
+  "metadata": {
+    "totalQuestions": 236,
+    "sourceFile": "NEW CLLT QUESTIONARE_090106(1).docx",
+    "sourceStructure": {
+      "rules": "1-72",
+      "roadSigns": "73-178",
+      "motorcycle": "179-198",
+      "lightMotorVehicle": "199-218",
+      "heavyMotorVehicle": "219-236"
+    },
+    "testFormat": "Three answers A, B and C; one answer is intended to be correct.",
+    "note": "This database is extracted from the supplied source document. Road-sign and control questions that depend on the document's diagrams/sign images use a provisional answer key and should be visually verified before being treated as a final official answer key.",
+    "diagramIntegration": {
+      "questionsWithSourceArtwork": 106,
+      "range": "73-178",
+      "assetFolder": "https://luxolog.github.io/inganathi-k53/assets/road-signs/",
+      "note": "Question wording, options and correct indexes were preserved.",
+      "multiImageQuestions": [
+        85,
+        99,
+        114,
+        124,
+        139,
+        178
+      ]
+    },
+    "controlDiagramIntegration": {
+      "added": true,
+      "groups": [
+        {
+          "questions": "192-198",
+          "asset": "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.png"
+        },
+        {
+          "questions": "212-218",
+          "asset": "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.png"
+        },
+        {
+          "questions": "230-236",
+          "asset": "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.png"
+        }
+      ],
+      "note": "Source control diagrams from the supplied Inganathi questionnaire. Question wording, options and correct indexes were preserved."
+    }
+  }
+}
