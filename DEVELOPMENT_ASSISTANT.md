@@ -17,7 +17,7 @@ This repository has a scheduled, safe inspection workflow at `.github/workflows/
 In this repository, open **Settings → Secrets and variables → Actions → New repository secret** and add:
 
 - Name: `APPWRITE_API_KEY`
-- Value: a project API key created in Appwrite with only the read scopes needed to list TablesDB tables (database/table read access).
+- Value: a project-scoped API key created in Appwrite with only the `tables.read` scope. The workflow only lists table definitions; it does not read rows or perform writes.
 
 Use a separate, project-scoped key in each repository. Never put the key in source code, workflow YAML, issues, or chat. If the secret is absent, code checks still run and the Appwrite check is marked as skipped.
 
