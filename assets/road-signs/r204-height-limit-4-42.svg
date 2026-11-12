@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">R204 height limit sign — 4,42 m</title>
+  <desc id="desc">South African regulatory height limit sign: white circular face, red border, black opposing vertical arrows, and 4,42 m clearance.</desc>
+  <rect width="500" height="500" fill="#fff"/>
+  <circle cx="250" cy="250" r="218" fill="#fff" stroke="#d71920" stroke-width="28"/>
+  <g fill="none" stroke="#111" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M153 165 V315 M118 200 L153 165 L188 200"/>
+    <path d="M347 315 V165 M312 280 L347 315 L382 280"/>
+  </g>
+  <text x="250" y="246" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#111">4,42</text>
+  <text x="250" y="298" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" fill="#111">m</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="No left turn regulatory sign">
+<rect width="320" height="320" fill="#fff"/>
+<circle cx="160" cy="150" r="112" fill="#fff" stroke="#d71920" stroke-width="18"/>
+<path d="M204 214 V125 H130 V92" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M99 111 L130 78 L161 111" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90 80 L230 220" stroke="#d71920" stroke-width="20" stroke-linecap="round"/>
+<text x="160" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#222">NO LEFT TURN</text>
+</svg>

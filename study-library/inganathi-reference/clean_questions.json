@@ -949,7 +949,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q073-1.png"
+        "assets/road-signs/q073-1.png"
       ]
     },
     {
@@ -965,7 +965,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q074-1.png"
+        "assets/road-signs/q074-1.png"
       ]
     },
     {
@@ -981,7 +981,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q075-1.png"
+        "assets/road-signs/q075-1.png"
       ]
     },
     {
@@ -997,7 +997,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q076-1.png"
+        "assets/road-signs/q076-1.png"
       ]
     },
     {
@@ -1013,7 +1013,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q077-1.png"
+        "assets/road-signs/q077-1.png"
       ]
     },
     {
@@ -1029,7 +1029,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q078-1.png"
+        "assets/road-signs/q078-1.png"
       ]
     },
     {
@@ -1045,7 +1045,7 @@
       "correctLetter": "A",
       "answerStatus": "verified_against_South_African_Road_Traffic_Signs_Manual_R107",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q079-1.png"
+        "assets/road-signs/q079-1.png"
       ]
     },
     {
@@ -1061,7 +1061,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q080-1.png"
+        "assets/road-signs/q080-1.png"
       ]
     },
     {
@@ -1077,7 +1077,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q081-1.png"
+        "assets/road-signs/q081-1.png"
       ]
     },
     {
@@ -1093,7 +1093,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q082-1.png"
+        "assets/road-signs/q082-1.png"
       ]
     },
     {
@@ -1109,7 +1109,7 @@
       "correctLetter": "A",
       "answerStatus": "verified_against_sign_face",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q083-1.png"
+        "assets/road-signs/q083-1.png"
       ]
     },
     {
@@ -1125,7 +1125,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q084-1.png"
+        "assets/road-signs/q084-1.png"
       ]
     },
     {
@@ -1141,8 +1141,8 @@
       "correctLetter": "A",
       "answerStatus": "verified_against_sign_face",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q085-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q085-2.png"
+        "assets/road-signs/q085-1.png",
+        "assets/road-signs/q085-2.png"
       ]
     },
     {
@@ -1158,7 +1158,7 @@
       "correctLetter": "A",
       "answerStatus": "verified_against_sign_face",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q086-1.png"
+        "assets/road-signs/q086-1.png"
       ]
     },
     {
@@ -1174,7 +1174,7 @@
       "correctLetter": "C",
       "answerStatus": "verified_against_sign_face",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q087-1.png"
+        "assets/road-signs/q087-1.png"
       ]
     },
     {
@@ -1190,7 +1190,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q088-1.png"
+        "assets/road-signs/q088-1.png"
       ]
     },
     {
@@ -1206,7 +1206,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q089-1.png"
+        "assets/road-signs/q089-1.png"
       ]
     },
     {
@@ -1222,7 +1222,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q090-1.png"
+        "assets/road-signs/q090-1.png"
       ]
     },
     {
@@ -1238,7 +1238,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q091-1.png"
+        "assets/road-signs/q091-1.png"
       ]
     },
     {
@@ -1254,7 +1254,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q092-1.png"
+        "assets/road-signs/q092-1.png"
       ]
     },
     {
@@ -1270,7 +1270,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q093-1.png"
+        "assets/road-signs/q093-1.png"
       ]
     },
     {
@@ -1286,7 +1286,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q094-1.png"
+        "assets/road-signs/q094-1.png"
       ]
     },
     {
@@ -1302,7 +1302,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q095-1.png"
+        "assets/road-signs/q095-1.png"
       ]
     },
     {
@@ -1318,7 +1318,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q096-1.png"
+        "assets/road-signs/q096-1.png"
       ]
     },
     {
@@ -1334,7 +1334,7 @@
       "correctLetter": "B",
       "answerStatus": "verified_against_South_African_Road_Traffic_Signs_Manual",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q097-1.png"
+        "assets/road-signs/q097-1.png"
       ]
     },
     {
@@ -1350,7 +1350,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q098-1.png"
+        "assets/road-signs/q098-1.png"
       ]
     },
     {
@@ -1366,8 +1366,8 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q099-2.png"
+        "assets/road-signs/q099-1.png",
+        "assets/road-signs/q099-2.png"
       ]
     },
     {
@@ -1383,7 +1383,7 @@
       "correctLetter": "A",
       "answerStatus": "corrected_from_user_sign_review",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q100-1.png"
+        "assets/road-signs/q100-1.png"
       ]
     },
     {
@@ -1399,7 +1399,7 @@
       "correctLetter": "A",
       "answerStatus": "verified_against_department_of_transport_lane_control_signal_definition",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q101-1.png"
+        "assets/road-signs/q101-1.png"
       ]
     },
     {
@@ -1415,7 +1415,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q102-1.png"
+        "assets/road-signs/q102-1.png"
       ]
     },
     {
@@ -1431,7 +1431,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q103-1.png"
+        "assets/road-signs/q103-1.png"
       ]
     },
     {
@@ -1447,7 +1447,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q104-1.png"
+        "assets/road-signs/q104-1.png"
       ]
     },
     {
@@ -1463,7 +1463,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q105-1.png"
+        "assets/road-signs/q105-1.png"
       ]
     },
     {
@@ -1479,7 +1479,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q106-1.png"
+        "assets/road-signs/q106-1.png"
       ]
     },
     {
@@ -1495,7 +1495,7 @@
       "correctLetter": "A",
       "answerStatus": "verified_against_South_African_Road_Traffic_Signs_Manual_IN6",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q107-1.png"
+        "assets/road-signs/q107-1.png"
       ]
     },
     {
@@ -1511,7 +1511,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q108-1.png"
+        "assets/road-signs/q108-1.png"
       ]
     },
     {
@@ -1527,7 +1527,7 @@
       "correctLetter": "B",
       "answerStatus": "verified_against_South_African_Road_Traffic_Signs_Manual_RM8",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q109-1.png"
+        "assets/road-signs/q109-1.png"
       ]
     },
     {
@@ -1543,7 +1543,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q110-1.png"
+        "assets/road-signs/q110-1.png"
       ]
     },
     {
@@ -1559,7 +1559,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q111-1.png"
+        "assets/road-signs/q111-1.png"
       ]
     },
     {
@@ -1575,7 +1575,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q112-1.png"
+        "assets/road-signs/q112-1.png"
       ]
     },
     {
@@ -1591,7 +1591,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q113-1.png"
+        "assets/road-signs/q113-1.png"
       ]
     },
     {
@@ -1607,8 +1607,8 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q114-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q114-2.png"
+        "assets/road-signs/q114-1.png",
+        "assets/road-signs/q114-2.png"
       ]
     },
     {
@@ -1624,7 +1624,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q115-1.png"
+        "assets/road-signs/q115-1.png"
       ]
     },
     {
@@ -1640,7 +1640,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q116-1.png"
+        "assets/road-signs/q116-1.png"
       ]
     },
     {
@@ -1656,7 +1656,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q117-1.png"
+        "assets/road-signs/q117-1.png"
       ]
     },
     {
@@ -1672,7 +1672,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q118-1.png"
+        "assets/road-signs/q118-1.png"
       ]
     },
     {
@@ -1688,7 +1688,7 @@
       "correctLetter": "A",
       "answerStatus": "corrected_from_user_sign_review",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q119-1.png"
+        "assets/road-signs/q119-1.png"
       ]
     },
     {
@@ -1704,7 +1704,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q120-1.png"
+        "assets/road-signs/q120-1.png"
       ]
     },
     {
@@ -1720,7 +1720,7 @@
       "correctLetter": "C",
       "answerStatus": "verified_against_South_African_Road_Traffic_Signs_Manual_W333",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q121-1.png"
+        "assets/road-signs/q121-1.png"
       ]
     },
     {
@@ -1736,7 +1736,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q122-1.png"
+        "assets/road-signs/q122-1.png"
       ]
     },
     {
@@ -1752,7 +1752,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q123-1.png"
+        "assets/road-signs/q123-1.png"
       ]
     },
     {
@@ -1768,8 +1768,8 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q124-2.png"
+        "assets/road-signs/q124-1.png",
+        "assets/road-signs/q124-2.png"
       ]
     },
     {
@@ -1785,7 +1785,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_directly_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q125-1.png"
+        "assets/road-signs/q125-1.png"
       ]
     },
     {
@@ -1801,7 +1801,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q126-1.png"
+        "assets/road-signs/q126-1.png"
       ]
     },
     {
@@ -1817,7 +1817,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_directly_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q127-1.png"
+        "assets/road-signs/q127-1.png"
       ]
     },
     {
@@ -1833,7 +1833,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q128-1.png"
+        "assets/road-signs/q128-1.png"
       ]
     },
     {
@@ -1849,7 +1849,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_directly_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q129-1.png"
+        "assets/road-signs/q129-1.png"
       ]
     },
     {
@@ -1865,7 +1865,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q130-1.png"
+        "assets/road-signs/q130-1.png"
       ]
     },
     {
@@ -1881,7 +1881,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q131-1.png"
+        "assets/road-signs/q131-1.png"
       ]
     },
     {
@@ -1897,7 +1897,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q132-1.png"
+        "assets/road-signs/q132-1.png"
       ]
     },
     {
@@ -1913,7 +1913,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q133-1.png"
+        "assets/road-signs/q133-1.png"
       ]
     },
     {
@@ -1929,7 +1929,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q134-1.png"
+        "assets/road-signs/q134-1.png"
       ]
     },
     {
@@ -1945,7 +1945,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q135-1.png"
+        "assets/road-signs/q135-1.png"
       ]
     },
     {
@@ -1961,7 +1961,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q136-1.png"
+        "assets/road-signs/q136-1.png"
       ]
     },
     {
@@ -1977,7 +1977,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q137-1.png"
+        "assets/road-signs/q137-1.png"
       ]
     },
     {
@@ -1993,7 +1993,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q138-1.png"
+        "assets/road-signs/q138-1.png"
       ]
     },
     {
@@ -2009,8 +2009,8 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q139-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q139-2.png"
+        "assets/road-signs/q139-1.png",
+        "assets/road-signs/q139-2.png"
       ]
     },
     {
@@ -2026,7 +2026,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q140-1.png"
+        "assets/road-signs/q140-1.png"
       ]
     },
     {
@@ -2042,7 +2042,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q141-1.png"
+        "assets/road-signs/q141-1.png"
       ]
     },
     {
@@ -2058,7 +2058,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q142-1.png"
+        "assets/road-signs/q142-1.png"
       ]
     },
     {
@@ -2074,7 +2074,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q143-1.png"
+        "assets/road-signs/q143-1.png"
       ]
     },
     {
@@ -2090,7 +2090,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q144-1.png"
+        "assets/road-signs/q144-1.png"
       ]
     },
     {
@@ -2106,7 +2106,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q145-1.png"
+        "assets/road-signs/q145-1.png"
       ]
     },
     {
@@ -2122,7 +2122,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q146-1.png"
+        "assets/road-signs/q146-1.png"
       ]
     },
     {
@@ -2138,7 +2138,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q147-1.png"
+        "assets/road-signs/q147-1.png"
       ]
     },
     {
@@ -2154,7 +2154,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q148-1.png"
+        "assets/road-signs/q148-1.png"
       ]
     },
     {
@@ -2184,7 +2184,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q150-1.png"
+        "assets/road-signs/q150-1.png"
       ]
     },
     {
@@ -2200,7 +2200,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_directly_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q151-1.png"
+        "assets/road-signs/q151-1.png"
       ]
     },
     {
@@ -2216,7 +2216,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q152-1.png"
+        "assets/road-signs/q152-1.png"
       ]
     },
     {
@@ -2232,7 +2232,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q153-1.png"
+        "assets/road-signs/q153-1.png"
       ]
     },
     {
@@ -2262,7 +2262,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_directly_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q155-no-left-turn.svg"
+        "assets/road-signs/q155-no-left-turn.svg"
       ]
     },
     {
@@ -2278,7 +2278,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_directly_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q156-axle-mass-limit.svg"
+        "assets/road-signs/q156-axle-mass-limit.svg"
       ]
     },
     {
@@ -2294,7 +2294,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q158-1.png"
+        "assets/road-signs/q158-1.png"
       ]
     },
     {
@@ -2310,7 +2310,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q157-1.png"
+        "assets/road-signs/q157-1.png"
       ]
     },
     {
@@ -2326,7 +2326,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_directly_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q160-1.png"
+        "assets/road-signs/q160-1.png"
       ]
     },
     {
@@ -2342,7 +2342,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q160-1.png"
+        "assets/road-signs/q160-1.png"
       ]
     },
     {
@@ -2358,7 +2358,7 @@
       "correctLetter": "A",
       "answerStatus": "verified_against_sartsm_lane_use_control",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q161-1.png"
+        "assets/road-signs/q161-1.png"
       ]
     },
     {
@@ -2374,7 +2374,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q162-1.png"
+        "assets/road-signs/q162-1.png"
       ]
     },
     {
@@ -2390,7 +2390,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q163-1.png"
+        "assets/road-signs/q163-1.png"
       ]
     },
     {
@@ -2406,7 +2406,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q164-1.png"
+        "assets/road-signs/q164-1.png"
       ]
     },
     {
@@ -2422,7 +2422,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_directly_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q165-1.png"
+        "assets/road-signs/q165-1.png"
       ]
     },
     {
@@ -2438,7 +2438,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q166-1.png"
+        "assets/road-signs/q166-1.png"
       ]
     },
     {
@@ -2454,7 +2454,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q167-1.png"
+        "assets/road-signs/q167-1.png"
       ]
     },
     {
@@ -2470,7 +2470,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q168-1.png"
+        "assets/road-signs/q168-1.png"
       ]
     },
     {
@@ -2486,7 +2486,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q169-1.png"
+        "assets/road-signs/q169-1.png"
       ]
     },
     {
@@ -2502,7 +2502,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q170-1.png"
+        "assets/road-signs/q170-1.png"
       ]
     },
     {
@@ -2518,7 +2518,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q171-1.png"
+        "assets/road-signs/q171-1.png"
       ]
     },
     {
@@ -2534,7 +2534,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q172-regulatory-sign.svg"
+        "assets/road-signs/q172-regulatory-sign.svg"
       ]
     },
     {
@@ -2550,7 +2550,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q173-1.png"
+        "assets/road-signs/q173-1.png"
       ]
     },
     {
@@ -2566,7 +2566,7 @@
       "correctLetter": "B",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q174-1.png"
+        "assets/road-signs/q174-1.png"
       ]
     },
     {
@@ -2582,7 +2582,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q175-bus-lane-marking.svg"
+        "assets/road-signs/q175-bus-lane-marking.svg"
       ]
     },
     {
@@ -2598,7 +2598,7 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q176-1.png"
+        "assets/road-signs/q176-1.png"
       ]
     },
     {
@@ -2614,7 +2614,7 @@
       "correctLetter": "A",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q177-dividing-line.svg"
+        "assets/road-signs/q177-dividing-line.svg"
       ]
     },
     {
@@ -2630,8 +2630,8 @@
       "correctLetter": "C",
       "answerStatus": "diagram_dependent_provisional_inference",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q178-1.png",
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q178-2.png"
+        "assets/road-signs/q178-1.png",
+        "assets/road-signs/q178-2.png"
       ]
     },
     {
@@ -2660,7 +2660,7 @@
       "correctLetter": "B",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q180-motorcycles-up-to-125cc-prohibited.svg"
+        "assets/road-signs/q180-motorcycles-up-to-125cc-prohibited.svg"
       ]
     },
     {
@@ -2689,7 +2689,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q182-motorcycles-keep-left.svg"
+        "assets/road-signs/q182-motorcycles-keep-left.svg"
       ]
     },
     {
@@ -2718,7 +2718,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q184-motorcycle-only.svg"
+        "assets/road-signs/q184-motorcycle-only.svg"
       ]
     },
     {
@@ -2747,7 +2747,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q186-speed-motorcycle.svg"
+        "assets/road-signs/q186-speed-motorcycle.svg"
       ]
     },
     {
@@ -2828,7 +2828,7 @@
       "correctLetter": "B",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "assets/control-diagrams/motorcycle-controls.jpg"
       ]
     },
     {
@@ -2844,7 +2844,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "assets/control-diagrams/motorcycle-controls.jpg"
       ]
     },
     {
@@ -2860,7 +2860,7 @@
       "correctLetter": "A",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "assets/control-diagrams/motorcycle-controls.jpg"
       ]
     },
     {
@@ -2876,7 +2876,7 @@
       "correctLetter": "C",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "assets/control-diagrams/motorcycle-controls.jpg"
       ]
     },
     {
@@ -2892,7 +2892,7 @@
       "correctLetter": "A",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "assets/control-diagrams/motorcycle-controls.jpg"
       ]
     },
     {
@@ -2908,7 +2908,7 @@
       "correctLetter": "A",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "assets/control-diagrams/motorcycle-controls.jpg"
       ]
     },
     {
@@ -2924,7 +2924,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.jpg"
+        "assets/control-diagrams/motorcycle-controls.jpg"
       ]
     },
     {
@@ -3005,7 +3005,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q204-time-restriction.svg"
+        "assets/road-signs/q204-time-restriction.svg"
       ]
     },
     {
@@ -3021,7 +3021,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/r225-no-minibuses.svg"
+        "assets/road-signs/r225-no-minibuses.svg"
       ]
     },
     {
@@ -3037,7 +3037,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q206-no-taxis.svg"
+        "assets/road-signs/q206-no-taxis.svg"
       ]
     },
     {
@@ -3079,7 +3079,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q209-car-only.svg"
+        "assets/road-signs/q209-car-only.svg"
       ]
     },
     {
@@ -3095,7 +3095,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q210-car-parking.svg"
+        "assets/road-signs/q210-car-parking.svg"
       ]
     },
     {
@@ -3124,7 +3124,7 @@
       "correctLetter": "C",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "assets/control-diagrams/light-motor-controls-212.jpg"
       ]
     },
     {
@@ -3140,7 +3140,7 @@
       "correctLetter": "A",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "assets/control-diagrams/light-motor-controls-212.jpg"
       ]
     },
     {
@@ -3156,7 +3156,7 @@
       "correctLetter": "C",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "assets/control-diagrams/light-motor-controls-212.jpg"
       ]
     },
     {
@@ -3172,7 +3172,7 @@
       "correctLetter": "A",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "assets/control-diagrams/light-motor-controls-212.jpg"
       ]
     },
     {
@@ -3188,7 +3188,7 @@
       "correctLetter": "A",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "assets/control-diagrams/light-motor-controls-212.jpg"
       ]
     },
     {
@@ -3204,7 +3204,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "assets/control-diagrams/light-motor-controls-212.jpg"
       ]
     },
     {
@@ -3220,7 +3220,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.jpg"
+        "assets/control-diagrams/light-motor-controls-212.jpg"
       ]
     },
     {
@@ -3249,7 +3249,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q220-gvm-10t.svg"
+        "assets/road-signs/q220-gvm-10t.svg"
       ]
     },
     {
@@ -3278,7 +3278,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q222-dangerous-goods-time.svg"
+        "assets/road-signs/q222-dangerous-goods-time.svg"
       ]
     },
     {
@@ -3307,7 +3307,7 @@
       "correctLetter": "A",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/q224-length-limit-15m.svg"
+        "assets/road-signs/q224-length-limit-15m.svg"
       ]
     },
     {
@@ -3336,7 +3336,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/arrestor-bed-ahead.svg"
+        "assets/road-signs/arrestor-bed-ahead.svg"
       ]
     },
     {
@@ -3365,7 +3365,7 @@
       "correctLetter": "B",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/road-signs/r204-height-limit-4-42.svg"
+        "assets/road-signs/r204-height-limit-4-42.svg"
       ]
     },
     {
@@ -3394,7 +3394,7 @@
       "correctLetter": "C",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "assets/control-diagrams/light-motor-controls-230.jpg"
       ]
     },
     {
@@ -3410,7 +3410,7 @@
       "correctLetter": "A",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "assets/control-diagrams/light-motor-controls-230.jpg"
       ]
     },
     {
@@ -3426,7 +3426,7 @@
       "correctLetter": "B",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "assets/control-diagrams/light-motor-controls-230.jpg"
       ]
     },
     {
@@ -3442,7 +3442,7 @@
       "correctLetter": "A",
       "answerStatus": "checked_against_numbered_control_diagram",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "assets/control-diagrams/light-motor-controls-230.jpg"
       ]
     },
     {
@@ -3458,7 +3458,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "assets/control-diagrams/light-motor-controls-230.jpg"
       ]
     },
     {
@@ -3474,7 +3474,7 @@
       "correctLetter": "C",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "assets/control-diagrams/light-motor-controls-230.jpg"
       ]
     },
     {
@@ -3490,7 +3490,7 @@
       "correctLetter": "B",
       "answerStatus": "source_supported_or_inferred_from_source",
       "diagramImages": [
-        "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.jpg"
+        "assets/control-diagrams/light-motor-controls-230.jpg"
       ]
     }
   ],
@@ -3509,7 +3509,7 @@
     "diagramIntegration": {
       "questionsWithSourceArtwork": 106,
       "range": "73-178",
-      "assetFolder": "https://luxolog.github.io/inganathi-k53/assets/road-signs/",
+      "assetFolder": "assets/road-signs/",
       "note": "Question wording, options and correct indexes were preserved.",
       "multiImageQuestions": [
         85,
@@ -3525,18 +3525,18 @@
       "groups": [
         {
           "questions": "192-198",
-          "asset": "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/motorcycle-controls.png"
+          "asset": "assets/control-diagrams/motorcycle-controls.png"
         },
         {
           "questions": "212-218",
-          "asset": "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-212.png"
+          "asset": "assets/control-diagrams/light-motor-controls-212.png"
         },
         {
           "questions": "230-236",
-          "asset": "https://luxolog.github.io/inganathi-k53/assets/control-diagrams/light-motor-controls-230.png"
+          "asset": "assets/control-diagrams/light-motor-controls-230.png"
         }
       ],
       "note": "Source control diagrams from the supplied Inganathi questionnaire. Question wording, options and correct indexes were preserved."
     }
   }
-}
+}\n

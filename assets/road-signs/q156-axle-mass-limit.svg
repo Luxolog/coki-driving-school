@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Axle mass-load limit regulatory sign, 2 tonnes">
+  <rect width="320" height="320" fill="#fff"/>
+  <circle cx="160" cy="150" r="116" fill="#fff" stroke="#d71920" stroke-width="18"/>
+  <text x="160" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="45" font-weight="700" fill="#111">2 t</text>
+  <path d="M160 111 V153" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+  <path d="M142 140 L160 160 L178 140" fill="none" stroke="#111" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#111" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M112 202 H208"/>
+    <path d="M128 202 V218 M192 202 V218"/>
+  </g>
+  <g fill="#111"><circle cx="128" cy="226" r="14"/><circle cx="192" cy="226" r="14"/></g>
+  <g fill="#fff"><circle cx="128" cy="226" r="5"/><circle cx="192" cy="226" r="5"/></g>
+  <text x="160" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#222">AXLE MASSLOAD LIMIT (R203)</text>
+</svg>

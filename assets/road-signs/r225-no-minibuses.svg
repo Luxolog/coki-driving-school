@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Minibuses prohibited road sign R225</title>
+  <desc id="desc">South African regulatory sign: a black minibus symbol inside a white circle with a red border, prohibiting minibuses from proceeding beyond the sign.</desc>
+  <rect width="600" height="600" fill="#f4f5f6"/>
+  <circle cx="300" cy="300" r="244" fill="#fff" stroke="#d71920" stroke-width="34"/>
+  <g fill="#161616" stroke="#161616" stroke-linejoin="round">
+    <path d="M218 190 Q218 168 242 168 H358 Q382 168 382 190 L405 385 Q408 410 384 410 H216 Q192 410 195 385 Z" stroke-width="8"/>
+    <path d="M240 198 H360 L371 278 H229 Z" fill="#fff" stroke-width="7"/>
+    <path d="M229 296 H371 L380 366 H220 Z" fill="#fff" stroke-width="7"/>
+    <rect x="241" y="311" width="28" height="39" rx="4" fill="#161616" stroke="none"/>
+    <rect x="286" y="311" width="28" height="39" rx="4" fill="#161616" stroke="none"/>
+    <rect x="331" y="311" width="28" height="39" rx="4" fill="#161616" stroke="none"/>
+    <rect x="178" y="224" width="30" height="55" rx="7" stroke-width="6"/>
+    <rect x="392" y="224" width="30" height="55" rx="7" stroke-width="6"/>
+    <rect x="218" y="377" width="44" height="24" rx="5" fill="#fff" stroke-width="5"/>
+    <rect x="338" y="377" width="44" height="24" rx="5" fill="#fff" stroke-width="5"/>
+    <path d="M228 421 H372" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>

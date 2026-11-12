@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Temporary roadworks warning sign with yellow background">
+<rect width="320" height="320" fill="#fff"/>
+<path d="M160 25 L287 152 L160 279 L33 152 Z" fill="#ffd400" stroke="#111" stroke-width="10" stroke-linejoin="round"/>
+<rect x="82" y="100" width="156" height="18" rx="3" fill="#111"/>
+<rect x="82" y="130" width="156" height="18" rx="3" fill="#111"/>
+<rect x="82" y="160" width="156" height="18" rx="3" fill="#111"/>
+<text x="160" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#111">ROADWORKS</text>
+<text x="160" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#222">TEMPORARY WARNING SIGN</text>
+</svg>

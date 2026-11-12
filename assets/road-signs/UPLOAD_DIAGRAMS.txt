@@ -1,0 +1,18 @@
+# Final diagram upload step
+
+The site code is already wired for the supplied questionnaire artwork.
+
+Upload the PNG files from the companion package into:
+
+assets/road-signs/
+
+Keep the filenames unchanged (for example q073-1.png and q178-2.png).
+
+GitHub web:
+1. Open the repository.
+2. Open assets/road-signs/.
+3. Click Add file -> Upload files.
+4. Drag the extracted PNG files into the upload area.
+5. Commit directly to main.
+
+Do not upload the ZIP itself as the diagram source; the website needs the individual PNG files.
