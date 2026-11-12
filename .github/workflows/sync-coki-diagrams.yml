@@ -1,4 +1,5 @@
 name: Copy Inganathi diagrams into Coki
+# Sync source artwork into the independent Coki repository.
 on:
   push:
     branches: [main]
