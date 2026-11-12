@@ -45,7 +45,7 @@ function makeFreshOrder(source,previous){
  const byPrevious=source.slice().sort((a,b)=>(oldPosition.get(String(a.id))??0)-(oldPosition.get(String(b.id))??0));
  const shift=1+Math.floor(Math.random()*(byPrevious.length-1));
  const rotated=byPrevious.slice(shift).concat(byPrevious.slice(0,shift));
- return shuffle(rotated).every((q,i)=>oldPosition.get(String(q.id))!==i)?shuffle(rotated):byPrevious.slice(1).concat(byPrevious.slice(0,1));
+ return rotated;
 }
 function localAsset(url){
  if(!url||typeof url!=='string')return '';
