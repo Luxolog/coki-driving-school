@@ -1,0 +1,100 @@
+name: Ekhaya Development Assistant
+
+on:
+  schedule:
+    # Tuesday and Friday at 09:00 South Africa time (UTC+2).
+    - cron: "0 7 * * 2,5"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: coki-development-assistant
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    name: Safe project inspection
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      APPWRITE_ENDPOINT: https://cloud.appwrite.io/v1
+      APPWRITE_PROJECT_ID: 6af62808001e5b6de5d6
+      APPWRITE_DATABASE_ID: coki_main
+      APPWRITE_API_KEY: ${{ secrets.APPWRITE_API_KEY }}
+    steps:
+      - name: Check out repository (read-only)
+        uses: actions/checkout@v4
+
+      - name: Validate Coki learning content
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from html.parser import HTMLParser
+          from pathlib import Path
+
+          class SmokeParser(HTMLParser):
+              pass
+
+          html_files = [
+              "index.html",
+              "manual.html",
+              "pertinent-knowledge.html",
+              "questions-and-answers.html",
+              "tests/index.html",
+              "tests/player.html",
+          ]
+          for name in html_files:
+              path = Path(name)
+              if not path.is_file() or path.stat().st_size == 0:
+                  raise SystemExit(f"FAIL: missing or empty {name}")
+              parser = SmokeParser()
+              parser.feed(path.read_text(encoding="utf-8"))
+              parser.close()
+              print(f"PASS: {name} ({path.stat().st_size} bytes)")
+
+          questions_path = Path("tests/questions.json")
+          if not questions_path.is_file():
+              raise SystemExit("FAIL: tests/questions.json is missing")
+          data = json.loads(questions_path.read_text(encoding="utf-8"))
+          if not isinstance(data, (list, dict)) or not data:
+              raise SystemExit("FAIL: questions JSON is empty or has an unexpected root")
+          print(f"PASS: tests/questions.json parses ({len(data)} top-level entries)")
+          PY
+
+      - name: Check Appwrite read-only connection
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${APPWRITE_API_KEY}" ]]; then
+            echo "::warning::APPWRITE_API_KEY is not configured; Appwrite inspection was skipped."
+            exit 0
+          fi
+          curl --fail --silent --show-error \
+            "${APPWRITE_ENDPOINT}/health" >/tmp/appwrite-health.json
+          curl --fail --silent --show-error \
+            -H "X-Appwrite-Project: ${APPWRITE_PROJECT_ID}" \
+            -H "X-Appwrite-Key: ${APPWRITE_API_KEY}" \
+            "${APPWRITE_ENDPOINT}/tablesdb/${APPWRITE_DATABASE_ID}/tables?total=true" \
+            >/tmp/appwrite-tables.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          health = json.loads(Path("/tmp/appwrite-health.json").read_text())
+          tables = json.loads(Path("/tmp/appwrite-tables.json").read_text())
+          print("PASS: Appwrite health endpoint responded.")
+          print(f"PASS: Appwrite database table count: {tables.get('total', 'unknown')}")
+          PY
+
+      - name: Record safe-run summary
+        if: always()
+        run: |
+          {
+            echo "## Coki Development Assistant"
+            echo "- Schedule: Tuesday and Friday, 09:00 SAST"
+            echo "- Scope: read-only inspection and content validation"
+            echo "- Production deployments, database writes and source edits: disabled"
+            echo "- Appwrite inactivity protection: not guaranteed by this workflow"
+          } >> "$GITHUB_STEP_SUMMARY"
