@@ -44,7 +44,7 @@ jobs:
                   if isinstance(value, dict):
                       return {key: localize(item) for key, item in value.items()}
                   return value
-              path.write_text(json.dumps(localize(data), ensure_ascii=False, indent=2) + "\\n")
+              path.write_text(json.dumps(localize(data), ensure_ascii=False, indent=2) + "\n")
           manual = Path("manual.html")
           html = manual.read_text()
           html = html.replace("https://luxolog.github.io/inganathi-k53/assets/control-diagrams/", "assets/control-diagrams/")
