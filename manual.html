@@ -114,21 +114,55 @@ main{max-width:1050px;margin:auto;padding:28px 18px 70px}
 footer{background:var(--ink);color:#d9d9d9;text-align:center;padding:24px 18px;font-size:11px}
 @media(max-width:760px){.cards{grid-template-columns:1fr 1fr}.nav{align-items:flex-start}.sign-image{min-height:200px;height:auto;padding:10px;gap:8px}.sign-image img{max-height:190px;max-width:100%} .sign-image img[src*="q173-1.png"]{height:190px;width:100%;max-width:100%;object-fit:cover;object-position:center}}
 @media(max-width:520px){.cards{grid-template-columns:1fr}.hero{padding:24px}.nav{flex-direction:column}.nav nav{justify-content:flex-start}.sign-image{min-height:0;height:auto;padding:10px;gap:8px;flex-direction:column}.sign-image img{height:auto;width:auto;max-width:100%;max-height:190px}.practice-question{font-size:16px}}
+/* Dropdown navigation */
+.nav nav{display:flex;align-items:center;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.nav-group{position:relative}
+.nav-trigger{border:0;background:transparent;color:#fff;padding:9px 11px;border-radius:7px;font-size:12px;font-weight:800;cursor:pointer;white-space:nowrap}
+.nav-trigger:hover,.nav-group:focus-within .nav-trigger{background:#fff;color:var(--ink)}
+.nav-menu{display:none;position:absolute;top:100%;left:0;min-width:210px;padding:7px;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 28px #0002;z-index:100}
+.nav-group:hover .nav-menu,.nav-group:focus-within .nav-menu,.nav-group.open .nav-menu{display:grid}
+.nav-menu a,.nav-menu button{display:block;width:100%;text-align:left;border:0;background:#fff;color:var(--ink);padding:10px 11px;border-radius:7px;font-size:13px;font-weight:750;cursor:pointer;white-space:nowrap}
+.nav-menu a:hover,.nav-menu button:hover{background:#eaf7ef;color:#075b32}
+.nav-menu .menu-caption{padding:7px 11px 4px;color:var(--muted);font-size:10px;font-weight:900;letter-spacing:1px;text-transform:uppercase}
+.nav-caret{font-size:10px;margin-left:4px}
+@media(max-width:760px){.nav nav{justify-content:flex-start;width:100%;gap:5px}.nav-group{position:static}.nav-menu{left:18px;right:18px;min-width:0}.nav-trigger{padding:9px 8px}}
 </style>
 </head>
 <body>
 <header>
 <div class="nav">
 <a class="brand" href="index.html"><img src="assets/coki-placeholder-logo.svg" alt="Coki Driving School logo"><span>COKI K53</span></a>
-<nav>
+<nav aria-label="Main navigation">
+<div class="nav-group">
+<button class="nav-trigger" type="button" aria-haspopup="true">Home &amp; Learn First <span class="nav-caret">▾</span></button>
+<div class="nav-menu">
+<div class="menu-caption">Start here</div>
 <a href="index.html">Home</a>
-<button onclick="showSection('knowledge')">Learn First</button>
-<button onclick="showSection('rules')">Rules</button>
-<button onclick="showSection('signs')">Road Signs</button>
-<button onclick="showSection('controls')">Controls</button>
+<button type="button" onclick="showSection('knowledge');closeNavMenus()">Learn First</button>
+</div>
+</div>
+<div class="nav-group">
+<button class="nav-trigger" type="button" aria-haspopup="true">Study Manual <span class="nav-caret">▾</span></button>
+<div class="nav-menu">
+<div class="menu-caption">Choose a study topic</div>
+<button type="button" onclick="showSection('rules');closeNavMenus()">Rules of the Road</button>
+<button type="button" onclick="showSection('signs');closeNavMenus()">Road Signs</button>
+<button type="button" onclick="showSection('controls');closeNavMenus()">Vehicle Controls</button>
+</div>
+</div>
 <a href="pertinent-knowledge.html">Essential Knowledge</a>
-<a href="study-library/inganathi-reference/questions-and-answers.html">Questions & Answers</a>
-<a href="tests/index.html">Full Test</a>
+<a href="study-library/inganathi-reference/questions-and-answers.html">Questions &amp; Answers</a>
+<div class="nav-group">
+<button class="nav-trigger" type="button" aria-haspopup="true">Tests <span class="nav-caret">▾</span></button>
+<div class="nav-menu">
+<div class="menu-caption">Choose your test</div>
+<a href="tests/player.html?test=1">Test 1</a>
+<a href="tests/player.html?test=2">Test 2</a>
+<a href="tests/player.html?test=3">Test 3</a>
+<a href="tests/player.html?test=4">Test 4</a>
+<a href="tests/player.html?test=5">Test 5</a>
+</div>
+</div>
 </nav>
 </div>
 </header>
@@ -637,5 +671,14 @@ if(["home","rules","signs","controls"].includes(requestedSection)){
 
 
 
+<script>
+function closeNavMenus(){document.querySelectorAll('.nav-group.open').forEach(g=>g.classList.remove('open'))}
+document.querySelectorAll('.nav-trigger').forEach(trigger=>trigger.addEventListener('click',e=>{
+ const group=trigger.closest('.nav-group'),wasOpen=group.classList.contains('open');
+ closeNavMenus();if(!wasOpen)group.classList.add('open');e.stopPropagation();
+}));
+document.addEventListener('click',e=>{if(!e.target.closest('.nav-group'))closeNavMenus()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeNavMenus()});
+</script>
 </body>
 </html>
