@@ -21,11 +21,11 @@ button:disabled{background:#aab7ae;cursor:not-allowed}.status{font-size:.75rem;c
 </head>
 <body><header><a href="../index.html">COKI · DIGITAL K53</a></header>
 <main><div class="eyebrow">Learner assessment</div><h1>Five-test practice centre</h1>
-<p class="intro">Choose a test to begin. The five test spaces are prepared; the original question sets, answer keys and road-sign images still need to be imported and checked against the source material.</p>
+<p class="intro">Choose from five 64-question practice tests. Questions and answer choices are shuffled each time you start. Road-sign and vehicle-control diagrams appear where provided by the source.</p>
 <section class="grid" id="tests"></section>
-<div class="note"><strong>Content accuracy:</strong> These are not yet the original SSS Driving School 360 tests. We have deliberately left question sets unpublished rather than inventing questions or marking guessed answers as official.</div>
+<div class="note"><strong>Practice format:</strong> Each test contains 64 questions drawn from the imported 236-question source bank. Questions may appear in more than one test, but do not repeat within the same test. Original image and diagram references are retained.</div>
 </main>
 <script>
-const tests=Array.from({length:5},(_,i)=>({id:i+1,title:'Test '+(i+1),description:'Original questions, answer options and explanations will appear here after source import.'}));
-document.getElementById('tests').innerHTML=tests.map(t=>'<article class="card"><div class="number">'+String(t.id).padStart(2,'0')+'</div><h2>'+t.title+'</h2><p>'+t.description+'</p><span class="status">Content import pending</span><p style="margin-top:16px"><a class="btn" href="player.html?test='+t.id+'">Open test workspace</a></p></article>').join('');
+const tests=Array.from({length:5},(_,i)=>({id:i+1,title:'Test '+(i+1),description:'64 shuffled questions with road signs and vehicle-control diagrams where available.'}));
+document.getElementById('tests').innerHTML=tests.map(t=>'<article class="card"><div class="number">'+String(t.id).padStart(2,'0')+'</div><h2>'+t.title+'</h2><p>'+t.description+'</p><span class="status">64 questions ready</span><p style="margin-top:16px"><a class="btn" href="player.html?test='+t.id+'">Open test workspace</a></p></article>').join('');
 </script></body></html>
