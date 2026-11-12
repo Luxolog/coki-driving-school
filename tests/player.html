@@ -1,22 +1,113 @@
 <!doctype html>
-<html lang="en-ZA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Coki K53 | Test Workspace</title>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coki K53 | Test Workspace</title>
 <style>
-:root{--green:#087a42;--red:#d92c32;--ink:#14231b;--muted:#607168;--paper:#f5f8f5;--line:#e1e9e2}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,sans-serif}header{background:#101b15;color:white;padding:17px 22px;border-bottom:4px solid var(--green)}header a{color:white;text-decoration:none}
-main{max-width:850px;margin:34px auto;padding:0 18px 60px}.panel{background:white;border:1px solid var(--line);border-radius:18px;padding:clamp(20px,4vw,34px)}.muted{color:var(--muted)}.eyebrow{color:var(--green);font-size:.75rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
-.question{font-size:1.2rem;font-weight:750;margin:24px 0}.options{display:grid;gap:10px}.option{display:flex;gap:12px;text-align:left;align-items:center;padding:13px;border:1px solid var(--line);border-radius:12px;background:white;color:var(--ink);font:inherit;cursor:pointer}.option:hover,.option.chosen{border-color:var(--green);background:#eaf7ee}.letter{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;background:#eff3ef;font-weight:800;flex:none}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{border:0;border-radius:10px;padding:11px 16px;background:var(--green);color:white;font:inherit;font-weight:750;cursor:pointer;text-decoration:none}.btn.secondary{background:#edf3ef;color:#1c633b}.btn:disabled{opacity:.45;cursor:not-allowed}.progress{height:8px;background:#e5ece6;border-radius:10px;overflow:hidden;margin:14px 0}.progress span{display:block;height:100%;background:var(--green)}.empty{padding:20px;background:#fff5df;border-radius:12px;color:#684b12}.diagrams{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:12px;margin:16px 0 22px}.diagrams figure{margin:0;padding:8px;border:1px solid var(--line);border-radius:12px;background:#fbfcfb}.diagrams img{display:block;width:100%;height:auto;max-height:360px;object-fit:contain}.diagrams figcaption{font-size:.78rem;color:var(--muted);padding:5px}.meta{font-size:.8rem;color:var(--muted);text-transform:capitalize}
-</style></head><body><header><a href="index.html">← Back to Coki Test Centre</a></header>
-<main><div class="eyebrow">Coki learner portal</div><h1 id="heading">Test workspace</h1><p class="muted">64-question practice assessment · Questions and answer choices are shuffled for each attempt</p><section class="panel" id="app"><div class="empty">Loading test questions…</div></section></main>
+:root{--green:#087a42;--red:#d92c32;--ink:#14231b;--muted:#607168;--paper:#f5f8f5;--line:#e1e9e2;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{background:#101b15;color:#fff;padding:17px clamp(18px,5vw,64px);border-bottom:4px solid var(--green)}header a{color:#fff;text-decoration:none;font-weight:800}
+main{max-width:900px;margin:32px auto;padding:0 18px 60px}.eyebrow{color:var(--green);font-size:.75rem;font-weight:850;letter-spacing:.13em;text-transform:uppercase}
+h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:8px 0}.muted{color:var(--muted)}.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:clamp(20px,4vw,34px);margin-top:18px}
+.field{display:grid;gap:6px;margin:18px 0}.field label{font-weight:750}.field input{width:100%;max-width:420px;border:1px solid #b9c8bd;border-radius:10px;padding:12px 13px;font:inherit}
+.btn{border:0;border-radius:10px;padding:11px 16px;background:var(--green);color:#fff;font:inherit;font-weight:750;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}.btn.secondary{background:#edf3ef;color:#1c633b}.btn:disabled{opacity:.45;cursor:not-allowed}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.progress{height:9px;background:#e5ece6;border-radius:10px;overflow:hidden;margin:14px 0}.progress span{display:block;height:100%;background:var(--green);transition:width .2s}
+.question{font-size:1.2rem;font-weight:800;margin:24px 0}.options{display:grid;gap:10px}.option{display:flex;gap:12px;text-align:left;align-items:center;padding:13px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);font:inherit;cursor:pointer}.option:hover,.option.chosen{border-color:var(--green);background:#eaf7ee}.letter{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;background:#eff3ef;font-weight:800;flex:none}
+.diagrams{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:12px;margin:16px 0 22px}.diagrams figure{margin:0;padding:8px;border:1px solid var(--line);border-radius:12px;background:#fbfcfb}.diagrams img{display:block;width:100%;height:auto;max-height:360px;object-fit:contain}.diagrams figcaption{font-size:.78rem;color:var(--muted);padding:5px}.meta{font-size:.8rem;color:var(--muted);text-transform:capitalize}.empty{padding:16px;background:#fff5df;border-radius:12px;color:#684b12}
+.summary-score{font-size:2.4rem;font-weight:900;color:var(--green)}.review{border:1px solid var(--line);border-radius:12px;padding:16px;margin:14px 0}.review h3{margin:0 0 8px;font-size:1rem}.review p{margin:7px 0}.wrong-answer{color:#a51f28}.correct-answer{color:#126b3a}.review img{max-width:100%;max-height:240px;object-fit:contain;display:block;margin:8px 0;border:1px solid var(--line);border-radius:8px;padding:5px;background:#fff}
+@media(max-width:600px){main{margin:22px auto}.panel{padding:18px}.question{font-size:1.08rem}}
+</style></head>
+<body><header><a href="index.html">← Back to Coki Test Centre</a></header>
+<main><div class="eyebrow">Coki learner portal</div><h1 id="heading">Test workspace</h1><p class="muted">64-question practice assessment · Every new attempt gets a fresh question order and shuffled answer choices.</p>
+<section class="panel" id="app"><div class="empty">Loading test questions…</div></section></main>
 <script>
-const params=new URLSearchParams(location.search),testId=Math.max(1,Math.min(5,Number(params.get('test'))||1)),app=document.getElementById('app');document.getElementById('heading').textContent='Test '+testId;
-function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-fetch('questions.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(bank=>{
- const original=bank['test'+testId]||[];if(original.length!==64){app.innerHTML='<div class="empty">This test must contain exactly 64 questions before it can be attempted.</div>';return}
- const questions=shuffle(original).map(q=>{const options=shuffle(q.options.map((label,i)=>({label,isCorrect:i===q.correctIndex})));return {...q,options,correctIndex:options.findIndex(o=>o.isCorrect)}});let index=0,answers={};
- function render(){const q=questions[index],done=Object.keys(answers).length;app.innerHTML='<strong>Question '+(index+1)+' of 64</strong><span class="meta"> · '+(q.category||'K53')+'</span><div class="progress"><span style="width:'+done/64*100+'%"></span></div><div class="question"></div><div class="diagrams"></div><div class="options"></div><div class="actions"><button class="btn secondary" id="prev" '+(index===0?'disabled':'')+'>Previous</button><button class="btn" id="next">'+(index===63?'Finish test':'Next question')+'</button></div><p class="muted">'+done+' of 64 answered</p>';
- app.querySelector('.question').textContent=q.question;const box=app.querySelector('.diagrams');(q.diagramImages||[]).forEach((url,n)=>{const f=document.createElement('figure'),img=document.createElement('img'),cap=document.createElement('figcaption');img.src=url;img.alt='Question '+q.id+' road sign or vehicle control diagram';img.loading='lazy';img.onerror=()=>{f.innerHTML='<figcaption>Original diagram reference retained: '+url.split('/').pop()+'</figcaption>'};cap.textContent=(q.diagramMode==='vehicle_controls'?'Vehicle control diagram':'Road sign / question diagram')+(q.diagramImages.length>1?' '+(n+1):'');f.append(img,cap);box.append(f)});
- const opts=app.querySelector('.options');q.options.forEach((o,i)=>{const b=document.createElement('button');b.className='option'+(answers[index]===i?' chosen':'');const letter=document.createElement('span');letter.className='letter';letter.textContent=String.fromCharCode(65+i);const label=document.createElement('span');label.textContent=o.label;b.append(letter,label);b.onclick=()=>{answers[index]=i;render()};opts.append(b)});app.querySelector('#prev').onclick=()=>{index--;render()};app.querySelector('#next').onclick=()=>{if(index<63){index++;render()}else finish()};}
- function finish(){if(Object.keys(answers).length<64){index=questions.findIndex((q,i)=>answers[i]===undefined);render();const n=document.createElement('p');n.className='empty';n.textContent='Please answer all 64 questions before finishing.';app.prepend(n);return}const correct=questions.reduce((n,q,i)=>n+(answers[i]===q.correctIndex?1:0),0);app.innerHTML='<h2>Test completed</h2><p>You answered all 64 questions.</p><h3>'+correct+' / 64 correct ('+Math.round(correct/64*100)+'%)</h3><p class="muted">Practice result only. Learner records are not saved to a school account in this static preview.</p><div class="actions"><button class="btn" id="retry">Retry with a new random order</button><a class="btn secondary" href="index.html">Back to test centre</a></div>';app.querySelector('#retry').onclick=()=>location.reload();}
- render();
-}).catch(()=>{app.innerHTML='<div class="empty">Unable to load the question bank. Please try again later.</div>'});
+(function(){
+'use strict';
+const params=new URLSearchParams(location.search);
+const testId=Math.max(1,Math.min(5,Number(params.get('test'))||1));
+const app=document.getElementById('app');
+document.getElementById('heading').textContent='Test '+testId;
+const ORDER_KEY='coki_k53_test_order_v2';
+const ATTEMPT_KEY='coki_k53_test_attempts_v1';
+function readStore(key,fallback){try{return JSON.parse(localStorage.getItem(key)||'null')??fallback}catch(e){return fallback}}
+function writeStore(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch(e){return false}}
+function shuffle(items){const a=items.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function makeFreshOrder(source,previous){
+ const fresh=shuffle(source);
+ if(!Array.isArray(previous)||previous.length!==source.length)return fresh;
+ const oldPosition=new Map(previous.map((id,i)=>[String(id),i]));
+ // Repeatedly shuffle until every question moves to a different numbered position.
+ for(let tries=0;tries<300;tries++){
+  const candidate=shuffle(source);
+  if(candidate.every((q,i)=>oldPosition.get(String(q.id))!==i))return candidate;
+ }
+ // Guaranteed derangement fallback: rotate a fresh shuffled order by one.
+ const byPrevious=source.slice().sort((a,b)=>(oldPosition.get(String(a.id))??0)-(oldPosition.get(String(b.id))??0));
+ const shift=1+Math.floor(Math.random()*(byPrevious.length-1));
+ const rotated=byPrevious.slice(shift).concat(byPrevious.slice(0,shift));
+ return shuffle(rotated).every((q,i)=>oldPosition.get(String(q.id))!==i)?shuffle(rotated):byPrevious.slice(1).concat(byPrevious.slice(0,1));
+}
+function localAsset(url){
+ if(!url||typeof url!=='string')return '';
+ return url.replace(/^https?:\/\/luxolog\.github\.io\/inganathi-k53\//,'../');
+}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function startScreen(bank){
+ const source=bank['test'+testId]||[];
+ if(source.length!==64){app.innerHTML='<div class="empty">Test '+testId+' currently has '+source.length+' questions. It must contain exactly 64 before it can be attempted.</div>';return}
+ app.innerHTML='<h2>Before you begin</h2><p class="muted">Enter your Coki student ID so this attempt can be identified for the future school dashboard. Your ID and result are currently stored only in this browser; online admin synchronisation will be connected when the secure learner database is ready.</p><div class="field"><label for="studentId">Student ID number</label><input id="studentId" type="text" maxlength="40" autocomplete="off" placeholder="Enter your Coki student ID" required></div><div class="empty">You will answer all 64 questions. Questions and answer choices are randomised. When you retake this same test, questions will not return to the same question numbers as your previous attempt on this browser.</div><div class="actions"><button class="btn" id="begin">Start Test '+testId+'</button><a class="btn secondary" href="index.html">Back to tests</a></div>';
+ app.querySelector('#begin').onclick=()=>{const id=app.querySelector('#studentId').value.trim();if(!id){app.querySelector('#studentId').focus();return}beginTest(source,id)};
+ const remembered=localStorage.getItem('coki_last_student_id');if(remembered)app.querySelector('#studentId').value=remembered;
+}
+let questions=[],studentId='',answers={},index=0,attemptStarted='';
+function beginTest(source,id){
+ studentId=id;try{localStorage.setItem('coki_last_student_id',id)}catch(e){}
+ const previous=readStore(ORDER_KEY,{});
+ const ordered=makeFreshOrder(source,previous['test'+testId]);
+ // Save this attempt's question order so the next retake can avoid every previous position.
+ previous['test'+testId]=ordered.map(q=>q.id);writeStore(ORDER_KEY,previous);
+ questions=ordered.map(q=>{
+  const opts=shuffle(q.options.map((label,i)=>({label,isCorrect:i===q.correctIndex})));
+  return {...q,options:opts,correctIndex:opts.findIndex(o=>o.isCorrect)};
+ });
+ answers={};index=0;attemptStarted=new Date().toISOString();renderQuestion();
+}
+function renderQuestion(){
+ const q=questions[index],done=Object.keys(answers).length;
+ app.innerHTML='<strong>Question '+(index+1)+' of 64</strong><span class="meta"> · '+esc(q.category||'K53')+'</span><div class="progress"><span style="width:'+(done/64*100)+'%"></span></div><div class="question"></div><div class="diagrams"></div><div class="options"></div><div class="actions"><button class="btn secondary" id="prev" '+(index===0?'disabled':'')+'>Previous</button><button class="btn" id="next">'+(index===63?'Finish test':'Next question')+'</button></div><p class="muted">'+done+' of 64 answered</p>';
+ app.querySelector('.question').textContent=q.question;
+ const box=app.querySelector('.diagrams');
+ (q.diagramImages||[]).forEach((url,n)=>{
+  const fig=document.createElement('figure'),img=document.createElement('img'),cap=document.createElement('figcaption');
+  img.src=localAsset(url);img.alt='Question '+q.id+' road sign or vehicle control diagram';img.loading='lazy';
+  img.onerror=()=>{fig.innerHTML='<figcaption class="empty">Diagram could not be displayed: '+esc((url||'').split('/').pop())+'</figcaption>'};
+  cap.textContent=(q.diagramMode==='vehicle_controls'?'Vehicle control diagram':'Road sign / question diagram')+((q.diagramImages||[]).length>1?' '+(n+1):'');
+  fig.append(img,cap);box.append(fig);
+ });
+ const opts=app.querySelector('.options');
+ q.options.forEach((o,i)=>{const b=document.createElement('button');b.type='button';b.className='option'+(answers[index]===i?' chosen':'');const letter=document.createElement('span');letter.className='letter';letter.textContent=String.fromCharCode(65+i);const label=document.createElement('span');label.textContent=o.label;b.append(letter,label);b.onclick=()=>{answers[index]=i;renderQuestion()};opts.append(b)});
+ app.querySelector('#prev').onclick=()=>{index--;renderQuestion()};
+ app.querySelector('#next').onclick=()=>{if(index<63){index++;renderQuestion()}else finishTest()};
+}
+function finishTest(){
+ const unanswered=questions.findIndex((q,i)=>answers[i]===undefined);
+ if(unanswered!==-1){index=unanswered;renderQuestion();const msg=document.createElement('p');msg.className='empty';msg.textContent='Please answer all 64 questions before finishing.';app.prepend(msg);return}
+ const wrong=questions.map((q,i)=>({...q,questionNumber:i+1,selected:answers[i],correct:q.correctIndex})).filter(x=>x.selected!==x.correct);
+ const score=64-wrong.length,percentage=Math.round(score/64*100);
+ const record={schemaVersion:1,studentId,testId,startedAt:attemptStarted,completedAt:new Date().toISOString(),totalQuestions:64,score,wrongCount:wrong.length,percentage,questionOrder:questions.map(q=>q.id),answers:questions.map((q,i)=>({questionId:q.id,questionNumber:i+1,selectedOptionIndex:answers[i],correctOptionIndex:q.correctIndex,isCorrect:answers[i]===q.correctIndex}))};
+ const attempts=readStore(ATTEMPT_KEY,[]);attempts.push(record);writeStore(ATTEMPT_KEY,attempts);
+ app.innerHTML='<h2>Test '+testId+' completed</h2><p class="muted">Student ID: <strong>'+esc(studentId)+'</strong></p><div class="summary-score">'+score+' / 64</div><p><strong>'+percentage+'%</strong> · '+wrong.length+' incorrect · '+score+' correct</p><div class="progress"><span style="width:'+percentage+'%"></span></div><h2>Review your incorrect answers</h2><p class="muted">'+(wrong.length?'The questions below show what you selected and the correct answer. Review them before your next attempt.':'Excellent — you answered every question correctly.')+'</p><div id="wrongList"></div><div class="actions"><button class="btn" id="retry">Retake Test '+testId+'</button><a class="btn secondary" href="index.html">Back to test centre</a></div><p class="muted">Your attempt has been saved in this browser under student ID '+esc(studentId)+'. It is not yet visible on the school admin dashboard because secure server-side learner records have not been connected.</p>';
+ const list=app.querySelector('#wrongList');
+ wrong.forEach(item=>{
+  const review=document.createElement('article');review.className='review';
+  const chosen=item.options[item.selected],correct=item.options[item.correct];
+  review.innerHTML='<h3>Question '+item.questionNumber+' · Source question '+esc(item.id)+'</h3><p>'+esc(item.question)+'</p><p class="wrong-answer"><strong>Your answer:</strong> '+esc(chosen?.label)+'</p><p class="correct-answer"><strong>Correct answer:</strong> '+esc(correct?.label)+'</p>';
+  (item.diagramImages||[]).forEach(url=>{const img=document.createElement('img');img.src=localAsset(url);img.alt='Question diagram';img.onerror=()=>img.remove();review.append(img)});
+  list.append(review);
+ });
+ app.querySelector('#retry').onclick=()=>startScreen(bankCache);
+}
+let bankCache=null;
+fetch('questions.json').then(r=>{if(!r.ok)throw Error('Question bank request failed');return r.json()}).then(bank=>{bankCache=bank;startScreen(bank)}).catch(()=>{app.innerHTML='<div class="empty">Unable to load the question bank. Please refresh and try again.</div>'});
+})();
 </script></body></html>
