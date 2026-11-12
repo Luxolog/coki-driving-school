@@ -2,7 +2,39 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Coki Driving School Questions and Answers Manual."><title>Questions & Answers | Coki Driving School</title>
 <style>
 :root{--ink:#14231b;--red:#d92c32;--muted:#607168;--line:#dfe8e1;--paper:#f4f7f4}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Arial,sans-serif}header{background:#101b15;border-bottom:4px solid #087a42;position:sticky;top:0;z-index:2}.nav{max-width:1050px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-weight:800}.brand img{width:42px;height:42px;object-fit:contain}.navlinks{display:flex;gap:16px;flex-wrap:wrap}.navlinks a{color:#fff;text-decoration:none;font-weight:700;font-size:14px}.wrap{max-width:900px;margin:28px auto;padding:0 18px}.hero,.intro,.qa{background:white;border:1px solid var(--line);border-radius:14px}.hero{padding:28px;margin-bottom:16px}.eyebrow{font-size:12px;letter-spacing:2px;color:#087a42;font-weight:800}.hero h1{font-size:clamp(28px,5vw,42px);line-height:1.1;margin:8px 0}.hero p,.intro{color:var(--muted)}.intro{padding:16px 18px;margin-bottom:18px}.tools{display:flex;gap:10px;margin-bottom:16px}.tools input{width:100%;padding:12px 14px;border:1px solid #cbd2dd;border-radius:9px;font:inherit}.qa{margin-bottom:9px;overflow:hidden}.q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:15px;text-align:left;padding:15px 17px;border:0;background:#fff;font:inherit;font-weight:700;color:var(--ink);cursor:pointer}.plus{color:var(--red);font-size:22px}.answer{display:none;border-top:1px solid var(--line);padding:5px 18px 13px;color:#303949}.qa.open .answer{display:block}.qa.open .plus{transform:rotate(45deg)}.q:hover{background:#f0f8f2}.qa.open{border-color:#087a42}.note{font-size:13px;color:var(--muted)}footer{text-align:center;padding:25px;color:var(--muted);font-size:13px}@media(max-width:600px){.nav{align-items:flex-start;flex-direction:column}.hero{padding:22px}}
-.control-answer-image{display:block;width:100%;max-width:560px;max-height:440px;object-fit:contain;background:#fff;border:1px solid #d8dee8;border-radius:10px;padding:8px;margin:14px 0}.control-qa small{display:inline-block;color:var(--muted);font-weight:600;font-size:12px}.control-qa .answer{padding-top:14px}#control-questions{margin-top:32px}#control-questions h2{font-size:clamp(23px,4vw,30px);margin-bottom:8px}@media(max-width:600px){.control-answer-image{max-height:300px}}</style></head><body><header><div class="nav"><a class="brand" href="manual.html"><img src="./assets/coki-placeholder-logo.svg" alt="Coki Driving School logo"><span>COKI K53</span></a><div class="navlinks"><a href="index.html">Home</a><a href="manual.html">Study Manual</a><a href="pertinent-knowledge.html">Essential Knowledge</a><a href="tests/index.html">Tests 1–5</a></div></div></header>
+.control-answer-image{display:block;width:100%;max-width:560px;max-height:440px;object-fit:contain;background:#fff;border:1px solid #d8dee8;border-radius:10px;padding:8px;margin:14px 0}.control-qa small{display:inline-block;color:var(--muted);font-weight:600;font-size:12px}.control-qa .answer{padding-top:14px}#control-questions{margin-top:32px}#control-questions h2{font-size:clamp(23px,4vw,30px);margin-bottom:8px}@media(max-width:600px){.control-answer-image{max-height:300px}}
+/* Coki unified bright-green navigation */
+.coki-site-header{position:sticky;top:0;z-index:1000;background:#00a651!important;color:#fff!important;border-bottom:4px solid #ed1c24!important;box-shadow:0 3px 12px #002b1718}
+.coki-nav-wrap{width:min(100%,1500px);margin:0 auto;padding:10px clamp(16px,3.5vw,56px);min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.coki-brand{display:flex;align-items:center;gap:14px;flex:none;color:#fff!important;text-decoration:none!important}
+.coki-brand img{width:64px;height:56px;object-fit:contain;background:#fff;border-radius:7px;padding:3px}
+.coki-brand-copy{display:block;line-height:1.2}
+.coki-brand-copy strong{display:block;color:#fff;font-size:1.25rem;font-weight:950;letter-spacing:.12em}
+.coki-brand-copy small{display:block;color:#fff;font-size:.72rem;font-weight:750;letter-spacing:.075em;margin-top:5px}
+.coki-main-nav{display:flex;align-items:center;justify-content:flex-end;gap:4px;flex-wrap:wrap}
+.coki-main-nav>a,.coki-menu-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:42px;padding:9px 12px;border:0;border-radius:8px;background:transparent;color:#fff!important;text-decoration:none!important;font:inherit;font-size:.9rem;font-weight:800;white-space:nowrap;cursor:pointer}
+.coki-main-nav>a:hover,.coki-menu-toggle:hover,.coki-menu-group.is-open>.coki-menu-toggle{background:#008b45;color:#fff!important}
+.coki-menu-group{position:relative}
+.coki-menu-toggle .chevron{font-size:.7rem;transition:transform .15s}
+.coki-menu-group.is-open .chevron{transform:rotate(180deg)}
+.coki-menu-panel{display:none;position:absolute;top:calc(100% + 5px);left:0;min-width:235px;padding:8px;background:#fff;border:1px solid #dce8df;border-radius:11px;box-shadow:0 14px 32px #002b1730;z-index:1001}
+.coki-menu-group.is-open .coki-menu-panel{display:grid}
+.coki-menu-panel .menu-label{padding:8px 11px 5px;color:#64736a;font-size:.68rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase}
+.coki-menu-panel a{display:block;padding:10px 11px;border-radius:7px;color:#17251c!important;text-decoration:none!important;font-size:.88rem;font-weight:750;white-space:nowrap}
+.coki-menu-panel a:hover{background:#e8f7ed;color:#006b37!important}
+@media(max-width:1050px){.coki-nav-wrap{gap:12px}.coki-brand img{width:55px;height:50px}.coki-main-nav>a,.coki-menu-toggle{padding:8px 9px;font-size:.82rem}}
+@media(max-width:760px){.coki-nav-wrap{align-items:flex-start;flex-direction:column;gap:8px;padding:10px 16px}.coki-main-nav{width:100%;justify-content:flex-start;gap:3px 5px}.coki-main-nav>a,.coki-menu-toggle{font-size:.82rem;min-height:38px;padding:8px 9px}.coki-menu-panel{left:0;min-width:220px}.coki-brand img{width:52px;height:46px}.coki-brand-copy strong{font-size:1.1rem}.coki-brand-copy small{font-size:.65rem}}
+@media(max-width:430px){.coki-main-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}.coki-main-nav>a,.coki-menu-toggle{width:100%;justify-content:space-between}.coki-menu-group{position:relative}.coki-menu-panel{left:0;right:auto;max-width:min(270px,90vw)}}
+</style></head><body><header class="coki-site-header"><div class="coki-nav-wrap">
+<a class="coki-brand" href="index.html#home"><img src="./assets/assets/coki-placeholder-logo.svg" alt="Coki Driving School logo"><span class="coki-brand-copy"><strong>COKI K53</strong><small>DIGITAL K53 · LEARNER PREPARATION</small></span></a>
+<nav class="coki-main-nav" aria-label="Main navigation">
+<a href="index.html#home">Home</a>
+<div class="coki-menu-group"><button class="coki-menu-toggle" type="button" aria-expanded="false">Study Manual <span class="chevron">▾</span></button><div class="coki-menu-panel"><span class="menu-label">Choose a study section</span><a href="manual.html?section=knowledge">Learn Before You Test</a><a href="manual.html?section=rules">Rules of the Road</a><a href="manual.html?section=signs">Road Signs</a><a href="manual.html?section=controls">Vehicle Controls</a></div></div>
+<a href="pertinent-knowledge.html">Essential Knowledge</a>
+<a href="questions-and-answers.html">Questions &amp; Answers</a>
+<div class="coki-menu-group"><button class="coki-menu-toggle" type="button" aria-expanded="false">Practice Tests <span class="chevron">▾</span></button><div class="coki-menu-panel"><span class="menu-label">Choose your assessment</span><a href="tests/index.html">Test Centre Overview</a><a href="tests/player.html?test=1">Test 1</a><a href="tests/player.html?test=2">Test 2</a><a href="tests/player.html?test=3">Test 3</a><a href="tests/player.html?test=4">Test 4</a><a href="tests/player.html?test=5">Test 5</a></div></div>
+<a href="index.html#school">For the School</a>
+</nav></div></header>
 <main class="wrap"><section class="hero"><div class="eyebrow">Coki Driving School</div><h1>Questions & Answers Manual</h1><p>Use these 50 source questions to reinforce the theory. Open a question to review its answer.</p></section>
 <div class="intro"><strong>Study note:</strong> These answers are based on the academy's supplied Questions and Answers Manual. Some legal rules and figures can change or depend on the situation; confirm current requirements with official guidance and always prioritise safe, lawful driving.</div>
 <div class="tools"><input id="search" type="search" placeholder="Search questions or answers…" aria-label="Search questions and answers"></div><div id="list"><article class="qa"><button class="q" aria-expanded="false" onclick="toggleAnswer(this)"><span><b>1.</b> Who is responsible for ensuring that passengers wear seat belts?</span><span class="plus">+</span></button><div class="answer"><p>It is the driver’s responsibility for children under 14 years of age; adults are responsible for themselves.</p></div></article>
@@ -83,5 +115,13 @@
 </style>
 <footer class="ekhaya-tech-credit" aria-label="Website developer credit">Built by <strong>Ekhaya Technologies</strong></footer>
 
-</body>
+<script>
+(function(){
+ const groups=[...document.querySelectorAll('.coki-menu-group')];
+ function closeAll(except){groups.forEach(group=>{if(group!==except){group.classList.remove('is-open');const btn=group.querySelector('.coki-menu-toggle');if(btn)btn.setAttribute('aria-expanded','false')}})}
+ groups.forEach(group=>{const btn=group.querySelector('.coki-menu-toggle');btn.addEventListener('click',function(event){event.preventDefault();event.stopPropagation();const opening=!group.classList.contains('is-open');closeAll(group);group.classList.toggle('is-open',opening);btn.setAttribute('aria-expanded',String(opening))})});
+ document.addEventListener('click',event=>{if(!event.target.closest('.coki-menu-group'))closeAll()});
+ document.addEventListener('keydown',event=>{if(event.key==='Escape')closeAll()});
+})();
+</script></body>
 </html>
