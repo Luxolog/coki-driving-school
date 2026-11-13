@@ -1,0 +1,42 @@
+name: Coki Cloudflare pilot checks
+
+on:
+  pull_request:
+    paths:
+      - "cloudflare/**"
+      - ".github/workflows/coki-cloudflare-pilot-checks.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: coki-cloudflare-pilot-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate pilot scaffold (no deployment)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Check Worker JavaScript syntax
+        run: node --check cloudflare/worker/src/index.js
+
+      - name: Install SQLite CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes sqlite3
+
+      - name: Apply schema and run isolated smoke tests
+        run: sqlite3 :memory: < cloudflare/tests/schema-smoke-test.sql
+
+      - name: Confirm Wrangler config remains a template
+        run: |
+          grep -q "REPLACE_WITH_COKI_PILOT_D1_DATABASE_ID" cloudflare/wrangler.toml.example
+          echo "No live database ID is committed."
