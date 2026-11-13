@@ -3,7 +3,15 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Coki Driving School | K53 Learner Preparation</title>
 <meta name="description" content="Prepare for your South African K53 learner's licence with Coki Driving School. Study essential knowledge, road signs, road rules and practise with five assessments.">
-<meta name="theme-color" content="#101b15">
+<meta name="theme-color" content="#00a651">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./coki-app-icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./coki-app-icon.svg">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Coki K53">
+
 <style>
 :root{--green:#087a42;--red:#d92c32;--ink:#14231b;--muted:#607168;--paper:#f4f7f4;--line:#dfe8e1;--dark:#101b15;--pale:#e8f5ec}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:inherit}
@@ -108,4 +116,7 @@ footer{background:var(--dark);color:#d7e6dc;text-align:center;padding:27px 18px;
  document.addEventListener('click',event=>{if(!event.target.closest('.coki-menu-group'))closeAll()});
  document.addEventListener('keydown',event=>{if(event.key==='Escape')closeAll()});
 })();
-</script></body></html>
+</script><script>
+if ("serviceWorker" in navigator) { window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js", {scope:"./"}).catch(err => console.error("Coki offline setup:", err))); }
+</script>
+</body></html>
