@@ -40,7 +40,7 @@ class MainActivity : Activity() {
         }
         progress = ProgressBar(this, null, android.R.attr.progressBarStyleHorizontal).apply {
             isIndeterminate = true
-            visibility = View.GONE
+            setVisibility(View.GONE)
         }
         webView = WebView(this).apply {
             settings.javaScriptEnabled = true
@@ -52,13 +52,13 @@ class MainActivity : Activity() {
             settings.setSupportMultipleWindows(false)
             webViewClient = object : WebViewClient() {
                 override fun onPageStarted(view: WebView?, url: String?, favicon: Bitmap?) {
-                    progress.visibility = View.VISIBLE
-                    errorPanel.visibility = View.GONE
-                    webView.visibility = View.VISIBLE
+                    progress.setVisibility(View.VISIBLE)
+                    errorPanel.setVisibility(View.GONE)
+                    webView.setVisibility(View.VISIBLE)
                 }
 
                 override fun onPageFinished(view: WebView?, url: String?) {
-                    progress.visibility = View.GONE
+                    progress.setVisibility(View.GONE)
                 }
 
                 override fun onReceivedError(view: WebView?, request: WebResourceRequest?, error: WebResourceError?) {
@@ -81,7 +81,7 @@ class MainActivity : Activity() {
             orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER
             setPadding(36, 36, 36, 36)
-            visibility = View.GONE
+            setVisibility(View.GONE)
             addView(TextView(this@MainActivity).apply {
                 text = "Unable to load Coki K53"
                 textSize = 22f
@@ -110,9 +110,9 @@ class MainActivity : Activity() {
     }
 
     private fun showError() {
-        progress.visibility = View.GONE
-        webView.visibility = View.GONE
-        errorPanel.visibility = View.VISIBLE
+        progress.setVisibility(View.GONE)
+        webView.setVisibility(View.GONE)
+        errorPanel.setVisibility(View.VISIBLE)
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
