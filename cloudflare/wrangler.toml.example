@@ -1,0 +1,12 @@
+name = "coki-pilot-api"
+main = "worker/src/index.js"
+compatibility_date = "2026-11-13"
+workers_dev = true
+
+[vars]
+ENVIRONMENT = "pilot"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "coki-pilot"
+database_id = "REPLACE_WITH_COKI_PILOT_D1_DATABASE_ID"
