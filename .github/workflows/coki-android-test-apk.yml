@@ -1,6 +1,12 @@
 name: Build Coki Android test APK
 
 on:
+  push:
+    branches:
+      - coki-android-test
+    paths:
+      - "android-app/**"
+      - ".github/workflows/coki-android-test-apk.yml"
   workflow_dispatch:
 
 permissions:
