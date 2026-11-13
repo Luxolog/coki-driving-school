@@ -41,7 +41,7 @@ jobs:
             echo "Android SDK manager not found on runner"
             exit 1
           fi
-          yes | "$SDKMANAGER" --licenses >/dev/null
+          yes | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" --install "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
       - name: Set up Gradle
