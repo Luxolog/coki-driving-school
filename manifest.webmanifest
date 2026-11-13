@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Coki Driving School | K53",
+  "short_name": "Coki K53",
+  "description": "Coki Driving School K53 learner preparation and practice.",
+  "lang": "en-ZA",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f7f4",
+  "theme_color": "#101b15",
+  "icons": [
+    {
+      "src": "./coki-app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
