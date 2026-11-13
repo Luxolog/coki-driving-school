@@ -1,4 +1,4 @@
-const CACHE_NAME = "coki-k53-shell-v1";
+const CACHE_NAME = "coki-driving-school-shell-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
