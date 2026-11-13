@@ -3,9 +3,12 @@
 PRAGMA foreign_keys = ON;
 .read cloudflare/schema.sql
 
--- Confirm expected tables exist.
-SELECT CASE WHEN COUNT(*) = 9 THEN 'PASS: 9 tables created' ELSE RAISE(ABORT, 'Expected 9 tables') END
+-- A failed assertion violates CHECK and stops sqlite3 because of .bail on.
+CREATE TEMP TABLE assertions (ok INTEGER NOT NULL CHECK (ok = 1), message TEXT);
+INSERT INTO assertions
+SELECT COUNT(*) = 9, 'expected nine tables'
 FROM sqlite_master WHERE type = 'table' AND name NOT LIKE 'sqlite_%';
+SELECT 'PASS: 9 tables created';
 
 -- Seed synthetic administrator and learner records only.
 INSERT INTO administrators (id,email,password_hash,password_salt,hash_version,role,enabled,created_at,updated_at)
@@ -30,11 +33,17 @@ ON CONFLICT(learner_id,test_number) DO UPDATE SET
  completed_at=excluded.completed_at,
  expires_at=excluded.expires_at;
 
-SELECT CASE WHEN (SELECT score FROM latest_test_results WHERE learner_id='learner-test' AND test_number=1) = 85
- THEN 'PASS: Test 1 result replaced' ELSE RAISE(ABORT, 'Test 1 was not replaced') END;
+INSERT INTO assertions SELECT
+ (SELECT score FROM latest_test_results WHERE learner_id='learner-test' AND test_number=1) = 85,
+ 'Test 1 replacement';
+SELECT 'PASS: Test 1 result replaced';
 
-SELECT CASE WHEN (SELECT score FROM latest_test_results WHERE learner_id='learner-test' AND test_number=2) = 70
- THEN 'PASS: Test 2 result preserved' ELSE RAISE(ABORT, 'Test 2 changed unexpectedly') END;
+INSERT INTO assertions SELECT
+ (SELECT score FROM latest_test_results WHERE learner_id='learner-test' AND test_number=2) = 70,
+ 'Test 2 preservation';
+SELECT 'PASS: Test 2 result preserved';
 
-SELECT CASE WHEN (SELECT COUNT(*) FROM latest_test_results WHERE learner_id='learner-test') = 2
- THEN 'PASS: one result per learner/test' ELSE RAISE(ABORT, 'Unexpected result count') END;
+INSERT INTO assertions SELECT
+ (SELECT COUNT(*) FROM latest_test_results WHERE learner_id='learner-test') = 2,
+ 'one current result per learner/test';
+SELECT 'PASS: one result per learner/test';
