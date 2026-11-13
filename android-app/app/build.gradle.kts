@@ -1,1 +1,17 @@
-¦[ Š{"uÊ&jwk¢'Z¦™bq«b¢x¢¸#zÖëj)ì’‹eŠv§vº"u©İ®ˆ©²–œ{6œ¢)àjv­†'kŠø§§ué²r‰©ŠW’v
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    namespace = "za.co.ekhaya.coki"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "za.co.ekhaya.coki"
+        minSdk = 23
+        targetSdk = 35
+        versionCode = 1
+        versionName = "0.1.0"
+    }
+}
