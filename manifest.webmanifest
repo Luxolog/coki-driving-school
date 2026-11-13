@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Coki Driving School – K53",
-  "short_name": "Coki K53",
-  "description": "Coki Driving School digital K53 learner preparation.",
+  "name": "Coki's Driving School",
+  "short_name": "Coki's Driving",
+  "description": "Coki's Driving School – South African K53 learner preparation and practice.",
   "lang": "en-ZA",
   "start_url": "./",
   "scope": "./",
