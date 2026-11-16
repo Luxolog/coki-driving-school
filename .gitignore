@@ -1,0 +1,89 @@
+# Ekhaya Technologies — security baseline
+# Keep secrets, private data, local state and generated files out of Git.
+# Never put real credentials in example files.
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Credentials, tokens and private keys
+secrets/
+credentials/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*service-account*.json
+credentials.json
+secrets.json
+token.json
+auth.json
+
+# Local and server-only configuration
+*.local
+*.local.*
+config.local.*
+wp-config.php
+wp-config-local.php
+
+# Private/customer data (keep only synthetic test fixtures in repositories)
+private-data/
+personal-data/
+customer-data/
+customer-exports/
+customer-export*
+*-customer-export*
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+
+# Backups and generated archives
+backups/
+db-backups/
+database-backups/
+*.bak
+*.backup
+*.sql.gz
+*.dump.gz
+
+# Logs and debug output
+logs/
+*.log
+debug.log
+error.log
+
+# Build output and dependencies
+node_modules/
+vendor/
+.next/
+.nuxt/
+.output/
+dist/
+build/
+coverage/
+
+# Local tooling state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+.vercel/
+.netlify/
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Temporary files
+tmp/
+temp/
+.cache/
