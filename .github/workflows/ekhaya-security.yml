@@ -1,0 +1,44 @@
+name: Ekhaya Security Scanning
+
+on:
+  push:
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "23 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  secret-scan:
+    name: Scan repository history for exposed secrets
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Check out full Git history
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Detect credentials, tokens and private keys
+        uses: gitleaks/gitleaks-action@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  dependency-review:
+    name: Review dependencies on pull requests
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Flag vulnerable dependency changes
+        uses: actions/dependency-review-action@v5
+        with:
+          fail-on-severity: high
