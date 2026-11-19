@@ -1,1864 +1,1854 @@
 {
-  "test1": [
-    {
-      "id": 159,
-      "category": "road_signs",
-      "question": "What does this blue countdown sign with two white diagonal bars indicate?",
-      "options": [
-        "A high-speed exit is approximately 200 metres ahead.",
-        "A high-speed exit is approximately 100 metres ahead.",
-        "A high-speed exit is approximately 300 metres ahead."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q160-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 189,
-      "category": "motorcycle",
-      "question": "How far may anything project to the rear of a motorcycle?",
-      "options": [
-        "850mm from the rear axel",
-        "1.8meters to the rear",
-        "Nothing is allowed to project behind a motorcycle"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 212,
-      "category": "light_motor_vehicle",
-      "question": "Which numbered controls do you use to select a gear?",
-      "options": [
-        "7 & 9",
-        "5 & 8",
-        "6 & 8"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/control-diagrams/light-motor-controls-212.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 51,
-      "category": "rules",
-      "question": "When may part of a person’s body project beyond a vehicle?",
-      "options": [
-        "Only for the driver to give hand signals",
-        "Only passengers may allow a portion of their bodies to project, they don’t need 2 hands on the steering wheel.",
-        "When it is hot and the driver’s window is open"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 196,
-      "category": "motorcycle",
-      "question": "To indicate that you are going to turn you must use number",
-      "options": [
-        "6",
-        "4",
-        "8"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/control-diagrams/motorcycle-controls.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 111,
-      "category": "road_signs",
-      "question": "Road marking RTM 1 shows you that",
-      "options": [
-        "If you are driving in car A, must stop before this line",
-        "If you are driving in car A, must reduce speed and ride on if it is safe",
-        "If you are driving in car B, can pass car A if there are no other vehicles in the Intersection"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q111-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 99,
-      "category": "road_signs",
-      "question": "The winding-road warning sign with an 80 km/h advisory-speed plate and a 'For 12 km' plate indicates that",
-      "options": [
-        "A winding section lies ahead for 12 km, with an advisory speed of 80 km/h.",
-        "The legal speed limit is 80 km/h for the next 12 km in all conditions.",
-        "The road is slippery for the next 12 km."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q099-1.png",
-        "../assets/road-signs/q099-2.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 102,
-      "category": "road_signs",
-      "question": "This Road marking is a",
-      "options": [
-        "Pedestrian crossing where you must stop for pedestrians",
-        "Painted island where you are not allowed to drive on or stop",
-        "Chevron that indicates a curve to the left"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q102-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 55,
-      "category": "rules",
-      "question": "How close to the left edge of the roadway may you park outside an urban area?",
-      "options": [
-        "A vehicle may not park on a public road unless in a parking bay.",
-        "Not more than 450mm from the edge of the road way.",
-        "Not more than 1m from the edge of the road way."
-      ],
-      "correctIndex": 1,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 101,
-      "category": "traffic_signals",
-      "question": "What does a steady red cross displayed above a traffic lane mean?",
-      "options": [
-        "You must not drive in the lane below the red cross; it may be open to traffic travelling in the opposite direction.",
-        "You may use the lane if you drive slowly.",
-        "The lane is open to traffic travelling in your direction."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q101-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 209,
-      "category": "light_motor_vehicle",
-      "question": "This road sign shows you that",
-      "options": [
-        "the area is for motor car taxis only",
-        "you can drive there if you wish",
-        "you must drive there"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q209-car-only.svg"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 27,
-      "category": "rules",
-      "question": "What is the maximum speed at which you may tow a vehicle using a rope?",
-      "options": [
-        "60",
-        "45",
-        "30"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 84,
-      "category": "road_signs",
-      "question": "This road sign shows you that",
-      "options": [
-        "Only motor cars may not pass each other",
-        "No motor vehicles may pass each other",
-        "There is a bridge ahead where only one vehicle at a time can cross"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q084-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 42,
-      "category": "rules",
-      "question": "A road accident in which no person is injured must be reported within how many hours?",
-      "options": [
-        "24",
-        "36",
-        "48"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 15,
-      "category": "rules",
-      "question": "You are not allowed to stop",
-      "options": [
-        "On the pavement",
-        "With the front of your vehicle facing oncoming traffic",
-        "Next to any obstruction in the road"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 211,
-      "category": "light_motor_vehicle",
-      "question": "Which statements about the stopping distance of a motor vehicle are correct? Select the correct combination.",
-      "options": [
-        "None of the above are correct",
-        "All of the above are correct",
-        "(i) is only correct"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [],
-      "diagramMode": null,
-      "statements": [
-        "The stopping distance is longer on a wet road than on a dry road.",
-        "The stopping distance is longer when the vehicle is travelling at a higher speed.",
-        "The stopping distance is longer when the vehicle is loaded."
-      ]
-    },
-    {
-      "id": 43,
-      "category": "rules",
-      "question": "In which case is it permitted to travel with only the parking lights of your vehicle switched on?",
-      "options": [
-        "When driving in heavy rain",
-        "When dusk is falling",
-        "In none of the above cases"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 116,
-      "category": "road_signs",
-      "question": "This sign warns you that there is a",
-      "options": [
-        "Sharp curve to the left ahead",
-        "Obstruction left on the road",
-        "Detour to the left"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q116-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 89,
-      "category": "road_signs",
-      "question": "This road sign warns you that there is",
-      "options": [
-        "Possibly pedestrians ahead",
-        "A marked pedestrian crossing ahead",
-        "Possibly school kids close to or in the road"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q089-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 100,
-      "category": "road_signs",
-      "question": "What does this road sign indicate?",
-      "options": [
-        "There is no throughway ahead.",
-        "There is an unguarded railway crossing ahead",
-        "This lane is for traffic approaching from the opposite direction."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q100-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
+  "demo": [
     {
       "id": 1,
-      "category": "rules",
-      "question": "Which of the following actions is permitted?",
+      "question": "When may a driver disobey a rule of the road?",
       "options": [
-        "Drive your vehicle on the sidewalk at night.",
-        "Reverse your vehicle only if it is safe to do so.",
-        "Leave the engine of your vehicle idling when you put petrol in it."
+        "Only when directed to do so by a traffic officer",
+        "Under no circumstances.",
+        "If you are driving in an emergency."
       ],
-      "correctIndex": 1,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 26,
-      "category": "rules",
-      "question": "If you want to change lanes you must",
+      "id": 2,
+      "question": "What is the duty of a driver when on a public road that has been divided into two or more roadways ?",
       "options": [
-        "Switch on your indicator and change lanes",
-        "Give the necessary signal and after looking for other traffic, change lanes",
-        "Apply the brakes lightly and then change lanes"
+        "You may drive on any part of the roadway provided you do not endanger others.",
+        "You are allowed to drive on any part of the roadway at night or when there is no other traffic.",
+        "Drive on the left-hand roadway, unless directed or permitted by an appropriate traffic sign or traffic officer to use another roadway"
       ],
-      "correctIndex": 1,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 156,
+      "id": 3,
+      "question": "When travelling on a road with this sign, it indicates to the driver that..",
+      "options": [
+        "Traffic from the other directions and roads have right of way",
+        "He /she has the right of way at the intersection ahead",
+        "He /she should yield to traffic from the right"
+      ],
       "category": "road_signs",
-      "question": "This sign shows the driver of a vehicle",
-      "options": [
-        "The maximum total mass of the vehicle and its load.",
-        "The minimum mass load of all axles.",
-        "The axle mass-load limit shown on the sign."
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/q156-axle-mass-limit.svg"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 226,
-      "category": "heavy_motor_vehicle",
-      "question": "This road sign warns that",
-      "options": [
-        "the road forks ahead on a steep decline and you should slow down",
-        "your brakes will be checked at a stop ahead where you must stop",
-        "there is an arrestor bed ahead to be used when your brakes fail"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/arrestor-bed-ahead.svg"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 75,
-      "category": "road_signs",
-      "question": "When you see this road sign you",
-      "options": [
-        "Know that, that section of the road is for the use of pedestrians only",
-        "Give right of way to pedestrians who would like to cross the street",
-        "Stop because school kids might cross the road"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q075-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 64,
-      "category": "rules",
-      "question": "When driving a vehicle, which driving document must you carry?",
-      "options": [
-        "Any persons valid driver’s licence if you only have a learners licence.",
-        "Your original valid driver’s licence.",
-        "A certified copy of your driver’s licence and id document."
-      ],
-      "correctIndex": 1,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 16,
-      "category": "rules",
-      "question": "You are not allowed to stop",
+      "id": 4,
+      "question": "This sign can be found at the beginning of a…",
       "options": [
-        "Where you are also prohibited to park",
-        "5m from a bridge",
-        "Opposite a vehicle, where the roadway is 10m wide"
+        "Dual freeway",
+        "Bridge",
+        "Single freeway"
       ],
-      "correctIndex": 0,
+      "category": "road_signs",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
-    },
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    }
+  ],
+  "test1": [
     {
-      "id": 140,
-      "category": "road_signs",
-      "question": "This sign indicates to a driver",
+      "id": 1,
+      "question": "How far may you park from the left edge of the road way outside an urban area?",
       "options": [
-        "A right turn is prohibited",
-        "A U-turn prohibited",
-        "The end of a hairpin bend"
+        "A. Not more than 1m from the edge of the roadway.",
+        "A vehicle may not be parked in the roadway unless in a parking area.",
+        "Not more than 450mm from the edge of the roadway."
       ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q140-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 126,
-      "category": "road_signs",
-      "question": "This Road marking shows you that",
-      "options": [
-        "The road surface is uneven",
-        "Traffic may not overtake or cross it on either side",
-        "It is a lane reserved for buses only"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q126-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 62,
-      "category": "rules",
-      "question": "Which statement about a vehicle’s silencer is correct?",
-      "options": [
-        "With a small hole in it is acceptable.",
-        "Need not be fitted only on heavy vehicles",
-        "Must be fitted to a vehicle to restrict the engine noise to a suitable noise level."
-      ],
-      "correctIndex": 2,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 230,
-      "category": "heavy_motor_vehicle",
-      "question": "Which numbered controls do you use to select a gear?",
+      "id": 2,
+      "question": "If you only have learner’s licence for a heavy motor vehicle … (I). Then there must be someone with you in the vehicle with the same driving license. (II). You are not allowed to drive on a freeway. (III). No passengers are allowed with you in the vehicle. SELECT THE CORRECT COMBINATION",
       "options": [
-        "7 & 9",
-        "5 & 8",
-        "6 & 8"
+        "Only (i) and (iii) are correct.",
+        "All the above are correct.",
+        "Only (i) is correct."
       ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/control-diagrams/light-motor-controls-230.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 206,
-      "category": "light_motor_vehicle",
-      "question": "This road sign shows that",
-      "options": [
-        "Taxis may not proceed past this sign.",
-        "Motor cars may not proceed past this sign.",
-        "You may not park your motor car there."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q206-no-taxis.svg"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 135,
-      "category": "road_signs",
-      "question": "This sign indicates",
-      "options": [
-        "You are entering a freeway",
-        "There are 2 additional lanes ahead with a reduction of lanes",
-        "There are heavy vehicles entering on your left"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q135-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 133,
-      "category": "road_signs",
-      "question": "These road markings",
-      "options": [
-        "Are the lines that indicate another lane",
-        "Are the lines where pedestrians walk at an intersection",
-        "Shows you that you may not stop in front of the two lines"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/q133-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 91,
-      "category": "road_signs",
-      "question": "When you see this road sign you must slow down because",
-      "options": [
-        "The surface of the road is uneven on the left-hand side",
-        "There is a dual track railway line in front",
-        "There is a motor gate on the left-hand side of the road"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q091-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 10,
-      "category": "rules",
-      "question": "Which of the following actions are you allowed to take?",
-      "options": [
-        "Leave your vehicles engine running without supervision",
-        "Allow someone to ride on the bumper of your vehicle",
-        "Put your arm out of the window only to give legal hand signals"
-      ],
-      "correctIndex": 0,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 193,
-      "category": "motorcycle",
-      "question": "To turn you must use number",
+      "id": 3,
+      "question": "What type of brakes must be fitted on a heavy motor vehicle?",
       "options": [
-        "8",
-        "1",
-        "7"
+        "Service brakes, parking brakes and emergency brakes.",
+        "Parking brake only.",
+        "Service brakes only."
       ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/control-diagrams/motorcycle-controls.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 38,
-      "category": "rules",
-      "question": "Which of the following actions are prohibited? Select the correct combination.",
-      "options": [
-        "(i)",
-        "(ii) only is correct",
-        "All of the above are correct"
-      ],
-      "correctIndex": 2,
+      "category": "vehicle_controls",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null,
-      "statements": [
-        "Leaving the engine running while the vehicle is unattended.",
-        "Using your vehicle without a fuel-tank cap.",
-        "Spinning the vehicle’s wheels when moving off."
-      ]
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
     },
     {
-      "id": 148,
-      "category": "road_signs",
-      "question": "This road sign warns a driver that there is…?",
+      "id": 4,
+      "question": "You may pass another vehicle on its left-hand side if it… (i). Indicates that it is going to turn right. (ii). Drives on the right-hand side of a road with a shoulder where you can pass. (iii). Drives in a town in the right-hand lane with two lanes in the same direction. SELECT THE CORRECT COMBINATION",
       "options": [
-        "A T junction on the right",
-        "A side road junction from the right ahead.",
-        "A skew T junction ahead"
+        "Only (i) and (iii) are correct.",
+        "All of the above are correct.",
+        "Only (i) is correct."
       ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q148-1.png"
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 5,
+      "question": "This sign indicates to the driver of a vehicle that ….",
+      "options": [
+        "The minimum speed limit in the right hand lane is permanently 80km per hour.",
+        "The maximum speed limit in the right hand lane is 80km per hour.",
+        "The minimum speed limit in the right hand lane is temporarily 80km per hour."
       ],
-      "diagramMode": "road_signs"
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 6,
+      "question": "This type of sign is known as …",
+      "options": [
+        "A. A warning sign",
+        "A regulatory sign.",
+        "An Information sign."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": true
+    },
+    {
+      "id": 7,
+      "question": "This sign indicates that…",
+      "options": [
+        "The driver must turn right at this robot.",
+        "The driver must stop first before turning.",
+        "The vehicles who want to turn in the direction of the arrow may do so, but other vehicles must stop"
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
       "id": 8,
-      "category": "rules",
-      "question": "Unless a road sign indicates otherwise, what is the general speed limit in an urban area?",
+      "question": "This sign indicates that the driver of a vehicle …",
       "options": [
-        "60",
-        "80",
-        "100"
+        "Should do nothing because the sign is temporary.",
+        "Must slow down and stop,if necessary",
+        "Must look for a traffic officer."
       ],
-      "correctIndex": 2,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 182,
-      "category": "motorcycle",
-      "question": "This road sign shows to motor cycle riders that",
-      "options": [
-        "They must ride to the left of this sign",
-        "They can ride to the left of this sign if they wish",
-        "The freeway ends ahead to the left"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q182-motorcycles-keep-left.svg"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 21,
-      "category": "rules",
-      "question": "When are you allowed to drive your vehicle on the right -hand side of a road with traffic in both directions?",
-      "options": [
-        "When you switch the emergency lights of your vehicle on",
-        "When a traffic officer shows you to do so",
-        "Under no circumstances"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 197,
-      "category": "motorcycle",
-      "question": "What controls must you use when you are going to make a sharp turn?",
-      "options": [
-        "1,3,5,6 and 8 only",
-        "1,2,4 and 8 only",
-        "1,2,3,4,6 and 8 only"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/control-diagrams/motorcycle-controls.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 132,
       "category": "road_signs",
-      "question": "When you see this sign",
-      "options": [
-        "Drive in the right hand lane",
-        "Pass to the right of the obstruction in the road",
-        "Proceed to the right of this sign"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q132-1.png"
-      ],
-      "diagramMode": "road_signs"
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 77,
+      "id": 9,
+      "question": "When driving a motor vehicle, what is the minimum safe following distance to maintain when following another vehicle?",
+      "options": [
+        "A distance determined by means of the two second rule.",
+        "A driver may drive as close as possible so that overtaking will be easier.",
+        "Five meters at 100km/h."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 10,
+      "question": "The lights of your vehicle parked on a public road between sunset and sunrise need not kept lighted when the vehicle is parked… (i).10m from a lighted streetlamp. (ii). Next to the roadway of the road. (iii). In a demarcated parking area SELECT THE CORRECT COMBINATION",
+      "options": [
+        "A. Only (i) and (iii) are correct.",
+        "All of the above are correct."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 11,
+      "question": "When flags have to be used to indicate projections …",
+      "options": [
+        "A. They must be any size red flag.",
+        "They must be red, and at least 300mm x 300mm.",
+        "The may be any colour as long they are visible."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 12,
+      "question": "You may overtake another vehicle on the left-hand side… (i). When that vehicle is going to turn right and the road is wide enough it is not necessary to drive on the shoulder. (ii). Where the road has two lanes for traffic in the same direction. (iii). If a traffic officer instructs you to do so. SELECT THE CORRECT COMBINATION",
+      "options": [
+        "(iii) is only correct.",
+        "All of the above are correct",
+        "(ii) and (iii) only are correct."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 13,
+      "question": "The sign inform us that …",
+      "options": [
+        "Parking space may be used after 12 noon only.",
+        "Parking is restricted to 12 hours.",
+        "Buses may park there."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": true
+    },
+    {
+      "id": 14,
+      "question": "The hand signal the officer is giving ,is instructing the driver…",
+      "options": [
+        "A.Stop only if he /she is approaching from the left.",
+        "Stop only if he /she is approaching from the rear.",
+        "Stop if he /she is approaching from the right."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": true
+    },
+    {
+      "id": 15,
+      "question": "When may you stop in front of this sign?",
+      "options": [
+        "Never.",
+        "Only when picking up passengers.",
+        "Only when you want to look at the scenery."
+      ],
       "category": "road_signs",
-      "question": "This road sign shows you the",
-      "options": [
-        "Fastest speed that you may drive",
-        "Distance to the next off ramp",
-        "Slowest speed that you may drive"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/q077-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 40,
-      "category": "rules",
-      "question": "When the robot is red and the green arrow flashes to the right, it shows you that",
-      "options": [
-        "Only pedestrians may walk",
-        "If you want to turn right, you may go",
-        "All traffic must turn right there"
-      ],
-      "correctIndex": 1,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 61,
-      "category": "rules",
-      "question": "What restriction applies to a person who is under the influence of alcohol or drugs?",
+      "id": 16,
+      "question": "When approaching this sign, the driver must…",
       "options": [
-        "May sit in the driver seat of a vehicle of which the engine is running.",
-        "May not sit in the driver’s seat while the engine is running.",
-        "May sleep in the driver’s seat while the engine is running."
+        "Yield and carry on when safe to do so.",
+        "Stop behind the stop line and give right of way to vehicles from the right.",
+        "know that he is warned of a stop ahead."
       ],
-      "correctIndex": 1,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 200,
-      "category": "light_motor_vehicle",
-      "question": "The maximum distance between two vehicles which are been towed is...m",
-      "options": [
-        "1, 8",
-        "2, 5",
-        "3, 5"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 201,
-      "category": "rules",
-      "question": "Under South African road traffic regulations, when may a motor vehicle parked between sunset and sunrise be left without its head, rear and number-plate lamps lit?",
-      "options": [
-        "Only when it is parked off the roadway, in a parking place marked by appropriate traffic signs, or within 12 metres of a lighted street lamp illuminating the road.",
-        "Whenever it is parked on a public road, provided the driver leaves the hazard lights on.",
-        "Only when it is parked in a private driveway."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 171,
       "category": "road_signs",
-      "question": "This road marking indicates…?",
-      "options": [
-        "Look out for persons in wheelchairs",
-        "An area is set aside for disabled persons",
-        "No disabled persons allowed there"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q171-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 52,
-      "category": "rules",
-      "question": "What is required of a vehicle’s exhaust system with regard to excessive noise?",
-      "options": [
-        "There are no requirements with regards to excessive noise on a vehicle.",
-        "No person shall operate a vehicle on a public road that causes any excessive noise.",
-        "Excessive noise is acceptable during festive periods, Christmas new year"
-      ],
-      "correctIndex": 1,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 138,
-      "category": "road_signs",
-      "question": "This road marking shows",
+      "id": 17,
+      "question": "When is it permissible to overtake a vehicle that has stopped at a pedestrian crossing?",
       "options": [
-        "No overtaking is allowed on the right lane",
-        "The road will split ahead to the left",
-        "The right lane may have approaching traffic at certain times, be on the lookout"
+        "It is not permissible to pass a vehicle which has stopped at a pedestrian crossing.",
+        "You can pass if it is safe to do so.",
+        "You may pass only once the pedestrian has crossed."
       ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/q138-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 218,
-      "category": "light_motor_vehicle",
-      "question": "Which numbered controls do you use when making a sharp turn?",
-      "options": [
-        "1,3,5,6 and 8 only",
-        "3,4,5,9 and 10 only",
-        "1,3,4,5,6,8,9 and 10 only"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/control-diagrams/light-motor-controls-212.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 236,
-      "category": "heavy_motor_vehicle",
-      "question": "Which numbered control do you use to indicate that you are turning?",
-      "options": [
-        "3",
-        "5",
-        "11"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/control-diagrams/light-motor-controls-230.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 57,
-      "category": "rules",
-      "question": "What must a driver do when refuelling a motor vehicle?",
-      "options": [
-        "The driver may not allow the engine to run whilst flammable fuel is being transferred to the fuel tank.",
-        "To check if they are filling the tank with diesel not petrol.",
-        "Is allowed to start the vehicle while fuel is being pumped to check if the tank is full."
-      ],
-      "correctIndex": 0,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 109,
-      "category": "road_signs",
-      "question": "What movements are permitted from this lane, according to the arrow marking?",
-      "options": [
-        "You must turn right.",
-        "You may turn right or continue straight ahead.",
-        "You may change lanes and continue straight ahead."
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q109-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 104,
-      "category": "road_signs",
-      "question": "This Road marking warns you that?",
-      "options": [
-        "There is a level crossing with one railway line ahead",
-        "Roads cross ahead",
-        "The freeway ends ahead"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q104-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 68,
-      "category": "rules",
-      "question": "A light motor vehicle fitted with a spot lamp may be used on a public road",
-      "options": [
-        "If it’s a breakdown vehicle at a collision scene",
-        "With a light that’s beam can shine in any direction",
-        "If the lights are not connected"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 112,
-      "category": "road_signs",
-      "question": "Road markings RTM3 in the sketch",
-      "options": [
-        "Show you that you may not stop further than the front one of the two",
-        "Are the lines where pedestrians walk",
-        "Are lines that indicate another traffic line"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q112-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 50,
-      "category": "rules",
-      "question": "What is a driver's duty towards pedestrians at a pedestrian crossing?",
-      "options": [
-        "A driver must stop only for a pedestrian waiting to enter the road at a pedestrian signal.",
-        "A driver must give way to pedestrians who are crossing at a pedestrian crossing.",
-        "A driver must give way to every pedestrian who wishes to cross the roadway."
-      ],
-      "correctIndex": 1,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 217,
-      "category": "light_motor_vehicle",
-      "question": "Which numbered control do you use to accelerate?",
-      "options": [
-        "6",
-        "8",
-        "10"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/control-diagrams/light-motor-controls-212.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 86,
-      "category": "road_signs",
-      "question": "What does this warning sign indicate?",
-      "options": [
-        "A crossroad is ahead.",
-        "A railway crossing is ahead.",
-        "A four-way stop is ahead."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q086-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 28,
-      "category": "rules",
-      "question": "You may cross or enter a public road",
-      "options": [
-        "If the road is clear of traffic for a short distance",
-        "If the road is clear of traffic for a long distance and it can be done without obstructing traffic.",
-        "In any manner as long as you use your flickers in time"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
       "id": 18,
-      "category": "rules",
-      "question": "In which situations may you overtake another vehicle on its left-hand side? Select the correct combination.",
+      "question": "Where a goods vehicle is temporarily stationary next to the roadway it is required that the driver must…",
       "options": [
-        "(iii) only is correct",
-        "(ii) and (iii) only is correct",
-        "All of the above are correct"
+        "A. Display one emergency warning sign in the front and one at the back of the vehicle.",
+        "Put out a fire extinguisher to warn traffic.",
+        "Display at least one emergency warning sign at the back of the vehicle."
       ],
-      "correctIndex": 2,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null,
-      "statements": [
-        "When the vehicle ahead is turning right and the road is wide enough for you to pass without driving on the shoulder.",
-        "When the road has two lanes of traffic travelling in the same direction.",
-        "When a police officer instructs you to do so."
-      ]
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 19,
+      "question": "When it is permissible to speak on a cell phone whilst driving?",
+      "options": [
+        "A. It is not permissible to speak on a cell phone whilst driving.",
+        "only when it is not hold by hand or any part of the body.",
+        "only when driving slowly."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 20,
+      "question": "What type of colours must direction indicators emit from the front….",
+      "options": [
+        "A. White or yellow.",
+        "Any colour, so long as it is visible.",
+        "Yellow or amber only."
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 21,
+      "question": "This signal indicates that…",
+      "options": [
+        "There is an unguarded railway crossing ahead.",
+        "There is no throughway there.",
+        "It is a traffic lane that vehicles may not enter."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 22,
+      "question": "This sign indicates…",
+      "options": [
+        "A toll road and an alternative for a toll road.",
+        "Which way will all vehicles have to go.",
+        "How much toll you will have to pay."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 23,
+      "question": "This sign indicates…",
+      "options": [
+        "A roadblock ahead.",
+        "Where to find the civic centre.",
+        "The sequence of turnoffs leading to various service centres."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 24,
+      "question": "This sign indicates that the driver of a vehicle must …",
+      "options": [
+        "A. Stop.",
+        "Be on the lookout for loose stones.",
+        "Drive on the verge to avoid the loose stones."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 25,
+      "question": "Which of the following statements is correct? A silencer ….",
+      "options": [
+        "A. With a small hole is acceptable",
+        "Must be fitted to a vehicle to restrict engine noise to acceptable levels",
+        "Need to be fitted"
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 26,
+      "question": "The use of a temporary sign implies that for some reason ….",
+      "options": [
+        "Traffic has to move slowly.",
+        "Circumstances on the roadway are not normal.",
+        "The rules of the road do not apply."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": true
+    },
+    {
+      "id": 27,
+      "question": "Your vehicle’s headlights must be switched on… (i). At any time of the day when you cannot see persons and vehicles 150 m in front of you. (ii). From sunset to sunrise. (iii). When it rains and you cannot see vehicles 100 m in front of you. SELECT THE CORRECT COMBINATION",
+      "options": [
+        "A. (i) and (ii) only are correct.",
+        "All of the above are correct.",
+        "(ii) only is correct."
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 28,
+      "question": "When may a vehicle designed or adapted for a disabled person be driven on a freeway?",
+      "options": [
+        "All specially designed or adapted vehicles for a disabled person are permitted on a freeway.",
+        "Only if such a vehicle can exceed 80 km per hour.",
+        "When such vehicles exceeds 230 kilograms and specially designed, constructed or adapted may not be driven on a freeway."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": true
+    },
+    {
+      "id": 29,
+      "question": "The correct identification of this sign is…",
+      "options": [
+        "Midibus and minibus lane reservation",
+        "Bus and minibus lane reservation",
+        "Bus and taxi lane reservation."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 30,
+      "question": "If you are driving towards a mini-circle and there are also vehicles arriving from the other three sides, you..",
+      "options": [
+        "Must stop with all the vehicles and only drive on when it is safe.",
+        "May drive on if you were the first vehicle to arrive at the intersection.",
+        "Should disregard the other vehicles and drive on."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 31,
+      "question": "This sign is correctly identified as…",
+      "options": [
+        "A steep descent.",
+        "A warning of frequent accidents",
+        "slow moving heavy vehicles."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 32,
+      "question": "This sign indicates to the driver that there …",
+      "options": [
+        "Are road works within 1 km.",
+        "Are obstructions in the road for 1 km.",
+        "Are obstructions to the road 1km ahead that affect the traffic movement."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 33,
+      "question": "Indicate the correct statement :A driver may not stop his/her vehicle on the roadway of a public road…",
+      "options": [
+        "In contravention of any traffic sign.",
+        "In an intersection.",
+        "When indicated by a traffic officer."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 34,
+      "question": "No person driving a vehicle on a public may ….",
+      "options": [
+        "A. Leave a vehicle unattended without applying it parking brake to prevent it from moving further than 30cm from the position in which it was left.",
+        "Leave a vehicle unattended without applying its parking brake to prevent it from moving from the position in which it was left.",
+        "Leave a vehicle unattended without applying its service brake to prevent it from moving."
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 35,
+      "question": "The driver of a moto vehicle shall not cross a public road unless…",
+      "options": [
+        "The road is clear of moving traffic for a sufficient distance to allow him/her to cross the road without obstructing or endangering any traffic.",
+        "He/she looks and signals his /her intentions and then moves onto the roadway.",
+        "He/she looks into the rear view mirror, engages gears and accelerates so that he/she can enter the road."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 36,
+      "question": "What type of heavy vehicle or combination of motor vehicles are restricted to travel at a maximum speed of 80km/h?",
+      "options": [
+        "Only vehicles carrying goods which belong to the government and traffic police.",
+        "An articulated motor vehicle of which the gross combination mass of truck tractor exceeds 9000 kg.",
+        "Any heavy motor vehicle carrying goods."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 37,
+      "question": "This sign warns a driver that…",
+      "options": [
+        "A skew T-junction is ahead.",
+        "A side road junction from the right is ahead.",
+        "A T-junction is ahead."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 38,
+      "question": "This sign indicates that you may not enter the junction until…",
+      "options": [
+        "A. Every other vehicle which has stopped at any other stop line before you, has cleared the intersection.",
+        "Every other vehicle which has stopped at the stop line to your right, and which would cross your path has cleared the intersection.",
+        "Every other vehicle which has stopped at the stop line to your left, and which would cross your path has cleared the intersection."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 39,
+      "question": "This sign indicates to the driver of the vehicle that…",
+      "options": [
+        "A. she /he is entering a highway.",
+        "there are heavy vehicles entering the road from the left.",
+        "two additional lanes are added to the road, without reduction in the total number of lanes."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 40,
+      "question": "The driver will not sound the vehicle’s warning device/hooter for …",
+      "options": [
+        "200 m after passing this sign.",
+        "100 m after passing this sign.",
+        "100 m on both sides of this sign."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": false
+    },
+    {
+      "id": 41,
+      "question": "In order to draw attention, the background of temporary signs is usually…",
+      "options": [
+        "White",
+        "Yellow.",
+        "Red"
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": true
+    },
+    {
+      "id": 42,
+      "question": "On a public road you may…",
+      "options": [
+        "Pass another vehicle turning right, on the left-hand side without driving on the shoulder of the road.",
+        "Not pass any vehicle on the left-hand side under any circumstances.",
+        "Pass another vehicle at any place on the left-hand side if it is turning right."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 43,
+      "question": "The use of a temporary sign implies that for some reason ….",
+      "options": [
+        "Traffic has to move slowly.",
+        "Circumstances on the roadway are not normal.",
+        "The rules of the road do not apply."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": true
+    },
+    {
+      "id": 44,
+      "question": "A safe following distance is, when the vehicle in front of you suddenly stops, you can…",
+      "options": [
+        "A. Swerve and pass.",
+        "Swerve or stop next to it.",
+        "Stop without swerving."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 45,
+      "question": "when you encounter this road marking, the correct reaction would be to….",
+      "options": [
+        "Stop over the line and then proceed when it is safe to do so.",
+        "Yield only to traffic from the right.",
+        "Yield right of way to any vehicle, which crosses any yield line before you."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 46,
+      "question": "This road marking warns the road user that…",
+      "options": [
+        "A. no overtaking.",
+        "the right lane is a reversible lane.",
+        "the right lane is a one-way."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 47,
+      "question": "This signal indicates that …",
+      "options": [
+        "A. You may drive there.",
+        "This lane is for slow moving traffic only.",
+        "This lane is for fast moving traffic only."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 48,
+      "question": "This sign shows drivers of vehicles that…",
+      "options": [
+        "A. Only vehicles with trailers may pass that point.",
+        "No towed vehicles are allowed past this sign.",
+        "Trailers may be parked in that area."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 49,
+      "question": "What is the meaning of the gross vehicle mass (GVM)?",
+      "options": [
+        "The maximum load on a vehicle.",
+        "The maximum mass of a vehicle including the load.",
+        "The weight of vehicle when empty.."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 50,
+      "question": "Trailers of which the gross vehicle mass does not exceed 10000 kg …",
+      "options": [
+        "A. Shall be fitted with yellow reflective material to the sides and the rear of the vehicle.",
+        "Shall be fitted with yellow reflective material to the sides of the vehicle only.",
+        "Are not required to fit yellow reflective to the vehicle."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 51,
+      "question": "No person shall…",
+      "options": [
+        "A. Be on foot when hitch-hiking.",
+        "Be on foot if he/she is waiting for a taxi.",
+        "Be on foot on a freeway under normal circumstances."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 52,
+      "question": "What type of requirement is compulsory regarding triangles on motor vehicles?",
+      "options": [
+        "Every heavy motor vehicle with GVM exceeding 3500kg must carry emergency warning signs (triangles).",
+        "Triangles are not compulsory.",
+        "Only vehicles carrying passengers for reward must carry triangles."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 53,
+      "question": "What does this sign show you? (i)You may not turn left at the intersection ahead. (ii) there is no sharp curve to the left. (iii) There is a one-way to the right ahead. SELECT THE CORRECT COMBINATION",
+      "options": [
+        "Only (i) and (iii) are correct",
+        "Only (i) is correct",
+        "Only (ii) and (iii) are correct"
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 54,
+      "question": "This sign shows you that …",
+      "options": [
+        "A. The road turning to the left, ends ahead.",
+        "There is a T-junction to the left.",
+        "You are not allowed to turn left there."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 55,
+      "question": "Which of the road signs, means TURN RIGHT? A B C",
+      "options": [
+        "Option A — refer to the road-sign illustration in the source document",
+        "Option B — refer to the road-sign illustration in the source document",
+        "Option C — refer to the road-sign illustration in the source document"
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 56,
+      "question": "For what distance shall this sign apply ? …",
+      "options": [
+        "A.150m",
+        "200 m",
+        "100 m"
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 57,
+      "question": "Where may you legally stop with your vehicle?",
+      "options": [
+        "6 m from a railway crossing reserve.",
+        "5 m from a pedestrian crossing.",
+        "4 m from a tunnel."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 58,
+      "question": "What types or systems of brakes are compulsory on a heavy motor vehicle?",
+      "options": [
+        "Only a service brake.",
+        "A service brake, parking brake and an emergency brake.",
+        "Parking brake and service brake."
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 59,
+      "question": "When is overtaking prohibited?",
+      "options": [
+        "When driving on a multilane roadway.",
+        "When driving at night.",
+        "When approaching any place where visibility is poor."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 60,
+      "question": "What should a driver consider when following another vehicle?",
+      "options": [
+        "The driver should follow another vehicle keeping three car lengths behind.",
+        "The driver should be able to see the rear tyres of the vehicle in front.",
+        "The driver should follow at a safe distance to stop the vehicle safely in an emergency or should the vehicle in front slow down or stop."
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 61,
+      "question": "This sign advises drivers of heavy vehicles ….",
+      "options": [
+        "To engage the lower gear to keep to a lower constant speed and to prevent brake overheating",
+        "That learner drivers should not drive there as it is too dangerous.",
+        "That they should be travelling at the lowest gear."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 62,
+      "question": "This sign indicates to driver that a high speed exit is …ahead?",
+      "options": [
+        "300 meters.",
+        "3 km.",
+        "30 meters."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 63,
+      "question": "This shows you that…",
+      "options": [
+        "The taking of photographs is not permitted.",
+        "There is a photographic studio",
+        "There is a camera monitoring the intersection at the traffic light"
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 64,
+      "question": "When you see this sign, it means … must use that portion.",
+      "options": [
+        "Only animal drawn vehicles.",
+        "All two wheeled vehicles.",
+        "Only horse drawn vehicles."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
     }
   ],
   "test2": [
     {
-      "id": 204,
-      "category": "light_motor_vehicle",
-      "question": "This road sign shows that",
+      "id": 65,
+      "question": "A temporary sign ….",
       "options": [
-        "You may not drive there between 06:00 and 09:00.",
-        "You may not park there for more than three hours.",
-        "You are only allowed to drive there between 06:00 and 09:00."
+        "Need not to be taken seriously at all times of the day.",
+        "Has the same legal significance as a permanent sign.",
+        "Is of less consequences to the road users than permanent sign."
       ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q204-time-restriction.svg"
-      ],
-      "diagramMode": "road_signs"
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": true
     },
     {
-      "id": 97,
+      "id": 66,
+      "question": "Which one of the following statements is correct? ….",
+      "options": [
+        "The driver of a vehicle may not willfully allow any fuel, oil, grease or other flammable or offensive matter to be deposited onto the roadway.",
+        "The driver is not responsible for any liquids or grease which may spill onto the roadway.",
+        "The driver must only ensure that fuel does not spill onto the roadway."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 67,
+      "question": "What is the requirement of a driver entering a public road?",
+      "options": [
+        "The driver does not always have to slow down before entering or crossing a public road.",
+        "The driver shall not enter a public road unless it can be done safely to him/herself and other traffic.",
+        "The driver must always stop before entering or crossing a public road."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 68,
+      "question": "Which of the following statements is correct?",
+      "options": [
+        "Oil may not drip onto the exhaust silencer.",
+        "There are no restrictions regarding exhaust silencers.",
+        "Providing that oil, other flammable liquid or material is not excessive, it may drip onto the exhaust silencers."
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 69,
+      "question": "This road marking indicates .",
+      "options": [
+        "An edge line.",
+        "No stopping.",
+        "No overtaking."
+      ],
       "category": "road_signs",
-      "question": "What does this temporary road sign indicate?",
-      "options": [
-        "A permanent bend to the left.",
-        "A temporary obstruction on the left; pass to the right of the sign.",
-        "A temporary detour to the left."
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q097-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 195,
-      "category": "motorcycle",
-      "question": "To change gears, you must use numbers",
-      "options": [
-        "1 and 5",
-        "2 and 7",
-        "1 and 2"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/control-diagrams/motorcycle-controls.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 53,
-      "category": "rules",
-      "question": "How far behind a vehicle must the warning triangle be placed if your car breaks down?",
-      "options": [
-        "At least 45 m",
-        "At least 10m",
-        "At least 100m"
-      ],
-      "correctIndex": 0,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 59,
-      "category": "rules",
-      "question": "When entering or crossing a public road from a private road or driveway, when may a driver proceed?",
+      "id": 70,
+      "question": "This sign shows drivers of vehicles that…",
       "options": [
-        "They switch on the indicator and then enter the road.",
-        "They check the rear-view mirror, engage a gear and move off.",
-        "The road is clear for a safe distance and they can enter without obstructing or endangering other traffic."
+        "The width of a bridge is 2.1m",
+        "Access is restricted to vehicles less than 2.1m.",
+        "They should not procced if the width of their vehicles exceeds 2.1m or more."
       ],
-      "correctIndex": 2,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 159,
       "category": "road_signs",
-      "question": "What does this blue countdown sign with two white diagonal bars indicate?",
-      "options": [
-        "A high-speed exit is approximately 200 metres ahead.",
-        "A high-speed exit is approximately 100 metres ahead.",
-        "A high-speed exit is approximately 300 metres ahead."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q160-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 153,
-      "category": "road_signs",
-      "question": "This sign shows you that",
-      "options": [
-        "You may use this part of the road for stopping if your breaks fail",
-        "Heavy vehicles must turn left at the next intersection.",
-        "There is a picnic spot at the next intersection."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q153-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 190,
-      "category": "motorcycle",
-      "question": "How far may a load or other projection extend in front of a motorcycle’s front axle?",
-      "options": [
-        "600mm",
-        "900mm",
-        "200mm"
-      ],
-      "correctIndex": 0,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 121,
-      "category": "road_signs",
-      "question": "What does this road sign warn you about?",
-      "options": [
-        "A winding road ahead",
-        "An untarred road ahead",
-        "A slippery road ahead"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/q121-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 218,
-      "category": "light_motor_vehicle",
-      "question": "Which numbered controls do you use when making a sharp turn?",
-      "options": [
-        "1,3,5,6 and 8 only",
-        "3,4,5,9 and 10 only",
-        "1,3,4,5,6,8,9 and 10 only"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/control-diagrams/light-motor-controls-212.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 82,
-      "category": "road_signs",
-      "question": "If you see this road sign",
-      "options": [
-        "You may only drive there if you have special permission",
-        "No vehicles may drive there because only pedestrians may walk there",
-        "It shows two-way traffic ahead"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q082-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 62,
-      "category": "rules",
-      "question": "Which statement about a vehicle’s silencer is correct?",
-      "options": [
-        "With a small hole in it is acceptable.",
-        "Need not be fitted only on heavy vehicles",
-        "Must be fitted to a vehicle to restrict the engine noise to a suitable noise level."
-      ],
-      "correctIndex": 2,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 5,
-      "category": "rules",
-      "question": "You may not obtain a learner’s licence in which of the following circumstances? Select the correct combination.",
-      "options": [
-        "(i), (ii) and (iii) are correct.",
-        "(i) only is correct",
-        "(i) and (iii)"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [],
-      "diagramMode": null,
-      "statements": [
-        "You already hold a licence authorising you to drive the same class of vehicle.",
-        "You have been declared unfit to obtain a driving licence for a specified period, and that period has not expired.",
-        "Your driving licence has been temporarily suspended, and the suspension period has not expired."
-      ]
-    },
-    {
-      "id": 13,
-      "category": "rules",
-      "question": "What is the longest period that a vehicle may be parked on one place on a road outside urban areas?",
-      "options": [
-        "7 days",
-        "48 hours",
-        "24 hours"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
       "id": 71,
-      "category": "rules",
-      "question": "What does the use of a temporary road sign indicate?",
+      "question": "When seeing this sign the driver is informed that…",
       "options": [
-        "The rules of the road do not apply.",
-        "The situation on the road is not normal.",
-        "Traffic must move slowly"
+        "There are no cellphone reception for 500 meters.",
+        "There is an emergency phone 500 meters ahead in the road.",
+        "There is a public pay phone ahead."
       ],
-      "correctIndex": 1,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 106,
       "category": "road_signs",
-      "question": "This Road marking shows you that only...may park there",
-      "options": [
-        "Minibuses",
-        "Municipal buses",
-        "Motor cycles"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q106-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 1,
-      "category": "rules",
-      "question": "Which of the following actions is permitted?",
-      "options": [
-        "Drive your vehicle on the sidewalk at night.",
-        "Reverse your vehicle only if it is safe to do so.",
-        "Leave the engine of your vehicle idling when you put petrol in it."
-      ],
-      "correctIndex": 1,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 117,
+      "id": 72,
+      "question": "This sign indicates to the driver that…",
+      "options": [
+        "A. Buses get priority on that road.",
+        "He/she is approaching a taxi rank.",
+        "Only buses, mid-buses and minibuses may use that road."
+      ],
       "category": "road_signs",
-      "question": "This sign warns you that",
-      "options": [
-        "There is a compulsory police stop ahead",
-        "There is a robot ahead",
-        "You are now entering an urban area"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q117-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 6,
-      "category": "rules",
-      "question": "At an intersection, which statement is correct?",
-      "options": [
-        "Vehicles have the right of way over pedestrians.",
-        "You must yield to oncoming traffic if you want to turn right.",
-        "You can use a stop sign as a yield sign if there is no other traffic."
-      ],
-      "correctIndex": 1,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 55,
-      "category": "rules",
-      "question": "How close to the left edge of the roadway may you park outside an urban area?",
+      "id": 73,
+      "question": "You may not… (i). Run the engine of your vehicle unattended. (ii). Use your vehicle without a cap on the fuel tank. (iii).Spin the wheels of your vehicle when pulling off. SELECT THE CORRECT COMBINATION",
       "options": [
-        "A vehicle may not park on a public road unless in a parking bay.",
-        "Not more than 450mm from the edge of the road way.",
-        "Not more than 1m from the edge of the road way."
+        "Only (i) and (ii) are not allowed.",
+        "Only (ii) is not allowed.",
+        "None of the above are allowed"
       ],
-      "correctIndex": 1,
+      "category": "vehicle_controls",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
     },
     {
-      "id": 166,
-      "category": "road_signs",
-      "question": "This sign indicates a high speed exit in…?",
+      "id": 74,
+      "question": "What is the requirement for exhaust silencers?",
       "options": [
-        "300m",
-        "30m",
-        "3km"
+        "Exhaust silencers must be professionally checked once a year.",
+        "It must not allow the exhaust gas to be emitted to the rear of the vehicle.",
+        "All exhaust gas must emit through the silencer"
       ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q166-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 127,
-      "category": "road_signs",
-      "question": "This Road marking shows you that only... may park there",
-      "options": [
-        "Buses",
-        "Business vehicles",
-        "Minibuses"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q127-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 109,
-      "category": "road_signs",
-      "question": "What movements are permitted from this lane, according to the arrow marking?",
-      "options": [
-        "You must turn right.",
-        "You may turn right or continue straight ahead.",
-        "You may change lanes and continue straight ahead."
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q109-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 227,
-      "category": "heavy_motor_vehicle",
-      "question": "Which of the following vehicles are prohibited by the road sign shown?",
-      "options": [
-        "All of statements (i), (ii), (iii) and (iv) are correct.",
-        "Only statement (i) is correct.",
-        "Only statements (iii) and (iv) are correct."
-      ],
-      "correctIndex": 0,
+      "category": "vehicle_controls",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
     },
     {
-      "id": 52,
-      "category": "rules",
-      "question": "What is required of a vehicle’s exhaust system with regard to excessive noise?",
+      "id": 75,
+      "question": "A vehicle is considered abandoned outside an urban area when such a vehicle is…",
       "options": [
-        "There are no requirements with regards to excessive noise on a vehicle.",
-        "No person shall operate a vehicle on a public road that causes any excessive noise.",
-        "Excessive noise is acceptable during festive periods, Christmas new year"
+        "A.Left for 24 hours in the same place.",
+        "Left for 12 hours in the same place.",
+        "Left for seven days in the same place."
       ],
-      "correctIndex": 1,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 94,
-      "category": "road_signs",
-      "question": "This road sign shows you that",
+      "id": 76,
+      "question": "Where a goods vehicle is temporarily stationary next to the roadway it is required that the driver must…",
       "options": [
-        "There is a possibility of a flood ahead",
-        "The road ends because of water ahead",
-        "There is a low water bridge ahead"
+        "A. Display one emergency warning sign in the front and one at the back of the vehicle.",
+        "Put out a fire extinguisher to warn traffic.",
+        "Display at least one emergency warning sign at the back of the vehicle."
       ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q094-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 182,
-      "category": "motorcycle",
-      "question": "This road sign shows to motor cycle riders that",
-      "options": [
-        "They must ride to the left of this sign",
-        "They can ride to the left of this sign if they wish",
-        "The freeway ends ahead to the left"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q182-motorcycles-keep-left.svg"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 8,
-      "category": "rules",
-      "question": "Unless a road sign indicates otherwise, what is the general speed limit in an urban area?",
-      "options": [
-        "60",
-        "80",
-        "100"
-      ],
-      "correctIndex": 2,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 155,
+      "id": 77,
+      "question": "When seeing this sign the driver knows that he must…",
+      "options": [
+        "Proceed on the right side of the road.",
+        "Pass to the right of the obstacle on which the sign has been placed.",
+        "Keep in the right lane only."
+      ],
       "category": "road_signs",
-      "question": "What does this regulatory sign mean?",
-      "options": [
-        "You may not turn left at the indicated junction.",
-        "You must turn left at the next junction.",
-        "A sharp curve to the left is ahead."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q155-no-left-turn.svg"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 45,
-      "category": "rules",
-      "question": "When may a driver disobey a rule of the road?",
-      "options": [
-        "Only when directed to do so by a traffic officer.",
-        "Under no circumstances",
-        "If you are driving in an emergency situation."
-      ],
-      "correctIndex": 0,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 164,
+      "id": 78,
+      "question": "This sign indicates that…",
+      "options": [
+        "A.Delivery vehicles may use the road between 6.00 pm and 9:00 pm only .",
+        "Delivery vehicles may use the road between 6.00 am and 9:00 am only",
+        "Delivery vehicles may not use the road between 6.00 am and 9:00 pm."
+      ],
       "category": "road_signs",
-      "question": "This signal indicates…?",
-      "options": [
-        "A driver must stop before turning right",
-        "The driver must turn right at this robot",
-        "The vehicles that want to turn right may do so but other vehicles must stop."
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/q164-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 41,
-      "category": "rules",
-      "question": "In which situations must you stop your vehicle? Select the correct combination.",
-      "options": [
-        "Only (ii) and (iii) are correct",
-        "Only (iii) is correct",
-        "All the above are correct"
-      ],
-      "correctIndex": 2,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null,
-      "statements": [
-        "On a public road, when signalled to stop by a person herding sheep.",
-        "On a freeway, when instructed to stop by a traffic officer.",
-        "On any road, when necessary to avoid an accident."
-      ]
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 131,
+      "id": 79,
+      "question": "When the vehicle is travelling in the right hand lane, as shown in this sign, the driver must...",
+      "options": [
+        "Drive slower than 60 km/h.",
+        "Drive faster than or drive 60 km/h.",
+        "Overtake other in the right lane that are travelling slower than 60km/h."
+      ],
       "category": "road_signs",
-      "question": "This traffic signal can be found on",
-      "options": [
-        "Any public road",
-        "Any public road where accidents happen",
-        "Where a railway line is across a road."
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/q131-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 30,
-      "category": "rules",
-      "question": "You may not drive into an intersection when",
-      "options": [
-        "The robot (traffic signal) is yellow and you are already in the intersection.",
-        "The vehicle in front of you wants to turn right and the road is wide enough to pass on the left side",
-        "There is not enough space in the intersection to turn right without blocking other traffic"
-      ],
-      "correctIndex": 2,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 170,
-      "category": "road_signs",
-      "question": "This sign shows…?",
+      "id": 80,
+      "question": "This sign indicates that …",
       "options": [
-        "How much toll you have to pay if you drive on the toll road",
-        "A toll road and an alternative to the toll road",
-        "Which speed all vehicles must travel"
+        "Goods vehicles should not exceed 40 km/h.",
+        "Vehicles should not exceed 4o km/h.",
+        "Vehicles conveying dangerous goods should drive carefully."
       ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q170-1.png"
-      ],
-      "diagramMode": "road_signs"
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
       "id": 81,
-      "category": "road_signs",
-      "question": "This road sign",
+      "question": "If you are driving a vehicle and you have a learner’s licence, where should the original of the learner’s licence be?",
       "options": [
-        "Shows you there is a hospital ahead where you must not make a noise",
-        "Shows that you may not pick up people",
-        "Prohibits you from using your hooter"
+        "In the possession of your caregiver.",
+        "At the driving school.",
+        "With you in the vehicle."
       ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/q081-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 181,
-      "category": "motorcycle",
-      "question": "In which situation would riding a motorcycle or motor tricycle be a traffic-law violation?",
-      "options": [
-        "conveying 2 adult persons in the sidecar",
-        "with a CODE 1 learners licence without supervision on a motor cycle with a sidecar, while seating is available in the sidecar",
-        "next to another motor cycle in a one-way street while both of you are travelling in a separate lane"
-      ],
-      "correctIndex": 1,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 110,
-      "category": "road_signs",
-      "question": "When you see road-marking you",
+      "id": 82,
+      "question": "When is overtaking prohibited?",
       "options": [
-        "May not park there because it is parking for ambulances only",
-        "May not park there at all because it’s a no stopping road marking.",
-        "Know it is a lane reserved for emergency vehicle"
+        "When driving at night.",
+        "When passing a school.",
+        "When approaching any place where passing could cause a hazard to traffic approaching from the opposite direction."
       ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q110-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 54,
-      "category": "rules",
-      "question": "What is the minimum safe following distance when driving a motor vehicle?",
-      "options": [
-        "12 meters at 120kph, (1meter for every 10 kph.)",
-        "A distance determined by the 2 second rule.",
-        "A driver may follow as close as they want so that overtaking is easier when the gap is there."
-      ],
-      "correctIndex": 1,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 167,
-      "category": "road_signs",
-      "question": "This sign shows the driver of a vehicle that…?",
+      "id": 83,
+      "question": "You may cross or enter a public road…",
       "options": [
-        "They must turn right at the next road",
-        "There is an alternative route at the next road to the right",
-        "The road turns to the right only"
+        "if the road is clear of traffic for a safe distance and it can be done without obstructing traffic.",
+        "only when instructed by a traffic officer.",
+        "In any manner as long as you use your indicator in time."
       ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q167-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 36,
-      "category": "rules",
-      "question": "Which statement describes a driver’s responsibility while driving?",
-      "options": [
-        "You must have both hands on the steering wheel",
-        "Your vision of the road and the traffic must be unobstructed",
-        "You must wear shoes with rubber soles"
-      ],
-      "correctIndex": 0,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 196,
-      "category": "motorcycle",
-      "question": "To indicate that you are going to turn you must use number",
+      "id": 84,
+      "question": "When is it permissible to allow a portion of the body to protrude beyond a vehicle?",
       "options": [
-        "6",
-        "4",
-        "8"
+        "A. Only for the driver to give hand signal.",
+        "Only passengers may have a portion of their body protruding.",
+        "When it is hot and the driver’s window is open."
       ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/control-diagrams/motorcycle-controls.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 10,
-      "category": "rules",
-      "question": "Which of the following actions are you allowed to take?",
-      "options": [
-        "Leave your vehicles engine running without supervision",
-        "Allow someone to ride on the bumper of your vehicle",
-        "Put your arm out of the window only to give legal hand signals"
-      ],
-      "correctIndex": 0,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 221,
-      "category": "heavy_motor_vehicle",
-      "question": "In which circumstances may passengers be carried in a vehicle that is being towed? Select the correct combination.",
+      "id": 85,
+      "question": "Drivers entering the roundabout shall…",
       "options": [
-        "(i) and (ii) only are correct",
-        "All of the above are correct",
-        "(ii) only is correct"
+        "A. Yield right-of-way to traffic approaching from the left.",
+        "Travel around the roundabout in an anti-clockwise direction.",
+        "Yield right-of-way to traffic approaching from the right."
       ],
-      "correctIndex": 1,
+      "category": "road_rules",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null,
-      "statements": [
-        "When the vehicle travels at only 35 km/h.",
-        "When the vehicle being towed is a semi-trailer.",
-        "When the vehicle doing the towing is a tractor."
-      ]
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 122,
+      "id": 86,
+      "question": "This sign shows you that…",
+      "options": [
+        "A. There is a two-way traffic at the following road that crosses the road you are on.",
+        "There is a freeway ahead in different directions.",
+        "The one-way road you are travelling on will be changing to two-way traffic ahead."
+      ],
       "category": "road_signs",
-      "question": "What does this road sign show you when it flashes?",
-      "options": [
-        "The police have a blockade ahead",
-        "There is danger in the road ahead",
-        "There is a robot ahead"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q122-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 163,
-      "category": "road_signs",
-      "question": "This overhead signal shows you…?",
-      "options": [
-        "A railway crossing ahead",
-        "Cross roads ahead",
-        "Not to drive in this lane it’s for vehicles from the front"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/q163-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 120,
-      "category": "road_signs",
-      "question": "This sign warns you",
-      "options": [
-        "The road is uneven",
-        "There are speed humps in the road",
-        "There are potholes in the road"
-      ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q120-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 217,
-      "category": "light_motor_vehicle",
-      "question": "Which numbered control do you use to accelerate?",
-      "options": [
-        "6",
-        "8",
-        "10"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/control-diagrams/light-motor-controls-212.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
-    },
-    {
-      "id": 135,
-      "category": "road_signs",
-      "question": "This sign indicates",
-      "options": [
-        "You are entering a freeway",
-        "There are 2 additional lanes ahead with a reduction of lanes",
-        "There are heavy vehicles entering on your left"
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q135-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 96,
-      "category": "road_signs",
-      "question": "When you see this road sign you must",
-      "options": [
-        "Look out for road works where tractors operate",
-        "Know that only agricultural vehicles may drive there",
-        "Be on the lookout for agricultural vehicles that may be on the road"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [
-        "../assets/road-signs/q096-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 175,
-      "category": "road_signs",
-      "question": "This road marking indicates a lane reserved for",
-      "options": [
-        "Buses only.",
-        "Vehicles picking up passengers.",
-        "All vehicles picking up or dropping off passengers."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q175-bus-lane-marking.svg"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 17,
-      "category": "rules",
-      "question": "When may you pass another vehicle on its left-hand side? Select the correct combination.",
-      "options": [
-        "(i) and (iii) only are correct",
-        "All of the above are correct",
-        "(i) only is correct"
-      ],
-      "correctIndex": 1,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null,
-      "statements": [
-        "When the vehicle indicates that it is turning right.",
-        "When the vehicle is travelling on the right-hand side of a road and there is a shoulder on which you can pass.",
-        "When the vehicle is travelling in the right-hand lane of a road in an urban area with two lanes travelling in the same direction."
-      ]
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 2,
-      "category": "rules",
-      "question": "When changing lanes, which actions must you take?",
+      "id": 87,
+      "question": "This sign indicates …",
       "options": [
-        "Only (i) and (ii) are correct",
-        "All of the above are correct",
-        "Only (ii) and (iii) are correct"
+        "A. Mini circle.",
+        "Roundabout.",
+        "Traffic circle."
       ],
-      "correctIndex": 1,
+      "category": "road_signs",
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null,
-      "statements": [
-        "Change lanes only when it is safe to do so.",
-        "Switch on your indicators in good time to show your intention.",
-        "Use your vehicle’s mirrors to check for other traffic around you."
-      ]
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 88,
+      "question": "This road marking indicates…",
+      "options": [
+        "That the driver should be on the lookout for persons in wheelchairs.",
+        "That no disabled persons are allowed there.",
+        "An area set aside for use by disabled persons"
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
       "id": 89,
-      "category": "road_signs",
-      "question": "This road sign warns you that there is",
+      "question": "On which side of the roadway may you drive if the roadway is wide enough without endangering other traffic?",
       "options": [
-        "Possibly pedestrians ahead",
-        "A marked pedestrian crossing ahead",
-        "Possibly school kids close to or in the road"
+        "A. A driver shall drive on the left side of the roadway.",
+        "A driver may drive on the right side provided there is no traffic.",
+        "A driver may encroach or drive on the right-hand of the roadway if the car in front of is driving slowly."
       ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q089-1.png"
-      ],
-      "diagramMode": "road_signs"
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 216,
-      "category": "light_motor_vehicle",
-      "question": "Which numbered control do you use to prevent a parked vehicle from moving?",
+      "id": 90,
+      "question": "What is the maximum period that a vehicle may be parked in one place on a road outside urban areas?",
       "options": [
-        "7",
-        "8",
-        "9"
+        "48 hours.",
+        "24 hours.",
+        "Seven days."
       ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/control-diagrams/light-motor-controls-212.jpg"
-      ],
-      "diagramMode": "vehicle_controls"
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
-      "id": 148,
-      "category": "road_signs",
-      "question": "This road sign warns a driver that there is…?",
+      "id": 91,
+      "question": "When is overtaking prohibited?",
       "options": [
-        "A T junction on the right",
-        "A side road junction from the right ahead.",
-        "A skew T junction ahead"
+        "When driving at night.",
+        "When passing a school.",
+        "When approaching any place where passing could cause a hazard to traffic approaching from the opposite direction."
       ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q148-1.png"
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 92,
+      "question": "Where should the exhaust silencer be positioned on a motor vehicle?",
+      "options": [
+        "A. The exhaust silencer must be positioned under the right rear of the vehicle.",
+        "The exhaust silencer must always be positioned beneath the engine compartment of the vehicle.",
+        "The exhaust silencer must be positioned in such a manner that flammable liquid or material cannot drip or fall on it."
       ],
-      "diagramMode": "road_signs"
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 93,
+      "question": "A flashing light tells the driver to…",
+      "options": [
+        "Look both left and right before proceeding .",
+        "Stop",
+        "Give the right of way to any incoming traffic"
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": false
+    },
+    {
+      "id": 94,
+      "question": "The correct identification of this sign is …",
+      "options": [
+        "A. High occupancy vehicle reservation .",
+        "Minibuses with 12 or more passengers only.",
+        "Minibuses with 12 passengers only."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 95,
+      "question": "This sign indicates…",
+      "options": [
+        "Proceed to the left at the next intersection.",
+        "Keep left.",
+        "The road you may use to leave the freeway."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 96,
+      "question": "When the driver sees this sign, he/she must …",
+      "options": [
+        "A. Turn left at the next road if he /she drive a delivery vehicle.",
+        "Turn left if he/she drives goods vehicle.",
+        "Turn left at the stop sign."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 97,
+      "question": "When may a person or animal sit or stand on a roof or running board of a vehicle.",
+      "options": [
+        "Only animals may be carried on the roof of a vehicle.",
+        "Only when there is no space inside the vehicle",
+        "No person or animal may occupy the roof, running board or any other place on top of a vehicle whilst it is in motion."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 98,
+      "question": "The following vehicle may not be used on a freeway…",
+      "options": [
+        "A. An abnormal load motor vehicle",
+        "An articulated motor vehicle",
+        "An animal drawn vehicle"
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 99,
+      "question": "When may the driver of a vehicle take intoxicating liquor or drugs?",
+      "options": [
+        "Only when administered by a medical practitioner.",
+        "When he/she requests liquor or drugs.",
+        "Never."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 100,
+      "question": "What is the duty of a driver when other traffic is approaching from the front.",
+      "options": [
+        "The driver must ensure that his/her vehicle is not steered to the right where it may endanger or obstruct oncoming traffic.",
+        "Slow down and keep as far left as possible.",
+        "Flash headlights to warn oncoming traffic.."
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 101,
+      "question": "This sign warns the road user that…",
+      "options": [
+        "Pedestrians might be present.",
+        "A pedestrian crossing is approaching.",
+        "Children may be present."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 102,
+      "question": "This road marking is a …",
+      "options": [
+        "A.Pedestrian crossing when you must stop for pedestrians.",
+        "Chevron that indicates a curve to the left.",
+        "Painted island where you are not allowed to drive or stop"
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 103,
+      "question": "The vehicles that are travelling in the lane in which this sign appears must …",
+      "options": [
+        "Try to drive slower than 60 km/h.",
+        "Not drive faster than 60 km/h.",
+        "drive 60km/h or faster."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 104,
+      "question": "This road marking …",
+      "options": [
+        "Is only found in a parking area.",
+        "Shows that overtaking is not allowed.",
+        "Divides the road into two lanes."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 105,
+      "question": "When may a driver of a motor vehicle use a cell phone on a public road, whilst holding it with any part of his body and whilst such vehicle is in motion? D. A. It is not allowed under any circumstances.",
+      "options": [
+        "When driving a sick person to the hospital to inform the doctor that a sick person is coming.",
+        "In an emergency when calling the police."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 106,
+      "question": "Which statement is correct?",
+      "options": [
+        "A. Under no circumstances may a driver overtake on the left side.",
+        "A driver of a motor vehicle may overtake on the right hand side if such roadway is a public road in an urban area and the roadway is of sufficient width for two or more lanes of moving vehicles.",
+        "A driver of a motor vehicle may pass or overtake on the right only before"
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 107,
+      "question": "At an intersection…",
+      "options": [
+        "A. You may stop in the intersection to off- load passengers.",
+        "You can pass another vehicle waiting to turn right on its left side by going off the road.",
+        "Pedestrians, who are already crossing the road when the red man signal starts showing, have the right of way."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
     },
     {
       "id": 108,
-      "category": "road_signs",
-      "question": "Road marking GM1 in this sketch",
+      "question": "When it is permissible to park in a “no stopping” area?",
       "options": [
-        "Shows the lanes for road users",
-        "Divides the road in two sections",
-        "Is only found in a parking area"
+        "A. It is not permissible to park where stopping is not permitted.",
+        "Parking is permissible, however, only stopping is not permissible.",
+        "Only if no other parking area is available."
       ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q108-1.png"
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 109,
+      "question": "The appropriate reaction to this road marking is to…",
+      "options": [
+        "Slow down and be on the lookout for pedestrians using the pedestrian crossing .",
+        "Be on the lookout for pedal cycles that are crossing the ahead.",
+        "Stop behind the broken line and proceed when it is safe to do so."
       ],
-      "diagramMode": "road_signs"
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 110,
+      "question": "The flag signal being display ,is instructing the driver to…",
+      "options": [
+        "Stop.",
+        "Proceed to the right and stop.",
+        "proceed slowly and be alert."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 111,
+      "question": "This sign indicates that the driver of a vehicle must…",
+      "options": [
+        "Beware of people ahead.",
+        "Slow down and stop, if directed to do so.",
+        "Be on the lookout for a scholar patrol."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 112,
+      "question": "You come to a robot and the red light flashes, you must…",
+      "options": [
+        "Stop and wait for the light to turn green before you go.",
+        "Look out for a roadblock as the light shows you a police stop.",
+        "Stop and go only if it is safe to do so."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 113,
+      "question": "Should a driver wish to stop and rest ,in which areas may a vehicle be stopped or parked on a freeway?",
+      "options": [
+        "Any place which considers safe and would not obstruct other traffic.",
+        "A driver may park on the shoulder of a freeway during the daytime.",
+        "Only in an area reserved for stopping or parking and indicated by an appropriate road traffic sign."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 114,
+      "question": "What should the driver do before opening the door after having parked in a marked parking space next to the roadway?",
+      "options": [
+        "Check the appropriate blind spot.",
+        "Apply the parking brake",
+        "Allow the passengers to get out"
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 115,
+      "question": "The following vehicles are not allowed on a freeway?",
+      "options": [
+        "A. A vehicle used for the conveyance of the school children.",
+        "A tractor, except when it is used in connection with the construction or maintenance of the freeway.",
+        "A vehicle driven by a learner driver."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 116,
+      "question": "If you want to change lanes, you must…",
+      "options": [
+        "Switch on your indicator and change lanes.",
+        "Give the necessary signal and after looking for other traffic, change lanes.",
+        "Apply the brakes lightly and then change lanes."
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 117,
+      "question": "The appropriate reaction to this sign would be to…",
+      "options": [
+        "A. Keep left.",
+        "Turn right at the next intersection..",
+        "Be on the lookout for vehicles doing lane changes, especially from the left."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 118,
+      "question": "The correct haviour of the driver when he/she sees the sign is to…",
+      "options": [
+        "Slow down to the speed limit as indicated on the sign, and maintain that speed for the distance as indicated.",
+        "Make a U-turn because the road is too dangerous to drive on .",
+        "drive at a minimum of 60km/h for 8km."
+      ],
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": true
     },
     {
       "id": 119,
+      "question": "This sign restricts…",
+      "options": [
+        "Agricultural vehicles with a weight of 10 ton to drive there.",
+        "Construction vehicles with a weight of less than 10 tons to drive there.",
+        "Construction vehicles with a weight of more than 10 tons to drive there."
+      ],
       "category": "road_signs",
-      "question": "What does this warning sign indicate?",
-      "options": [
-        "The road narrows from both sides.",
-        "The freeway ends",
-        "There is a narrow bridge ahead."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/q119-1.png"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 44,
-      "category": "rules",
-      "question": "The only instance where you may stop on a freeway is",
-      "options": [
-        "To obey the road traffic sign",
-        "For a rest during a tiring journey",
-        "To pick up hitchhikers"
-      ],
-      "correctIndex": 0,
+      "correctIndex": null,
       "diagramImages": [],
-      "diagramMode": null
+      "diagramMode": "road_signs",
+      "diagramPending": true
     },
     {
-      "id": 189,
-      "category": "motorcycle",
-      "question": "How far may anything project to the rear of a motorcycle?",
+      "id": 120,
+      "question": "This sign shows the road user that …",
       "options": [
-        "850mm from the rear axel",
-        "1.8meters to the rear",
-        "Nothing is allowed to project behind a motorcycle"
+        "The two lanes are merging.",
+        "The road is splitting.",
+        "There is an exit to the right."
       ],
-      "correctIndex": 0,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 205,
-      "category": "light_motor_vehicle",
-      "question": "This road sign prohibits",
-      "options": [
-        "Minibuses from proceeding past this sign.",
-        "All motor vehicles from proceeding past this sign.",
-        "Minibuses from picking up passengers."
-      ],
-      "correctIndex": 0,
-      "diagramImages": [
-        "../assets/road-signs/r225-no-minibuses.svg"
-      ],
-      "diagramMode": "road_signs"
-    },
-    {
-      "id": 58,
-      "category": "rules",
-      "question": "Which of the following statements about transporting children in a motor vehicle is incorrect?",
-      "options": [
-        "The driver of a motor vehicle shall ensure that a child seated in a car wears a seatbelt, and where available use an appropriate child restraint.",
-        "It is not the driver’s responsibility to ensure a child is in a child restraint.",
-        "If a seat not equipped with a seatbelt is available the driver shall ensure that a child 14yrs and younger is seated on the rear seat."
-      ],
-      "correctIndex": 1,
-      "diagramImages": [],
-      "diagramMode": null
-    },
-    {
-      "id": 225,
-      "category": "heavy_motor_vehicle",
-      "question": "If you hold only a learner’s licence for a heavy motor vehicle, which statements apply? Select the correct combination.",
-      "options": [
-        "All of the above are correct",
-        "Only (i) is correct",
-        "Only (i) and (iii) are correct"
-      ],
-      "correctIndex": 2,
-      "diagramImages": [],
-      "diagramMode": null,
-      "statements": [
-        "A person with the appropriate driving licence must accompany you in the vehicle.",
-        "You are not allowed to drive on a freeway.",
-        "You may not carry passengers in the vehicle."
-      ]
-    },
-    {
-      "id": 136,
       "category": "road_signs",
-      "question": "This sign shows a road user",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 121,
+      "question": "Which statement is correct?",
       "options": [
-        "There is an exit to the left ahead",
-        "The two lanes are merging",
-        "The road is splitting into each other"
+        "A driver is not allowed to drive a motor vehicle whilst under influence of alcohol.",
+        "You may drive as long as you only drank beers.",
+        "You may drive a vehicle if you have only drunk a bottle of wine."
       ],
-      "correctIndex": 1,
-      "diagramImages": [
-        "../assets/road-signs/q136-1.png"
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 122,
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "Pedal cycles may only be ridden on the shoulder of the freeway.",
+        "Pedal cycles are not permitted on a freeway.",
+        "Racing cycles may be ridden on a freeway during the day only."
       ],
-      "diagramMode": "road_signs"
+      "category": "road_rules",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_rules",
+      "diagramPending": false
+    },
+    {
+      "id": 123,
+      "question": "The engine of a heavy motor vehicle must be so covered in such a way…",
+      "options": [
+        "A. So as to prevent it from overheating.",
+        "That the vehicle can move.",
+        "That it is not a source of danger."
+      ],
+      "category": "vehicle_controls",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "vehicle_controls",
+      "diagramPending": false
+    },
+    {
+      "id": 124,
+      "question": "When see this this sign you know that…",
+      "options": [
+        "You may drive in this lane in a car provided there are at least four occupants.",
+        "You may not drive in this lane with a motor car.",
+        "You have to travel 12 km to the nearest rest rooms."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 125,
+      "question": "This sign indicates that…",
+      "options": [
+        "Pedestrians have priority and only delivery and emergency vehicles allowed.",
+        "Only pedestrians are allowed in this area",
+        "Children may be crossing"
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 126,
+      "question": "This sign is identified as. …",
+      "options": [
+        "A.Two-way traffic.",
+        "Yield to oncoming traffic",
+        "Left lane is dangerous"
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 127,
+      "question": "This sign indicates that only …may park there…",
+      "options": [
+        "Taxis",
+        "minibuses.",
+        "motor cars"
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
+    },
+    {
+      "id": 128,
+      "question": "This sign show you that…",
+      "options": [
+        "Goods vehicles have a right of way.",
+        "the road is reserved for goods vehicles.",
+        "You should lookout for goods vehicles."
+      ],
+      "category": "road_signs",
+      "correctIndex": null,
+      "diagramImages": [],
+      "diagramMode": "road_signs",
+      "diagramPending": true
     }
   ],
   "test3": [
