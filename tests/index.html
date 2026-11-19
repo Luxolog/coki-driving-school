@@ -52,14 +52,14 @@ button:disabled{background:#aab7ae;cursor:not-allowed}.status{font-size:.75rem;c
 <div class="coki-menu-group"><button class="coki-menu-toggle" type="button" aria-expanded="false">Practice Tests <span class="chevron">▾</span></button><div class="coki-menu-panel"><span class="menu-label">Choose your assessment</span><a href="index.html">Test Centre Overview</a><a href="player.html?test=1">Test 1</a><a href="player.html?test=2">Test 2</a><a href="player.html?test=3">Test 3</a><a href="player.html?test=4">Test 4</a><a href="player.html?test=5">Test 5</a></div></div>
 <a href="../index.html#school">For the School</a>
 </nav></div></header>
-<main><div class="eyebrow">Learner assessment</div><h1>Five-test practice centre</h1>
-<p class="intro">Choose from five 64-question practice tests. Enter your Coki student ID before starting. Every attempt shuffles the questions and answer choices, and a retake moves questions away from their previous question numbers. After finishing, review every incorrect answer and its correct answer. Road-sign and vehicle-control diagrams appear where provided by the source.</p>
+<main><div class="eyebrow">Learner assessment</div><h1>Practice test centre</h1>
+<p class="intro">Five practice-test spaces are reserved for the new Coki question bank. Each test will become available after its new questions, answer options and verified answer key have been added.</p>
 <section class="grid" id="tests"></section>
-<div class="note"><strong>Practice format:</strong> Each test contains 64 questions drawn from the imported 236-question source bank. Questions may appear in more than one test, but do not repeat within the same test attempt. Retake orders are changed so a question does not keep its previous number. Results are currently saved in the same browser with the student ID; connection to the secure admin dashboard will follow when the learner database is ready.</div>
+<div class="note"><strong>Content update:</strong> The previous question bank has been cleared. Test structure, learner identification, assessment screens and result-review functionality are being retained for the new content.</div>
 </main>
 <script>
-const tests=Array.from({length:5},(_,i)=>({id:i+1,title:'Test '+(i+1),description:'64 shuffled questions with road signs and vehicle-control diagrams where available.'}));
-document.getElementById('tests').innerHTML=tests.map(t=>'<article class="card"><div class="number">'+String(t.id).padStart(2,'0')+'</div><h2>'+t.title+'</h2><p>'+t.description+'</p><span class="status">64 questions ready</span><p style="margin-top:16px"><a class="btn" href="player.html?test='+t.id+'">Open test workspace</a></p></article>').join('');
+const tests=Array.from({length:5},(_,i)=>({id:i+1,title:'Test '+(i+1),description:'Reserved for new Coki questions and answers.'}));
+document.getElementById('tests').innerHTML=tests.map(t=>'<article class="card"><div class="number">'+String(t.id).padStart(2,'0')+'</div><h2>'+t.title+'</h2><p>'+t.description+'</p><span class="status">Awaiting new questions</span><p style="margin-top:16px"><a class="btn" href="player.html?test='+t.id+'">View test space</a></p></article>').join('');
 </script><script>
 (function(){
  const groups=[...document.querySelectorAll('.coki-menu-group')];
