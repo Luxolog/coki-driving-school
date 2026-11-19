@@ -109,10 +109,11 @@ function beginTest(source,id){
 }
 function renderQuestion(){
  const q=questions[index],done=Object.keys(answers).length;
- app.innerHTML='<strong>Question '+(index+1)+' of '+questions.length+'</strong><span class="meta"> · '+esc(q.category||'K53')+'</span><div class="progress"><span style="width:'+(done/questions.length*100)+'%"></span></div><div class="question"></div><div class="diagrams"></div><div class="options"></div><div class="actions"><button class="btn secondary" id="prev" '+(index===0?'disabled':'')+'>Previous</button><button class="btn" id="next">'+(index===63?'Finish test':'Next question')+'</button></div><p class="muted">'+done+' of '+questions.length+' answered</p>';
+ app.innerHTML='<strong>Question '+(index+1)+' of '+questions.length+'</strong><span class="meta"> · '+esc(q.category||'K53')+'</span><div class="progress"><span style="width:'+(done/questions.length*100)+'%"></span></div><div class="question"></div><div class="diagrams"></div><div class="options"></div><div class="actions"><button class="btn secondary" id="prev" '+(index===0?'disabled':'')+'>Previous</button><button class="btn" id="next">'+(index===questions.length-1?'Finish test':'Next question')+'</button></div><p class="muted">'+done+' of '+questions.length+' answered</p>';
  app.querySelector('.question').textContent=q.question;
  if(Array.isArray(q.statements)&&q.statements.length){const list=document.createElement('ol');list.className='statements';list.type='i';q.statements.forEach(statement=>{const li=document.createElement('li');li.textContent=statement;list.append(li)});app.querySelector('.question').after(list)}
  const box=app.querySelector('.diagrams');
+ if(q.diagramPending&&(!Array.isArray(q.diagramImages)||q.diagramImages.length===0)){const pending=document.createElement('div');pending.className='empty';pending.textContent='This question refers to an illustration in the source document. The original diagram has not yet been added to the online question bank.';box.append(pending)}
  (q.diagramImages||[]).forEach((url,n)=>{
   const fig=document.createElement('figure'),img=document.createElement('img'),cap=document.createElement('figcaption');
   img.src=localAsset(url);img.alt='Question '+q.id+' road sign or vehicle control diagram';img.loading='lazy';
