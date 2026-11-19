@@ -1,4 +1,4 @@
-const CACHE = "coki-k53-client-v1";
+const CACHE = "coki-k53-client-v2";
 const CORE = [
   "./",
   "./index.html",
