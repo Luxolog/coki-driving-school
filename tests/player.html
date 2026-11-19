@@ -50,7 +50,7 @@ h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:8px 0}.muted{color:var(
 <div class="coki-menu-group"><button class="coki-menu-toggle" type="button" aria-expanded="false">Practice Tests <span class="chevron">▾</span></button><div class="coki-menu-panel"><span class="menu-label">Choose your assessment</span><a href="index.html">Test Centre Overview</a><a href="player.html?test=1">Test 1</a><a href="player.html?test=2">Test 2</a><a href="player.html?test=3">Test 3</a><a href="player.html?test=4">Test 4</a><a href="player.html?test=5">Test 5</a></div></div>
 <a href="../index.html#school">For the School</a>
 </nav></div></header>
-<main><div class="eyebrow">Coki learner portal</div><h1 id="heading">Test workspace</h1><p class="muted">64-question practice assessment · Every new attempt gets a fresh question order and shuffled answer choices.</p>
+<main><div class="eyebrow">Coki learner portal</div><h1 id="heading">Test workspace</h1><p class="muted">Practice assessment workspace · New questions and answer choices will be added before this test is opened.</p>
 <section class="panel" id="app"><div class="empty">Loading test questions…</div></section></main>
 <script>
 (function(){
@@ -86,6 +86,7 @@ function localAsset(url){
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function startScreen(bank){
  const source=bank['test'+testId]||[];
+ if(!Array.isArray(source)||source.length===0){app.innerHTML='<div class="empty"><h2>New questions coming soon</h2><p>Test '+testId+' is reserved for the new Coki question bank. It will open once the questions, answer options and answer key have been added.</p><div class="actions"><a class="btn secondary" href="index.html">Back to tests</a></div></div>';return}
  if(source.length!==64){app.innerHTML='<div class="empty">Test '+testId+' currently has '+source.length+' questions. It must contain exactly 64 before it can be attempted.</div>';return}
  app.innerHTML='<h2>Before you begin</h2><p class="muted">Enter your Coki student ID so this attempt can be identified for the future school dashboard. Your ID and result are currently stored only in this browser; online admin synchronisation will be connected when the secure learner database is ready.</p><div class="field"><label for="studentId">Student ID number</label><input id="studentId" type="text" maxlength="40" autocomplete="off" placeholder="Enter your Coki student ID" required></div><div class="empty">You will answer all 64 questions. Questions and answer choices are randomised. When you retake this same test, questions will not return to the same question numbers as your previous attempt on this browser.</div><div class="actions"><button class="btn" id="begin">Start Test '+testId+'</button><a class="btn secondary" href="index.html">Back to tests</a></div>';
  app.querySelector('#begin').onclick=()=>{const id=app.querySelector('#studentId').value.trim();if(!id){app.querySelector('#studentId').focus();return}beginTest(source,id)};
