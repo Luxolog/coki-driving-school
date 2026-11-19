@@ -103,8 +103,10 @@ function beginTest(source,id){
  // Save this attempt's question order so the next retake can avoid every previous position.
  previous['test'+testId]=ordered.map(q=>q.id);writeStore(ORDER_KEY,previous);
  questions=ordered.map(q=>{
+  const sourceCorrectText=Number.isInteger(q.correctIndex)?q.options[q.correctIndex]:null;
   const opts=shuffle(q.options.map((label,i)=>({label,isCorrect:Number.isInteger(q.correctIndex)&&i===q.correctIndex})));
-  return {...q,options:opts,correctIndex:Number.isInteger(q.correctIndex)?opts.findIndex(o=>o.isCorrect):null};
+  const correctOptionIndex=opts.findIndex(o=>o.isCorrect);
+  return {...q,options:opts,correctIndex:correctOptionIndex>=0?correctOptionIndex:null,correctAnswerText:sourceCorrectText};
  });
  answers={};index=0;attemptStarted=new Date().toISOString();renderQuestion();
 }
@@ -132,7 +134,8 @@ function renderQuestion(){
  if(immediateFeedback&&hasAnswered){
   const correctIndex=q.correctIndex,correct=q.options[correctIndex],selected=q.options[answers[index]],isCorrect=answers[index]===correctIndex;
   const note=document.createElement('div');note.className='review '+(isCorrect?'correct-answer':'wrong-answer');
-  note.innerHTML='<strong>'+(isCorrect?'✓ Correct answer':'× Incorrect answer')+'</strong><p><strong>Your answer:</strong> '+esc(selected?.label||'')+'</p>'+(isCorrect?'':'<p><strong>Correct answer:</strong> '+esc(correct?.label||'')+'</p>')+'<p class="muted">Temporary testing answer key — not the final verified K53 answer.</p>';
+  const correctText=q.correctAnswerText||(correct&&correct.label)||(typeof correct==='string'?correct:'Correct option '+String.fromCharCode(65+correctIndex));
+  note.innerHTML='<strong>'+(isCorrect?'✓ Correct answer':'× Incorrect answer')+'</strong><p><strong>Your answer:</strong> '+esc(selected?.label||'')+'</p>'+(isCorrect?'':'<p class="answer-line right"><strong>Correct answer:</strong> '+esc(correctText)+'</p>')+'<p class="muted">Temporary testing answer key — not the final verified K53 answer.</p>';
   app.querySelector('#feedback').append(note);
  }
  app.querySelector('#prev').onclick=()=>{index--;renderQuestion()};
@@ -166,7 +169,7 @@ function renderQuestion(){
  });
  const list=app.querySelector('#wrongList');
  questions.forEach((item,i)=>{
-  const selected=item.options[answers[i]],correct=Number.isInteger(item.correctIndex)?item.options[item.correctIndex]:null;
+  const selected=item.options[answers[i]],correct=Number.isInteger(item.correctIndex)?item.options[item.correctIndex]:null,correctText=item.correctAnswerText||(correct&&correct.label)||(typeof correct==='string'?correct:'');
   const isCorrect=verified&&answers[i]===item.correctIndex;
   const review=document.createElement('article');review.className='review';
   let status=verified?'<div class="review-status"><span class="status-mark '+(isCorrect?'right':'wrong')+'">'+(isCorrect?'✓':'×')+'</span><span>'+(isCorrect?'Correct answer':'Incorrect answer')+'</span></div>':'<div class="review-status"><span class="status-mark">•</span><span>Answer recorded · verification pending</span></div>';
