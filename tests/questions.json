@@ -9,7 +9,7 @@
         "If you are driving in an emergency."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -23,7 +23,7 @@
         "Drive on the left-hand roadway, unless directed or permitted by an appropriate traffic sign or traffic officer to use another roadway"
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -37,7 +37,7 @@
         "He /she should yield to traffic from the right"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -51,7 +51,7 @@
         "Single freeway"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -67,7 +67,7 @@
         "Not more than 450mm from the edge of the roadway."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -81,7 +81,7 @@
         "Only (i) is correct."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -95,7 +95,7 @@
         "Service brakes only."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -109,7 +109,7 @@
         "Only (i) is correct."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -123,7 +123,7 @@
         "The minimum speed limit in the right hand lane is temporarily 80km per hour."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -137,7 +137,7 @@
         "An Information sign."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": true
@@ -151,7 +151,7 @@
         "The vehicles who want to turn in the direction of the arrow may do so, but other vehicles must stop"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -165,7 +165,7 @@
         "Must look for a traffic officer."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -179,7 +179,7 @@
         "Five meters at 100km/h."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -192,7 +192,7 @@
         "All of the above are correct."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -206,7 +206,7 @@
         "The may be any colour as long they are visible."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -220,7 +220,7 @@
         "(ii) and (iii) only are correct."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -234,7 +234,7 @@
         "Buses may park there."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": true
@@ -248,7 +248,7 @@
         "Stop if he /she is approaching from the right."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": true
@@ -262,7 +262,7 @@
         "Only when you want to look at the scenery."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -276,7 +276,7 @@
         "know that he is warned of a stop ahead."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -290,7 +290,7 @@
         "You may pass only once the pedestrian has crossed."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -304,7 +304,7 @@
         "Display at least one emergency warning sign at the back of the vehicle."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -318,7 +318,7 @@
         "only when driving slowly."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -332,7 +332,7 @@
         "Yellow or amber only."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -346,7 +346,7 @@
         "It is a traffic lane that vehicles may not enter."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -360,7 +360,7 @@
         "How much toll you will have to pay."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -374,7 +374,7 @@
         "The sequence of turnoffs leading to various service centres."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -388,7 +388,7 @@
         "Drive on the verge to avoid the loose stones."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -402,7 +402,7 @@
         "Need to be fitted"
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -416,7 +416,7 @@
         "The rules of the road do not apply."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": true
@@ -430,7 +430,7 @@
         "(ii) only is correct."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -444,7 +444,7 @@
         "When such vehicles exceeds 230 kilograms and specially designed, constructed or adapted may not be driven on a freeway."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": true
@@ -458,7 +458,7 @@
         "Bus and taxi lane reservation."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -472,7 +472,7 @@
         "Should disregard the other vehicles and drive on."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -486,7 +486,7 @@
         "slow moving heavy vehicles."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -500,7 +500,7 @@
         "Are obstructions to the road 1km ahead that affect the traffic movement."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -514,7 +514,7 @@
         "When indicated by a traffic officer."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -528,7 +528,7 @@
         "Leave a vehicle unattended without applying its service brake to prevent it from moving."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -542,7 +542,7 @@
         "He/she looks into the rear view mirror, engages gears and accelerates so that he/she can enter the road."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -556,7 +556,7 @@
         "Any heavy motor vehicle carrying goods."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -570,7 +570,7 @@
         "A T-junction is ahead."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -584,7 +584,7 @@
         "Every other vehicle which has stopped at the stop line to your left, and which would cross your path has cleared the intersection."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -598,7 +598,7 @@
         "two additional lanes are added to the road, without reduction in the total number of lanes."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -612,7 +612,7 @@
         "100 m on both sides of this sign."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": false
@@ -626,7 +626,7 @@
         "Red"
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": true
@@ -640,7 +640,7 @@
         "Pass another vehicle at any place on the left-hand side if it is turning right."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -654,7 +654,7 @@
         "The rules of the road do not apply."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": true
@@ -668,7 +668,7 @@
         "Stop without swerving."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -682,7 +682,7 @@
         "Yield right of way to any vehicle, which crosses any yield line before you."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -696,7 +696,7 @@
         "the right lane is a one-way."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -710,7 +710,7 @@
         "This lane is for fast moving traffic only."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -724,7 +724,7 @@
         "Trailers may be parked in that area."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -738,7 +738,7 @@
         "The weight of vehicle when empty.."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -752,7 +752,7 @@
         "Are not required to fit yellow reflective to the vehicle."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -766,7 +766,7 @@
         "Be on foot on a freeway under normal circumstances."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -780,7 +780,7 @@
         "Only vehicles carrying passengers for reward must carry triangles."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -794,7 +794,7 @@
         "Only (ii) and (iii) are correct"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -808,7 +808,7 @@
         "You are not allowed to turn left there."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -822,7 +822,7 @@
         "Option C — refer to the road-sign illustration in the source document"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -836,7 +836,7 @@
         "100 m"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -850,7 +850,7 @@
         "4 m from a tunnel."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -864,7 +864,7 @@
         "Parking brake and service brake."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -878,7 +878,7 @@
         "When approaching any place where visibility is poor."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -892,7 +892,7 @@
         "The driver should follow at a safe distance to stop the vehicle safely in an emergency or should the vehicle in front slow down or stop."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -906,7 +906,7 @@
         "That they should be travelling at the lowest gear."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -920,7 +920,7 @@
         "30 meters."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -934,7 +934,7 @@
         "There is a camera monitoring the intersection at the traffic light"
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -948,7 +948,7 @@
         "Only horse drawn vehicles."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -964,7 +964,7 @@
         "Is of less consequences to the road users than permanent sign."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": true
@@ -978,7 +978,7 @@
         "The driver must only ensure that fuel does not spill onto the roadway."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -992,7 +992,7 @@
         "The driver must always stop before entering or crossing a public road."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1006,7 +1006,7 @@
         "Providing that oil, other flammable liquid or material is not excessive, it may drip onto the exhaust silencers."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -1020,7 +1020,7 @@
         "No overtaking."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1034,7 +1034,7 @@
         "They should not procced if the width of their vehicles exceeds 2.1m or more."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1048,7 +1048,7 @@
         "There is a public pay phone ahead."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1062,7 +1062,7 @@
         "Only buses, mid-buses and minibuses may use that road."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1076,7 +1076,7 @@
         "None of the above are allowed"
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -1090,7 +1090,7 @@
         "All exhaust gas must emit through the silencer"
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -1104,7 +1104,7 @@
         "Left for seven days in the same place."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1118,7 +1118,7 @@
         "Display at least one emergency warning sign at the back of the vehicle."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1132,7 +1132,7 @@
         "Keep in the right lane only."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1146,7 +1146,7 @@
         "Delivery vehicles may not use the road between 6.00 am and 9:00 pm."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1160,7 +1160,7 @@
         "Overtake other in the right lane that are travelling slower than 60km/h."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1174,7 +1174,7 @@
         "Vehicles conveying dangerous goods should drive carefully."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1188,7 +1188,7 @@
         "With you in the vehicle."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1202,7 +1202,7 @@
         "When approaching any place where passing could cause a hazard to traffic approaching from the opposite direction."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1216,7 +1216,7 @@
         "In any manner as long as you use your indicator in time."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1230,7 +1230,7 @@
         "When it is hot and the driver’s window is open."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1244,7 +1244,7 @@
         "Yield right-of-way to traffic approaching from the right."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1258,7 +1258,7 @@
         "The one-way road you are travelling on will be changing to two-way traffic ahead."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1272,7 +1272,7 @@
         "Traffic circle."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1286,7 +1286,7 @@
         "An area set aside for use by disabled persons"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1300,7 +1300,7 @@
         "A driver may encroach or drive on the right-hand of the roadway if the car in front of is driving slowly."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1314,7 +1314,7 @@
         "Seven days."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1328,7 +1328,7 @@
         "When approaching any place where passing could cause a hazard to traffic approaching from the opposite direction."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1342,7 +1342,7 @@
         "The exhaust silencer must be positioned in such a manner that flammable liquid or material cannot drip or fall on it."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -1356,7 +1356,7 @@
         "Give the right of way to any incoming traffic"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": false
@@ -1370,7 +1370,7 @@
         "Minibuses with 12 passengers only."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1384,7 +1384,7 @@
         "The road you may use to leave the freeway."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1398,7 +1398,7 @@
         "Turn left at the stop sign."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1412,7 +1412,7 @@
         "No person or animal may occupy the roof, running board or any other place on top of a vehicle whilst it is in motion."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1426,7 +1426,7 @@
         "An animal drawn vehicle"
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1440,7 +1440,7 @@
         "Never."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1454,7 +1454,7 @@
         "Flash headlights to warn oncoming traffic.."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -1468,7 +1468,7 @@
         "Children may be present."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1482,7 +1482,7 @@
         "Painted island where you are not allowed to drive or stop"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1496,7 +1496,7 @@
         "drive 60km/h or faster."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1510,7 +1510,7 @@
         "Divides the road into two lanes."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1523,7 +1523,7 @@
         "In an emergency when calling the police."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1537,7 +1537,7 @@
         "A driver of a motor vehicle may pass or overtake on the right only before"
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1551,7 +1551,7 @@
         "Pedestrians, who are already crossing the road when the red man signal starts showing, have the right of way."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1565,7 +1565,7 @@
         "Only if no other parking area is available."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1579,7 +1579,7 @@
         "Stop behind the broken line and proceed when it is safe to do so."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1593,7 +1593,7 @@
         "proceed slowly and be alert."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1607,7 +1607,7 @@
         "Be on the lookout for a scholar patrol."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1621,7 +1621,7 @@
         "Stop and go only if it is safe to do so."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1635,7 +1635,7 @@
         "Only in an area reserved for stopping or parking and indicated by an appropriate road traffic sign."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1649,7 +1649,7 @@
         "Allow the passengers to get out"
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -1663,7 +1663,7 @@
         "A vehicle driven by a learner driver."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1677,7 +1677,7 @@
         "Apply the brakes lightly and then change lanes."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -1691,7 +1691,7 @@
         "Be on the lookout for vehicles doing lane changes, especially from the left."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1705,7 +1705,7 @@
         "drive at a minimum of 60km/h for 8km."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": true
@@ -1719,7 +1719,7 @@
         "Construction vehicles with a weight of more than 10 tons to drive there."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1733,7 +1733,7 @@
         "There is an exit to the right."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1747,7 +1747,7 @@
         "You may drive a vehicle if you have only drunk a bottle of wine."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1761,7 +1761,7 @@
         "Racing cycles may be ridden on a freeway during the day only."
       ],
       "category": "road_rules",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_rules",
       "diagramPending": false
@@ -1775,7 +1775,7 @@
         "That it is not a source of danger."
       ],
       "category": "vehicle_controls",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "vehicle_controls",
       "diagramPending": false
@@ -1789,7 +1789,7 @@
         "You have to travel 12 km to the nearest rest rooms."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1803,7 +1803,7 @@
         "Children may be crossing"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1817,7 +1817,7 @@
         "Left lane is dangerous"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1831,7 +1831,7 @@
         "motor cars"
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
@@ -1845,10 +1845,11 @@
         "You should lookout for goods vehicles."
       ],
       "category": "road_signs",
-      "correctIndex": null,
+      "correctIndex": 0,
       "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": true
     }
-  ]
+  ],
+  "answerKeyMode": "temporary_test_key"
 }
