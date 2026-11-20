@@ -59,7 +59,7 @@ const params=new URLSearchParams(location.search);
 const testParam=params.get('test')||'1';
 const testId=testParam==='demo'?'demo':Math.max(1,Math.min(2,Number(testParam)||1));
 const immediateFeedback=testId===1||testId==='demo';
-const temporaryKeyNotice='TEMPORARY TESTING ANSWER KEY — scores and correct answers are for functionality testing only, not final K53 guidance.';
+const answerKeyNotice='Correct answers are taken from the red-highlighted options in the supplied source PDF.';
 const expectedCount=testId==='demo'?4:64;
 const app=document.getElementById('app');
 document.getElementById('heading').textContent=testId==='demo'?'Demo Test':'Test '+testId;
@@ -91,7 +91,7 @@ function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&l
 function startScreen(bank){
  const source=bank[testId==='demo'?'demo':'test'+testId]||[];
  if(source.length!==expectedCount){app.innerHTML='<div class="empty">This test currently has '+source.length+' questions; '+expectedCount+' are required.</div>';return}
- app.innerHTML='<h2>Before you begin</h2><div class="empty"><strong>Testing mode:</strong> '+esc(temporaryKeyNotice)+'</div><p class="muted">Enter your Coki student ID so this attempt can be identified for the future school dashboard. Your ID and result are currently stored only in this browser; online admin synchronisation will be connected when the secure learner database is ready.</p><div class="field"><label for="studentId">Student ID number</label><input id="studentId" type="text" maxlength="40" autocomplete="off" placeholder="Enter your Coki student ID" required></div><div class="empty">You will answer all '+expectedCount+' questions. Questions and answer choices are randomised. When you retake this same test, questions will not return to the same question numbers as your previous attempt on this browser.</div><div class="actions"><button class="btn" id="begin">Start Test '+testId+'</button><a class="btn secondary" href="index.html">Back to tests</a></div>';
+ app.innerHTML='<h2>Before you begin</h2><div class="empty"><strong>Answer key:</strong> '+esc(answerKeyNotice)+'</div><p class="muted">Enter your Coki student ID so this attempt can be identified for the future school dashboard. Your ID and result are currently stored only in this browser; online admin synchronisation will be connected when the secure learner database is ready.</p><div class="field"><label for="studentId">Student ID number</label><input id="studentId" type="text" maxlength="40" autocomplete="off" placeholder="Enter your Coki student ID" required></div><div class="empty">You will answer all '+expectedCount+' questions. Questions and answer choices are randomised. When you retake this same test, questions will not return to the same question numbers as your previous attempt on this browser.</div><div class="actions"><button class="btn" id="begin">Start Test '+testId+'</button><a class="btn secondary" href="index.html">Back to tests</a></div>';
  app.querySelector('#begin').onclick=()=>{const id=app.querySelector('#studentId').value.trim();if(!id){app.querySelector('#studentId').focus();return}beginTest(source,id)};
  const remembered=localStorage.getItem('coki_last_student_id');if(remembered)app.querySelector('#studentId').value=remembered;
 }
@@ -135,7 +135,7 @@ function renderQuestion(){
   const correctIndex=q.correctIndex,correct=q.options[correctIndex],selected=q.options[answers[index]],isCorrect=answers[index]===correctIndex;
   const note=document.createElement('div');note.className='review '+(isCorrect?'correct-answer':'wrong-answer');
   const correctText=q.correctAnswerText||(correct&&correct.label)||(typeof correct==='string'?correct:'Correct option '+String.fromCharCode(65+correctIndex));
-  note.innerHTML='<strong>'+(isCorrect?'✓ Correct answer':'× Incorrect answer')+'</strong><p><strong>Your answer:</strong> '+esc(selected?.label||'')+'</p>'+(isCorrect?'':'<p class="answer-line right"><strong>Correct answer:</strong> '+esc(correctText)+'</p>')+'<p class="muted">Temporary testing answer key — not the final verified K53 answer.</p>';
+  note.innerHTML='<strong>'+(isCorrect?'✓ Correct answer':'× Incorrect answer')+'</strong><p><strong>Your answer:</strong> '+esc(selected?.label||'')+'</p>'+(isCorrect?'':'<p class="answer-line right"><strong>Correct answer:</strong> '+esc(correctText)+'</p>')+'<p class="muted">Correct answer as marked in the supplied source PDF.</p>';
   app.querySelector('#feedback').append(note);
  }
  app.querySelector('#prev').onclick=()=>{index--;renderQuestion()};
@@ -156,7 +156,7 @@ function renderQuestion(){
  const record={schemaVersion:2,studentId,testId,startedAt:attemptStarted,completedAt:new Date().toISOString(),totalQuestions:questions.length,score,wrongCount,percentage,verified,categoryStats,questionOrder:questions.map(q=>q.id),answers:questions.map((q,i)=>({questionId:q.id,questionNumber:i+1,selectedOptionIndex:answers[i],correctOptionIndex:q.correctIndex,isCorrect:verified?answers[i]===q.correctIndex:null}))};
  const attempts=readStore(ATTEMPT_KEY,[]);attempts.push(record);writeStore(ATTEMPT_KEY,attempts);
  const title=testId==='demo'?'Demo Test':'Test '+testId;
- app.innerHTML='<h2>'+title+' completed</h2><div class="empty"><strong>TESTING MODE:</strong> '+esc(temporaryKeyNotice)+'</div><p class="muted">Student ID: <strong>'+esc(studentId)+'</strong></p>'+
+ app.innerHTML='<h2>'+title+' completed</h2><div class="empty"><strong>Answer key:</strong> '+esc(answerKeyNotice)+'</div><p class="muted">Student ID: <strong>'+esc(studentId)+'</strong></p>'+
  (verified?'<div class="result-overview"><div class="result-tile primary"><small>Overall score</small><strong>'+score+'/'+questions.length+' ('+percentage+'%)</strong><span>'+score+' correct · '+wrongCount+' incorrect</span></div></div>':'<div class="result-overview"><div class="result-tile primary"><small>Overall score</small><strong>Pending answer key</strong><span>Your answers are saved; accuracy will appear once the verified key is supplied.</span></div></div>')+
  '<h2 class="result-section-title">Performance by section</h2><div class="result-overview" id="categoryReport"></div>'+
  '<h2 class="result-section-title">Question review</h2><p class="muted">'+(verified?'Incorrect answers are marked with a red ×. The correct answer is shown directly beneath each question.':'Your selected answers are recorded. Correct/incorrect marks will appear once the answer key is supplied.')+'</p><div id="wrongList"></div><div class="actions"><button class="btn" id="retry">Retake '+title+'</button><a class="btn secondary" href="index.html">Back to test centre</a></div><p class="muted">This attempt is saved in this browser. It is not yet connected to the school admin dashboard.</p>';
