@@ -154,7 +154,7 @@ function renderQuestion(){
  const attempts=readStore(ATTEMPT_KEY,[]);attempts.push(record);writeStore(ATTEMPT_KEY,attempts);
  const title=testId==='demo'?'Demo Test':'Test '+testId;
  
- const passed=verified&&testId!=='demo'&&categoryStats.every(section=>section.correct>=sectionMinimums[section.category]);
+
  const overallLabel=testId==='demo'?'Practice complete':(passed?'PASS ✓':'FAIL ×');
  app.innerHTML='<h2>'+title+' completed</h2><p class="muted">Student ID: <strong>'+esc(studentId)+'</strong></p>'+
  (verified?'<div class="result-overview"><div class="result-tile primary"><small>Overall score</small><strong>'+score+'/'+questions.length+' ('+percentage+'%)</strong><span>'+score+' correct · '+wrongCount+' incorrect</span></div><div class="result-tile '+(passed?'primary':'')+'"><small>National assessment result</small><strong style="color:'+(testId==='demo'?'#14231b':(passed?'#087a42':'#c52b32'))+'">'+overallLabel+'</strong><span>'+(testId==='demo'?'Demo test only — not an official assessment':'You must meet the minimum in all three sections.')+'</span></div></div>':'<div class="result-overview"><div class="result-tile"><small>Overall score</small><strong>Pending</strong><span>Answer key verification is required.</span></div></div>')+
