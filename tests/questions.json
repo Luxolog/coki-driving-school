@@ -163,7 +163,7 @@
       "diagramImages": [
         "assets/road-signs/test-q7.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "traffic_signals",
       "diagramPending": false
     },
     {
@@ -267,7 +267,7 @@
       "diagramImages": [
         "assets/road-signs/test-q14.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "traffic_signals",
       "diagramPending": false
     },
     {
@@ -371,7 +371,7 @@
       "diagramImages": [
         "assets/road-signs/test-q21.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "traffic_signals",
       "diagramPending": false
     },
     {
@@ -727,7 +727,7 @@
       "diagramImages": [
         "assets/road-signs/test-q45.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "road_markings",
       "diagramPending": false
     },
     {
@@ -743,7 +743,7 @@
       "diagramImages": [
         "assets/road-signs/test-q46.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "road_markings",
       "diagramPending": false
     },
     {
@@ -759,7 +759,7 @@
       "diagramImages": [
         "assets/road-signs/test-q47.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "traffic_signals",
       "diagramPending": false
     },
     {
@@ -1087,7 +1087,7 @@
       "diagramImages": [
         "assets/road-signs/test-q69.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "road_markings",
       "diagramPending": false
     },
     {
@@ -1579,7 +1579,7 @@
       "diagramImages": [
         "assets/road-signs/test-q102.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "road_markings",
       "diagramPending": false
     },
     {
@@ -1611,7 +1611,7 @@
       "diagramImages": [
         "assets/road-signs/test-q104.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "road_markings",
       "diagramPending": false
     },
     {
@@ -1683,7 +1683,7 @@
       "diagramImages": [
         "assets/road-signs/test-q109.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "road_markings",
       "diagramPending": false
     },
     {
@@ -1699,7 +1699,7 @@
       "diagramImages": [
         "assets/road-signs/test-q110.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "traffic_signals",
       "diagramPending": false
     },
     {
@@ -1715,7 +1715,7 @@
       "diagramImages": [
         "assets/road-signs/test-q111.svg"
       ],
-      "diagramMode": "road_signs",
+      "diagramMode": "traffic_signals",
       "diagramPending": false
     },
     {
