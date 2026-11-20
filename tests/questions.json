@@ -1732,9 +1732,11 @@
       ],
       "category": "road_rules",
       "correctIndex": 0,
-      "diagramImages": [],
+      "diagramImages": [
+        "assets/road-signs/q118-1.png"
+      ],
       "diagramMode": "road_rules",
-      "diagramPending": true
+      "diagramPending": false
     },
     {
       "id": 119,
@@ -1834,9 +1836,11 @@
       ],
       "category": "road_signs",
       "correctIndex": 0,
-      "diagramImages": [],
+      "diagramImages": [
+        "assets/road-signs/q125-1.png"
+      ],
       "diagramMode": "road_signs",
-      "diagramPending": true
+      "diagramPending": false
     },
     {
       "id": 126,
@@ -1848,9 +1852,11 @@
       ],
       "category": "road_signs",
       "correctIndex": 1,
-      "diagramImages": [],
+      "diagramImages": [
+        "assets/road-signs/q126-1.png"
+      ],
       "diagramMode": "road_signs",
-      "diagramPending": true
+      "diagramPending": false
     },
     {
       "id": 127,
@@ -1862,9 +1868,11 @@
       ],
       "category": "road_signs",
       "correctIndex": 0,
-      "diagramImages": [],
+      "diagramImages": [
+        "assets/road-signs/q127-1.png"
+      ],
       "diagramMode": "road_signs",
-      "diagramPending": true
+      "diagramPending": false
     },
     {
       "id": 128,
@@ -1876,9 +1884,11 @@
       ],
       "category": "road_signs",
       "correctIndex": 1,
-      "diagramImages": [],
+      "diagramImages": [
+        "assets/road-signs/q128-1.png"
+      ],
       "diagramMode": "road_signs",
-      "diagramPending": true
+      "diagramPending": false
     }
   ],
   "answerKeyMode": "source_pdf_highlighted"
