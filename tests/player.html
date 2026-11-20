@@ -121,19 +121,30 @@ function renderQuestion(){
  if(q.diagramPending&&(!Array.isArray(q.diagramImages)||q.diagramImages.length===0)){const pending=document.createElement('div');pending.className='empty';pending.textContent='This question refers to an illustration in the source document. The original diagram has not yet been added to the online question bank.';box.append(pending)}
  (q.diagramImages||[]).forEach((url,n)=>{const fig=document.createElement('figure'),img=document.createElement('img'),cap=document.createElement('figcaption');img.src=localAsset(url);img.alt='Question '+q.id+' road sign or vehicle control diagram';img.loading='lazy';img.onerror=()=>{fig.innerHTML='<figcaption class="empty">Diagram could not be displayed: '+esc((url||'').split('/').pop())+'</figcaption>'};cap.textContent=(q.diagramMode==='vehicle_controls'?'Vehicle control diagram':q.diagramMode==='traffic_signals'?'Traffic officer / signal diagram':q.diagramMode==='road_markings'?'Road marking diagram':'South African road sign')+((q.diagramImages||[]).length>1?' '+(n+1):'');fig.append(img,cap);box.append(fig)});
  const opts=app.querySelector('.options');
+ // Derive the correct position from the shuffled option objects themselves.
+ // This keeps feedback aligned with the correct answer after every answer shuffle.
+ const correctOptionIndex=q.options.findIndex(option=>option&&option.isCorrect===true);
  q.options.forEach((o,i)=>{
-  const b=document.createElement('button');b.type='button';b.className='option'+(answers[index]===i?' chosen':'');
+  const isCorrect=i===correctOptionIndex;
+  const isSelected=answers[index]===i;
+  const b=document.createElement('button');b.type='button';b.className='option'+(isSelected?' chosen':'');
   if(immediateFeedback&&hasAnswered){
-   if(i===q.correctIndex)b.classList.add('answer-correct');
-   else if(i===answers[index])b.classList.add('answer-wrong');
+   if(isCorrect)b.classList.add('answer-correct');
+   if(isSelected&&!isCorrect)b.classList.add('answer-wrong');
   }
   const letter=document.createElement('span');letter.className='letter';letter.textContent=String.fromCharCode(65+i);
   const label=document.createElement('span');label.textContent=o.label;b.append(letter,label);
-  if(immediateFeedback&&hasAnswered&&(i===q.correctIndex||i===answers[index])){const mark=document.createElement('span');mark.className='answer-mark';mark.textContent=i===q.correctIndex?'✓':'×';mark.setAttribute('aria-label',i===q.correctIndex?'Correct answer':'Your incorrect answer');b.append(mark);}
+  if(immediateFeedback&&hasAnswered&&isCorrect){const mark=document.createElement('span');mark.className='answer-mark';mark.textContent='✓';mark.setAttribute('aria-label','Correct answer');b.append(mark);}
+  else if(immediateFeedback&&hasAnswered&&isSelected){const mark=document.createElement('span');mark.className='answer-mark';mark.textContent='×';mark.setAttribute('aria-label','Your incorrect answer');b.append(mark);}
   if(immediateFeedback&&hasAnswered)b.disabled=true;
   b.onclick=()=>{if(immediateFeedback&&answers[index]!==undefined)return;answers[index]=i;renderQuestion()};
   opts.append(b);
  });
+ if(immediateFeedback&&hasAnswered&&correctOptionIndex>=0){
+  const feedback=document.createElement('p');feedback.className='answer-line '+(answers[index]===correctOptionIndex?'right':'wrong');
+  feedback.textContent=answers[index]===correctOptionIndex?'Correct. Well done.':'Incorrect. The highlighted green option with the tick is the correct answer.';
+  app.querySelector('#feedback').append(feedback);
+ }
 
  app.querySelector('#prev').onclick=()=>{index--;renderQuestion()};
  app.querySelector('#next').onclick=()=>{if(index<questions.length-1){index++;renderQuestion()}else finishTest()};
