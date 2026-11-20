@@ -59,7 +59,7 @@ const params=new URLSearchParams(location.search);
 const testParam=params.get('test')||'1';
 const testId=testParam==='demo'?'demo':Math.max(1,Math.min(2,Number(testParam)||1));
 const immediateFeedback=testId===1||testId==='demo';
-const answerKeyNotice='Correct answers are taken from the red-highlighted options in the supplied source PDF.';
+const answerKeyNotice='Correct answers are verified against the approved answer key.';
 const expectedCount=testId==='demo'?4:64;
 const app=document.getElementById('app');
 document.getElementById('heading').textContent=testId==='demo'?'Demo Test':'Test '+testId;
