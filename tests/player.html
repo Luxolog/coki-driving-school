@@ -153,7 +153,7 @@ function renderQuestion(){
  const record={schemaVersion:3,studentId,testId,startedAt:attemptStarted,completedAt:new Date().toISOString(),totalQuestions:questions.length,score,wrongCount,percentage,verified,passed,passRequirements:sectionMinimums,categoryStats,questionOrder:questions.map(q=>q.id),answers:questions.map((q,i)=>({questionId:q.id,questionNumber:i+1,selectedOptionIndex:answers[i],correctOptionIndex:q.correctIndex,isCorrect:verified?answers[i]===q.correctIndex:null}))};
  const attempts=readStore(ATTEMPT_KEY,[]);attempts.push(record);writeStore(ATTEMPT_KEY,attempts);
  const title=testId==='demo'?'Demo Test':'Test '+testId;
- const sectionMinimums={road_rules:22,road_signs:23,vehicle_controls:6};
+ 
  const passed=verified&&testId!=='demo'&&categoryStats.every(section=>section.correct>=sectionMinimums[section.category]);
  const overallLabel=testId==='demo'?'Practice complete':(passed?'PASS ✓':'FAIL ×');
  app.innerHTML='<h2>'+title+' completed</h2><p class="muted">Student ID: <strong>'+esc(studentId)+'</strong></p>'+
