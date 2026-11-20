@@ -148,20 +148,25 @@ function renderQuestion(){
   const correct=verified?qs.filter(x=>answers[x.i]===x.q.correctIndex).length:null;
   return {category:c,total:qs.length,correct,percentage:verified&&qs.length?Math.round(correct/qs.length*100):null};
  });
- const record={schemaVersion:2,studentId,testId,startedAt:attemptStarted,completedAt:new Date().toISOString(),totalQuestions:questions.length,score,wrongCount,percentage,verified,categoryStats,questionOrder:questions.map(q=>q.id),answers:questions.map((q,i)=>({questionId:q.id,questionNumber:i+1,selectedOptionIndex:answers[i],correctOptionIndex:q.correctIndex,isCorrect:verified?answers[i]===q.correctIndex:null}))};
+ const sectionMinimums={road_rules:22,road_signs:23,vehicle_controls:6};
+ const passed=verified&&testId!=='demo'&&categoryStats.every(section=>section.correct>=sectionMinimums[section.category]);
+ const record={schemaVersion:3,studentId,testId,startedAt:attemptStarted,completedAt:new Date().toISOString(),totalQuestions:questions.length,score,wrongCount,percentage,verified,passed,passRequirements:sectionMinimums,categoryStats,questionOrder:questions.map(q=>q.id),answers:questions.map((q,i)=>({questionId:q.id,questionNumber:i+1,selectedOptionIndex:answers[i],correctOptionIndex:q.correctIndex,isCorrect:verified?answers[i]===q.correctIndex:null}))};
  const attempts=readStore(ATTEMPT_KEY,[]);attempts.push(record);writeStore(ATTEMPT_KEY,attempts);
  const title=testId==='demo'?'Demo Test':'Test '+testId;
- const passMark=60;
- const passed=verified&&percentage>=passMark;
+ const sectionMinimums={road_rules:22,road_signs:23,vehicle_controls:6};
+ const passed=verified&&testId!=='demo'&&categoryStats.every(section=>section.correct>=sectionMinimums[section.category]);
+ const overallLabel=testId==='demo'?'Practice complete':(passed?'PASS ✓':'FAIL ×');
  app.innerHTML='<h2>'+title+' completed</h2><p class="muted">Student ID: <strong>'+esc(studentId)+'</strong></p>'+
- (verified?'<div class="result-overview"><div class="result-tile primary"><small>Overall result</small><strong>'+score+'/'+questions.length+' ('+percentage+'%)</strong><span>'+score+' correct · '+wrongCount+' incorrect</span></div><div class="result-tile '+(passed?'primary':'')+'"><small>Assessment status</small><strong style="color:'+(passed?'#087a42':'#c52b32')+'">'+(passed?'PASS ✓':'FAIL ×')+'</strong><span>Pass mark: '+passMark+'%</span></div></div>':'<div class="result-overview"><div class="result-tile"><small>Overall score</small><strong>Pending</strong><span>Answer key verification is required.</span></div></div>')+
+ (verified?'<div class="result-overview"><div class="result-tile primary"><small>Overall score</small><strong>'+score+'/'+questions.length+' ('+percentage+'%)</strong><span>'+score+' correct · '+wrongCount+' incorrect</span></div><div class="result-tile '+(passed?'primary':'')+'"><small>National assessment result</small><strong style="color:'+(testId==='demo'?'#14231b':(passed?'#087a42':'#c52b32'))+'">'+overallLabel+'</strong><span>'+(testId==='demo'?'Demo test only — not an official assessment':'You must meet the minimum in all three sections.')+'</span></div></div>':'<div class="result-overview"><div class="result-tile"><small>Overall score</small><strong>Pending</strong><span>Answer key verification is required.</span></div></div>')+
  '<h2 class="result-section-title">Performance by section</h2><div class="result-overview" id="categoryReport"></div>'+
  '<div class="actions"><button class="btn" id="retry">Retake '+title+'</button><a class="btn secondary" href="index.html">Back to tests</a></div><p class="muted">This attempt is saved in this browser. It is not yet connected to the school admin dashboard.</p>';
  const report=app.querySelector('#categoryReport');
  categoryStats.forEach(s=>{
   const row=document.createElement('div');row.className='result-tile';
   const label=s.category==='road_signs'?'Signs':s.category==='road_rules'?'Rules of the Road':'Vehicle Controls';
-  row.innerHTML='<small>'+label+'</small><strong>'+(verified?s.correct+'/'+s.total+' ('+s.percentage+'%)':'Pending')+'</strong><span>'+(verified?'Correct answers':'Answer key required')+'</span>';
+  const minimum=sectionMinimums[s.category];
+  const sectionPassed=verified&&s.correct>=minimum;
+  row.innerHTML='<small>'+label+'</small><strong>'+(verified?s.correct+'/'+s.total+' ('+s.percentage+'%)':'Pending')+'</strong><span>'+(verified?(testId==='demo'?'Practice score':(sectionPassed?'PASS ✓':'FAIL ×')):'Answer key required')+(testId==='demo'?'':' · minimum '+minimum+'/'+s.total)+'</span>';
   report.append(row);
  });
 
