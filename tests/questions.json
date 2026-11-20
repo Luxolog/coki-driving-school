@@ -100,9 +100,7 @@
       ],
       "category": "vehicle_controls",
       "correctIndex": 0,
-      "diagramImages": [
-        "assets/road-signs/test-q3.svg"
-      ],
+      "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": false
     },
@@ -116,9 +114,7 @@
       ],
       "category": "road_rules",
       "correctIndex": 0,
-      "diagramImages": [
-        "assets/road-signs/test-q4.svg"
-      ],
+      "diagramImages": [],
       "diagramMode": "road_signs",
       "diagramPending": false
     },
