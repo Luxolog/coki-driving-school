@@ -85,7 +85,9 @@ function makeFreshOrder(source,previous){
 }
 function localAsset(url){
  if(!url||typeof url!=='string')return '';
- return url.replace(/^https?:\/\/luxolog\.github\.io\/inganathi-k53\//,'../');
+ const path=url.replace(/^https?:\/\/luxolog\.github\.io\/inganathi-k53\//,'');
+ if(/^https?:\/\//i.test(path) || path.startsWith('data:') || path.startsWith('/'))return path;
+ return path.startsWith('../') ? path : '../'+path;
 }
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function startScreen(bank){
