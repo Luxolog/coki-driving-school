@@ -234,7 +234,7 @@
         "Parking is restricted to 12 hours.",
         "Buses may park there."
       ],
-      "category": "road_rules",
+      "category": "road_signs",
       "correctIndex": 2,
       "diagramImages": [],
       "diagramMode": "road_rules",
@@ -738,7 +738,7 @@
         "The maximum mass of a vehicle including the load.",
         "The weight of vehicle when empty.."
       ],
-      "category": "road_rules",
+      "category": "vehicle_controls",
       "correctIndex": 1,
       "diagramImages": [],
       "diagramMode": "road_rules",
@@ -1356,7 +1356,7 @@
         "Stop",
         "Give the right of way to any incoming traffic"
       ],
-      "category": "road_signs",
+      "category": "road_rules",
       "correctIndex": 1,
       "diagramImages": [],
       "diagramMode": "road_signs",
@@ -1594,7 +1594,7 @@
         "Proceed to the right and stop.",
         "proceed slowly and be alert."
       ],
-      "category": "road_signs",
+      "category": "road_rules",
       "correctIndex": 2,
       "diagramImages": [],
       "diagramMode": "road_signs",
