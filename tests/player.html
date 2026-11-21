@@ -159,7 +159,7 @@ function renderQuestion(){
  const categoryStats=categories.map(c=>{
   const qs=questions.map((q,i)=>({q,i})).filter(x=>x.q.category===c);
   const correct=verified?qs.filter(x=>answers[x.i]===x.q.correctIndex).length:null;
-  return {category:c,total:qs.length,correct,percentage:verified&&qs.length?Math.round(correct/qs.length*100):null};
+  return {category:c,total:qs.length,correct,percentage:verified&&qs.length>0?Math.round(correct/qs.length*100):null};
  });
  const sectionMinimums={road_rules:22,road_signs:23,vehicle_controls:6};
  const passed=verified&&testId!=='demo'&&categoryStats.every(section=>section.correct>=sectionMinimums[section.category]);
@@ -179,7 +179,10 @@ function renderQuestion(){
   const label=s.category==='road_signs'?'Signs':s.category==='road_rules'?'Rules of the Road':'Vehicle Controls';
   const minimum=sectionMinimums[s.category];
   const sectionPassed=verified&&s.correct>=minimum;
-  row.innerHTML='<small>'+label+'</small><strong>'+(verified?s.correct+'/'+s.total+' ('+s.percentage+'%)':'Pending')+'</strong><span>'+(verified?(testId==='demo'?'Practice score':(sectionPassed?'PASS ✓':'FAIL ×')):'Answer key required')+(testId==='demo'?'':' · minimum '+minimum+'/'+s.total)+'</span>';
+  const hasQuestions=s.total>0;
+  const scoreText=!verified?'Pending':(!hasQuestions?'Not assessed':s.correct+'/'+s.total+' ('+s.percentage+'%)');
+  const detailText=!verified?'Answer key required':(!hasQuestions?'No questions in this section':(testId==='demo'?'Practice score':(sectionPassed?'PASS ✓':'FAIL ×')+' · minimum '+minimum+'/'+s.total));
+  row.innerHTML='<small>'+label+'</small><strong>'+scoreText+'</strong><span>'+detailText+'</span>';
   report.append(row);
  });
 
