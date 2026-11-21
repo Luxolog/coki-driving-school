@@ -1,22 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 600" role="img" aria-labelledby="title desc">
-  <title id="title">R401 — Dual-carriageway freeway begins</title>
-  <desc id="desc">South African comprehensive regulatory sign with a red border, blue background and white divided-carriageway symbol.</desc>
-  <rect width="450" height="600" fill="#fff"/>
-  <rect x="12" y="12" width="426" height="576" rx="8" fill="#d71920"/>
-  <rect x="34" y="34" width="382" height="532" rx="3" fill="#00529b"/>
-  <!-- Two distinct carriageways separated by a central median -->
-  <g fill="none" stroke="#fff" stroke-linecap="square" stroke-linejoin="miter">
-    <path d="M112 475 V125" stroke-width="30"/>
-    <path d="M338 475 V125" stroke-width="30"/>
-    <path d="M168 475 V125" stroke-width="18"/>
-    <path d="M282 475 V125" stroke-width="18"/>
-  </g>
-  <!-- Opposing carriageway direction arrows -->
-  <g fill="#fff">
-    <path d="M112 88 L75 142 H96 V184 H128 V142 H149 Z"/>
-    <path d="M338 512 L301 458 H322 V416 H354 V458 H375 Z"/>
-  </g>
-  <!-- Central median -->
-  <rect x="211" y="90" width="28" height="420" fill="#00529b"/>
-  <path d="M225 100 V500" stroke="#fff" stroke-width="8" stroke-dasharray="28 22"/>
+<title id="title">R401 — Dual-carriageway freeway begins</title>
+<desc id="desc">Official South African R401 comprehensive regulatory sign: red border, blue field and white divided-freeway symbol.</desc>
+<rect width="450" height="600" fill="#fff"/>
+<rect x="0" y="0" width="450" height="600" rx="24" fill="#ed1c24"/>
+<rect x="20" y="20" width="410" height="560" rx="8" fill="#00549f"/>
+<g fill="#fff">
+  <path d="M189 57 H222 L215 199 H170 Z"/>
+  <path d="M238 57 H271 L280 199 H245 Z"/>
+  <path d="M56 233 H394 V278 H363 V365 H326 L316 278 H134 L124 365 H87 V278 H56 Z"/>
+  <path d="M155 313 H232 L211 580 H126 Z"/>
+  <path d="M295 313 H218 L239 580 H324 Z"/>
+</g>
 </svg>
