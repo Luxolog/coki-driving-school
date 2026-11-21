@@ -1,4 +1,4 @@
-const CACHE_NAME = "coki-driving-school-shell-v3";
+const CACHE_NAME = "coki-driving-school-shell-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -43,7 +43,7 @@ self.addEventListener("fetch", event => {
     if (cached) return cached;
     try {
       const response = await fetch(request);
-      if (response.ok && response.type === "basic") {
+      if (response.ok && response.type === "basic" && !isFreshContent) {
         const cache = await caches.open(CACHE_NAME);
         cache.put(request, response.clone());
       }
