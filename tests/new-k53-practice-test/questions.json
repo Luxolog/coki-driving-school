@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 52,
+  "questionCount": 53,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -584,6 +584,23 @@
         "C": "Only vehicles carrying passengers for reward must carry triangles."
       },
       "hasImage": false
+    },
+    {
+      "number": 53,
+      "text": "What does this sign show you?",
+      "statements": [
+        "You may not turn left at the intersection ahead.",
+        "There is no sharp curve to the left.",
+        "There is a one-way to the right ahead."
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "Only (i) and (iii) are correct",
+        "B": "Only (i) is correct",
+        "C": "Only (ii) and (iii) are correct"
+      },
+      "hasImage": true,
+      "image": "images/question-53.webp"
     }
   ]
 }
