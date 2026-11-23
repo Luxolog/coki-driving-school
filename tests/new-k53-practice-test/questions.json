@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 44,
+  "questionCount": 45,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -500,6 +500,17 @@
         "C": "Stop without swerving."
       },
       "hasImage": false
+    },
+    {
+      "number": 45,
+      "text": "when you encounter this road marking, the correct reaction would be to....",
+      "options": {
+        "A": "Stop over the line and then proceed when it is safe to do so.",
+        "B": "Yield only to traffic from the right.",
+        "C": "Yield right of way to any vehicle, which crosses any yield line before you."
+      },
+      "hasImage": true,
+      "image": "images/question-45.webp"
     }
   ]
 }
