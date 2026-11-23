@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 32,
+  "questionCount": 33,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -376,6 +376,16 @@
       },
       "hasImage": true,
       "image": "images/question-32.webp"
+    },
+    {
+      "number": 33,
+      "text": "Indicate the correct statement: A driver may not stop his/her vehicle on the roadway of a public road:",
+      "options": {
+        "A": "In contravention of any traffic sign.",
+        "B": "In an intersection.",
+        "C": "When indicated by a traffic officer."
+      },
+      "hasImage": false
     }
   ]
 }
