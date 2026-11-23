@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 38,
+  "questionCount": 39,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -438,6 +438,17 @@
       },
       "hasImage": true,
       "image": "images/question-38.webp"
+    },
+    {
+      "number": 39,
+      "text": "This sign indicates to the driver of the vehicle that...",
+      "options": {
+        "A": "she /he is entering a highway.",
+        "B": "there are heavy vehicles entering the road from the left.",
+        "C": "two additional lanes are added to the road, without reduction in the total number of lanes."
+      },
+      "hasImage": true,
+      "image": "images/question-39.webp"
     }
   ]
 }
