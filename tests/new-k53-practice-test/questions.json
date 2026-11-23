@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 34,
+  "questionCount": 35,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -394,6 +394,16 @@
         "A": "Leave a vehicle unattended without applying it parking brake to prevent it from moving further than 30cm from the position in which it was left.",
         "B": "Leave a vehicle unattended without applying its parking brake to prevent it from moving from the position in which it was left.",
         "C": "Leave a vehicle unattended without applying its service brake to prevent it from moving."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 35,
+      "text": "The driver of a motor vehicle shall not cross a public road unless...",
+      "options": {
+        "A": "The road is clear of moving traffic for a sufficient distance to allow him/her to cross the road without obstructing or endangering any traffic.",
+        "B": "He/she looks and signals his /her intentions and then moves onto the roadway.",
+        "C": "He/she looks into the rear view mirror, engages gears and accelerates so that he/she can enter the road."
       },
       "hasImage": false
     }
