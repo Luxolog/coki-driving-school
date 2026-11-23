@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 36,
+  "questionCount": 37,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -416,6 +416,17 @@
         "C": "Any heavy motor vehicle carrying goods."
       },
       "hasImage": false
+    },
+    {
+      "number": 37,
+      "text": "This sign warns a driver that...",
+      "options": {
+        "A": "A skew T-junction is ahead.",
+        "B": "A side road junction from the right is ahead.",
+        "C": "A T-junction is ahead."
+      },
+      "hasImage": true,
+      "image": "images/question-37.webp"
     }
   ]
 }
