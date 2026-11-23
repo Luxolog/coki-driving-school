@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 62,
+  "questionCount": 63,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -696,6 +696,17 @@
       },
       "hasImage": true,
       "image": "images/question-62.webp"
+    },
+    {
+      "number": 63,
+      "text": "This shows you that...",
+      "options": {
+        "A": "The taking of photographs is not permitted.",
+        "B": "There is a photographic studio.",
+        "C": "There is a camera monitoring the intersection at the traffic light."
+      },
+      "hasImage": true,
+      "image": "images/question-63.png"
     }
   ]
 }
