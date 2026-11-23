@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 33,
+  "questionCount": 34,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -384,6 +384,16 @@
         "A": "In contravention of any traffic sign.",
         "B": "In an intersection.",
         "C": "When indicated by a traffic officer."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 34,
+      "text": "No person driving a vehicle on a public may ....",
+      "options": {
+        "A": "Leave a vehicle unattended without applying it parking brake to prevent it from moving further than 30cm from the position in which it was left.",
+        "B": "Leave a vehicle unattended without applying its parking brake to prevent it from moving from the position in which it was left.",
+        "C": "Leave a vehicle unattended without applying its service brake to prevent it from moving."
       },
       "hasImage": false
     }
