@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 15,
+  "questionCount": 17,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -202,6 +202,16 @@
       },
       "hasImage": true,
       "image": "images/question-16.webp"
+    },
+    {
+      "number": 17,
+      "text": "When is it permissible to overtake a vehicle that has stopped at a pedestrian crossing?",
+      "options": {
+        "A": "It is not permissible to pass a vehicle which has stopped at a pedestrian crossing.",
+        "B": "You can pass if it is safe to do so.",
+        "C": "You may pass only once the pedestrian has crossed."
+      },
+      "hasImage": false
     }
   ]
 }
