@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 19,
+  "questionCount": 20,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -230,6 +230,16 @@
         "A": "It is not permissible to speak on a cell phone whilst driving.",
         "B": "only when it is not hold by hand or any part of the body.",
         "C": "only when driving slowly."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 20,
+      "text": "What type of colours must direction indicators emit from the front....",
+      "options": {
+        "A": "White or yellow.",
+        "B": "Any colour, so long as it is visible.",
+        "C": "Yellow or amber only."
       },
       "hasImage": false
     }
