@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 27,
+  "questionCount": 28,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -320,6 +320,16 @@
         "A": "(i) and (ii) only are correct.",
         "B": "All of the above are correct.",
         "C": "(ii) only is correct."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 28,
+      "text": "When may a vehicle designed or adapted for a disabled person be driven on a freeway?",
+      "options": {
+        "A": "All specially designed or adapted vehicles for a disabled person are permitted on a freeway.",
+        "B": "Only if such a vehicle can exceed 80 km per hour.",
+        "C": "When such vehicles exceeds 230 kilograms and specially designed, constructed or adapted may not be driven on a freeway."
       },
       "hasImage": false
     }
