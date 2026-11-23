@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 64,
+  "questionCount": 65,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -718,6 +718,16 @@
       },
       "hasImage": true,
       "image": "images/question-64.jpg"
+    },
+    {
+      "number": 65,
+      "text": "A temporary sign ....",
+      "options": {
+        "A": "Need not to be taken seriously at all times of the day.",
+        "B": "Has the same legal significance as a permanent sign.",
+        "C": "Is of less consequences to the road users than permanent sign."
+      },
+      "hasImage": false
     }
   ]
 }
