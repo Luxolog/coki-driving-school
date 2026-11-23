@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 35,
+  "questionCount": 36,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -404,6 +404,16 @@
         "A": "The road is clear of moving traffic for a sufficient distance to allow him/her to cross the road without obstructing or endangering any traffic.",
         "B": "He/she looks and signals his /her intentions and then moves onto the roadway.",
         "C": "He/she looks into the rear view mirror, engages gears and accelerates so that he/she can enter the road."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 36,
+      "text": "What type of heavy vehicle or combination of motor vehicles are restricted to travel at a maximum speed of 80km/h?",
+      "options": {
+        "A": "Only vehicles carrying goods which belong to the government and traffic police.",
+        "B": "An articulated motor vehicle of which the gross combination mass of truck tractor exceeds 9000 kg.",
+        "C": "Any heavy motor vehicle carrying goods."
       },
       "hasImage": false
     }
