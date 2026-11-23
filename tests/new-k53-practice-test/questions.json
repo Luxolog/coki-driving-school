@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 26,
+  "questionCount": 27,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -304,6 +304,22 @@
         "A": "Traffic has to move slowly.",
         "B": "Circumstances on the roadway are not normal.",
         "C": "The rules of the road do not apply."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 27,
+      "text": "Your vehicle’s headlights must be switched on...",
+      "statements": [
+        "At any time of the day when you cannot see persons and vehicles 150 m in front of you.",
+        "From sunset to sunrise.",
+        "When it rains and you cannot see vehicles 100 m in front of you."
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "(i) and (ii) only are correct.",
+        "B": "All of the above are correct.",
+        "C": "(ii) only is correct."
       },
       "hasImage": false
     }
