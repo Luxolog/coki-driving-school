@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 40,
+  "questionCount": 41,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -460,6 +460,16 @@
       },
       "hasImage": true,
       "image": "images/question-40.webp"
+    },
+    {
+      "number": 41,
+      "text": "In order to draw attention, the background of temporary signs is usually...",
+      "options": {
+        "A": "White",
+        "B": "Yellow",
+        "C": "Red"
+      },
+      "hasImage": false
     }
   ]
 }
