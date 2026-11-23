@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 60,
+  "questionCount": 61,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -674,6 +674,17 @@
         "C": "The driver should follow at a safe distance to stop the vehicle safely in an emergency or should the vehicle in front slow down or stop."
       },
       "hasImage": false
+    },
+    {
+      "number": 61,
+      "text": "This sign advises drivers of heavy vehicles ....",
+      "options": {
+        "A": "To engage the lower gear to keep to a lower constant speed and to prevent brake overheating.",
+        "B": "That learner drivers should not drive there as it is too dangerous.",
+        "C": "That they should be travelling at the lowest gear."
+      },
+      "hasImage": true,
+      "image": "images/question-61.webp"
     }
   ]
 }
