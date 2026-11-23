@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 50,
+  "questionCount": 51,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -562,6 +562,16 @@
         "A": "Shall be fitted with yellow reflective material to the sides and the rear of the vehicle.",
         "B": "Shall be fitted with yellow reflective material to the sides of the vehicle only.",
         "C": "Are not required to fit yellow reflective to the vehicle."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 51,
+      "text": "No person shall...",
+      "options": {
+        "A": "Be on foot when hitch-hiking.",
+        "B": "Be on foot if he/she is waiting for a taxi.",
+        "C": "Be on foot on a freeway under normal circumstances."
       },
       "hasImage": false
     }
