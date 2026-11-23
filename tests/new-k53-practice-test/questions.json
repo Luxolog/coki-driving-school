@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 51,
+  "questionCount": 52,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -572,6 +572,16 @@
         "A": "Be on foot when hitch-hiking.",
         "B": "Be on foot if he/she is waiting for a taxi.",
         "C": "Be on foot on a freeway under normal circumstances."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 52,
+      "text": "What type of requirement is compulsory regarding triangles on motor vehicles?",
+      "options": {
+        "A": "Every heavy motor vehicle with GVM exceeding 3500kg must carry emergency warning signs (triangles).",
+        "B": "Triangles are not compulsory.",
+        "C": "Only vehicles carrying passengers for reward must carry triangles."
       },
       "hasImage": false
     }
