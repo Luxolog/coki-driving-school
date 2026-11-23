@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 57,
+  "questionCount": 58,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -642,6 +642,16 @@
         "A": "6 m from a railway crossing reserve.",
         "B": "5 m from a pedestrian crossing.",
         "C": "4 m from a tunnel."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 58,
+      "text": "What types or systems of brakes are compulsory on a heavy motor vehicle?",
+      "options": {
+        "A": "Only a service brake.",
+        "B": "A service brake, parking brake and an emergency brake.",
+        "C": "Parking brake and service brake."
       },
       "hasImage": false
     }
