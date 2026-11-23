@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 58,
+  "questionCount": 59,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -652,6 +652,16 @@
         "A": "Only a service brake.",
         "B": "A service brake, parking brake and an emergency brake.",
         "C": "Parking brake and service brake."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 59,
+      "text": "When is overtaking prohibited?",
+      "options": {
+        "A": "When driving on a multilane roadway.",
+        "B": "When driving at night.",
+        "C": "When approaching any place where visibility is poor."
       },
       "hasImage": false
     }
