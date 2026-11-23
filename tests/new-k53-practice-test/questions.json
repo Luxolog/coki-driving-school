@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 29,
+  "questionCount": 30,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -343,6 +343,17 @@
       },
       "hasImage": true,
       "image": "images/question-29.webp"
+    },
+    {
+      "number": 30,
+      "text": "If you are driving towards a mini-circle and there are also vehicles arriving from the other three sides, you...",
+      "options": {
+        "A": "Must stop with all the vehicles and only drive on when it is safe.",
+        "B": "May drive on if you were the first vehicle to arrive at the intersection.",
+        "C": "Should disregard the other vehicles and drive on."
+      },
+      "hasImage": true,
+      "image": "images/question-30.webp"
     }
   ]
 }
