@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 20,
+  "questionCount": 21,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -242,6 +242,17 @@
         "C": "Yellow or amber only."
       },
       "hasImage": false
+    },
+    {
+      "number": 21,
+      "text": "This signal indicates that...",
+      "options": {
+        "A": "There is an unguarded railway crossing ahead.",
+        "B": "There is no throughway there.",
+        "C": "It is a traffic lane that vehicles may not enter."
+      },
+      "hasImage": true,
+      "image": "images/question-21.webp"
     }
   ]
 }
