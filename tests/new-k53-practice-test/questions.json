@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 23,
+  "questionCount": 24,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -275,6 +275,17 @@
       },
       "hasImage": true,
       "image": "images/question-23.webp"
+    },
+    {
+      "number": 24,
+      "text": "This sign indicates that the driver of a vehicle must ...",
+      "options": {
+        "A": "Stop.",
+        "B": "Be on the lookout for loose stones.",
+        "C": "Drive on the verge to avoid the loose stones."
+      },
+      "hasImage": true,
+      "image": "images/question-24.webp"
     }
   ]
 }
