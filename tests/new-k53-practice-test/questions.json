@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 49,
+  "questionCount": 50,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -552,6 +552,16 @@
         "A": "The maximum load on a vehicle.",
         "B": "The maximum mass of a vehicle including the load.",
         "C": "The weight of vehicle when empty.."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 50,
+      "text": "Trailers of which the gross vehicle mass does not exceed 10000 kg ...",
+      "options": {
+        "A": "Shall be fitted with yellow reflective material to the sides and the rear of the vehicle.",
+        "B": "Shall be fitted with yellow reflective material to the sides of the vehicle only.",
+        "C": "Are not required to fit yellow reflective to the vehicle."
       },
       "hasImage": false
     }
