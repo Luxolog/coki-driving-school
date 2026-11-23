@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 53,
+  "questionCount": 55,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -612,6 +612,17 @@
       },
       "hasImage": true,
       "image": "images/question-54.webp"
+    },
+    {
+      "number": 55,
+      "text": "Which of the road signs, means TURN RIGHT?",
+      "options": {
+        "A": "Sign A",
+        "B": "Sign B",
+        "C": "Sign C"
+      },
+      "hasImage": true,
+      "image": "images/question-55.webp"
     }
   ]
 }
