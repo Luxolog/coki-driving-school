@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 31,
+  "questionCount": 32,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -365,6 +365,17 @@
       },
       "hasImage": true,
       "image": "images/question-31.webp"
+    },
+    {
+      "number": 32,
+      "text": "This sign indicates to the driver that there ...",
+      "options": {
+        "A": "Are road works within 1 km.",
+        "B": "Are obstructions in the road for 1 km.",
+        "C": "Are obstructions to the road 1km ahead that affect the traffic movement."
+      },
+      "hasImage": true,
+      "image": "images/question-32.webp"
     }
   ]
 }
