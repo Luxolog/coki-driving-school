@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 22,
+  "questionCount": 23,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -264,6 +264,17 @@
       },
       "hasImage": true,
       "image": "images/question-22.webp"
+    },
+    {
+      "number": 23,
+      "text": "This sign indicates...",
+      "options": {
+        "A": "A roadblock ahead.",
+        "B": "Where to find the civic centre.",
+        "C": "The sequence of turnoffs leading to various service centres."
+      },
+      "hasImage": true,
+      "image": "images/question-23.webp"
     }
   ]
 }
