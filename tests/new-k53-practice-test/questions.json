@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 56,
+  "questionCount": 57,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -634,6 +634,16 @@
       },
       "hasImage": true,
       "image": "images/question-56.webp"
+    },
+    {
+      "number": 57,
+      "text": "Where may you legally stop with your vehicle?",
+      "options": {
+        "A": "6 m from a railway crossing reserve.",
+        "B": "5 m from a pedestrian crossing.",
+        "C": "4 m from a tunnel."
+      },
+      "hasImage": false
     }
   ]
 }
