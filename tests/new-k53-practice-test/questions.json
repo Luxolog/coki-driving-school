@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 65,
+  "questionCount": 66,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -726,6 +726,16 @@
         "A": "Need not to be taken seriously at all times of the day.",
         "B": "Has the same legal significance as a permanent sign.",
         "C": "Is of less consequences to the road users than permanent sign."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 66,
+      "text": "Which one of the following statements is correct? ....",
+      "options": {
+        "A": "The driver of a vehicle may not willfully allow any fuel, oil, grease or other flammable or offensive matter to be deposited onto the roadway.",
+        "B": "The driver is not responsible for any liquids or grease which may spill onto the roadway.",
+        "C": "The driver must only ensure that fuel does not spill onto the roadway."
       },
       "hasImage": false
     }
