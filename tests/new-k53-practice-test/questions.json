@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 30,
+  "questionCount": 31,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -354,6 +354,17 @@
       },
       "hasImage": true,
       "image": "images/question-30.webp"
+    },
+    {
+      "number": 31,
+      "text": "This sign is correctly identified as...",
+      "options": {
+        "A": "A steep descent.",
+        "B": "A warning of frequent accidents",
+        "C": "slow moving heavy vehicles."
+      },
+      "hasImage": true,
+      "image": "images/question-31.webp"
     }
   ]
 }
