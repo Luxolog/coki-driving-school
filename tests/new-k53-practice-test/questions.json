@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 21,
+  "questionCount": 22,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -253,6 +253,17 @@
       },
       "hasImage": true,
       "image": "images/question-21.webp"
+    },
+    {
+      "number": 22,
+      "text": "This sign indicates...",
+      "options": {
+        "A": "A toll road and an alternative for a toll road.",
+        "B": "Which way will all vehicles have to go.",
+        "C": "How much toll you will have to pay."
+      },
+      "hasImage": true,
+      "image": "images/question-22.webp"
     }
   ]
 }
