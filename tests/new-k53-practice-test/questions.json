@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 59,
+  "questionCount": 60,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -662,6 +662,16 @@
         "A": "When driving on a multilane roadway.",
         "B": "When driving at night.",
         "C": "When approaching any place where visibility is poor."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 60,
+      "text": "What should a driver consider when following another vehicle?",
+      "options": {
+        "A": "The driver should follow another vehicle keeping three car lengths behind.",
+        "B": "The driver should be able to see the rear tyres of the vehicle in front.",
+        "C": "The driver should follow at a safe distance to stop the vehicle safely in an emergency or should the vehicle in front slow down or stop."
       },
       "hasImage": false
     }
