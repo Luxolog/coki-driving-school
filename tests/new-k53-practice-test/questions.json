@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 43,
+  "questionCount": 44,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -488,6 +488,16 @@
         "A": "Traffic has to move slowly.",
         "B": "Circumstances on the roadway are not normal.",
         "C": "The rules of the road do not apply."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 44,
+      "text": "A safe following distance is, when the vehicle in front of you suddenly stops, you can...",
+      "options": {
+        "A": "Swerve and pass.",
+        "B": "Swerve or stop next to it.",
+        "C": "Stop without swerving."
       },
       "hasImage": false
     }
