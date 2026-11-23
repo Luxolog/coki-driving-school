@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 61,
+  "questionCount": 62,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -685,6 +685,17 @@
       },
       "hasImage": true,
       "image": "images/question-61.webp"
+    },
+    {
+      "number": 62,
+      "text": "This sign indicates to driver that a high speed exit is ...ahead?",
+      "options": {
+        "A": "300 meters.",
+        "B": "3 km.",
+        "C": "30 meters."
+      },
+      "hasImage": true,
+      "image": "images/question-62.webp"
     }
   ]
 }
