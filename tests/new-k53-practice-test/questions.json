@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 45,
+  "questionCount": 46,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -511,6 +511,17 @@
       },
       "hasImage": true,
       "image": "images/question-45.webp"
+    },
+    {
+      "number": 46,
+      "text": "This road marking warns the road user that...",
+      "options": {
+        "A": "no overtaking.",
+        "B": "the right lane is a reversible lane.",
+        "C": "the right lane is a one-way."
+      },
+      "hasImage": true,
+      "image": "images/question-46.webp"
     }
   ]
 }
