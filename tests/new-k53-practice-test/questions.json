@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 39,
+  "questionCount": 40,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -449,6 +449,17 @@
       },
       "hasImage": true,
       "image": "images/question-39.webp"
+    },
+    {
+      "number": 40,
+      "text": "The driver will not sound the vehicle’s warning device/hooter for...",
+      "options": {
+        "A": "200 m after passing this sign.",
+        "B": "100 m after passing this sign.",
+        "C": "100 m on both sides of this sign."
+      },
+      "hasImage": true,
+      "image": "images/question-40.webp"
     }
   ]
 }
