@@ -1,0 +1,196 @@
+{
+  "testId": "new-k53-practice-test",
+  "title": "New K53 Practice Test",
+  "version": 1,
+  "status": "draft",
+  "questionCount": 15,
+  "imagePolicy": {
+    "preserveOriginalQuestionVisual": true,
+    "removeRedAnswerHighlighting": true,
+    "removeRedAnnotationArrows": true,
+    "preserveRedElementsThatArePartOfTheOriginalSign": true
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "How far may you park from the edge of the road way outside an urban area?",
+      "options": {
+        "A": "Not more than 1m from the edge of the roadway.",
+        "B": "A vehicle may not be parked in the roadway unless in a parking area.",
+        "C": "Not more than 450mm from the edge of the roadway."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 2,
+      "text": "If you only have learner’s licence for a heavy motor vehicle ...",
+      "statements": [
+        "Then there must be someone with you in the vehicle with the same driving license.",
+        "You are not allowed to drive on a freeway.",
+        "No passengers are allowed with you in the vehicle."
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "Only (i) and (iii) are correct.",
+        "B": "All the above are correct.",
+        "C": "Only (i) is correct."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 3,
+      "text": "What type of brakes must be fitted on a heavy motor vehicle?",
+      "options": {
+        "A": "Service brakes, parking brakes and emergency brakes.",
+        "B": "Parking brake only.",
+        "C": "Service brakes only."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 4,
+      "text": "You may pass another vehicle on its left-hand side if it...",
+      "statements": [
+        "Indicates that it is going to turn right.",
+        "Drives on the right-hand side of a road with a shoulder where you can pass.",
+        "Drives in a town in the right-hand lane with two lanes in the same direction."
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "Only (i) and (iii) are correct.",
+        "B": "All of the above are correct.",
+        "C": "Only (i) is correct."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 5,
+      "text": "This sign indicates to the driver of a vehicle that ....",
+      "options": {
+        "A": "The minimum speed limit in the right hand lane is permanently 80km per hour.",
+        "B": "The maximum speed limit in the right hand lane is 80km per hour.",
+        "C": "The minimum speed limit in the right hand lane is temporarily 80km per hour."
+      },
+      "hasImage": true,
+      "image": "images/question-5.webp"
+    },
+    {
+      "number": 6,
+      "text": "This type of sign is known as ...",
+      "options": {
+        "A": "A warning sign",
+        "B": "A regulatory sign.",
+        "C": "An Information sign."
+      },
+      "hasImage": true,
+      "image": "images/question-6.webp"
+    },
+    {
+      "number": 7,
+      "text": "This sign indicates that...",
+      "options": {
+        "A": "The driver must turn right at this robot.",
+        "B": "The driver must stop first before turning.",
+        "C": "The vehicles who want to turn in the direction of the arrow may do so, but other vehicles must stop"
+      },
+      "hasImage": true,
+      "image": "images/question-7.webp"
+    },
+    {
+      "number": 8,
+      "text": "This sign indicates that the driver of a vehicle ...",
+      "options": {
+        "A": "Should do nothing because the sign is temporary.",
+        "B": "Must slow down and stop,if necessary",
+        "C": "Must look for a traffic officer."
+      },
+      "hasImage": true,
+      "image": "images/question-8.webp"
+    },
+    {
+      "number": 9,
+      "text": "When driving a motor vehicle, what is the minimum safe following distance to maintain when following another vehicle?",
+      "options": {
+        "A": "A distance determined by means of the two second rule.",
+        "B": "A driver may drive as close as possible so that overtaking will be easier.",
+        "C": "Five meters at 100km/h."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 10,
+      "text": "The lights of your vehicle parked on a public road between sunset and sunrise need not kept lighted when the vehicle is parked...",
+      "statements": [
+        "10m from a lighted streetlamp.",
+        "Next to the roadway of the road.",
+        "In a demarcated parking area"
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "Only (i) and (iii) are correct.",
+        "B": "Only (ii) and (iii) are correct.",
+        "C": "All of the above are correct."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 11,
+      "text": "When flags have to be used to indicate projections ...",
+      "options": {
+        "A": "They must be any size red flag.",
+        "B": "They must be red, and at least 300mm x 300mm.",
+        "C": "The may be any colour as long they are visible."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 12,
+      "text": "You may overtake another vehicle on the left-hand side...",
+      "statements": [
+        "When that vehicle is going to turn right and the road is wide enough it is not necessary to drive on the shoulder.",
+        "Where the road has two lanes for traffic in the same direction.",
+        "If a traffic officer instructs you to do so."
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "(iii) is only correct.",
+        "B": "All of the above are correct",
+        "C": "(ii) and (iii) only are correct."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 13,
+      "text": "The sign inform us that ...",
+      "options": {
+        "A": "Parking space may be used after 12 noon only.",
+        "B": "Parking is restricted to 12 hours",
+        "C": "Buses may park there"
+      },
+      "hasImage": true,
+      "image": "images/question-13.webp"
+    },
+    {
+      "number": 14,
+      "text": "The hand signal the officer is giving, is instructing the driver...",
+      "options": {
+        "A": "Stop only if he /she is approaching from the left.",
+        "B": "Stop only if he /she is approaching from the rear.",
+        "C": "Stop if he /she is approaching from the right."
+      },
+      "hasImage": true,
+      "image": "images/question-14.webp"
+    },
+    {
+      "number": 15,
+      "text": "When may you stop in front of this sign?",
+      "options": {
+        "A": "Never.",
+        "B": "Only when picking up passengers.",
+        "C": "Only when you want to look at the scenery."
+      },
+      "hasImage": true,
+      "image": "images/question-15.webp"
+    }
+  ]
+}
