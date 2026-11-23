@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 41,
+  "questionCount": 42,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -468,6 +468,16 @@
         "A": "White",
         "B": "Yellow",
         "C": "Red"
+      },
+      "hasImage": false
+    },
+    {
+      "number": 42,
+      "text": "On a public road you may...",
+      "options": {
+        "A": "Pass another vehicle turning right, on the left-hand side without driving on the shoulder of the road.",
+        "B": "Not pass any vehicle on the left-hand side under any circumstances.",
+        "C": "Pass another vehicle at any place on the left-hand side if it is turning right."
       },
       "hasImage": false
     }
