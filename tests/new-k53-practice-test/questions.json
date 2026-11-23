@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 63,
+  "questionCount": 64,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -707,6 +707,17 @@
       },
       "hasImage": true,
       "image": "images/question-63.jpg"
+    },
+    {
+      "number": 64,
+      "text": "When you see this sign, it means ... must use that portion.",
+      "options": {
+        "A": "Only animal drawn vehicles.",
+        "B": "All two wheeled vehicles.",
+        "C": "Only horse drawn vehicles."
+      },
+      "hasImage": true,
+      "image": "images/question-64.jpg"
     }
   ]
 }
