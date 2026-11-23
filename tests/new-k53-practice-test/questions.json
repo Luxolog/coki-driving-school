@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 17,
+  "questionCount": 18,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -210,6 +210,16 @@
         "A": "It is not permissible to pass a vehicle which has stopped at a pedestrian crossing.",
         "B": "You can pass if it is safe to do so.",
         "C": "You may pass only once the pedestrian has crossed."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 18,
+      "text": "Where a goods vehicle is temporarily stationary next to the roadway it is required that the driver must...",
+      "options": {
+        "A": "Display one emergency warning sign in the front and one at the back of the vehicle.",
+        "B": "Put out a fire extinguisher to warn traffic.",
+        "C": "Display at least one emergency warning sign at the back of the vehicle."
       },
       "hasImage": false
     }
