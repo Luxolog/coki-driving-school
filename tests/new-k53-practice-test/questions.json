@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 55,
+  "questionCount": 56,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -623,6 +623,17 @@
       },
       "hasImage": true,
       "image": "images/question-55.webp"
+    },
+    {
+      "number": 56,
+      "text": "For what distance shall this sign apply? ...",
+      "options": {
+        "A": "150 m",
+        "B": "200 m",
+        "C": "100 m"
+      },
+      "hasImage": true,
+      "image": "images/question-56.webp"
     }
   ]
 }
