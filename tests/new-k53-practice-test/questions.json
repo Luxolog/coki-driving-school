@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 42,
+  "questionCount": 43,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -478,6 +478,16 @@
         "A": "Pass another vehicle turning right, on the left-hand side without driving on the shoulder of the road.",
         "B": "Not pass any vehicle on the left-hand side under any circumstances.",
         "C": "Pass another vehicle at any place on the left-hand side if it is turning right."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 43,
+      "text": "The use of a temporary sign implies that for some reason ....",
+      "options": {
+        "A": "Traffic has to move slowly.",
+        "B": "Circumstances on the roadway are not normal.",
+        "C": "The rules of the road do not apply."
       },
       "hasImage": false
     }
