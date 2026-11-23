@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 46,
+  "questionCount": 47,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -522,6 +522,17 @@
       },
       "hasImage": true,
       "image": "images/question-46.webp"
+    },
+    {
+      "number": 47,
+      "text": "This signal indicates that ...",
+      "options": {
+        "A": "You may drive there.",
+        "B": "This lane is for slow moving traffic only.",
+        "C": "This lane is for fast moving traffic only."
+      },
+      "hasImage": true,
+      "image": "images/question-47.webp"
     }
   ]
 }
