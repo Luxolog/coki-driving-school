@@ -191,6 +191,17 @@
       },
       "hasImage": true,
       "image": "images/question-15.webp"
+    },
+    {
+      "number": 16,
+      "text": "When approaching this sign, the driver must...",
+      "options": {
+        "A": "Yield and carry on when safe to do so.",
+        "B": "Stop behind the stop line and give right of way to vehicles from the right.",
+        "C": "Know that he is warned of a stop ahead."
+      },
+      "hasImage": true,
+      "image": "images/question-16.webp"
     }
   ]
 }
