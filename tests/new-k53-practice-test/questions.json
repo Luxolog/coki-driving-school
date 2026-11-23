@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 47,
+  "questionCount": 49,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -544,6 +544,16 @@
       },
       "hasImage": true,
       "image": "images/question-48.png"
+    },
+    {
+      "number": 49,
+      "text": "What is the meaning of the gross vehicle mass (GVM)?",
+      "options": {
+        "A": "The maximum load on a vehicle.",
+        "B": "The maximum mass of a vehicle including the load.",
+        "C": "The weight of vehicle when empty.."
+      },
+      "hasImage": false
     }
   ]
 }
