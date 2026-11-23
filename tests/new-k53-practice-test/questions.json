@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 24,
+  "questionCount": 25,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -286,6 +286,16 @@
       },
       "hasImage": true,
       "image": "images/question-24.webp"
+    },
+    {
+      "number": 25,
+      "text": "Which of the following statements is correct? A silencer ....",
+      "options": {
+        "A": "With a small hole is acceptable",
+        "B": "Must be fitted to a vehicle to restrict engine noise to acceptable levels",
+        "C": "Need to be fitted"
+      },
+      "hasImage": false
     }
   ]
 }
