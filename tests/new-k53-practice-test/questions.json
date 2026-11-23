@@ -601,6 +601,17 @@
       },
       "hasImage": true,
       "image": "images/question-53.webp"
+    },
+    {
+      "number": 54,
+      "text": "This sign shows you that ...",
+      "options": {
+        "A": "The road turning to the left, ends ahead.",
+        "B": "There is a T-junction to the left.",
+        "C": "You are not allowed to turn left there."
+      },
+      "hasImage": true,
+      "image": "images/question-54.webp"
     }
   ]
 }
