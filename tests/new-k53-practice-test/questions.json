@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 25,
+  "questionCount": 26,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -294,6 +294,16 @@
         "A": "With a small hole is acceptable",
         "B": "Must be fitted to a vehicle to restrict engine noise to acceptable levels",
         "C": "Need to be fitted"
+      },
+      "hasImage": false
+    },
+    {
+      "number": 26,
+      "text": "The use of a temporary sign implies that for some reason ....",
+      "options": {
+        "A": "Traffic has to move slowly.",
+        "B": "Circumstances on the roadway are not normal.",
+        "C": "The rules of the road do not apply."
       },
       "hasImage": false
     }
