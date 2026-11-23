@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 28,
+  "questionCount": 29,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -332,6 +332,17 @@
         "C": "When such vehicles exceeds 230 kilograms and specially designed, constructed or adapted may not be driven on a freeway."
       },
       "hasImage": false
+    },
+    {
+      "number": 29,
+      "text": "The correct identification of this sign is...",
+      "options": {
+        "A": "Midibus and minibus lane reservation",
+        "B": "Bus and minibus lane reservation",
+        "C": "Bus and taxi lane reservation."
+      },
+      "hasImage": true,
+      "image": "images/question-29.webp"
     }
   ]
 }
