@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 66,
+  "questionCount": 67,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -736,6 +736,16 @@
         "A": "The driver of a vehicle may not willfully allow any fuel, oil, grease or other flammable or offensive matter to be deposited onto the roadway.",
         "B": "The driver is not responsible for any liquids or grease which may spill onto the roadway.",
         "C": "The driver must only ensure that fuel does not spill onto the roadway."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 67,
+      "text": "What is the requirement of a driver entering a public road?",
+      "options": {
+        "A": "The driver does not always have to slow down before entering or crossing a public road.",
+        "B": "The driver shall not enter a public road unless it can be done safely to him/herself and other traffic.",
+        "C": "The driver must always stop before entering or crossing a public road."
       },
       "hasImage": false
     }
