@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 67,
+  "questionCount": 68,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -746,6 +746,16 @@
         "A": "The driver does not always have to slow down before entering or crossing a public road.",
         "B": "The driver shall not enter a public road unless it can be done safely to him/herself and other traffic.",
         "C": "The driver must always stop before entering or crossing a public road."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 68,
+      "text": "Which of the following statements is correct?",
+      "options": {
+        "A": "Oil may not drip onto the exhaust silencer.",
+        "B": "There are no restrictions regarding exhaust silencers.",
+        "C": "Providing that oil, other flammable liquid or material is not excessive, it may drip onto the exhaust silencers."
       },
       "hasImage": false
     }
