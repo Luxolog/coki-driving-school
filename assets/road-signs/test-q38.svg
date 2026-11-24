@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420"><rect width="600" height="420" fill="#fff"/><polygon points="190,55 410,55 510,155 510,255 410,355 190,355 90,255 90,155" fill="#d71920" stroke="#fff" stroke-width="8"/><text x="300" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="88" font-weight="800" fill="#fff">STOP</text><text x="300" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="800" fill="#fff">4-WAY</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+<title id="title">Four-way stop sign</title>
+<desc id="desc">A red octagonal STOP sign with a supplementary rectangular plate displaying the number 4.</desc>
+<rect width="600" height="420" fill="#fff"/>
+<polygon points="205,24 395,24 520,149 520,271 395,396 205,396 80,271 80,149" fill="#fff" stroke="#777" stroke-width="5"/>
+<polygon points="215,43 385,43 500,158 500,262 385,377 215,377 100,262 100,158" fill="#e30613"/>
+<polygon points="225,57 375,57 486,168 486,252 375,363 225,363 114,252 114,168" fill="#ed0716" stroke="#fff" stroke-width="8"/>
+<text x="300" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="112" font-weight="800" fill="#fff">STOP</text>
+<rect x="205" y="377" width="190" height="39" fill="#fff" stroke="#777" stroke-width="5"/>
+<rect x="216" y="383" width="168" height="27" fill="#e30613"/>
+<text x="300" y="407" text-anchor="middle" font-family="Arial,sans-serif" font-size="31" font-weight="800" fill="#fff">4</text>
+</svg>
