@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 68,
+  "questionCount": 69,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -758,6 +758,17 @@
         "C": "Providing that oil, other flammable liquid or material is not excessive, it may drip onto the exhaust silencers."
       },
       "hasImage": false
+    },
+    {
+      "number": 69,
+      "text": "This road marking indicates .",
+      "options": {
+        "A": "An edge line.",
+        "B": "No stopping.",
+        "C": "No overtaking."
+      },
+      "hasImage": true,
+      "image": "images/question-69.webp"
     }
   ]
 }
