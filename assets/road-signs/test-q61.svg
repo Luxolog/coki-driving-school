@@ -1,1 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420"><rect width="600" height="420" fill="#fff"/><polygon points="300,22 574,382 26,382" fill="#fff" stroke="#d71920" stroke-width="25" stroke-linejoin="round"/><path d="M190 130L410 130 350 285H250Z" fill="none" stroke="#111" stroke-width="16"/><path d="M260 230h90v60h-90zM350 245h40v45h-40" fill="#111"/><circle cx="280" cy="300" r="18" fill="#111"/><circle cx="370" cy="300" r="18" fill="#111"/><text x="300" y="355" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="800" fill="#111">LOW GEAR</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+<title id="title">Heavy vehicle low gear advisory sign</title>
+<desc id="desc">A rectangular white road sign with a red border. The upper panel shows a heavy truck descending a steep slope. The lower panel shows a gear lever, a gearbox symbol and a red arrow pointing to low gear L.</desc>
+<rect width="600" height="420" fill="#fff"/>
+<rect x="72" y="20" width="456" height="380" rx="24" fill="#fff" stroke="#d71920" stroke-width="15"/>
+<path d="M110 205H490" stroke="#d71920" stroke-width="5"/>
+<!-- descending road -->
+<path d="M145 105L450 176L430 205L125 134Z" fill="#111"/>
+<!-- truck body -->
+<g transform="rotate(13 300 112)" fill="#111">
+ <rect x="222" y="68" width="165" height="65" rx="5"/>
+ <path d="M387 91H437L470 122V137H387Z"/>
+ <path d="M403 98H432L452 120H403Z" fill="#fff"/>
+ <rect x="211" y="129" width="260" height="12"/>
+ <circle cx="260" cy="145" r="19"/>
+ <circle cx="260" cy="145" r="8" fill="#fff"/>
+ <circle cx="408" cy="145" r="19"/>
+ <circle cx="408" cy="145" r="8" fill="#fff"/>
+ <circle cx="455" cy="145" r="17"/>
+ <circle cx="455" cy="145" r="7" fill="#fff"/>
+</g>
+<!-- gear lever and gearbox pictogram -->
+<g stroke="#111" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+ <path d="M178 314L178 270L195 245"/>
+ <path d="M178 314L208 314"/>
+</g>
+<circle cx="195" cy="244" r="13" fill="#111"/>
+<rect x="130" y="325" width="112" height="48" rx="5" fill="#fff" stroke="#111" stroke-width="8"/>
+<g stroke="#111" stroke-width="6" fill="none">
+ <circle cx="150" cy="349" r="11"/><circle cx="178" cy="349" r="11"/><circle cx="206" cy="349" r="11"/>
+ <path d="M150 338L178 360L206 338"/>
+</g>
+<path d="M285 348H390" stroke="#d71920" stroke-width="17" stroke-linecap="round"/>
+<path d="M372 322L402 348L372 374" fill="none" stroke="#d71920" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="445" y="367" text-anchor="middle" font-family="Arial,sans-serif" font-size="75" font-weight="800" fill="#111">L</text>
+</svg>
