@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+<title id="title">Mini-circle intersection</title>
+<desc id="desc">A four-way road intersection with a small circular island in the centre and traffic approaching from all four directions.</desc>
+<rect width="600" height="420" fill="#4d8a45"/>
+<path d="M0 90H600V330H0Z" fill="#b8b9b4"/>
+<path d="M180 0H420V420H180Z" fill="#b8b9b4"/>
+<path d="M0 90H180V0H0ZM420 0V90H600V0ZM0 330H180V420H0ZM420 330H600V420H420Z" fill="#4d8a45"/>
+<path d="M180 90H420V330H180Z" fill="#b8b9b4"/>
+<path d="M180 90L210 120M420 90L390 120M180 330L210 300M420 330L390 300" stroke="#e8e6d9" stroke-width="5" fill="none" stroke-dasharray="16 12"/>
+<circle cx="300" cy="210" r="27" fill="#f1c928" stroke="#e0b51c" stroke-width="5"/>
+<path d="M269 176Q300 158 329 176M334 184Q350 211 334 237M326 245Q300 262 274 245M266 235Q250 210 266 185" fill="none" stroke="#e7c13b" stroke-width="7" stroke-linecap="round"/>
+<g fill="#171717">
+<path d="M286 28L300 55L314 28Z"/>
+<path d="M572 196L545 210L572 224Z"/>
+<path d="M286 392L300 365L314 392Z"/>
+<path d="M28 196L55 210L28 224Z"/>
+</g>
+</svg>
