@@ -353,7 +353,7 @@
         "C": "Should disregard the other vehicles and drive on."
       },
       "hasImage": true,
-      "image": "images/question-30.webp"
+      "image": "../../assets/road-signs/test-q30.svg"
     },
     {
       "number": 31,
