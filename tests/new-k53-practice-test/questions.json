@@ -717,7 +717,7 @@
         "C": "Only horse drawn vehicles."
       },
       "hasImage": true,
-      "image": "images/question-64.jpg"
+      "image": "../../assets/road-signs/test-q64.svg"
     },
     {
       "number": 65,
