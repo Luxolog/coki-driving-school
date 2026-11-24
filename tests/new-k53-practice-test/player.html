@@ -48,7 +48,7 @@ button.action.secondary{background:#eaf2ec;color:var(--green)}button:disabled{op
   app.querySelector('.question').textContent=q.text;
   if(q.hasImage&&q.image){
    const visual=app.querySelector('#visual'),img=app.querySelector('#questionImage');
-   img.src='./'+q.image;img.alt='Original image for question '+q.number;
+   img.src=q.image.startsWith('data:')?q.image:'./'+q.image;img.alt='Original image for question '+q.number;
    img.onerror=()=>{visual.hidden=false;visual.innerHTML='<div class="notice">The original image for this question could not be loaded.</div>'};
    visual.hidden=false;
   }
