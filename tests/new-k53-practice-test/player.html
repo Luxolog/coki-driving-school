@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coki's Driving School | New K53 Practice Test</title>
+<style>
+:root{--green:#087d45;--red:#ed1c24;--ink:#20352a;--muted:#6b7c72;--paper:#f3f7f4;--line:#d8e6dc}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:linear-gradient(180deg,#fff 0%,#dff2e6 100%);border-bottom:4px solid var(--red);padding:18px clamp(18px,5vw,64px)}
+.brand{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand strong{font-size:1.05rem;letter-spacing:.08em;color:var(--green)}.brand small{display:block;color:#60766a;font-weight:700}
+.brand a{color:var(--green);font-weight:800;text-decoration:none}
+main{max-width:1050px;margin:28px auto;padding:0 18px 60px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:clamp(20px,4vw,36px);box-shadow:0 8px 28px #12351c0b}
+.eyebrow{font-size:.78rem;font-weight:900;letter-spacing:.1em;color:var(--green);text-transform:uppercase}
+h1{font-size:clamp(1.8rem,4vw,2.5rem);margin:4px 0 8px}.progress{height:9px;background:#e5eee7;border-radius:99px;overflow:hidden;margin:16px 0 26px}.progress span{height:100%;display:block;background:var(--green)}
+.question{font-size:1.2rem;font-weight:800;margin:0 0 18px}
+.visual{border:1px solid var(--line);border-radius:13px;background:#fbfdfb;padding:10px;margin:0 0 18px;display:flex;justify-content:center}
+.visual img{display:block;max-width:100%;max-height:390px;object-fit:contain}
+.options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.option{border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);padding:14px;text-align:left;font:inherit;display:flex;align-items:flex-start;gap:10px;cursor:pointer;min-height:64px}
+.option:hover{border-color:var(--green);background:#f5fbf7}.option.selected{border:2px solid var(--green);background:#eaf6ee}
+.letter{width:30px;height:30px;flex:none;border-radius:50%;background:#edf4ef;display:grid;place-items:center;font-weight:900}
+.controls{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:22px}
+button.action{border:0;border-radius:9px;background:var(--green);color:#fff;padding:11px 18px;font:inherit;font-weight:800;cursor:pointer}
+button.action.secondary{background:#eaf2ec;color:var(--green)}button:disabled{opacity:.45;cursor:not-allowed}
+.meta{color:var(--muted);font-size:.86rem}.notice{padding:12px;border-radius:10px;background:#f4f8f5;color:#607268;margin:14px 0}
+@media(max-width:650px){.options{grid-template-columns:1fr}.option{min-height:54px}.question{font-size:1.08rem}}
+</style></head>
+<body>
+<header><div class="brand"><div><strong>COKI'S DRIVING SCHOOL</strong><small>K53 LEARNER PRACTICE</small></div><a href="../index.html">TEST CENTRE</a></div></header>
+<main><section class="panel" id="app"><div class="notice">Loading practice questions…</div></section></main>
+<script>
+(async function(){
+ const app=document.getElementById('app');
+ let bank,answerKey;
+ try{
+  const [qRes,aRes]=await Promise.all([fetch('./questions.json',{cache:'no-store'}),fetch('./answer-key.json',{cache:'no-store'})]);
+  if(!qRes.ok||!aRes.ok)throw new Error('Question bank could not be loaded.');
+  bank=await qRes.json();answerKey=await aRes.json();
+ }catch(e){app.innerHTML='<div class="notice">Unable to load the practice test. Please refresh the page.</div>';return}
+ const questions=bank.questions||[];let index=0;const selected={};
+ function render(){
+  const q=questions[index];if(!q)return;
+  const opts=['A','B','C'].map(k=>({key:k,text:q.options[k]}));
+  app.innerHTML='<div class="eyebrow">New K53 Practice Test</div><h1>Question '+q.number+'</h1><div class="progress"><span style="width:'+((index+1)/questions.length*100)+'%"></span></div><p class="question"></p><div class="visual" id="visual" hidden><img id="questionImage" alt="Original question illustration"></div><div class="meta">Select the correct answer</div><div class="options" id="options"></div><div class="controls"><button class="action secondary" id="previous" '+(index===0?'disabled':'')+'>Previous</button><span class="meta">Question '+(index+1)+' of '+questions.length+'</span><button class="action" id="next">'+(index===questions.length-1?'Finish test':'Next question')+'</button></div><p class="meta">Learner view • Original source images retained • Correct answers are not revealed during the test</p>';
+  app.querySelector('.question').textContent=q.text;
+  if(q.hasImage&&q.image){
+   const visual=app.querySelector('#visual'),img=app.querySelector('#questionImage');
+   img.src='./'+q.image;img.alt='Original image for question '+q.number;
+   img.onerror=()=>{visual.hidden=false;visual.innerHTML='<div class="notice">The original image for this question could not be loaded.</div>'};
+   visual.hidden=false;
+  }
+  const options=app.querySelector('#options');
+  opts.forEach(o=>{const b=document.createElement('button');b.type='button';b.className='option'+(selected[q.number]===o.key?' selected':'');const letter=document.createElement('span');letter.className='letter';letter.textContent=o.key;const label=document.createElement('span');label.textContent=o.text;b.append(letter,label);b.onclick=()=>{selected[q.number]=o.key;render()};options.append(b)});
+  app.querySelector('#previous').onclick=()=>{if(index>0){index--;render()}};
+  app.querySelector('#next').onclick=()=>{if(index<questions.length-1){index++;render()}else finish()};
+ }
+ function finish(){
+  const unanswered=questions.filter(q=>!selected[q.number]);
+  if(unanswered.length){index=questions.findIndex(q=>!selected[q.number]);render();const n=document.createElement('div');n.className='notice';n.textContent='Please answer every question before finishing.';app.prepend(n);return}
+  const answers=answerKey.answers||{};let correct=0;
+  questions.forEach(q=>{if(selected[q.number]===answers[String(q.number)])correct++});
+  app.innerHTML='<div class="eyebrow">Practice complete</div><h1>Test completed</h1><p class="question">'+correct+' / '+questions.length+' correct</p><p class="notice">Your practice score is recorded for this session. Review mode can be added separately; the test did not reveal answers while you were answering.</p><button class="action" id="restart">Retake test</button><a class="action secondary" style="text-decoration:none;margin-left:8px" href="../index.html">Back to test centre</a>';
+  app.querySelector('#restart').onclick=()=>{index=0;Object.keys(selected).forEach(k=>delete selected[k]);render()};
+ }
+ render();
+})();
+</script></body></html>

@@ -1,0 +1,774 @@
+{
+  "testId": "new-k53-practice-test",
+  "title": "New K53 Practice Test",
+  "version": 1,
+  "status": "draft",
+  "questionCount": 69,
+  "imagePolicy": {
+    "preserveOriginalQuestionVisual": true,
+    "removeRedAnswerHighlighting": true,
+    "removeRedAnnotationArrows": true,
+    "preserveRedElementsThatArePartOfTheOriginalSign": true
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "How far may you park from the edge of the road way outside an urban area?",
+      "options": {
+        "A": "Not more than 1m from the edge of the roadway.",
+        "B": "A vehicle may not be parked in the roadway unless in a parking area.",
+        "C": "Not more than 450mm from the edge of the roadway."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 2,
+      "text": "If you only have learner’s licence for a heavy motor vehicle ...",
+      "statements": [
+        "Then there must be someone with you in the vehicle with the same driving license.",
+        "You are not allowed to drive on a freeway.",
+        "No passengers are allowed with you in the vehicle."
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "Only (i) and (iii) are correct.",
+        "B": "All the above are correct.",
+        "C": "Only (i) is correct."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 3,
+      "text": "What type of brakes must be fitted on a heavy motor vehicle?",
+      "options": {
+        "A": "Service brakes, parking brakes and emergency brakes.",
+        "B": "Parking brake only.",
+        "C": "Service brakes only."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 4,
+      "text": "You may pass another vehicle on its left-hand side if it...",
+      "statements": [
+        "Indicates that it is going to turn right.",
+        "Drives on the right-hand side of a road with a shoulder where you can pass.",
+        "Drives in a town in the right-hand lane with two lanes in the same direction."
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "Only (i) and (iii) are correct.",
+        "B": "All of the above are correct.",
+        "C": "Only (i) is correct."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 5,
+      "text": "This sign indicates to the driver of a vehicle that ....",
+      "options": {
+        "A": "The minimum speed limit in the right hand lane is permanently 80km per hour.",
+        "B": "The maximum speed limit in the right hand lane is 80km per hour.",
+        "C": "The minimum speed limit in the right hand lane is temporarily 80km per hour."
+      },
+      "hasImage": true,
+      "image": "images/question-5.webp"
+    },
+    {
+      "number": 6,
+      "text": "This type of sign is known as ...",
+      "options": {
+        "A": "A warning sign",
+        "B": "A regulatory sign.",
+        "C": "An Information sign."
+      },
+      "hasImage": true,
+      "image": "images/question-6.webp"
+    },
+    {
+      "number": 7,
+      "text": "This sign indicates that...",
+      "options": {
+        "A": "The driver must turn right at this robot.",
+        "B": "The driver must stop first before turning.",
+        "C": "The vehicles who want to turn in the direction of the arrow may do so, but other vehicles must stop"
+      },
+      "hasImage": true,
+      "image": "images/question-7.webp"
+    },
+    {
+      "number": 8,
+      "text": "This sign indicates that the driver of a vehicle ...",
+      "options": {
+        "A": "Should do nothing because the sign is temporary.",
+        "B": "Must slow down and stop,if necessary",
+        "C": "Must look for a traffic officer."
+      },
+      "hasImage": true,
+      "image": "images/question-8.webp"
+    },
+    {
+      "number": 9,
+      "text": "When driving a motor vehicle, what is the minimum safe following distance to maintain when following another vehicle?",
+      "options": {
+        "A": "A distance determined by means of the two second rule.",
+        "B": "A driver may drive as close as possible so that overtaking will be easier.",
+        "C": "Five meters at 100km/h."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 10,
+      "text": "The lights of your vehicle parked on a public road between sunset and sunrise need not kept lighted when the vehicle is parked...",
+      "statements": [
+        "10m from a lighted streetlamp.",
+        "Next to the roadway of the road.",
+        "In a demarcated parking area"
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "Only (i) and (iii) are correct.",
+        "B": "Only (ii) and (iii) are correct.",
+        "C": "All of the above are correct."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 11,
+      "text": "When flags have to be used to indicate projections ...",
+      "options": {
+        "A": "They must be any size red flag.",
+        "B": "They must be red, and at least 300mm x 300mm.",
+        "C": "The may be any colour as long they are visible."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 12,
+      "text": "You may overtake another vehicle on the left-hand side...",
+      "statements": [
+        "When that vehicle is going to turn right and the road is wide enough it is not necessary to drive on the shoulder.",
+        "Where the road has two lanes for traffic in the same direction.",
+        "If a traffic officer instructs you to do so."
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "(iii) is only correct.",
+        "B": "All of the above are correct",
+        "C": "(ii) and (iii) only are correct."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 13,
+      "text": "The sign inform us that ...",
+      "options": {
+        "A": "Parking space may be used after 12 noon only.",
+        "B": "Parking is restricted to 12 hours",
+        "C": "Buses may park there"
+      },
+      "hasImage": true,
+      "image": "images/question-13.webp"
+    },
+    {
+      "number": 14,
+      "text": "The hand signal the officer is giving, is instructing the driver...",
+      "options": {
+        "A": "Stop only if he /she is approaching from the left.",
+        "B": "Stop only if he /she is approaching from the rear.",
+        "C": "Stop if he /she is approaching from the right."
+      },
+      "hasImage": true,
+      "image": "images/question-14.webp"
+    },
+    {
+      "number": 15,
+      "text": "When may you stop in front of this sign?",
+      "options": {
+        "A": "Never.",
+        "B": "Only when picking up passengers.",
+        "C": "Only when you want to look at the scenery."
+      },
+      "hasImage": true,
+      "image": "images/question-15.webp"
+    },
+    {
+      "number": 16,
+      "text": "When approaching this sign, the driver must...",
+      "options": {
+        "A": "Yield and carry on when safe to do so.",
+        "B": "Stop behind the stop line and give right of way to vehicles from the right.",
+        "C": "Know that he is warned of a stop ahead."
+      },
+      "hasImage": true,
+      "image": "images/question-16.webp"
+    },
+    {
+      "number": 17,
+      "text": "When is it permissible to overtake a vehicle that has stopped at a pedestrian crossing?",
+      "options": {
+        "A": "It is not permissible to pass a vehicle which has stopped at a pedestrian crossing.",
+        "B": "You can pass if it is safe to do so.",
+        "C": "You may pass only once the pedestrian has crossed."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 18,
+      "text": "Where a goods vehicle is temporarily stationary next to the roadway it is required that the driver must...",
+      "options": {
+        "A": "Display one emergency warning sign in the front and one at the back of the vehicle.",
+        "B": "Put out a fire extinguisher to warn traffic.",
+        "C": "Display at least one emergency warning sign at the back of the vehicle."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 19,
+      "text": "When it is permissible to speak on a cell phone whilst driving?",
+      "options": {
+        "A": "It is not permissible to speak on a cell phone whilst driving.",
+        "B": "only when it is not hold by hand or any part of the body.",
+        "C": "only when driving slowly."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 20,
+      "text": "What type of colours must direction indicators emit from the front....",
+      "options": {
+        "A": "White or yellow.",
+        "B": "Any colour, so long as it is visible.",
+        "C": "Yellow or amber only."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 21,
+      "text": "This signal indicates that...",
+      "options": {
+        "A": "There is an unguarded railway crossing ahead.",
+        "B": "There is no throughway there.",
+        "C": "It is a traffic lane that vehicles may not enter."
+      },
+      "hasImage": true,
+      "image": "images/question-21.webp"
+    },
+    {
+      "number": 22,
+      "text": "This sign indicates...",
+      "options": {
+        "A": "A toll road and an alternative for a toll road.",
+        "B": "Which way will all vehicles have to go.",
+        "C": "How much toll you will have to pay."
+      },
+      "hasImage": true,
+      "image": "images/question-22.webp"
+    },
+    {
+      "number": 23,
+      "text": "This sign indicates...",
+      "options": {
+        "A": "A roadblock ahead.",
+        "B": "Where to find the civic centre.",
+        "C": "The sequence of turnoffs leading to various service centres."
+      },
+      "hasImage": true,
+      "image": "images/question-23.webp"
+    },
+    {
+      "number": 24,
+      "text": "This sign indicates that the driver of a vehicle must ...",
+      "options": {
+        "A": "Stop.",
+        "B": "Be on the lookout for loose stones.",
+        "C": "Drive on the verge to avoid the loose stones."
+      },
+      "hasImage": true,
+      "image": "images/question-24.webp"
+    },
+    {
+      "number": 25,
+      "text": "Which of the following statements is correct? A silencer ....",
+      "options": {
+        "A": "With a small hole is acceptable",
+        "B": "Must be fitted to a vehicle to restrict engine noise to acceptable levels",
+        "C": "Need to be fitted"
+      },
+      "hasImage": false
+    },
+    {
+      "number": 26,
+      "text": "The use of a temporary sign implies that for some reason ....",
+      "options": {
+        "A": "Traffic has to move slowly.",
+        "B": "Circumstances on the roadway are not normal.",
+        "C": "The rules of the road do not apply."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 27,
+      "text": "Your vehicle’s headlights must be switched on...",
+      "statements": [
+        "At any time of the day when you cannot see persons and vehicles 150 m in front of you.",
+        "From sunset to sunrise.",
+        "When it rains and you cannot see vehicles 100 m in front of you."
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "(i) and (ii) only are correct.",
+        "B": "All of the above are correct.",
+        "C": "(ii) only is correct."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 28,
+      "text": "When may a vehicle designed or adapted for a disabled person be driven on a freeway?",
+      "options": {
+        "A": "All specially designed or adapted vehicles for a disabled person are permitted on a freeway.",
+        "B": "Only if such a vehicle can exceed 80 km per hour.",
+        "C": "When such vehicles exceeds 230 kilograms and specially designed, constructed or adapted may not be driven on a freeway."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 29,
+      "text": "The correct identification of this sign is...",
+      "options": {
+        "A": "Midibus and minibus lane reservation",
+        "B": "Bus and minibus lane reservation",
+        "C": "Bus and taxi lane reservation."
+      },
+      "hasImage": true,
+      "image": "images/question-29.webp"
+    },
+    {
+      "number": 30,
+      "text": "If you are driving towards a mini-circle and there are also vehicles arriving from the other three sides, you...",
+      "options": {
+        "A": "Must stop with all the vehicles and only drive on when it is safe.",
+        "B": "May drive on if you were the first vehicle to arrive at the intersection.",
+        "C": "Should disregard the other vehicles and drive on."
+      },
+      "hasImage": true,
+      "image": "images/question-30.webp"
+    },
+    {
+      "number": 31,
+      "text": "This sign is correctly identified as...",
+      "options": {
+        "A": "A steep descent.",
+        "B": "A warning of frequent accidents",
+        "C": "slow moving heavy vehicles."
+      },
+      "hasImage": true,
+      "image": "images/question-31.webp"
+    },
+    {
+      "number": 32,
+      "text": "This sign indicates to the driver that there ...",
+      "options": {
+        "A": "Are road works within 1 km.",
+        "B": "Are obstructions in the road for 1 km.",
+        "C": "Are obstructions to the road 1km ahead that affect the traffic movement."
+      },
+      "hasImage": true,
+      "image": "images/question-32.webp"
+    },
+    {
+      "number": 33,
+      "text": "Indicate the correct statement: A driver may not stop his/her vehicle on the roadway of a public road:",
+      "options": {
+        "A": "In contravention of any traffic sign.",
+        "B": "In an intersection.",
+        "C": "When indicated by a traffic officer."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 34,
+      "text": "No person driving a vehicle on a public may ....",
+      "options": {
+        "A": "Leave a vehicle unattended without applying it parking brake to prevent it from moving further than 30cm from the position in which it was left.",
+        "B": "Leave a vehicle unattended without applying its parking brake to prevent it from moving from the position in which it was left.",
+        "C": "Leave a vehicle unattended without applying its service brake to prevent it from moving."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 35,
+      "text": "The driver of a motor vehicle shall not cross a public road unless...",
+      "options": {
+        "A": "The road is clear of moving traffic for a sufficient distance to allow him/her to cross the road without obstructing or endangering any traffic.",
+        "B": "He/she looks and signals his /her intentions and then moves onto the roadway.",
+        "C": "He/she looks into the rear view mirror, engages gears and accelerates so that he/she can enter the road."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 36,
+      "text": "What type of heavy vehicle or combination of motor vehicles are restricted to travel at a maximum speed of 80km/h?",
+      "options": {
+        "A": "Only vehicles carrying goods which belong to the government and traffic police.",
+        "B": "An articulated motor vehicle of which the gross combination mass of truck tractor exceeds 9000 kg.",
+        "C": "Any heavy motor vehicle carrying goods."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 37,
+      "text": "This sign warns a driver that...",
+      "options": {
+        "A": "A skew T-junction is ahead.",
+        "B": "A side road junction from the right is ahead.",
+        "C": "A T-junction is ahead."
+      },
+      "hasImage": true,
+      "image": "images/question-37.webp"
+    },
+    {
+      "number": 38,
+      "text": "This sign indicates that you may not enter the junction until...",
+      "options": {
+        "A": "Every other vehicle which has stopped at any other stop line before you, has cleared the intersection.",
+        "B": "Every other vehicle which has stopped at the stop line to your right, and which would cross your path has cleared the intersection.",
+        "C": "Every other vehicle which has stopped at the stop line to your left, and which would cross your path has cleared the intersection."
+      },
+      "hasImage": true,
+      "image": "images/question-38.webp"
+    },
+    {
+      "number": 39,
+      "text": "This sign indicates to the driver of the vehicle that...",
+      "options": {
+        "A": "she /he is entering a highway.",
+        "B": "there are heavy vehicles entering the road from the left.",
+        "C": "two additional lanes are added to the road, without reduction in the total number of lanes."
+      },
+      "hasImage": true,
+      "image": "images/question-39.webp"
+    },
+    {
+      "number": 40,
+      "text": "The driver will not sound the vehicle’s warning device/hooter for...",
+      "options": {
+        "A": "200 m after passing this sign.",
+        "B": "100 m after passing this sign.",
+        "C": "100 m on both sides of this sign."
+      },
+      "hasImage": true,
+      "image": "images/question-40.webp"
+    },
+    {
+      "number": 41,
+      "text": "In order to draw attention, the background of temporary signs is usually...",
+      "options": {
+        "A": "White",
+        "B": "Yellow",
+        "C": "Red"
+      },
+      "hasImage": false
+    },
+    {
+      "number": 42,
+      "text": "On a public road you may...",
+      "options": {
+        "A": "Pass another vehicle turning right, on the left-hand side without driving on the shoulder of the road.",
+        "B": "Not pass any vehicle on the left-hand side under any circumstances.",
+        "C": "Pass another vehicle at any place on the left-hand side if it is turning right."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 43,
+      "text": "The use of a temporary sign implies that for some reason ....",
+      "options": {
+        "A": "Traffic has to move slowly.",
+        "B": "Circumstances on the roadway are not normal.",
+        "C": "The rules of the road do not apply."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 44,
+      "text": "A safe following distance is, when the vehicle in front of you suddenly stops, you can...",
+      "options": {
+        "A": "Swerve and pass.",
+        "B": "Swerve or stop next to it.",
+        "C": "Stop without swerving."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 45,
+      "text": "when you encounter this road marking, the correct reaction would be to....",
+      "options": {
+        "A": "Stop over the line and then proceed when it is safe to do so.",
+        "B": "Yield only to traffic from the right.",
+        "C": "Yield right of way to any vehicle, which crosses any yield line before you."
+      },
+      "hasImage": true,
+      "image": "images/question-45.webp"
+    },
+    {
+      "number": 46,
+      "text": "This road marking warns the road user that...",
+      "options": {
+        "A": "no overtaking.",
+        "B": "the right lane is a reversible lane.",
+        "C": "the right lane is a one-way."
+      },
+      "hasImage": true,
+      "image": "images/question-46.webp"
+    },
+    {
+      "number": 47,
+      "text": "This signal indicates that ...",
+      "options": {
+        "A": "You may drive there.",
+        "B": "This lane is for slow moving traffic only.",
+        "C": "This lane is for fast moving traffic only."
+      },
+      "hasImage": true,
+      "image": "images/question-47.webp"
+    },
+    {
+      "number": 48,
+      "text": "This sign shows drivers of vehicles that...",
+      "options": {
+        "A": "Only vehicles with trailers may pass that point.",
+        "B": "No towed vehicles are allowed past this sign.",
+        "C": "Trailers may be parked in that area."
+      },
+      "hasImage": true,
+      "image": "images/question-48.png"
+    },
+    {
+      "number": 49,
+      "text": "What is the meaning of the gross vehicle mass (GVM)?",
+      "options": {
+        "A": "The maximum load on a vehicle.",
+        "B": "The maximum mass of a vehicle including the load.",
+        "C": "The weight of vehicle when empty.."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 50,
+      "text": "Trailers of which the gross vehicle mass does not exceed 10000 kg ...",
+      "options": {
+        "A": "Shall be fitted with yellow reflective material to the sides and the rear of the vehicle.",
+        "B": "Shall be fitted with yellow reflective material to the sides of the vehicle only.",
+        "C": "Are not required to fit yellow reflective to the vehicle."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 51,
+      "text": "No person shall...",
+      "options": {
+        "A": "Be on foot when hitch-hiking.",
+        "B": "Be on foot if he/she is waiting for a taxi.",
+        "C": "Be on foot on a freeway under normal circumstances."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 52,
+      "text": "What type of requirement is compulsory regarding triangles on motor vehicles?",
+      "options": {
+        "A": "Every heavy motor vehicle with GVM exceeding 3500kg must carry emergency warning signs (triangles).",
+        "B": "Triangles are not compulsory.",
+        "C": "Only vehicles carrying passengers for reward must carry triangles."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 53,
+      "text": "What does this sign show you?",
+      "statements": [
+        "You may not turn left at the intersection ahead.",
+        "There is no sharp curve to the left.",
+        "There is a one-way to the right ahead."
+      ],
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "options": {
+        "A": "Only (i) and (iii) are correct",
+        "B": "Only (i) is correct",
+        "C": "Only (ii) and (iii) are correct"
+      },
+      "hasImage": true,
+      "image": "images/question-53.webp"
+    },
+    {
+      "number": 54,
+      "text": "This sign shows you that ...",
+      "options": {
+        "A": "The road turning to the left, ends ahead.",
+        "B": "There is a T-junction to the left.",
+        "C": "You are not allowed to turn left there."
+      },
+      "hasImage": true,
+      "image": "images/question-54.webp"
+    },
+    {
+      "number": 55,
+      "text": "Which of the road signs, means TURN RIGHT?",
+      "options": {
+        "A": "Sign A",
+        "B": "Sign B",
+        "C": "Sign C"
+      },
+      "hasImage": true,
+      "image": "images/question-55.webp"
+    },
+    {
+      "number": 56,
+      "text": "For what distance shall this sign apply? ...",
+      "options": {
+        "A": "150 m",
+        "B": "200 m",
+        "C": "100 m"
+      },
+      "hasImage": true,
+      "image": "images/question-56.webp"
+    },
+    {
+      "number": 57,
+      "text": "Where may you legally stop with your vehicle?",
+      "options": {
+        "A": "6 m from a railway crossing reserve.",
+        "B": "5 m from a pedestrian crossing.",
+        "C": "4 m from a tunnel."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 58,
+      "text": "What types or systems of brakes are compulsory on a heavy motor vehicle?",
+      "options": {
+        "A": "Only a service brake.",
+        "B": "A service brake, parking brake and an emergency brake.",
+        "C": "Parking brake and service brake."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 59,
+      "text": "When is overtaking prohibited?",
+      "options": {
+        "A": "When driving on a multilane roadway.",
+        "B": "When driving at night.",
+        "C": "When approaching any place where visibility is poor."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 60,
+      "text": "What should a driver consider when following another vehicle?",
+      "options": {
+        "A": "The driver should follow another vehicle keeping three car lengths behind.",
+        "B": "The driver should be able to see the rear tyres of the vehicle in front.",
+        "C": "The driver should follow at a safe distance to stop the vehicle safely in an emergency or should the vehicle in front slow down or stop."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 61,
+      "text": "This sign advises drivers of heavy vehicles ....",
+      "options": {
+        "A": "To engage the lower gear to keep to a lower constant speed and to prevent brake overheating.",
+        "B": "That learner drivers should not drive there as it is too dangerous.",
+        "C": "That they should be travelling at the lowest gear."
+      },
+      "hasImage": true,
+      "image": "images/question-61.webp"
+    },
+    {
+      "number": 62,
+      "text": "This sign indicates to driver that a high speed exit is ...ahead?",
+      "options": {
+        "A": "300 meters.",
+        "B": "3 km.",
+        "C": "30 meters."
+      },
+      "hasImage": true,
+      "image": "images/question-62.webp"
+    },
+    {
+      "number": 63,
+      "text": "This shows you that...",
+      "options": {
+        "A": "The taking of photographs is not permitted.",
+        "B": "There is a photographic studio.",
+        "C": "There is a camera monitoring the intersection at the traffic light."
+      },
+      "hasImage": true,
+      "image": "images/question-63.jpg"
+    },
+    {
+      "number": 64,
+      "text": "When you see this sign, it means ... must use that portion.",
+      "options": {
+        "A": "Only animal drawn vehicles.",
+        "B": "All two wheeled vehicles.",
+        "C": "Only horse drawn vehicles."
+      },
+      "hasImage": true,
+      "image": "images/question-64.jpg"
+    },
+    {
+      "number": 65,
+      "text": "A temporary sign ....",
+      "options": {
+        "A": "Need not to be taken seriously at all times of the day.",
+        "B": "Has the same legal significance as a permanent sign.",
+        "C": "Is of less consequences to the road users than permanent sign."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 66,
+      "text": "Which one of the following statements is correct? ....",
+      "options": {
+        "A": "The driver of a vehicle may not willfully allow any fuel, oil, grease or other flammable or offensive matter to be deposited onto the roadway.",
+        "B": "The driver is not responsible for any liquids or grease which may spill onto the roadway.",
+        "C": "The driver must only ensure that fuel does not spill onto the roadway."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 67,
+      "text": "What is the requirement of a driver entering a public road?",
+      "options": {
+        "A": "The driver does not always have to slow down before entering or crossing a public road.",
+        "B": "The driver shall not enter a public road unless it can be done safely to him/herself and other traffic.",
+        "C": "The driver must always stop before entering or crossing a public road."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 68,
+      "text": "Which of the following statements is correct?",
+      "options": {
+        "A": "Oil may not drip onto the exhaust silencer.",
+        "B": "There are no restrictions regarding exhaust silencers.",
+        "C": "Providing that oil, other flammable liquid or material is not excessive, it may drip onto the exhaust silencers."
+      },
+      "hasImage": false
+    },
+    {
+      "number": 69,
+      "text": "This road marking indicates .",
+      "options": {
+        "A": "An edge line.",
+        "B": "No stopping.",
+        "C": "No overtaking."
+      },
+      "hasImage": true,
+      "image": "images/question-69.webp"
+    }
+  ]
+}
