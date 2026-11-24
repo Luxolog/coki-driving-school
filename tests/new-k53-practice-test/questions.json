@@ -179,7 +179,7 @@
         "C": "Stop if he /she is approaching from the right."
       },
       "hasImage": true,
-      "image": "images/question-14.webp"
+      "image": "../../assets/road-signs/test-q14.svg"
     },
     {
       "number": 15,
