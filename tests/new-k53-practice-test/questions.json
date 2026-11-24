@@ -437,7 +437,7 @@
         "C": "Every other vehicle which has stopped at the stop line to your left, and which would cross your path has cleared the intersection."
       },
       "hasImage": true,
-      "image": "images/question-38.webp"
+      "image": "../../assets/road-signs/test-q38.svg"
     },
     {
       "number": 39,
