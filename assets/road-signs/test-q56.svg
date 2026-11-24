@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420"><rect width="600" height="420" fill="#fff"/><rect x="80" y="115" width="440" height="190" rx="8" fill="#fff" stroke="#111" stroke-width="12"/><text x="300" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="68" font-weight="800" fill="#111">100 m</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+<title id="title">No hooting sign</title>
+<desc id="desc">A black vehicle horn inside a white circular sign with a red border and red diagonal slash.</desc>
+<rect width="600" height="420" fill="#fff"/>
+<circle cx="300" cy="210" r="166" fill="#fff" stroke="#e30613" stroke-width="27"/>
+<path d="M175 160 Q220 205 280 205 L330 205 Q356 205 356 229 Q356 253 330 253 L280 253 Q220 253 175 298 Z" fill="#090909"/>
+<path d="M280 205 Q310 184 340 185 Q365 187 365 210 Q365 233 340 235 Q310 235 280 253" fill="none" stroke="#090909" stroke-width="13" stroke-linecap="round"/>
+<circle cx="389" cy="270" r="31" fill="#090909"/>
+<path d="M205 80L395 340" stroke="#e30613" stroke-width="29" stroke-linecap="round"/>
+</svg>
