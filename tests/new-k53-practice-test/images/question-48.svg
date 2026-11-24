@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380" role="img" aria-label="No towed vehicles road sign">
+  <rect width="380" height="380" fill="#fff"/>
+  <circle cx="190" cy="190" r="143" fill="#fff" stroke="#ed1c24" stroke-width="25"/>
+  <g fill="#000">
+    <rect x="112" y="157" width="171" height="88" rx="2"/>
+    <circle cx="214" cy="250" r="22"/>
+    <path d="M112 221H66v-8h46z"/>
+  </g>
+  <path d="M286 69L94 311" fill="none" stroke="#ed1c24" stroke-width="26" stroke-linecap="butt"/>
+</svg>
