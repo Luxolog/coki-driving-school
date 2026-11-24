@@ -3,7 +3,7 @@
   "title": "New K53 Practice Test",
   "version": 1,
   "status": "draft",
-  "questionCount": 69,
+  "questionCount": 70,
   "imagePolicy": {
     "preserveOriginalQuestionVisual": true,
     "removeRedAnswerHighlighting": true,
@@ -769,6 +769,17 @@
       },
       "hasImage": true,
       "image": "images/question-69.webp"
+    },
+    {
+      "number": 70,
+      "text": "This sign shows drivers of vehicles that...",
+      "options": {
+        "A": "The width of a bridge is 2.1m",
+        "B": "Access is restricted to vehicles less than 2.1m.",
+        "C": "They should not proceed if the width of their vehicles exceeds 2.1m or more."
+      },
+      "hasImage": true,
+      "image": "images/question-70.webp"
     }
   ]
 }
