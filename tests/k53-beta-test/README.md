@@ -11,3 +11,5 @@ Separate beta assessment transcribed from the supplied TEST 1 (002)(3).pdf.
 ## Source review flags
 
 The PDF contains apparent source errors, including the stray 5d6 on Question 85 and incomplete wording in Question 106 option C. These are retained rather than silently rewritten and should be reviewed before the beta is promoted.
+
+Additional source issues recorded: Question 63 labels its first two options B; the first has been clearly marked as such rather than silently relabelled. Question 85 has no B option in the source, so the beta player flags the missing option instead of inventing one.
