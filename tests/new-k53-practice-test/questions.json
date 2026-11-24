@@ -779,7 +779,7 @@
         "C": "They should not proceed if the width of their vehicles exceeds 2.1m or more."
       },
       "hasImage": true,
-      "image": "images/question-70.webp"
+      "image": "../../assets/road-signs/test-q70.svg"
     }
   ]
 }
