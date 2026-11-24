@@ -190,7 +190,7 @@
         "C": "Only when you want to look at the scenery."
       },
       "hasImage": true,
-      "image": "images/question-15.webp"
+      "image": "../../assets/road-signs/test-q15.svg"
     },
     {
       "number": 16,
