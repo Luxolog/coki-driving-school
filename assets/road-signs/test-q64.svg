@@ -1,1 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420"><rect width="600" height="420" fill="#fff"/><circle cx="300" cy="205" r="166" fill="#0756a5" stroke="#fff" stroke-width="7"/><path d="M155 205h120l45-45h70l45 45h25v65H155z" fill="#fff"/><path d="M260 205l35-75h42l-30 75" fill="#fff"/><circle cx="220" cy="285" r="27" fill="#fff"/><circle cx="395" cy="285" r="27" fill="#fff"/><path d="M135 190q-35-35-5-65l30 15-15 50m15-50l35-25 25 20" stroke="#fff" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+<title id="title">Compulsory route for animal-drawn vehicles</title>
+<desc id="desc">A blue circular mandatory road sign showing a white horse pulling a two-wheeled cart with a seated driver.</desc>
+<rect width="600" height="420" fill="#fff"/>
+<circle cx="300" cy="210" r="176" fill="#0756a5" stroke="#777" stroke-width="4"/>
+<!-- horse: body, neck, head and legs -->
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+ <ellipse cx="190" cy="226" rx="70" ry="34"/>
+ <path d="M224 210L254 160L279 126L302 132L290 158L270 184L258 226Z"/>
+ <path d="M292 133L306 111L321 116L315 142Z"/>
+ <path d="M303 112L313 99L326 113L319 125Z"/>
+ <path d="M294 135L282 124L279 107L291 116Z"/>
+ <path d="M143 237L137 294L151 294L170 244Z"/>
+ <path d="M180 245L174 300L188 300L204 246Z"/>
+ <path d="M222 240L230 292L245 292L240 230Z"/>
+ <path d="M246 225L260 277L274 273L263 215Z"/>
+ <path d="M126 211Q102 194 112 172Q120 190 143 193Z" />
+ <path d="M257 156Q278 146 285 128" fill="none" stroke-width="7"/>
+</g>
+<!-- harness and shafts -->
+<g fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round">
+ <path d="M260 193L354 238L430 238"/>
+ <path d="M255 218L355 263L430 263"/>
+ <path d="M267 183L344 213"/>
+</g>
+<!-- cart platform and body -->
+<path d="M350 190H470V255H350Z" fill="#fff"/>
+<path d="M350 190L365 165H450L470 190Z" fill="#fff"/>
+<!-- driver -->
+<circle cx="406" cy="132" r="18" fill="#fff"/>
+<path d="M391 153Q406 142 424 156L438 190H382Z" fill="#fff"/>
+<path d="M407 160L385 184M421 160L442 180" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
+<!-- cart wheels -->
+<circle cx="380" cy="280" r="26" fill="none" stroke="#fff" stroke-width="9"/>
+<circle cx="462" cy="280" r="26" fill="none" stroke="#fff" stroke-width="9"/>
+<circle cx="380" cy="280" r="5" fill="#fff"/>
+<circle cx="462" cy="280" r="5" fill="#fff"/>
+</svg>
