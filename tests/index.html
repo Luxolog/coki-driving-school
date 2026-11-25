@@ -49,22 +49,22 @@ button:disabled{background:#aab7ae;cursor:not-allowed}.status{font-size:.75rem;c
 <div class="coki-menu-group"><button class="coki-menu-toggle" type="button" aria-expanded="false">Study Manual <span class="chevron">▾</span></button><div class="coki-menu-panel"><span class="menu-label">Choose a study section</span><a href="../manual.html?section=knowledge">Learn Before You Test</a><a href="../manual.html?section=rules">Rules of the Road</a><a href="../manual.html?section=signs">Road Signs</a><a href="../manual.html?section=controls">Vehicle Controls</a></div></div>
 <a href="../pertinent-knowledge.html">Essential Knowledge</a>
 <a href="../questions-and-answers.html">Questions &amp; Answers</a>
-<div class="coki-menu-group"><button class="coki-menu-toggle" type="button" aria-expanded="false">Practice Tests <span class="chevron">▾</span></button><div class="coki-menu-panel"><span class="menu-label">Choose your assessment</span><a href="index.html">Test Centre Overview</a><a href="player.html?test=demo">Demo Test</a><a href="player.html?test=1">Test 1</a><a href="player.html?test=2">Test 2</a><a href="k53-beta-test/player.html">K53 Beta Test · 128Q</a></div></div>
+<div class="coki-menu-group"><button class="coki-menu-toggle" type="button" aria-expanded="false">Practice Tests <span class="chevron">▾</span></button><div class="coki-menu-panel"><span class="menu-label">Choose your assessment</span><a href="index.html">Test Centre Overview</a><a href="player.html?test=demo">Demo Test</a><a href="k53-beta-test/player.html">K53 Beta Test · 128Q</a></div></div>
 <a href="../index.html#school">For the School</a>
 </nav></div></header>
 <main><div class="eyebrow">Learner assessment</div><h1>Practice test centre</h1>
-<p class="intro">Start with the four-question Demo Test, then complete the 128-question learner practice set across Test 1 and Test 2.</p>
-<nav class="test-tabs" aria-label="Test selection"><a class="active" href="player.html?test=demo">Demo Test</a><a href="player.html?test=1">Test 1</a><a href="player.html?test=2">Test 2</a></nav><section class="grid" id="tests"></section>
+<p class="intro">Start with the four-question Demo Test, then use the New K53 Practice Test or the 128-question Coki K53 Beta Test.</p>
+<section class="grid" id="tests"></section>
 <article class="card" style="margin-top:18px;border-color:#087a42">
  <div class="number">NEW</div><h2>New K53 Practice Test</h2>
  <p>69 source-based questions, original road-sign and road-marking images, and learner-view answer selection.</p>
  <span class="status">69 questions</span>
  <p style="margin-top:16px"><a class="btn" href="new-k53-practice-test/player.html">Open New K53 Practice Test</a></p>
 </article>
-<article class="card" style="margin-top:18px;border-color:#b78318"><div class="number">BETA</div><h2>Coki K53 Beta Test</h2><p>128 source-based questions, with original illustrations and a separate beta answer key. This does not replace the current tests.</p><span class="status">128 questions · Beta</span><p style="margin-top:16px"><a class="btn" href="k53-beta-test/player.html">Open K53 Beta Test</a></p></article><div class="note"><strong>Assessment modes:</strong> Test 1 records each response immediately. Test 2 provides a final report for Road Signs, Rules of the Road and Vehicle Controls. Correct answers are taken from the red-highlighted options in the supplied source PDF.</div>
+<article class="card" style="margin-top:18px;border-color:#b78318"><div class="number">BETA</div><h2>Coki K53 Beta Test</h2><p>128 source-based questions, with the supplied original illustrations and a separate beta answer key.</p><span class="status">128 questions · Beta</span><p style="margin-top:16px"><a class="btn" href="k53-beta-test/player.html">Open K53 Beta Test</a></p></article><div class="note"><strong>Notice:</strong> Test 1 and Test 2 have been retired from the live test centre. The original files remain archived in the repository. Correct answers in the beta assessment are based on the red-highlighted options in the supplied source PDF.</div>
 </main>
 <script>
-const tests=[{id:'demo',title:'Demo Test',description:'4 introductory questions',count:'4 questions'},{id:1,title:'Test 1',description:'Questions 1–64 · Immediate response feedback',count:'64 questions'},{id:2,title:'Test 2',description:'Questions 65–128 · Final category report',count:'64 questions'}];
+const tests=[{id:'demo',title:'Demo Test',description:'4 introductory questions',count:'4 questions'}];
 document.getElementById('tests').innerHTML=tests.map(t=>'<article class="card"><div class="number">'+(t.id==='demo'?'D':String(t.id).padStart(2,'0'))+'</div><h2>'+t.title+'</h2><p>'+t.description+'</p><span class="status">'+t.count+'</span><p style="margin-top:16px"><a class="btn" href="player.html?test='+t.id+'">Open '+t.title+'</a></p></article>').join('');
 </script><script>
 (function(){
