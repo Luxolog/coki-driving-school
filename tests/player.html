@@ -56,13 +56,18 @@ h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:8px 0}.muted{color:var(
 (function(){
 'use strict';
 const params=new URLSearchParams(location.search);
-const testParam=params.get('test')||'1';
-const testId=testParam==='demo'?'demo':Math.max(1,Math.min(2,Number(testParam)||1));
-const immediateFeedback=testId===1||testId==='demo';
-const answerKeyNotice='Correct answers are verified against the approved answer key.';
-const expectedCount=testId==='demo'?4:64;
+const testParam=params.get('test')||'demo';
 const app=document.getElementById('app');
-document.getElementById('heading').textContent=testId==='demo'?'Demo Test':'Test '+testId;
+if(testParam!=='demo'){
+ document.getElementById('heading').textContent='Assessment retired';
+ app.innerHTML='<div class="empty"><strong>Test 1 and Test 2 are no longer available.</strong><p>Please return to the test centre and choose the Demo Test, New K53 Practice Test or Coki K53 Beta Test.</p><a class="btn" href="index.html">Back to test centre</a></div>';
+ return;
+}
+const testId='demo';
+const immediateFeedback=true;
+const answerKeyNotice='Correct answers are verified against the approved answer key.';
+const expectedCount=4;
+document.getElementById('heading').textContent='Demo Test';
 const ORDER_KEY='coki_k53_test_order_v2';
 const ATTEMPT_KEY='coki_k53_test_attempts_v1';
 function readStore(key,fallback){try{return JSON.parse(localStorage.getItem(key)||'null')??fallback}catch(e){return fallback}}
