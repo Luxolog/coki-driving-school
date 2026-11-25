@@ -36,7 +36,8 @@
         "A": "Service brakes, parking brakes and emergency brakes.",
         "B": "Parking brake only.",
         "C": "Service brakes only."
-      }
+      },
+      "image": "./images/Bright Yellow Diamond Road Sign.png"
     },
     {
       "number": 4,
@@ -51,7 +52,8 @@
         "Drives on the right-hand side of a road with a shoulder where you can pass.",
         "Drives in a town in the right-hand lane with two lanes in the same direction."
       ],
-      "instruction": "SELECT THE CORRECT COMBINATION"
+      "instruction": "SELECT THE CORRECT COMBINATION",
+      "image": "./images/Blue Red-Bordered Motorway Sign.png"
     },
     {
       "number": 5,
