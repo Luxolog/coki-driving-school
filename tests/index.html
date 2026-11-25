@@ -57,9 +57,6 @@ button:disabled{background:#aab7ae;cursor:not-allowed}.status{font-size:.75rem;c
 <div class="grid" style="margin-top:24px"><article class="card"><div class="number">01</div><h2>Test 1</h2><p>Questions 1–64 · Immediate correct/incorrect feedback, final score and category performance.</p><span class="status">64 questions</span><p style="margin-top:16px"><a class="btn" href="k53-beta-test/player.html?test=1">Start Test 1</a></p></article><article class="card"><div class="number">02</div><h2>Test 2</h2><p>Questions 65–128 · Immediate correct/incorrect feedback, final score and category performance.</p><span class="status">64 questions</span><p style="margin-top:16px"><a class="btn" href="k53-beta-test/player.html?test=2">Start Test 2</a></p></article></div>
 </main>
 <script>
-const tests=[{id:'demo',title:'Demo Test',description:'4 introductory questions',count:'4 questions'}];
-document.getElementById('tests').innerHTML=tests.map(t=>'<article class="card"><div class="number">'+(t.id==='demo'?'D':String(t.id).padStart(2,'0'))+'</div><h2>'+t.title+'</h2><p>'+t.description+'</p><span class="status">'+t.count+'</span><p style="margin-top:16px"><a class="btn" href="player.html?test='+t.id+'">Open '+t.title+'</a></p></article>').join('');
-</script><script>
 (function(){
  const groups=[...document.querySelectorAll('.coki-menu-group')];
  function closeAll(except){groups.forEach(group=>{if(group!==except){group.classList.remove('is-open');const btn=group.querySelector('.coki-menu-toggle');if(btn)btn.setAttribute('aria-expanded','false')}})}
