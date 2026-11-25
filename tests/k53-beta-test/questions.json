@@ -557,14 +557,9 @@
       "number": 55,
       "text": "Which of the road signs, means TURN RIGHT?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": ""
-      },
-      "optionImages": {
-        "A": "images/q55-option-a.b64",
-        "B": "images/q55-option-b.b64",
-        "C": "images/q55-option-c.b64"
+        "A": "Sign A",
+        "B": "Sign B",
+        "C": "Sign C"
       },
       "image": "./images/Road Sign Turn Direction Comparison.png"
     },
