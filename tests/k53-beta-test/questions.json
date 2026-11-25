@@ -318,7 +318,7 @@
         "B": "May drive on if you were the first vehicle to arrive at the intersection.",
         "C": "Should disregard the other vehicles and drive on."
       },
-      "image": "./images/Roadwork Lane Diversion Ahead.png"
+      "image": "./images/Four-Way Roundabout Diagram.png"
     },
     {
       "number": 31,
@@ -338,7 +338,7 @@
         "B": "Are obstructions in the road for 1 km.",
         "C": "Are obstructions to the road 1km ahead that affect the traffic movement."
       },
-      "image": "./images/Overhead Roundabout Intersection Diagram.png"
+      "image": "./images/Roadwork Lane Diversion Ahead.png"
     },
     {
       "number": 33,
