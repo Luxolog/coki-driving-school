@@ -36,8 +36,7 @@
         "A": "Service brakes, parking brakes and emergency brakes.",
         "B": "Parking brake only.",
         "C": "Service brakes only."
-      },
-      "image": "./images/Bright Yellow Diamond Road Sign.png"
+      }
     },
     {
       "number": 4,
@@ -52,8 +51,7 @@
         "Drives on the right-hand side of a road with a shoulder where you can pass.",
         "Drives in a town in the right-hand lane with two lanes in the same direction."
       ],
-      "instruction": "SELECT THE CORRECT COMBINATION",
-      "image": "./images/Blue Red-Bordered Motorway Sign.png"
+      "instruction": "SELECT THE CORRECT COMBINATION"
     },
     {
       "number": 5,
@@ -208,7 +206,8 @@
         "A": "It is not permissible to speak on a cell phone whilst driving.",
         "B": "only when it is not hold by hand or any part of the body.",
         "C": "only when driving slowly."
-      }
+      },
+      "image": "./images/No Horns Prohibition Icon.png"
     },
     {
       "number": 20,
