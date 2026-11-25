@@ -207,7 +207,7 @@
         "B": "only when it is not hold by hand or any part of the body.",
         "C": "only when driving slowly."
       },
-      "image": "./images/No Horns Prohibition Icon.png"
+      "image": "./images/Traffic Warning Sign with Stop Ahead.png"
     },
     {
       "number": 20,
@@ -318,7 +318,7 @@
         "B": "May drive on if you were the first vehicle to arrive at the intersection.",
         "C": "Should disregard the other vehicles and drive on."
       },
-      "image": "./images/Four-Way Roundabout Diagram.png"
+      "image": "./images/Roadwork Lane Diversion Ahead.png"
     },
     {
       "number": 31,
@@ -338,7 +338,7 @@
         "B": "Are obstructions in the road for 1 km.",
         "C": "Are obstructions to the road 1km ahead that affect the traffic movement."
       },
-      "image": "./images/Roadwork Lane Diversion Ahead.png"
+      "image": "./images/Overhead Roundabout Intersection Diagram.png"
     },
     {
       "number": 33,
